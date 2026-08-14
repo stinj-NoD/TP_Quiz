@@ -6,7 +6,7 @@ let cache: Feature<Geometry>[] | null = null
 
 export async function loadCountryFeatures(): Promise<Feature<Geometry>[]> {
   if (cache) return cache
-  const res = await fetch('/data/world-50m.json')
+  const res = await fetch(`${import.meta.env.BASE_URL}data/world-50m.json`)
   if (!res.ok) throw new Error(`Impossible de charger les silhouettes (HTTP ${res.status})`)
   const topology = (await res.json()) as Topology
   const collection = topojson.feature(

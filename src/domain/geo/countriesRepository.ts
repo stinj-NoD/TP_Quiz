@@ -4,7 +4,7 @@ let cache: Country[] | null = null
 
 export async function loadCountries(): Promise<Country[]> {
   if (cache) return cache
-  const res = await fetch('/data/countries-snapshot.json')
+  const res = await fetch(`${import.meta.env.BASE_URL}data/countries-snapshot.json`)
   if (!res.ok) throw new Error(`Impossible de charger le snapshot pays (HTTP ${res.status})`)
   cache = (await res.json()) as Country[]
   return cache

@@ -44,6 +44,7 @@ export function GeoQuizScreen() {
 
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
   const [loading, setLoading] = useState(true)
+  const [loadError, setLoadError] = useState(false)
   const [remainingMs, setRemainingMs] = useState<number | null>(null)
   const [allCountries, setAllCountries] = useState<Country[]>([])
   const [countriesWithShape, setCountriesWithShape] = useState<Country[]>([])
@@ -53,26 +54,39 @@ export function GeoQuizScreen() {
   useEffect(() => {
     if (!type && !isTimerMode) return
     setLoading(true)
+    setLoadError(false)
 
     if (isTimerMode) {
-      Promise.all([loadCountries(), loadCountriesWithShape()]).then(([pool, poolWithShape]) => {
-        setAllCountries(pool)
-        setCountriesWithShape(poolWithShape)
-        const firstQuestion = generateRandomTypeQuestion(pool, poolWithShape, new Set())
-        startTimerSession(duration)
-        appendQuestion(firstQuestion)
-        setLoading(false)
-      })
+      Promise.all([loadCountries(), loadCountriesWithShape()])
+        .then(([pool, poolWithShape]) => {
+          setAllCountries(pool)
+          setCountriesWithShape(poolWithShape)
+          const firstQuestion = generateRandomTypeQuestion(pool, poolWithShape, new Set())
+          startTimerSession(duration)
+          appendQuestion(firstQuestion)
+          setLoading(false)
+        })
+        .catch((err) => {
+          console.error('Échec du chargement du quiz Géographie', err)
+          setLoadError(true)
+          setLoading(false)
+        })
       return
     }
 
     if (!type) return
     const load = type === 'country-to-shape' ? loadCountriesWithShape : loadCountries
-    load().then((countries) => {
-      const questions = generateQuizSession(countries, type, count)
-      startSession(type, questions)
-      setLoading(false)
-    })
+    load()
+      .then((countries) => {
+        const questions = generateQuizSession(countries, type, count)
+        startSession(type, questions)
+        setLoading(false)
+      })
+      .catch((err) => {
+        console.error('Échec du chargement du quiz Géographie', err)
+        setLoadError(true)
+        setLoading(false)
+      })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [type, count, isTimerMode, duration])
 
@@ -96,6 +110,22 @@ export function GeoQuizScreen() {
         <ScreenHeader title="Quiz" />
         <div className="flex flex-1 items-center justify-center px-6">
           <p className="text-sm text-[var(--color-text-muted)]">Type de quiz invalide.</p>
+        </div>
+      </ScreenTransition>
+    )
+  }
+
+  if (loadError) {
+    return (
+      <ScreenTransition>
+        <ScreenHeader title={isTimerMode ? 'Défi chrono' : GEO_QUIZ_TYPE_LABELS[type!]} onBack={() => navigate('/geographie')} />
+        <div className="flex flex-1 flex-col items-center justify-center gap-4 px-6 text-center">
+          <p className="text-sm text-[var(--color-text-muted)]">
+            Impossible de charger les données du quiz. Vérifiez votre connexion, puis réessayez.
+          </p>
+          <Button variant="secondary" onClick={() => window.location.reload()}>
+            Réessayer
+          </Button>
         </div>
       </ScreenTransition>
     )
