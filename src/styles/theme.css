@@ -1,0 +1,72 @@
+:root {
+  /* Fond & surfaces */
+  --color-bg: #0a0a14;
+  --color-bg-alt: #12081f;
+  --color-surface: #211c3a;
+  --color-surface-raised: #2e2650;
+  --color-border: #4a3a76;
+  --color-border-glow: rgba(167, 139, 250, 0.45);
+
+  /* Texte */
+  --color-text: #f5f3ff;
+  --color-text-muted: #a99fc9;
+
+  /* Accents neon */
+  --color-primary: #7c3aed;
+  --color-primary-light: #a78bfa;
+  --color-accent-cyan: #22d3ee;
+  --color-accent-magenta: #f0abfc;
+
+  /* Semantique */
+  --color-danger: #ff3b6b;
+  --color-success: #2ee6a8;
+  --color-success-bg: rgba(46, 230, 168, 0.15);
+  --color-danger-bg: rgba(255, 59, 107, 0.15);
+
+  /* Les 6 categories classiques du Trivial Pursuit */
+  --color-cat-geographie: #2dd4ff;
+  --color-cat-divertissement: #ff3fb0;
+  --color-cat-histoire: #ffd60a;
+  --color-cat-art-litterature: #c9a6ff;
+  --color-cat-sciences-nature: #39ff88;
+  --color-cat-sport-loisirs: #ff6a3d;
+
+  /* Couleurs de pions joueurs */
+  --color-player-red: #ff3b5c;
+  --color-player-blue: #3ba7ff;
+  --color-player-green: #2ee67a;
+  --color-player-yellow: #ffd23b;
+  --color-player-purple: #b565ff;
+  --color-player-orange: #ff8a3b;
+
+  /* Rayon et espacements */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 999px;
+
+  /* Ombres */
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-raised: 0 8px 32px rgba(0, 0, 0, 0.55), 0 0 24px rgba(124, 58, 237, 0.15);
+
+  /* Lueurs neon */
+  --glow-sm: 0 0 8px rgba(124, 58, 237, 0.45);
+  --glow-md: 0 0 20px rgba(124, 58, 237, 0.55), 0 0 4px rgba(124, 58, 237, 0.8);
+  --glow-lg: 0 0 40px rgba(124, 58, 237, 0.6), 0 0 12px rgba(124, 58, 237, 0.9);
+  --glow-cyan: 0 0 20px rgba(34, 211, 238, 0.55);
+  --glow-success: 0 0 16px rgba(46, 230, 168, 0.55);
+  --glow-danger: 0 0 16px rgba(255, 59, 107, 0.55);
+
+  /* Degrades */
+  --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #22d3ee 100%);
+  --gradient-radial-glow: radial-gradient(circle, rgba(124, 58, 237, 0.35) 0%, rgba(124, 58, 237, 0) 70%);
+
+  /* Flou */
+  --blur-glass: 18px;
+
+  /* Police d'affichage */
+  --font-display: 'Orbitron', 'Inter', system-ui, sans-serif;
+
+  /* Cadre "phone frame" */
+  --app-max-width: 430px;
+}

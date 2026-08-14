@@ -1,0 +1,182 @@
+[
+  {
+    "id": "his-adulte-001",
+    "category": "histoire",
+    "question": "En quelle année a eu lieu la prise de la Bastille ?",
+    "answer": "1789"
+  },
+  {
+    "id": "his-adulte-002",
+    "category": "histoire",
+    "question": "Qui était l'empereur des Français sacré en 1804 ?",
+    "answer": "Napoléon Bonaparte"
+  },
+  {
+    "id": "his-adulte-003",
+    "category": "histoire",
+    "question": "En quelle année le mur de Berlin est-il tombé ?",
+    "answer": "1989"
+  },
+  {
+    "id": "his-adulte-004",
+    "category": "histoire",
+    "question": "Quel roi de France est surnommé le \"Roi Soleil\" ?",
+    "answer": "Louis XIV"
+  },
+  {
+    "id": "his-adulte-005",
+    "category": "histoire",
+    "question": "Quelle civilisation a construit les pyramides de Gizeh ?",
+    "answer": "Les Égyptiens de l'Égypte antique"
+  },
+  {
+    "id": "his-adulte-006",
+    "category": "histoire",
+    "question": "En quelle année a débuté la Première Guerre mondiale ?",
+    "answer": "1914"
+  },
+  {
+    "id": "his-adulte-007",
+    "category": "histoire",
+    "question": "Qui a été le premier président des États-Unis ?",
+    "answer": "George Washington"
+  },
+  {
+    "id": "his-adulte-008",
+    "category": "histoire",
+    "question": "Quelle reine d'Égypte est célèbre pour sa relation avec Jules César et Marc Antoine ?",
+    "answer": "Cléopâtre"
+  },
+  {
+    "id": "his-adulte-009",
+    "category": "histoire",
+    "question": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+    "answer": "1945"
+  },
+  {
+    "id": "his-adulte-010",
+    "category": "histoire",
+    "question": "Quel explorateur est crédité de la découverte de l'Amérique en 1492 ?",
+    "answer": "Christophe Colomb"
+  },
+  {
+    "id": "his-adulte-011",
+    "category": "histoire",
+    "question": "Quel mur symbolisait la division de l'Allemagne pendant la Guerre froide ?",
+    "answer": "Le mur de Berlin"
+  },
+  {
+    "id": "his-adulte-012",
+    "category": "histoire",
+    "question": "Qui était Jeanne d'Arc ?",
+    "answer": "Une héroïne française de la guerre de Cent Ans"
+  },
+  {
+    "id": "his-adulte-013",
+    "category": "histoire",
+    "question": "En quelle année la Révolution française a-t-elle débuté ?",
+    "answer": "1789"
+  },
+  {
+    "id": "his-adulte-014",
+    "category": "histoire",
+    "question": "Quel empire romain a été dirigé par Jules César ?",
+    "answer": "La République romaine (avant l'Empire)"
+  },
+  {
+    "id": "his-adulte-015",
+    "category": "histoire",
+    "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+    "answer": "Le traité de Versailles"
+  },
+  {
+    "id": "his-adulte-016",
+    "category": "histoire",
+    "question": "Qui a dirigé le mouvement de résistance non-violente pour l'indépendance de l'Inde ?",
+    "answer": "Gandhi"
+  },
+  {
+    "id": "his-adulte-017",
+    "category": "histoire",
+    "question": "Quelle dynastie chinoise a fait construire une grande partie de la Grande Muraille ?",
+    "answer": "La dynastie Ming"
+  },
+  {
+    "id": "his-adulte-018",
+    "category": "histoire",
+    "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "answer": "1969"
+  },
+  {
+    "id": "his-adulte-019",
+    "category": "histoire",
+    "question": "Quel général carthaginois a traversé les Alpes avec des éléphants ?",
+    "answer": "Hannibal"
+  },
+  {
+    "id": "his-adulte-020",
+    "category": "histoire",
+    "question": "Quelle bataille a marqué la défaite finale de Napoléon en 1815 ?",
+    "answer": "La bataille de Waterloo"
+  },
+  {
+    "id": "his-adulte-021",
+    "category": "histoire",
+    "question": "Qui était le pharaon associé à la découverte de sa tombe intacte en 1922 ?",
+    "answer": "Toutânkhamon"
+  },
+  {
+    "id": "his-adulte-022",
+    "category": "histoire",
+    "question": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+    "answer": "La France"
+  },
+  {
+    "id": "his-adulte-023",
+    "category": "histoire",
+    "question": "En quelle année a été signée la Déclaration d'indépendance des États-Unis ?",
+    "answer": "1776"
+  },
+  {
+    "id": "his-adulte-024",
+    "category": "histoire",
+    "question": "Quel roi anglais a eu six épouses ?",
+    "answer": "Henri VIII"
+  },
+  {
+    "id": "his-adulte-025",
+    "category": "histoire",
+    "question": "Quelle civilisation précolombienne a bâti le Machu Picchu ?",
+    "answer": "Les Incas"
+  },
+  {
+    "id": "his-adulte-026",
+    "category": "histoire",
+    "question": "Quel événement de 1789 a marqué le début symbolique de la Révolution française ?",
+    "answer": "La prise de la Bastille"
+  },
+  {
+    "id": "his-adulte-027",
+    "category": "histoire",
+    "question": "Qui a été assassiné aux Ides de Mars en -44 ?",
+    "answer": "Jules César"
+  },
+  {
+    "id": "his-adulte-028",
+    "category": "histoire",
+    "question": "Quel président américain a aboli l'esclavage ?",
+    "answer": "Abraham Lincoln"
+  },
+  {
+    "id": "his-adulte-029",
+    "category": "histoire",
+    "question": "Quel empire byzantin est tombé en 1453 ?",
+    "answer": "L'Empire byzantin (chute de Constantinople)"
+  },
+  {
+    "id": "his-adulte-030",
+    "category": "histoire",
+    "question": "Quelle expédition française a rapporté la pierre de Rosette en Europe ?",
+    "answer": "La campagne d'Égypte de Napoléon Bonaparte"
+  }
+]

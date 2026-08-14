@@ -1,0 +1,182 @@
+[
+  {
+    "id": "spo-adulte-001",
+    "category": "sport-loisirs",
+    "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+    "answer": "Tous les 4 ans"
+  },
+  {
+    "id": "spo-adulte-002",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de football sur le terrain ?",
+    "answer": "11"
+  },
+  {
+    "id": "spo-adulte-003",
+    "category": "sport-loisirs",
+    "question": "Dans quel pays est né le tennis moderne au XIXe siècle ?",
+    "answer": "L'Angleterre"
+  },
+  {
+    "id": "spo-adulte-004",
+    "category": "sport-loisirs",
+    "question": "Quel pays a remporté la Coupe du monde de football en 2018 ?",
+    "answer": "La France"
+  },
+  {
+    "id": "spo-adulte-005",
+    "category": "sport-loisirs",
+    "question": "Combien de points vaut un panier à trois points au basketball ?",
+    "answer": "3"
+  },
+  {
+    "id": "spo-adulte-006",
+    "category": "sport-loisirs",
+    "question": "Quel est le sport national du Japon ?",
+    "answer": "Le sumo"
+  },
+  {
+    "id": "spo-adulte-007",
+    "category": "sport-loisirs",
+    "question": "Sur combien de sets se joue un match de tennis en Grand Chelem chez les hommes ?",
+    "answer": "5 sets maximum"
+  },
+  {
+    "id": "spo-adulte-008",
+    "category": "sport-loisirs",
+    "question": "Quel cycliste a remporté le plus de Tours de France avant d'être déchu de ses titres ?",
+    "answer": "Lance Armstrong"
+  },
+  {
+    "id": "spo-adulte-009",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport utilise-t-on un volant ?",
+    "answer": "Le badminton"
+  },
+  {
+    "id": "spo-adulte-010",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure un match de football hors prolongations ?",
+    "answer": "90 minutes"
+  },
+  {
+    "id": "spo-adulte-011",
+    "category": "sport-loisirs",
+    "question": "Quel pays organise le tournoi de tennis de Roland-Garros ?",
+    "answer": "La France"
+  },
+  {
+    "id": "spo-adulte-012",
+    "category": "sport-loisirs",
+    "question": "Quel nageur américain a remporté 23 médailles d'or olympiques ?",
+    "answer": "Michael Phelps"
+  },
+  {
+    "id": "spo-adulte-013",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport peut-on marquer un \"ace\" ?",
+    "answer": "Le tennis (ou le volley-ball)"
+  },
+  {
+    "id": "spo-adulte-014",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de basketball sur le terrain ?",
+    "answer": "5"
+  },
+  {
+    "id": "spo-adulte-015",
+    "category": "sport-loisirs",
+    "question": "Quel est le pays d'origine du judo ?",
+    "answer": "Le Japon"
+  },
+  {
+    "id": "spo-adulte-016",
+    "category": "sport-loisirs",
+    "question": "Quel événement cycliste emblématique se termine traditionnellement sur les Champs-Élysées ?",
+    "answer": "Le Tour de France"
+  },
+  {
+    "id": "spo-adulte-017",
+    "category": "sport-loisirs",
+    "question": "Combien de trous compte un parcours de golf standard ?",
+    "answer": "18"
+  },
+  {
+    "id": "spo-adulte-018",
+    "category": "sport-loisirs",
+    "question": "Quel boxeur est surnommé \"The Greatest\" ?",
+    "answer": "Mohamed Ali"
+  },
+  {
+    "id": "spo-adulte-019",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport collectif utilise-t-on un palet ?",
+    "answer": "Le hockey sur glace"
+  },
+  {
+    "id": "spo-adulte-020",
+    "category": "sport-loisirs",
+    "question": "Quel pays a inventé le rugby ?",
+    "answer": "L'Angleterre"
+  },
+  {
+    "id": "spo-adulte-021",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de volley-ball sur le terrain ?",
+    "answer": "6"
+  },
+  {
+    "id": "spo-adulte-022",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline olympique combine ski et tir à la carabine ?",
+    "answer": "Le biathlon"
+  },
+  {
+    "id": "spo-adulte-023",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de football est surnommé \"CR7\" ?",
+    "answer": "Cristiano Ronaldo"
+  },
+  {
+    "id": "spo-adulte-024",
+    "category": "sport-loisirs",
+    "question": "Dans quelle ville se sont déroulés les Jeux olympiques d'été de 2024 ?",
+    "answer": "Paris"
+  },
+  {
+    "id": "spo-adulte-025",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom du plus ancien tournoi de tennis du monde ?",
+    "answer": "Wimbledon"
+  },
+  {
+    "id": "spo-adulte-026",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure une mi-temps au football ?",
+    "answer": "45 minutes"
+  },
+  {
+    "id": "spo-adulte-027",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom du maillot porté par le leader du classement général au Tour de France ?",
+    "answer": "Le maillot jaune"
+  },
+  {
+    "id": "spo-adulte-028",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport américain utilise-t-on un \"quarterback\" ?",
+    "answer": "Le football américain"
+  },
+  {
+    "id": "spo-adulte-029",
+    "category": "sport-loisirs",
+    "question": "Quel pays a accueilli la Coupe du monde de football 2022 ?",
+    "answer": "Le Qatar"
+  },
+  {
+    "id": "spo-adulte-030",
+    "category": "sport-loisirs",
+    "question": "Quel est le sport pratiqué à Wimbledon ?",
+    "answer": "Le tennis"
+  }
+]

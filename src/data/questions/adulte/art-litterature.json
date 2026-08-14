@@ -1,0 +1,182 @@
+[
+  {
+    "id": "art-adulte-001",
+    "category": "art-litterature",
+    "question": "Qui a peint la Joconde ?",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "id": "art-adulte-002",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur des \"Misérables\" ?",
+    "answer": "Victor Hugo"
+  },
+  {
+    "id": "art-adulte-003",
+    "category": "art-litterature",
+    "question": "Quel peintre néerlandais s'est coupé une partie de l'oreille ?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "art-adulte-004",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Roméo et Juliette\" ?",
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": "art-adulte-005",
+    "category": "art-litterature",
+    "question": "Dans quel musée parisien peut-on admirer la Joconde ?",
+    "answer": "Le musée du Louvre"
+  },
+  {
+    "id": "art-adulte-006",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur de la saga \"Harry Potter\" ?",
+    "answer": "J.K. Rowling"
+  },
+  {
+    "id": "art-adulte-007",
+    "category": "art-litterature",
+    "question": "Quel sculpteur français a créé \"Le Penseur\" ?",
+    "answer": "Auguste Rodin"
+  },
+  {
+    "id": "art-adulte-008",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Le Petit Prince\" ?",
+    "answer": "Antoine de Saint-Exupéry"
+  },
+  {
+    "id": "art-adulte-009",
+    "category": "art-litterature",
+    "question": "Quel mouvement pictural est associé à Claude Monet ?",
+    "answer": "L'impressionnisme"
+  },
+  {
+    "id": "art-adulte-010",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Crime et Châtiment\" ?",
+    "answer": "Fiodor Dostoïevski"
+  },
+  {
+    "id": "art-adulte-011",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol est le père du cubisme avec Georges Braque ?",
+    "answer": "Pablo Picasso"
+  },
+  {
+    "id": "art-adulte-012",
+    "category": "art-litterature",
+    "question": "Qui a écrit la tragédie \"Phèdre\" ?",
+    "answer": "Jean Racine"
+  },
+  {
+    "id": "art-adulte-013",
+    "category": "art-litterature",
+    "question": "Quel artiste a peint \"La Nuit étoilée\" ?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "art-adulte-014",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur de \"1984\" ?",
+    "answer": "George Orwell"
+  },
+  {
+    "id": "art-adulte-015",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a créé le personnage de d'Artagnan ?",
+    "answer": "Alexandre Dumas"
+  },
+  {
+    "id": "art-adulte-016",
+    "category": "art-litterature",
+    "question": "Quel peintre italien a réalisé le plafond de la chapelle Sixtine ?",
+    "answer": "Michel-Ange"
+  },
+  {
+    "id": "art-adulte-017",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Orgueil et Préjugés\" ?",
+    "answer": "Jane Austen"
+  },
+  {
+    "id": "art-adulte-018",
+    "category": "art-litterature",
+    "question": "Quel est le prénom de l'auteur de la Comédie humaine, Balzac ?",
+    "answer": "Honoré"
+  },
+  {
+    "id": "art-adulte-019",
+    "category": "art-litterature",
+    "question": "Quel peintre norvégien a créé \"Le Cri\" ?",
+    "answer": "Edvard Munch"
+  },
+  {
+    "id": "art-adulte-020",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Don Quichotte\" ?",
+    "answer": "Miguel de Cervantès"
+  },
+  {
+    "id": "art-adulte-021",
+    "category": "art-litterature",
+    "question": "Quel artiste est célèbre pour ses montres molles dans \"La Persistance de la mémoire\" ?",
+    "answer": "Salvador Dalí"
+  },
+  {
+    "id": "art-adulte-022",
+    "category": "art-litterature",
+    "question": "Qui a écrit la pièce \"En attendant Godot\" ?",
+    "answer": "Samuel Beckett"
+  },
+  {
+    "id": "art-adulte-023",
+    "category": "art-litterature",
+    "question": "Quel poète français est l'auteur des \"Fleurs du mal\" ?",
+    "answer": "Charles Baudelaire"
+  },
+  {
+    "id": "art-adulte-024",
+    "category": "art-litterature",
+    "question": "Quel peintre a fondé le mouvement surréaliste en littérature avec son manifeste de 1924 ?",
+    "answer": "André Breton"
+  },
+  {
+    "id": "art-adulte-025",
+    "category": "art-litterature",
+    "question": "Qui a sculpté le David, exposé à Florence ?",
+    "answer": "Michel-Ange"
+  },
+  {
+    "id": "art-adulte-026",
+    "category": "art-litterature",
+    "question": "Quel romancier russe a écrit \"Guerre et Paix\" ?",
+    "answer": "Léon Tolstoï"
+  },
+  {
+    "id": "art-adulte-027",
+    "category": "art-litterature",
+    "question": "Quel peintre est associé au mouvement du pointillisme avec \"Un dimanche après-midi à l'Île de la Grande Jatte\" ?",
+    "answer": "Georges Seurat"
+  },
+  {
+    "id": "art-adulte-028",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur de \"Notre-Dame de Paris\" ?",
+    "answer": "Victor Hugo"
+  },
+  {
+    "id": "art-adulte-029",
+    "category": "art-litterature",
+    "question": "Quel artiste américain est célèbre pour ses œuvres pop art représentant des boîtes de soupe Campbell ?",
+    "answer": "Andy Warhol"
+  },
+  {
+    "id": "art-adulte-030",
+    "category": "art-litterature",
+    "question": "Qui a écrit la trilogie \"Le Seigneur des Anneaux\" ?",
+    "answer": "J.R.R. Tolkien"
+  }
+]

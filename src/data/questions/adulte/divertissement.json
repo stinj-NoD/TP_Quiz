@@ -1,0 +1,182 @@
+[
+  {
+    "id": "div-adulte-001",
+    "category": "divertissement",
+    "question": "Qui a réalisé la saga de films \"Star Wars\" à l'origine ?",
+    "answer": "George Lucas"
+  },
+  {
+    "id": "div-adulte-002",
+    "category": "divertissement",
+    "question": "Quel est le nom du sorcier joué par Daniel Radcliffe au cinéma ?",
+    "answer": "Harry Potter"
+  },
+  {
+    "id": "div-adulte-003",
+    "category": "divertissement",
+    "question": "Quel groupe britannique a chanté \"Bohemian Rhapsody\" ?",
+    "answer": "Queen"
+  },
+  {
+    "id": "div-adulte-004",
+    "category": "divertissement",
+    "question": "Quel est le studio d'animation à l'origine de \"Toy Story\" ?",
+    "answer": "Pixar"
+  },
+  {
+    "id": "div-adulte-005",
+    "category": "divertissement",
+    "question": "Qui incarne Iron Man dans l'univers cinématographique Marvel ?",
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "id": "div-adulte-006",
+    "category": "divertissement",
+    "question": "Quel est le titre français du film \"Home Alone\" ?",
+    "answer": "Maman, j'ai raté l'avion"
+  },
+  {
+    "id": "div-adulte-007",
+    "category": "divertissement",
+    "question": "Quelle chanteuse est surnommée \"Queen B\" ?",
+    "answer": "Beyoncé"
+  },
+  {
+    "id": "div-adulte-008",
+    "category": "divertissement",
+    "question": "Dans quelle série télévisée trouve-t-on la famille Targaryen ?",
+    "answer": "Game of Thrones"
+  },
+  {
+    "id": "div-adulte-009",
+    "category": "divertissement",
+    "question": "Qui a composé la musique du film \"Le Roi Lion\" (1994) ?",
+    "answer": "Hans Zimmer"
+  },
+  {
+    "id": "div-adulte-010",
+    "category": "divertissement",
+    "question": "Quel est le nom de famille de Mickey Mouse dans les comics ?",
+    "answer": "Mickey n'a pas de nom de famille officiel (parfois \"Mouse\")"
+  },
+  {
+    "id": "div-adulte-011",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Jack Sparrow dans \"Pirates des Caraïbes\" ?",
+    "answer": "Johnny Depp"
+  },
+  {
+    "id": "div-adulte-012",
+    "category": "divertissement",
+    "question": "Quel jeu vidéo met en scène un plombier nommé Mario ?",
+    "answer": "Super Mario"
+  },
+  {
+    "id": "div-adulte-013",
+    "category": "divertissement",
+    "question": "Quelle chanteuse française interprète \"La Vie en rose\" ?",
+    "answer": "Édith Piaf"
+  },
+  {
+    "id": "div-adulte-014",
+    "category": "divertissement",
+    "question": "Quel est le nom du réseau de streaming à l'origine de \"Stranger Things\" ?",
+    "answer": "Netflix"
+  },
+  {
+    "id": "div-adulte-015",
+    "category": "divertissement",
+    "question": "Quel humoriste incarne le personnage d'OSS 117 au cinéma ?",
+    "answer": "Jean Dujardin"
+  },
+  {
+    "id": "div-adulte-016",
+    "category": "divertissement",
+    "question": "Quel est le prénom du personnage principal dans \"Titanic\" joué par Leonardo DiCaprio ?",
+    "answer": "Jack"
+  },
+  {
+    "id": "div-adulte-017",
+    "category": "divertissement",
+    "question": "Quel groupe suédois a interprété \"Dancing Queen\" ?",
+    "answer": "ABBA"
+  },
+  {
+    "id": "div-adulte-018",
+    "category": "divertissement",
+    "question": "Quel est le nom de la série animée mettant en scène la famille Simpson créée par Matt Groening ?",
+    "answer": "Les Simpson"
+  },
+  {
+    "id": "div-adulte-019",
+    "category": "divertissement",
+    "question": "Qui a réalisé le film \"Amélie Poulain\" ?",
+    "answer": "Jean-Pierre Jeunet"
+  },
+  {
+    "id": "div-adulte-020",
+    "category": "divertissement",
+    "question": "Quel est le nom du café où se retrouvent les personnages de \"Friends\" ?",
+    "answer": "Central Perk"
+  },
+  {
+    "id": "div-adulte-021",
+    "category": "divertissement",
+    "question": "Quel chanteur est surnommé le \"King of Pop\" ?",
+    "answer": "Michael Jackson"
+  },
+  {
+    "id": "div-adulte-022",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé Disney trouve-t-on le personnage d'Elsa ?",
+    "answer": "La Reine des neiges"
+  },
+  {
+    "id": "div-adulte-023",
+    "category": "divertissement",
+    "question": "Quel est le nom complet du robot dans le film \"WALL-E\" ?",
+    "answer": "Waste Allocation Load Lifter Earth-Class"
+  },
+  {
+    "id": "div-adulte-024",
+    "category": "divertissement",
+    "question": "Quel acteur a incarné James Bond dans \"Skyfall\" et \"Spectre\" ?",
+    "answer": "Daniel Craig"
+  },
+  {
+    "id": "div-adulte-025",
+    "category": "divertissement",
+    "question": "Quel est le nom du village peuplé de Gaulois irréductibles dans la BD d'Astérix ?",
+    "answer": "Le village n'a pas de nom officiel dans la BD"
+  },
+  {
+    "id": "div-adulte-026",
+    "category": "divertissement",
+    "question": "Quel chanteur est à l'origine de l'album \"Thriller\" ?",
+    "answer": "Michael Jackson"
+  },
+  {
+    "id": "div-adulte-027",
+    "category": "divertissement",
+    "question": "Quel est le nom du héros incarné par Omar Sy dans \"Intouchables\" ?",
+    "answer": "Driss"
+  },
+  {
+    "id": "div-adulte-028",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne Hermione Granger dans la saga Harry Potter ?",
+    "answer": "Emma Watson"
+  },
+  {
+    "id": "div-adulte-029",
+    "category": "divertissement",
+    "question": "Quel est le nom du réalisateur des films \"Inception\" et \"Interstellar\" ?",
+    "answer": "Christopher Nolan"
+  },
+  {
+    "id": "div-adulte-030",
+    "category": "divertissement",
+    "question": "Quel groupe de rock britannique a sorti l'album \"The Dark Side of the Moon\" ?",
+    "answer": "Pink Floyd"
+  }
+]

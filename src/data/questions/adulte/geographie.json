@@ -1,0 +1,182 @@
+[
+  {
+    "id": "geo-adulte-001",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Australie ?",
+    "answer": "Canberra"
+  },
+  {
+    "id": "geo-adulte-002",
+    "category": "geographie",
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil"
+  },
+  {
+    "id": "geo-adulte-003",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la ville de Marrakech ?",
+    "answer": "Le Maroc"
+  },
+  {
+    "id": "geo-adulte-004",
+    "category": "geographie",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "answer": "Le Sahara"
+  },
+  {
+    "id": "geo-adulte-005",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+    "answer": "L'Oural"
+  },
+  {
+    "id": "geo-adulte-006",
+    "category": "geographie",
+    "question": "Quel océan borde la côte ouest des États-Unis ?",
+    "answer": "L'océan Pacifique"
+  },
+  {
+    "id": "geo-adulte-007",
+    "category": "geographie",
+    "question": "Quelle est la capitale du Canada ?",
+    "answer": "Ottawa"
+  },
+  {
+    "id": "geo-adulte-008",
+    "category": "geographie",
+    "question": "Quel pays compte le plus grand nombre d'îles au monde ?",
+    "answer": "La Suède"
+  },
+  {
+    "id": "geo-adulte-009",
+    "category": "geographie",
+    "question": "Quel est le point culminant de l'Afrique ?",
+    "answer": "Le Kilimandjaro"
+  },
+  {
+    "id": "geo-adulte-010",
+    "category": "geographie",
+    "question": "Quelle mer sépare l'Europe de l'Afrique au niveau de Gibraltar ?",
+    "answer": "La mer Méditerranée"
+  },
+  {
+    "id": "geo-adulte-011",
+    "category": "geographie",
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo"
+  },
+  {
+    "id": "geo-adulte-012",
+    "category": "geographie",
+    "question": "Quel est le plus petit pays du monde ?",
+    "answer": "Le Vatican"
+  },
+  {
+    "id": "geo-adulte-013",
+    "category": "geographie",
+    "question": "Quel fleuve traverse Paris ?",
+    "answer": "La Seine"
+  },
+  {
+    "id": "geo-adulte-014",
+    "category": "geographie",
+    "question": "Quel est le plus grand pays du monde par sa superficie ?",
+    "answer": "La Russie"
+  },
+  {
+    "id": "geo-adulte-015",
+    "category": "geographie",
+    "question": "Dans quel pays se situent les chutes du Niagara, entre autres ?",
+    "answer": "Le Canada (et les États-Unis)"
+  },
+  {
+    "id": "geo-adulte-016",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Égypte ?",
+    "answer": "Le Caire"
+  },
+  {
+    "id": "geo-adulte-017",
+    "category": "geographie",
+    "question": "Quel détroit sépare l'Espagne du Maroc ?",
+    "answer": "Le détroit de Gibraltar"
+  },
+  {
+    "id": "geo-adulte-018",
+    "category": "geographie",
+    "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie ?",
+    "answer": "Le lac Supérieur"
+  },
+  {
+    "id": "geo-adulte-019",
+    "category": "geographie",
+    "question": "Quelle ville est surnommée la Ville Éternelle ?",
+    "answer": "Rome"
+  },
+  {
+    "id": "geo-adulte-020",
+    "category": "geographie",
+    "question": "Quel pays a pour capitale Brasilia ?",
+    "answer": "Le Brésil"
+  },
+  {
+    "id": "geo-adulte-021",
+    "category": "geographie",
+    "question": "Quelle montagne est le plus haut sommet du monde ?",
+    "answer": "L'Everest"
+  },
+  {
+    "id": "geo-adulte-022",
+    "category": "geographie",
+    "question": "Quel pays est traversé par l'équateur et porte ce nom ?",
+    "answer": "L'Équateur"
+  },
+  {
+    "id": "geo-adulte-023",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "answer": "Berlin"
+  },
+  {
+    "id": "geo-adulte-024",
+    "category": "geographie",
+    "question": "Quel continent abrite le Sahara ?",
+    "answer": "L'Afrique"
+  },
+  {
+    "id": "geo-adulte-025",
+    "category": "geographie",
+    "question": "Quelle est la plus grande île du monde ?",
+    "answer": "Le Groenland"
+  },
+  {
+    "id": "geo-adulte-026",
+    "category": "geographie",
+    "question": "Quel pays a la forme d'une botte ?",
+    "answer": "L'Italie"
+  },
+  {
+    "id": "geo-adulte-027",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Argentine ?",
+    "answer": "Buenos Aires"
+  },
+  {
+    "id": "geo-adulte-028",
+    "category": "geographie",
+    "question": "Quel est le seul pays à cheval sur deux continents dont Istanbul fait partie ?",
+    "answer": "La Turquie"
+  },
+  {
+    "id": "geo-adulte-029",
+    "category": "geographie",
+    "question": "Quelle rivière traverse Londres ?",
+    "answer": "La Tamise"
+  },
+  {
+    "id": "geo-adulte-030",
+    "category": "geographie",
+    "question": "Quel pays possède le plus de fuseaux horaires ?",
+    "answer": "La France (grâce à ses territoires d'outre-mer)"
+  }
+]

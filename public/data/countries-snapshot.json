@@ -1,0 +1,3187 @@
+[
+  {
+    "cca3": "AFG",
+    "ccn3": "004",
+    "nameFr": "Afghanistan",
+    "capital": "Kabul",
+    "flagSvgUrl": "/flags/AFG.svg",
+    "region": "Asia",
+    "latlng": [
+      33,
+      65
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ZAF",
+    "ccn3": "710",
+    "nameFr": "Afrique du Sud",
+    "capital": "Pretoria",
+    "flagSvgUrl": "/flags/ZAF.svg",
+    "region": "Africa",
+    "latlng": [
+      -29,
+      24
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ALA",
+    "ccn3": "248",
+    "nameFr": "Ahvenanmaa",
+    "capital": "Mariehamn",
+    "flagSvgUrl": "/flags/ALA.svg",
+    "region": "Europe",
+    "latlng": [
+      60.116667,
+      19.9
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ALB",
+    "ccn3": "008",
+    "nameFr": "Albanie",
+    "capital": "Tirana",
+    "flagSvgUrl": "/flags/ALB.svg",
+    "region": "Europe",
+    "latlng": [
+      41,
+      20
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "DZA",
+    "ccn3": "012",
+    "nameFr": "Algérie",
+    "capital": "Algiers",
+    "flagSvgUrl": "/flags/DZA.svg",
+    "region": "Africa",
+    "latlng": [
+      28,
+      3
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "DEU",
+    "ccn3": "276",
+    "nameFr": "Allemagne",
+    "capital": "Berlin",
+    "flagSvgUrl": "/flags/DEU.svg",
+    "region": "Europe",
+    "latlng": [
+      51,
+      9
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "AND",
+    "ccn3": "020",
+    "nameFr": "Andorre",
+    "capital": "Andorra la Vella",
+    "flagSvgUrl": "/flags/AND.svg",
+    "region": "Europe",
+    "latlng": [
+      42.5,
+      1.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "AGO",
+    "ccn3": "024",
+    "nameFr": "Angola",
+    "capital": "Luanda",
+    "flagSvgUrl": "/flags/AGO.svg",
+    "region": "Africa",
+    "latlng": [
+      -12.5,
+      18.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "AIA",
+    "ccn3": "660",
+    "nameFr": "Anguilla",
+    "capital": "The Valley",
+    "flagSvgUrl": "/flags/AIA.svg",
+    "region": "Americas",
+    "latlng": [
+      18.25,
+      -63.16666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ATG",
+    "ccn3": "028",
+    "nameFr": "Antigua-et-Barbuda",
+    "capital": "Saint John's",
+    "flagSvgUrl": "/flags/ATG.svg",
+    "region": "Americas",
+    "latlng": [
+      17.05,
+      -61.8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SAU",
+    "ccn3": "682",
+    "nameFr": "Arabie Saoudite",
+    "capital": "Riyadh",
+    "flagSvgUrl": "/flags/SAU.svg",
+    "region": "Asia",
+    "latlng": [
+      25,
+      45
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ARG",
+    "ccn3": "032",
+    "nameFr": "Argentine",
+    "capital": "Buenos Aires",
+    "flagSvgUrl": "/flags/ARG.svg",
+    "region": "Americas",
+    "latlng": [
+      -34,
+      -64
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ARM",
+    "ccn3": "051",
+    "nameFr": "Arménie",
+    "capital": "Yerevan",
+    "flagSvgUrl": "/flags/ARM.svg",
+    "region": "Asia",
+    "latlng": [
+      40,
+      45
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ABW",
+    "ccn3": "533",
+    "nameFr": "Aruba",
+    "capital": "Oranjestad",
+    "flagSvgUrl": "/flags/ABW.svg",
+    "region": "Americas",
+    "latlng": [
+      12.5,
+      -69.96666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "AUS",
+    "ccn3": "036",
+    "nameFr": "Australie",
+    "capital": "Canberra",
+    "flagSvgUrl": "/flags/AUS.svg",
+    "region": "Oceania",
+    "latlng": [
+      -27,
+      133
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "AUT",
+    "ccn3": "040",
+    "nameFr": "Autriche",
+    "capital": "Vienna",
+    "flagSvgUrl": "/flags/AUT.svg",
+    "region": "Europe",
+    "latlng": [
+      47.33333333,
+      13.33333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "AZE",
+    "ccn3": "031",
+    "nameFr": "Azerbaïdjan",
+    "capital": "Baku",
+    "flagSvgUrl": "/flags/AZE.svg",
+    "region": "Asia",
+    "latlng": [
+      40.5,
+      47.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BHS",
+    "ccn3": "044",
+    "nameFr": "Bahamas",
+    "capital": "Nassau",
+    "flagSvgUrl": "/flags/BHS.svg",
+    "region": "Americas",
+    "latlng": [
+      24.25,
+      -76
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BHR",
+    "ccn3": "048",
+    "nameFr": "Bahreïn",
+    "capital": "Manama",
+    "flagSvgUrl": "/flags/BHR.svg",
+    "region": "Asia",
+    "latlng": [
+      26,
+      50.55
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BGD",
+    "ccn3": "050",
+    "nameFr": "Bangladesh",
+    "capital": "Dhaka",
+    "flagSvgUrl": "/flags/BGD.svg",
+    "region": "Asia",
+    "latlng": [
+      24,
+      90
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BRB",
+    "ccn3": "052",
+    "nameFr": "Barbade",
+    "capital": "Bridgetown",
+    "flagSvgUrl": "/flags/BRB.svg",
+    "region": "Americas",
+    "latlng": [
+      13.16666666,
+      -59.53333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BEL",
+    "ccn3": "056",
+    "nameFr": "Belgique",
+    "capital": "Brussels",
+    "flagSvgUrl": "/flags/BEL.svg",
+    "region": "Europe",
+    "latlng": [
+      50.83333333,
+      4
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BLZ",
+    "ccn3": "084",
+    "nameFr": "Belize",
+    "capital": "Belmopan",
+    "flagSvgUrl": "/flags/BLZ.svg",
+    "region": "Americas",
+    "latlng": [
+      17.25,
+      -88.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BEN",
+    "ccn3": "204",
+    "nameFr": "Bénin",
+    "capital": "Porto-Novo",
+    "flagSvgUrl": "/flags/BEN.svg",
+    "region": "Africa",
+    "latlng": [
+      9.5,
+      2.25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BMU",
+    "ccn3": "060",
+    "nameFr": "Bermudes",
+    "capital": "Hamilton",
+    "flagSvgUrl": "/flags/BMU.svg",
+    "region": "Americas",
+    "latlng": [
+      32.33333333,
+      -64.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BTN",
+    "ccn3": "064",
+    "nameFr": "Bhoutan",
+    "capital": "Thimphu",
+    "flagSvgUrl": "/flags/BTN.svg",
+    "region": "Asia",
+    "latlng": [
+      27.5,
+      90.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BLR",
+    "ccn3": "112",
+    "nameFr": "Biélorussie",
+    "capital": "Minsk",
+    "flagSvgUrl": "/flags/BLR.svg",
+    "region": "Europe",
+    "latlng": [
+      53,
+      28
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MMR",
+    "ccn3": "104",
+    "nameFr": "Birmanie",
+    "capital": "Naypyidaw",
+    "flagSvgUrl": "/flags/MMR.svg",
+    "region": "Asia",
+    "latlng": [
+      22,
+      98
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BOL",
+    "ccn3": "068",
+    "nameFr": "Bolivie",
+    "capital": "Sucre",
+    "flagSvgUrl": "/flags/BOL.svg",
+    "region": "Americas",
+    "latlng": [
+      -17,
+      -65
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BIH",
+    "ccn3": "070",
+    "nameFr": "Bosnie-Herzégovine",
+    "capital": "Sarajevo",
+    "flagSvgUrl": "/flags/BIH.svg",
+    "region": "Europe",
+    "latlng": [
+      44,
+      18
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BWA",
+    "ccn3": "072",
+    "nameFr": "Botswana",
+    "capital": "Gaborone",
+    "flagSvgUrl": "/flags/BWA.svg",
+    "region": "Africa",
+    "latlng": [
+      -22,
+      24
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BRA",
+    "ccn3": "076",
+    "nameFr": "Brésil",
+    "capital": "Brasília",
+    "flagSvgUrl": "/flags/BRA.svg",
+    "region": "Americas",
+    "latlng": [
+      -10,
+      -55
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BRN",
+    "ccn3": "096",
+    "nameFr": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "flagSvgUrl": "/flags/BRN.svg",
+    "region": "Asia",
+    "latlng": [
+      4.5,
+      114.66666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BGR",
+    "ccn3": "100",
+    "nameFr": "Bulgarie",
+    "capital": "Sofia",
+    "flagSvgUrl": "/flags/BGR.svg",
+    "region": "Europe",
+    "latlng": [
+      43,
+      25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BFA",
+    "ccn3": "854",
+    "nameFr": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "flagSvgUrl": "/flags/BFA.svg",
+    "region": "Africa",
+    "latlng": [
+      13,
+      -2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BDI",
+    "ccn3": "108",
+    "nameFr": "Burundi",
+    "capital": "Gitega",
+    "flagSvgUrl": "/flags/BDI.svg",
+    "region": "Africa",
+    "latlng": [
+      -3.5,
+      30
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KHM",
+    "ccn3": "116",
+    "nameFr": "Cambodge",
+    "capital": "Phnom Penh",
+    "flagSvgUrl": "/flags/KHM.svg",
+    "region": "Asia",
+    "latlng": [
+      13,
+      105
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CMR",
+    "ccn3": "120",
+    "nameFr": "Cameroun",
+    "capital": "Yaoundé",
+    "flagSvgUrl": "/flags/CMR.svg",
+    "region": "Africa",
+    "latlng": [
+      6,
+      12
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CAN",
+    "ccn3": "124",
+    "nameFr": "Canada",
+    "capital": "Ottawa",
+    "flagSvgUrl": "/flags/CAN.svg",
+    "region": "Americas",
+    "latlng": [
+      60,
+      -95
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CHL",
+    "ccn3": "152",
+    "nameFr": "Chili",
+    "capital": "Santiago",
+    "flagSvgUrl": "/flags/CHL.svg",
+    "region": "Americas",
+    "latlng": [
+      -30,
+      -71
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CHN",
+    "ccn3": "156",
+    "nameFr": "Chine",
+    "capital": "Beijing",
+    "flagSvgUrl": "/flags/CHN.svg",
+    "region": "Asia",
+    "latlng": [
+      35,
+      105
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CYP",
+    "ccn3": "196",
+    "nameFr": "Chypre",
+    "capital": "Nicosia",
+    "flagSvgUrl": "/flags/CYP.svg",
+    "region": "Europe",
+    "latlng": [
+      35,
+      33
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VAT",
+    "ccn3": "336",
+    "nameFr": "Cité du Vatican",
+    "capital": "Vatican City",
+    "flagSvgUrl": "/flags/VAT.svg",
+    "region": "Europe",
+    "latlng": [
+      41.9,
+      12.45
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "COL",
+    "ccn3": "170",
+    "nameFr": "Colombie",
+    "capital": "Bogotá",
+    "flagSvgUrl": "/flags/COL.svg",
+    "region": "Americas",
+    "latlng": [
+      4,
+      -72
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "COM",
+    "ccn3": "174",
+    "nameFr": "Comores",
+    "capital": "Moroni",
+    "flagSvgUrl": "/flags/COM.svg",
+    "region": "Africa",
+    "latlng": [
+      -12.16666666,
+      44.25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "COG",
+    "ccn3": "178",
+    "nameFr": "Congo",
+    "capital": "Brazzaville",
+    "flagSvgUrl": "/flags/COG.svg",
+    "region": "Africa",
+    "latlng": [
+      -1,
+      15
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "COD",
+    "ccn3": "180",
+    "nameFr": "Congo (Rép. dém.)",
+    "capital": "Kinshasa",
+    "flagSvgUrl": "/flags/COD.svg",
+    "region": "Africa",
+    "latlng": [
+      0,
+      25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PRK",
+    "ccn3": "408",
+    "nameFr": "Corée du Nord",
+    "capital": "Pyongyang",
+    "flagSvgUrl": "/flags/PRK.svg",
+    "region": "Asia",
+    "latlng": [
+      40,
+      127
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KOR",
+    "ccn3": "410",
+    "nameFr": "Corée du Sud",
+    "capital": "Seoul",
+    "flagSvgUrl": "/flags/KOR.svg",
+    "region": "Asia",
+    "latlng": [
+      37,
+      127.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CRI",
+    "ccn3": "188",
+    "nameFr": "Costa Rica",
+    "capital": "San José",
+    "flagSvgUrl": "/flags/CRI.svg",
+    "region": "Americas",
+    "latlng": [
+      10,
+      -84
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CIV",
+    "ccn3": "384",
+    "nameFr": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "flagSvgUrl": "/flags/CIV.svg",
+    "region": "Africa",
+    "latlng": [
+      8,
+      -5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "HRV",
+    "ccn3": "191",
+    "nameFr": "Croatie",
+    "capital": "Zagreb",
+    "flagSvgUrl": "/flags/HRV.svg",
+    "region": "Europe",
+    "latlng": [
+      45.16666666,
+      15.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CUB",
+    "ccn3": "192",
+    "nameFr": "Cuba",
+    "capital": "Havana",
+    "flagSvgUrl": "/flags/CUB.svg",
+    "region": "Americas",
+    "latlng": [
+      21.5,
+      -80
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CUW",
+    "ccn3": "531",
+    "nameFr": "Curaçao",
+    "capital": "Willemstad",
+    "flagSvgUrl": "/flags/CUW.svg",
+    "region": "Americas",
+    "latlng": [
+      12.116667,
+      -68.933333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "DNK",
+    "ccn3": "208",
+    "nameFr": "Danemark",
+    "capital": "Copenhagen",
+    "flagSvgUrl": "/flags/DNK.svg",
+    "region": "Europe",
+    "latlng": [
+      56,
+      10
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "DJI",
+    "ccn3": "262",
+    "nameFr": "Djibouti",
+    "capital": "Djibouti",
+    "flagSvgUrl": "/flags/DJI.svg",
+    "region": "Africa",
+    "latlng": [
+      11.5,
+      43
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "DMA",
+    "ccn3": "212",
+    "nameFr": "Dominique",
+    "capital": "Roseau",
+    "flagSvgUrl": "/flags/DMA.svg",
+    "region": "Americas",
+    "latlng": [
+      15.41666666,
+      -61.33333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "EGY",
+    "ccn3": "818",
+    "nameFr": "Égypte",
+    "capital": "Cairo",
+    "flagSvgUrl": "/flags/EGY.svg",
+    "region": "Africa",
+    "latlng": [
+      27,
+      30
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ARE",
+    "ccn3": "784",
+    "nameFr": "Émirats arabes unis",
+    "capital": "Abu Dhabi",
+    "flagSvgUrl": "/flags/ARE.svg",
+    "region": "Asia",
+    "latlng": [
+      24,
+      54
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ECU",
+    "ccn3": "218",
+    "nameFr": "Équateur",
+    "capital": "Quito",
+    "flagSvgUrl": "/flags/ECU.svg",
+    "region": "Americas",
+    "latlng": [
+      -2,
+      -77.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ERI",
+    "ccn3": "232",
+    "nameFr": "Érythrée",
+    "capital": "Asmara",
+    "flagSvgUrl": "/flags/ERI.svg",
+    "region": "Africa",
+    "latlng": [
+      15,
+      39
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ESP",
+    "ccn3": "724",
+    "nameFr": "Espagne",
+    "capital": "Madrid",
+    "flagSvgUrl": "/flags/ESP.svg",
+    "region": "Europe",
+    "latlng": [
+      40,
+      -4
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "EST",
+    "ccn3": "233",
+    "nameFr": "Estonie",
+    "capital": "Tallinn",
+    "flagSvgUrl": "/flags/EST.svg",
+    "region": "Europe",
+    "latlng": [
+      59,
+      26
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SWZ",
+    "ccn3": "748",
+    "nameFr": "Eswatini",
+    "capital": "Lobamba",
+    "flagSvgUrl": "/flags/SWZ.svg",
+    "region": "Africa",
+    "latlng": [
+      -26.5,
+      31.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "USA",
+    "ccn3": "840",
+    "nameFr": "États-Unis",
+    "capital": "Washington D.C.",
+    "flagSvgUrl": "/flags/USA.svg",
+    "region": "Americas",
+    "latlng": [
+      38,
+      -97
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ETH",
+    "ccn3": "231",
+    "nameFr": "Éthiopie",
+    "capital": "Addis Ababa",
+    "flagSvgUrl": "/flags/ETH.svg",
+    "region": "Africa",
+    "latlng": [
+      8,
+      38
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "FJI",
+    "ccn3": "242",
+    "nameFr": "Fidji",
+    "capital": "Suva",
+    "flagSvgUrl": "/flags/FJI.svg",
+    "region": "Oceania",
+    "latlng": [
+      -18,
+      175
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "FIN",
+    "ccn3": "246",
+    "nameFr": "Finlande",
+    "capital": "Helsinki",
+    "flagSvgUrl": "/flags/FIN.svg",
+    "region": "Europe",
+    "latlng": [
+      64,
+      26
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "FRA",
+    "ccn3": "250",
+    "nameFr": "France",
+    "capital": "Paris",
+    "flagSvgUrl": "/flags/FRA.svg",
+    "region": "Europe",
+    "latlng": [
+      46,
+      2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GAB",
+    "ccn3": "266",
+    "nameFr": "Gabon",
+    "capital": "Libreville",
+    "flagSvgUrl": "/flags/GAB.svg",
+    "region": "Africa",
+    "latlng": [
+      -1,
+      11.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GMB",
+    "ccn3": "270",
+    "nameFr": "Gambie",
+    "capital": "Banjul",
+    "flagSvgUrl": "/flags/GMB.svg",
+    "region": "Africa",
+    "latlng": [
+      13.46666666,
+      -16.56666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GEO",
+    "ccn3": "268",
+    "nameFr": "Géorgie",
+    "capital": "Tbilisi",
+    "flagSvgUrl": "/flags/GEO.svg",
+    "region": "Asia",
+    "latlng": [
+      42,
+      43.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SGS",
+    "ccn3": "239",
+    "nameFr": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+    "capital": "King Edward Point",
+    "flagSvgUrl": "/flags/SGS.svg",
+    "region": "Antarctic",
+    "latlng": [
+      -54.5,
+      -37
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GHA",
+    "ccn3": "288",
+    "nameFr": "Ghana",
+    "capital": "Accra",
+    "flagSvgUrl": "/flags/GHA.svg",
+    "region": "Africa",
+    "latlng": [
+      8,
+      -2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GIB",
+    "ccn3": "292",
+    "nameFr": "Gibraltar",
+    "capital": "Gibraltar",
+    "flagSvgUrl": "/flags/GIB.svg",
+    "region": "Europe",
+    "latlng": [
+      36.13333333,
+      -5.35
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "GRC",
+    "ccn3": "300",
+    "nameFr": "Grèce",
+    "capital": "Athens",
+    "flagSvgUrl": "/flags/GRC.svg",
+    "region": "Europe",
+    "latlng": [
+      39,
+      22
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GRD",
+    "ccn3": "308",
+    "nameFr": "Grenade",
+    "capital": "St. George's",
+    "flagSvgUrl": "/flags/GRD.svg",
+    "region": "Americas",
+    "latlng": [
+      12.11666666,
+      -61.66666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GRL",
+    "ccn3": "304",
+    "nameFr": "Groenland",
+    "capital": "Nuuk",
+    "flagSvgUrl": "/flags/GRL.svg",
+    "region": "Americas",
+    "latlng": [
+      72,
+      -40
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GLP",
+    "ccn3": "312",
+    "nameFr": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "flagSvgUrl": "/flags/GLP.svg",
+    "region": "Americas",
+    "latlng": [
+      16.25,
+      -61.583333
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "GUM",
+    "ccn3": "316",
+    "nameFr": "Guam",
+    "capital": "Hagåtña",
+    "flagSvgUrl": "/flags/GUM.svg",
+    "region": "Oceania",
+    "latlng": [
+      13.46666666,
+      144.78333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GTM",
+    "ccn3": "320",
+    "nameFr": "Guatemala",
+    "capital": "Guatemala City",
+    "flagSvgUrl": "/flags/GTM.svg",
+    "region": "Americas",
+    "latlng": [
+      15.5,
+      -90.25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GGY",
+    "ccn3": "831",
+    "nameFr": "Guernesey",
+    "capital": "St. Peter Port",
+    "flagSvgUrl": "/flags/GGY.svg",
+    "region": "Europe",
+    "latlng": [
+      49.46666666,
+      -2.58333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GIN",
+    "ccn3": "324",
+    "nameFr": "Guinée",
+    "capital": "Conakry",
+    "flagSvgUrl": "/flags/GIN.svg",
+    "region": "Africa",
+    "latlng": [
+      11,
+      -10
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GNQ",
+    "ccn3": "226",
+    "nameFr": "Guinée équatoriale",
+    "capital": "Malabo",
+    "flagSvgUrl": "/flags/GNQ.svg",
+    "region": "Africa",
+    "latlng": [
+      2,
+      10
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GNB",
+    "ccn3": "624",
+    "nameFr": "Guinée-Bissau",
+    "capital": "Bissau",
+    "flagSvgUrl": "/flags/GNB.svg",
+    "region": "Africa",
+    "latlng": [
+      12,
+      -15
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GUY",
+    "ccn3": "328",
+    "nameFr": "Guyana",
+    "capital": "Georgetown",
+    "flagSvgUrl": "/flags/GUY.svg",
+    "region": "Americas",
+    "latlng": [
+      5,
+      -59
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GUF",
+    "ccn3": "254",
+    "nameFr": "Guyane",
+    "capital": "Cayenne",
+    "flagSvgUrl": "/flags/GUF.svg",
+    "region": "Americas",
+    "latlng": [
+      4,
+      -53
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "HTI",
+    "ccn3": "332",
+    "nameFr": "Haïti",
+    "capital": "Port-au-Prince",
+    "flagSvgUrl": "/flags/HTI.svg",
+    "region": "Americas",
+    "latlng": [
+      19,
+      -72.41666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "HND",
+    "ccn3": "340",
+    "nameFr": "Honduras",
+    "capital": "Tegucigalpa",
+    "flagSvgUrl": "/flags/HND.svg",
+    "region": "Americas",
+    "latlng": [
+      15,
+      -86.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "HKG",
+    "ccn3": "344",
+    "nameFr": "Hong Kong",
+    "capital": "City of Victoria",
+    "flagSvgUrl": "/flags/HKG.svg",
+    "region": "Asia",
+    "latlng": [
+      22.267,
+      114.188
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "HUN",
+    "ccn3": "348",
+    "nameFr": "Hongrie",
+    "capital": "Budapest",
+    "flagSvgUrl": "/flags/HUN.svg",
+    "region": "Europe",
+    "latlng": [
+      47,
+      20
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CXR",
+    "ccn3": "162",
+    "nameFr": "Île Christmas",
+    "capital": "Flying Fish Cove",
+    "flagSvgUrl": "/flags/CXR.svg",
+    "region": "Oceania",
+    "latlng": [
+      -10.5,
+      105.66666666
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "IMN",
+    "ccn3": "833",
+    "nameFr": "Île de Man",
+    "capital": "Douglas",
+    "flagSvgUrl": "/flags/IMN.svg",
+    "region": "Europe",
+    "latlng": [
+      54.25,
+      -4.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MUS",
+    "ccn3": "480",
+    "nameFr": "Île Maurice",
+    "capital": "Port Louis",
+    "flagSvgUrl": "/flags/MUS.svg",
+    "region": "Africa",
+    "latlng": [
+      -20.28333333,
+      57.55
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NFK",
+    "ccn3": "574",
+    "nameFr": "Île Norfolk",
+    "capital": "Kingston",
+    "flagSvgUrl": "/flags/NFK.svg",
+    "region": "Oceania",
+    "latlng": [
+      -29.03333333,
+      167.95
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CYM",
+    "ccn3": "136",
+    "nameFr": "Îles Caïmans",
+    "capital": "George Town",
+    "flagSvgUrl": "/flags/CYM.svg",
+    "region": "Americas",
+    "latlng": [
+      19.5,
+      -80.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CCK",
+    "ccn3": "166",
+    "nameFr": "Îles Cocos",
+    "capital": "West Island",
+    "flagSvgUrl": "/flags/CCK.svg",
+    "region": "Oceania",
+    "latlng": [
+      -12.5,
+      96.83333333
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "COK",
+    "ccn3": "184",
+    "nameFr": "Îles Cook",
+    "capital": "Avarua",
+    "flagSvgUrl": "/flags/COK.svg",
+    "region": "Oceania",
+    "latlng": [
+      -21.23333333,
+      -159.76666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CPV",
+    "ccn3": "132",
+    "nameFr": "Îles du Cap-Vert",
+    "capital": "Praia",
+    "flagSvgUrl": "/flags/CPV.svg",
+    "region": "Africa",
+    "latlng": [
+      16,
+      -24
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "FRO",
+    "ccn3": "234",
+    "nameFr": "Îles Féroé",
+    "capital": "Tórshavn",
+    "flagSvgUrl": "/flags/FRO.svg",
+    "region": "Europe",
+    "latlng": [
+      62,
+      -7
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "FLK",
+    "ccn3": "238",
+    "nameFr": "Îles Malouines",
+    "capital": "Stanley",
+    "flagSvgUrl": "/flags/FLK.svg",
+    "region": "Americas",
+    "latlng": [
+      -51.75,
+      -59
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MNP",
+    "ccn3": "580",
+    "nameFr": "Îles Mariannes du Nord",
+    "capital": "Saipan",
+    "flagSvgUrl": "/flags/MNP.svg",
+    "region": "Oceania",
+    "latlng": [
+      15.2,
+      145.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MHL",
+    "ccn3": "584",
+    "nameFr": "Îles Marshall",
+    "capital": "Majuro",
+    "flagSvgUrl": "/flags/MHL.svg",
+    "region": "Oceania",
+    "latlng": [
+      9,
+      168
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PCN",
+    "ccn3": "612",
+    "nameFr": "Îles Pitcairn",
+    "capital": "Adamstown",
+    "flagSvgUrl": "/flags/PCN.svg",
+    "region": "Oceania",
+    "latlng": [
+      -25.06666666,
+      -130.1
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SLB",
+    "ccn3": "090",
+    "nameFr": "Îles Salomon",
+    "capital": "Honiara",
+    "flagSvgUrl": "/flags/SLB.svg",
+    "region": "Oceania",
+    "latlng": [
+      -8,
+      159
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TCA",
+    "ccn3": "796",
+    "nameFr": "Îles Turques-et-Caïques",
+    "capital": "Cockburn Town",
+    "flagSvgUrl": "/flags/TCA.svg",
+    "region": "Americas",
+    "latlng": [
+      21.75,
+      -71.58333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VGB",
+    "ccn3": "092",
+    "nameFr": "Îles Vierges britanniques",
+    "capital": "Road Town",
+    "flagSvgUrl": "/flags/VGB.svg",
+    "region": "Americas",
+    "latlng": [
+      18.431383,
+      -64.62305
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VIR",
+    "ccn3": "850",
+    "nameFr": "Îles Vierges des États-Unis",
+    "capital": "Charlotte Amalie",
+    "flagSvgUrl": "/flags/VIR.svg",
+    "region": "Americas",
+    "latlng": [
+      18.35,
+      -64.933333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "IND",
+    "ccn3": "356",
+    "nameFr": "Inde",
+    "capital": "New Delhi",
+    "flagSvgUrl": "/flags/IND.svg",
+    "region": "Asia",
+    "latlng": [
+      20,
+      77
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "IDN",
+    "ccn3": "360",
+    "nameFr": "Indonésie",
+    "capital": "Jakarta",
+    "flagSvgUrl": "/flags/IDN.svg",
+    "region": "Asia",
+    "latlng": [
+      -5,
+      120
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "IRQ",
+    "ccn3": "368",
+    "nameFr": "Irak",
+    "capital": "Baghdad",
+    "flagSvgUrl": "/flags/IRQ.svg",
+    "region": "Asia",
+    "latlng": [
+      33,
+      44
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "IRN",
+    "ccn3": "364",
+    "nameFr": "Iran",
+    "capital": "Tehran",
+    "flagSvgUrl": "/flags/IRN.svg",
+    "region": "Asia",
+    "latlng": [
+      32,
+      53
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "IRL",
+    "ccn3": "372",
+    "nameFr": "Irlande",
+    "capital": "Dublin",
+    "flagSvgUrl": "/flags/IRL.svg",
+    "region": "Europe",
+    "latlng": [
+      53,
+      -8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ISL",
+    "ccn3": "352",
+    "nameFr": "Islande",
+    "capital": "Reykjavik",
+    "flagSvgUrl": "/flags/ISL.svg",
+    "region": "Europe",
+    "latlng": [
+      65,
+      -18
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ISR",
+    "ccn3": "376",
+    "nameFr": "Israël",
+    "capital": "Jerusalem",
+    "flagSvgUrl": "/flags/ISR.svg",
+    "region": "Asia",
+    "latlng": [
+      31.47,
+      35.13
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ITA",
+    "ccn3": "380",
+    "nameFr": "Italie",
+    "capital": "Rome",
+    "flagSvgUrl": "/flags/ITA.svg",
+    "region": "Europe",
+    "latlng": [
+      42.83333333,
+      12.83333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "JAM",
+    "ccn3": "388",
+    "nameFr": "Jamaïque",
+    "capital": "Kingston",
+    "flagSvgUrl": "/flags/JAM.svg",
+    "region": "Americas",
+    "latlng": [
+      18.25,
+      -77.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "JPN",
+    "ccn3": "392",
+    "nameFr": "Japon",
+    "capital": "Tokyo",
+    "flagSvgUrl": "/flags/JPN.svg",
+    "region": "Asia",
+    "latlng": [
+      36,
+      138
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "JEY",
+    "ccn3": "832",
+    "nameFr": "Jersey",
+    "capital": "Saint Helier",
+    "flagSvgUrl": "/flags/JEY.svg",
+    "region": "Europe",
+    "latlng": [
+      49.25,
+      -2.16666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "JOR",
+    "ccn3": "400",
+    "nameFr": "Jordanie",
+    "capital": "Amman",
+    "flagSvgUrl": "/flags/JOR.svg",
+    "region": "Asia",
+    "latlng": [
+      31,
+      36
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KAZ",
+    "ccn3": "398",
+    "nameFr": "Kazakhstan",
+    "capital": "Astana",
+    "flagSvgUrl": "/flags/KAZ.svg",
+    "region": "Asia",
+    "latlng": [
+      48,
+      68
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KEN",
+    "ccn3": "404",
+    "nameFr": "Kenya",
+    "capital": "Nairobi",
+    "flagSvgUrl": "/flags/KEN.svg",
+    "region": "Africa",
+    "latlng": [
+      1,
+      38
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KGZ",
+    "ccn3": "417",
+    "nameFr": "Kirghizistan",
+    "capital": "Bishkek",
+    "flagSvgUrl": "/flags/KGZ.svg",
+    "region": "Asia",
+    "latlng": [
+      41,
+      75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KIR",
+    "ccn3": "296",
+    "nameFr": "Kiribati",
+    "capital": "South Tarawa",
+    "flagSvgUrl": "/flags/KIR.svg",
+    "region": "Oceania",
+    "latlng": [
+      1.41666666,
+      173
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "UNK",
+    "ccn3": "",
+    "nameFr": "Kosovo",
+    "capital": "Pristina",
+    "flagSvgUrl": "/flags/UNK.svg",
+    "region": "Europe",
+    "latlng": [
+      42.666667,
+      21.166667
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "KWT",
+    "ccn3": "414",
+    "nameFr": "Koweït",
+    "capital": "Kuwait City",
+    "flagSvgUrl": "/flags/KWT.svg",
+    "region": "Asia",
+    "latlng": [
+      29.5,
+      45.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LAO",
+    "ccn3": "418",
+    "nameFr": "Laos",
+    "capital": "Vientiane",
+    "flagSvgUrl": "/flags/LAO.svg",
+    "region": "Asia",
+    "latlng": [
+      18,
+      105
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LSO",
+    "ccn3": "426",
+    "nameFr": "Lesotho",
+    "capital": "Maseru",
+    "flagSvgUrl": "/flags/LSO.svg",
+    "region": "Africa",
+    "latlng": [
+      -29.5,
+      28.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LVA",
+    "ccn3": "428",
+    "nameFr": "Lettonie",
+    "capital": "Riga",
+    "flagSvgUrl": "/flags/LVA.svg",
+    "region": "Europe",
+    "latlng": [
+      57,
+      25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LBN",
+    "ccn3": "422",
+    "nameFr": "Liban",
+    "capital": "Beirut",
+    "flagSvgUrl": "/flags/LBN.svg",
+    "region": "Asia",
+    "latlng": [
+      33.83333333,
+      35.83333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LBR",
+    "ccn3": "430",
+    "nameFr": "Liberia",
+    "capital": "Monrovia",
+    "flagSvgUrl": "/flags/LBR.svg",
+    "region": "Africa",
+    "latlng": [
+      6.5,
+      -9.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LBY",
+    "ccn3": "434",
+    "nameFr": "Libye",
+    "capital": "Tripoli",
+    "flagSvgUrl": "/flags/LBY.svg",
+    "region": "Africa",
+    "latlng": [
+      25,
+      17
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LIE",
+    "ccn3": "438",
+    "nameFr": "Liechtenstein",
+    "capital": "Vaduz",
+    "flagSvgUrl": "/flags/LIE.svg",
+    "region": "Europe",
+    "latlng": [
+      47.26666666,
+      9.53333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LTU",
+    "ccn3": "440",
+    "nameFr": "Lituanie",
+    "capital": "Vilnius",
+    "flagSvgUrl": "/flags/LTU.svg",
+    "region": "Europe",
+    "latlng": [
+      56,
+      24
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LUX",
+    "ccn3": "442",
+    "nameFr": "Luxembourg",
+    "capital": "Luxembourg",
+    "flagSvgUrl": "/flags/LUX.svg",
+    "region": "Europe",
+    "latlng": [
+      49.75,
+      6.16666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MKD",
+    "ccn3": "807",
+    "nameFr": "Macédoine du Nord",
+    "capital": "Skopje",
+    "flagSvgUrl": "/flags/MKD.svg",
+    "region": "Europe",
+    "latlng": [
+      41.83333333,
+      22
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MDG",
+    "ccn3": "450",
+    "nameFr": "Madagascar",
+    "capital": "Antananarivo",
+    "flagSvgUrl": "/flags/MDG.svg",
+    "region": "Africa",
+    "latlng": [
+      -20,
+      47
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MYS",
+    "ccn3": "458",
+    "nameFr": "Malaisie",
+    "capital": "Kuala Lumpur",
+    "flagSvgUrl": "/flags/MYS.svg",
+    "region": "Asia",
+    "latlng": [
+      2.5,
+      112.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MWI",
+    "ccn3": "454",
+    "nameFr": "Malawi",
+    "capital": "Lilongwe",
+    "flagSvgUrl": "/flags/MWI.svg",
+    "region": "Africa",
+    "latlng": [
+      -13.5,
+      34
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MDV",
+    "ccn3": "462",
+    "nameFr": "Maldives",
+    "capital": "Malé",
+    "flagSvgUrl": "/flags/MDV.svg",
+    "region": "Asia",
+    "latlng": [
+      3.25,
+      73
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MLI",
+    "ccn3": "466",
+    "nameFr": "Mali",
+    "capital": "Bamako",
+    "flagSvgUrl": "/flags/MLI.svg",
+    "region": "Africa",
+    "latlng": [
+      17,
+      -4
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MLT",
+    "ccn3": "470",
+    "nameFr": "Malte",
+    "capital": "Valletta",
+    "flagSvgUrl": "/flags/MLT.svg",
+    "region": "Europe",
+    "latlng": [
+      35.83333333,
+      14.58333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MAR",
+    "ccn3": "504",
+    "nameFr": "Maroc",
+    "capital": "Rabat",
+    "flagSvgUrl": "/flags/MAR.svg",
+    "region": "Africa",
+    "latlng": [
+      32,
+      -5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MTQ",
+    "ccn3": "474",
+    "nameFr": "Martinique",
+    "capital": "Fort-de-France",
+    "flagSvgUrl": "/flags/MTQ.svg",
+    "region": "Americas",
+    "latlng": [
+      14.666667,
+      -61
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "MRT",
+    "ccn3": "478",
+    "nameFr": "Mauritanie",
+    "capital": "Nouakchott",
+    "flagSvgUrl": "/flags/MRT.svg",
+    "region": "Africa",
+    "latlng": [
+      20,
+      -12
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MYT",
+    "ccn3": "175",
+    "nameFr": "Mayotte",
+    "capital": "Mamoudzou",
+    "flagSvgUrl": "/flags/MYT.svg",
+    "region": "Africa",
+    "latlng": [
+      -12.83333333,
+      45.16666666
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "MEX",
+    "ccn3": "484",
+    "nameFr": "Mexique",
+    "capital": "Mexico City",
+    "flagSvgUrl": "/flags/MEX.svg",
+    "region": "Americas",
+    "latlng": [
+      23,
+      -102
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "FSM",
+    "ccn3": "583",
+    "nameFr": "Micronésie",
+    "capital": "Palikir",
+    "flagSvgUrl": "/flags/FSM.svg",
+    "region": "Oceania",
+    "latlng": [
+      6.91666666,
+      158.25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MDA",
+    "ccn3": "498",
+    "nameFr": "Moldavie",
+    "capital": "Chișinău",
+    "flagSvgUrl": "/flags/MDA.svg",
+    "region": "Europe",
+    "latlng": [
+      47,
+      29
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MCO",
+    "ccn3": "492",
+    "nameFr": "Monaco",
+    "capital": "Monaco",
+    "flagSvgUrl": "/flags/MCO.svg",
+    "region": "Europe",
+    "latlng": [
+      43.73333333,
+      7.4
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MNG",
+    "ccn3": "496",
+    "nameFr": "Mongolie",
+    "capital": "Ulan Bator",
+    "flagSvgUrl": "/flags/MNG.svg",
+    "region": "Asia",
+    "latlng": [
+      46,
+      105
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MNE",
+    "ccn3": "499",
+    "nameFr": "Monténégro",
+    "capital": "Podgorica",
+    "flagSvgUrl": "/flags/MNE.svg",
+    "region": "Europe",
+    "latlng": [
+      42.5,
+      19.3
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MSR",
+    "ccn3": "500",
+    "nameFr": "Montserrat",
+    "capital": "Plymouth",
+    "flagSvgUrl": "/flags/MSR.svg",
+    "region": "Americas",
+    "latlng": [
+      16.75,
+      -62.2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MOZ",
+    "ccn3": "508",
+    "nameFr": "Mozambique",
+    "capital": "Maputo",
+    "flagSvgUrl": "/flags/MOZ.svg",
+    "region": "Africa",
+    "latlng": [
+      -18.25,
+      35
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NAM",
+    "ccn3": "516",
+    "nameFr": "Namibie",
+    "capital": "Windhoek",
+    "flagSvgUrl": "/flags/NAM.svg",
+    "region": "Africa",
+    "latlng": [
+      -22,
+      17
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NRU",
+    "ccn3": "520",
+    "nameFr": "Nauru",
+    "capital": "Yaren",
+    "flagSvgUrl": "/flags/NRU.svg",
+    "region": "Oceania",
+    "latlng": [
+      -0.53333333,
+      166.91666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NPL",
+    "ccn3": "524",
+    "nameFr": "Népal",
+    "capital": "Kathmandu",
+    "flagSvgUrl": "/flags/NPL.svg",
+    "region": "Asia",
+    "latlng": [
+      28,
+      84
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NIC",
+    "ccn3": "558",
+    "nameFr": "Nicaragua",
+    "capital": "Managua",
+    "flagSvgUrl": "/flags/NIC.svg",
+    "region": "Americas",
+    "latlng": [
+      13,
+      -85
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NER",
+    "ccn3": "562",
+    "nameFr": "Niger",
+    "capital": "Niamey",
+    "flagSvgUrl": "/flags/NER.svg",
+    "region": "Africa",
+    "latlng": [
+      16,
+      8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NGA",
+    "ccn3": "566",
+    "nameFr": "Nigéria",
+    "capital": "Abuja",
+    "flagSvgUrl": "/flags/NGA.svg",
+    "region": "Africa",
+    "latlng": [
+      10,
+      8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NIU",
+    "ccn3": "570",
+    "nameFr": "Niue",
+    "capital": "Alofi",
+    "flagSvgUrl": "/flags/NIU.svg",
+    "region": "Oceania",
+    "latlng": [
+      -19.03333333,
+      -169.86666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NOR",
+    "ccn3": "578",
+    "nameFr": "Norvège",
+    "capital": "Oslo",
+    "flagSvgUrl": "/flags/NOR.svg",
+    "region": "Europe",
+    "latlng": [
+      62,
+      10
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NCL",
+    "ccn3": "540",
+    "nameFr": "Nouvelle-Calédonie",
+    "capital": "Nouméa",
+    "flagSvgUrl": "/flags/NCL.svg",
+    "region": "Oceania",
+    "latlng": [
+      -21.5,
+      165.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NZL",
+    "ccn3": "554",
+    "nameFr": "Nouvelle-Zélande",
+    "capital": "Wellington",
+    "flagSvgUrl": "/flags/NZL.svg",
+    "region": "Oceania",
+    "latlng": [
+      -41,
+      174
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "OMN",
+    "ccn3": "512",
+    "nameFr": "Oman",
+    "capital": "Muscat",
+    "flagSvgUrl": "/flags/OMN.svg",
+    "region": "Asia",
+    "latlng": [
+      21,
+      57
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "UGA",
+    "ccn3": "800",
+    "nameFr": "Ouganda",
+    "capital": "Kampala",
+    "flagSvgUrl": "/flags/UGA.svg",
+    "region": "Africa",
+    "latlng": [
+      1,
+      32
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "UZB",
+    "ccn3": "860",
+    "nameFr": "Ouzbékistan",
+    "capital": "Tashkent",
+    "flagSvgUrl": "/flags/UZB.svg",
+    "region": "Asia",
+    "latlng": [
+      41,
+      64
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PAK",
+    "ccn3": "586",
+    "nameFr": "Pakistan",
+    "capital": "Islamabad",
+    "flagSvgUrl": "/flags/PAK.svg",
+    "region": "Asia",
+    "latlng": [
+      30,
+      70
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PLW",
+    "ccn3": "585",
+    "nameFr": "Palaos (Palau)",
+    "capital": "Ngerulmud",
+    "flagSvgUrl": "/flags/PLW.svg",
+    "region": "Oceania",
+    "latlng": [
+      7.5,
+      134.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PSE",
+    "ccn3": "275",
+    "nameFr": "Palestine",
+    "capital": "Ramallah",
+    "flagSvgUrl": "/flags/PSE.svg",
+    "region": "Asia",
+    "latlng": [
+      31.9,
+      35.2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PAN",
+    "ccn3": "591",
+    "nameFr": "Panama",
+    "capital": "Panama City",
+    "flagSvgUrl": "/flags/PAN.svg",
+    "region": "Americas",
+    "latlng": [
+      9,
+      -80
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PNG",
+    "ccn3": "598",
+    "nameFr": "Papouasie-Nouvelle-Guinée",
+    "capital": "Port Moresby",
+    "flagSvgUrl": "/flags/PNG.svg",
+    "region": "Oceania",
+    "latlng": [
+      -6,
+      147
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PRY",
+    "ccn3": "600",
+    "nameFr": "Paraguay",
+    "capital": "Asunción",
+    "flagSvgUrl": "/flags/PRY.svg",
+    "region": "Americas",
+    "latlng": [
+      -23,
+      -58
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "NLD",
+    "ccn3": "528",
+    "nameFr": "Pays-Bas",
+    "capital": "Amsterdam",
+    "flagSvgUrl": "/flags/NLD.svg",
+    "region": "Europe",
+    "latlng": [
+      52.5,
+      5.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BES",
+    "ccn3": "535",
+    "nameFr": "Pays-Bas caribéens",
+    "capital": "Kralendijk",
+    "flagSvgUrl": "/flags/BES.svg",
+    "region": "Americas",
+    "latlng": [
+      12.18,
+      -68.25
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "PER",
+    "ccn3": "604",
+    "nameFr": "Pérou",
+    "capital": "Lima",
+    "flagSvgUrl": "/flags/PER.svg",
+    "region": "Americas",
+    "latlng": [
+      -10,
+      -76
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PHL",
+    "ccn3": "608",
+    "nameFr": "Philippines",
+    "capital": "Manila",
+    "flagSvgUrl": "/flags/PHL.svg",
+    "region": "Asia",
+    "latlng": [
+      13,
+      122
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "POL",
+    "ccn3": "616",
+    "nameFr": "Pologne",
+    "capital": "Warsaw",
+    "flagSvgUrl": "/flags/POL.svg",
+    "region": "Europe",
+    "latlng": [
+      52,
+      20
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PYF",
+    "ccn3": "258",
+    "nameFr": "Polynésie française",
+    "capital": "Papeetē",
+    "flagSvgUrl": "/flags/PYF.svg",
+    "region": "Oceania",
+    "latlng": [
+      -15,
+      -140
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PRI",
+    "ccn3": "630",
+    "nameFr": "Porto Rico",
+    "capital": "San Juan",
+    "flagSvgUrl": "/flags/PRI.svg",
+    "region": "Americas",
+    "latlng": [
+      18.25,
+      -66.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "PRT",
+    "ccn3": "620",
+    "nameFr": "Portugal",
+    "capital": "Lisbon",
+    "flagSvgUrl": "/flags/PRT.svg",
+    "region": "Europe",
+    "latlng": [
+      39.5,
+      -8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "QAT",
+    "ccn3": "634",
+    "nameFr": "Qatar",
+    "capital": "Doha",
+    "flagSvgUrl": "/flags/QAT.svg",
+    "region": "Asia",
+    "latlng": [
+      25.5,
+      51.25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CAF",
+    "ccn3": "140",
+    "nameFr": "République centrafricaine",
+    "capital": "Bangui",
+    "flagSvgUrl": "/flags/CAF.svg",
+    "region": "Africa",
+    "latlng": [
+      7,
+      21
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "DOM",
+    "ccn3": "214",
+    "nameFr": "République dominicaine",
+    "capital": "Santo Domingo",
+    "flagSvgUrl": "/flags/DOM.svg",
+    "region": "Americas",
+    "latlng": [
+      19,
+      -70.66666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "REU",
+    "ccn3": "638",
+    "nameFr": "Réunion",
+    "capital": "Saint-Denis",
+    "flagSvgUrl": "/flags/REU.svg",
+    "region": "Africa",
+    "latlng": [
+      -21.15,
+      55.5
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "ROU",
+    "ccn3": "642",
+    "nameFr": "Roumanie",
+    "capital": "Bucharest",
+    "flagSvgUrl": "/flags/ROU.svg",
+    "region": "Europe",
+    "latlng": [
+      46,
+      25
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "GBR",
+    "ccn3": "826",
+    "nameFr": "Royaume-Uni",
+    "capital": "London",
+    "flagSvgUrl": "/flags/GBR.svg",
+    "region": "Europe",
+    "latlng": [
+      54,
+      -2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "RUS",
+    "ccn3": "643",
+    "nameFr": "Russie",
+    "capital": "Moscow",
+    "flagSvgUrl": "/flags/RUS.svg",
+    "region": "Europe",
+    "latlng": [
+      60,
+      100
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "RWA",
+    "ccn3": "646",
+    "nameFr": "Rwanda",
+    "capital": "Kigali",
+    "flagSvgUrl": "/flags/RWA.svg",
+    "region": "Africa",
+    "latlng": [
+      -2,
+      30
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ESH",
+    "ccn3": "732",
+    "nameFr": "Sahara Occidental",
+    "capital": "El Aaiún",
+    "flagSvgUrl": "/flags/ESH.svg",
+    "region": "Africa",
+    "latlng": [
+      24.5,
+      -13
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "BLM",
+    "ccn3": "652",
+    "nameFr": "Saint-Barthélemy",
+    "capital": "Gustavia",
+    "flagSvgUrl": "/flags/BLM.svg",
+    "region": "Americas",
+    "latlng": [
+      18.5,
+      -63.41666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "KNA",
+    "ccn3": "659",
+    "nameFr": "Saint-Christophe-et-Niévès",
+    "capital": "Basseterre",
+    "flagSvgUrl": "/flags/KNA.svg",
+    "region": "Americas",
+    "latlng": [
+      17.33333333,
+      -62.75
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SMR",
+    "ccn3": "674",
+    "nameFr": "Saint-Marin",
+    "capital": "City of San Marino",
+    "flagSvgUrl": "/flags/SMR.svg",
+    "region": "Europe",
+    "latlng": [
+      43.76666666,
+      12.41666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "MAF",
+    "ccn3": "663",
+    "nameFr": "Saint-Martin",
+    "capital": "Marigot",
+    "flagSvgUrl": "/flags/MAF.svg",
+    "region": "Americas",
+    "latlng": [
+      18.08333333,
+      -63.95
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SXM",
+    "ccn3": "534",
+    "nameFr": "Saint-Martin",
+    "capital": "Philipsburg",
+    "flagSvgUrl": "/flags/SXM.svg",
+    "region": "Americas",
+    "latlng": [
+      18.033333,
+      -63.05
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SPM",
+    "ccn3": "666",
+    "nameFr": "Saint-Pierre-et-Miquelon",
+    "capital": "Saint-Pierre",
+    "flagSvgUrl": "/flags/SPM.svg",
+    "region": "Americas",
+    "latlng": [
+      46.83333333,
+      -56.33333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VCT",
+    "ccn3": "670",
+    "nameFr": "Saint-Vincent-et-les-Grenadines",
+    "capital": "Kingstown",
+    "flagSvgUrl": "/flags/VCT.svg",
+    "region": "Americas",
+    "latlng": [
+      13.25,
+      -61.2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SHN",
+    "ccn3": "654",
+    "nameFr": "Sainte-Hélène, Ascension et Tristan da Cunha",
+    "capital": "Jamestown",
+    "flagSvgUrl": "/flags/SHN.svg",
+    "region": "Africa",
+    "latlng": [
+      -15.95,
+      -5.72
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LCA",
+    "ccn3": "662",
+    "nameFr": "Sainte-Lucie",
+    "capital": "Castries",
+    "flagSvgUrl": "/flags/LCA.svg",
+    "region": "Americas",
+    "latlng": [
+      13.88333333,
+      -60.96666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SLV",
+    "ccn3": "222",
+    "nameFr": "Salvador",
+    "capital": "San Salvador",
+    "flagSvgUrl": "/flags/SLV.svg",
+    "region": "Americas",
+    "latlng": [
+      13.83333333,
+      -88.91666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "WSM",
+    "ccn3": "882",
+    "nameFr": "Samoa",
+    "capital": "Apia",
+    "flagSvgUrl": "/flags/WSM.svg",
+    "region": "Oceania",
+    "latlng": [
+      -13.58333333,
+      -172.33333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ASM",
+    "ccn3": "016",
+    "nameFr": "Samoa américaines",
+    "capital": "Pago Pago",
+    "flagSvgUrl": "/flags/ASM.svg",
+    "region": "Oceania",
+    "latlng": [
+      -14.33333333,
+      -170
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "STP",
+    "ccn3": "678",
+    "nameFr": "São Tomé et Príncipe",
+    "capital": "São Tomé",
+    "flagSvgUrl": "/flags/STP.svg",
+    "region": "Africa",
+    "latlng": [
+      1,
+      7
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SEN",
+    "ccn3": "686",
+    "nameFr": "Sénégal",
+    "capital": "Dakar",
+    "flagSvgUrl": "/flags/SEN.svg",
+    "region": "Africa",
+    "latlng": [
+      14,
+      -14
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SRB",
+    "ccn3": "688",
+    "nameFr": "Serbie",
+    "capital": "Belgrade",
+    "flagSvgUrl": "/flags/SRB.svg",
+    "region": "Europe",
+    "latlng": [
+      44,
+      21
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SYC",
+    "ccn3": "690",
+    "nameFr": "Seychelles",
+    "capital": "Victoria",
+    "flagSvgUrl": "/flags/SYC.svg",
+    "region": "Africa",
+    "latlng": [
+      -4.58333333,
+      55.66666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SLE",
+    "ccn3": "694",
+    "nameFr": "Sierra Leone",
+    "capital": "Freetown",
+    "flagSvgUrl": "/flags/SLE.svg",
+    "region": "Africa",
+    "latlng": [
+      8.5,
+      -11.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SGP",
+    "ccn3": "702",
+    "nameFr": "Singapour",
+    "capital": "Singapore",
+    "flagSvgUrl": "/flags/SGP.svg",
+    "region": "Asia",
+    "latlng": [
+      1.36666666,
+      103.8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SVK",
+    "ccn3": "703",
+    "nameFr": "Slovaquie",
+    "capital": "Bratislava",
+    "flagSvgUrl": "/flags/SVK.svg",
+    "region": "Europe",
+    "latlng": [
+      48.66666666,
+      19.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SVN",
+    "ccn3": "705",
+    "nameFr": "Slovénie",
+    "capital": "Ljubljana",
+    "flagSvgUrl": "/flags/SVN.svg",
+    "region": "Europe",
+    "latlng": [
+      46.11666666,
+      14.81666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SOM",
+    "ccn3": "706",
+    "nameFr": "Somalie",
+    "capital": "Mogadishu",
+    "flagSvgUrl": "/flags/SOM.svg",
+    "region": "Africa",
+    "latlng": [
+      10,
+      49
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SDN",
+    "ccn3": "729",
+    "nameFr": "Soudan",
+    "capital": "Khartoum",
+    "flagSvgUrl": "/flags/SDN.svg",
+    "region": "Africa",
+    "latlng": [
+      15,
+      30
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SSD",
+    "ccn3": "728",
+    "nameFr": "Soudan du Sud",
+    "capital": "Juba",
+    "flagSvgUrl": "/flags/SSD.svg",
+    "region": "Africa",
+    "latlng": [
+      7,
+      30
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "LKA",
+    "ccn3": "144",
+    "nameFr": "Sri Lanka",
+    "capital": "Colombo",
+    "flagSvgUrl": "/flags/LKA.svg",
+    "region": "Asia",
+    "latlng": [
+      7,
+      81
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SWE",
+    "ccn3": "752",
+    "nameFr": "Suède",
+    "capital": "Stockholm",
+    "flagSvgUrl": "/flags/SWE.svg",
+    "region": "Europe",
+    "latlng": [
+      62,
+      15
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CHE",
+    "ccn3": "756",
+    "nameFr": "Suisse",
+    "capital": "Bern",
+    "flagSvgUrl": "/flags/CHE.svg",
+    "region": "Europe",
+    "latlng": [
+      47,
+      8
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SUR",
+    "ccn3": "740",
+    "nameFr": "Surinam",
+    "capital": "Paramaribo",
+    "flagSvgUrl": "/flags/SUR.svg",
+    "region": "Americas",
+    "latlng": [
+      4,
+      -56
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "SJM",
+    "ccn3": "744",
+    "nameFr": "Svalbard et Jan Mayen",
+    "capital": "Longyearbyen",
+    "flagSvgUrl": "/flags/SJM.svg",
+    "region": "Europe",
+    "latlng": [
+      78,
+      20
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "SYR",
+    "ccn3": "760",
+    "nameFr": "Syrie",
+    "capital": "Damascus",
+    "flagSvgUrl": "/flags/SYR.svg",
+    "region": "Asia",
+    "latlng": [
+      35,
+      38
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TJK",
+    "ccn3": "762",
+    "nameFr": "Tadjikistan",
+    "capital": "Dushanbe",
+    "flagSvgUrl": "/flags/TJK.svg",
+    "region": "Asia",
+    "latlng": [
+      39,
+      71
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TWN",
+    "ccn3": "158",
+    "nameFr": "Taïwan",
+    "capital": "Taipei",
+    "flagSvgUrl": "/flags/TWN.svg",
+    "region": "Asia",
+    "latlng": [
+      23.5,
+      121
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TZA",
+    "ccn3": "834",
+    "nameFr": "Tanzanie",
+    "capital": "Dodoma",
+    "flagSvgUrl": "/flags/TZA.svg",
+    "region": "Africa",
+    "latlng": [
+      -6,
+      35
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TCD",
+    "ccn3": "148",
+    "nameFr": "Tchad",
+    "capital": "N'Djamena",
+    "flagSvgUrl": "/flags/TCD.svg",
+    "region": "Africa",
+    "latlng": [
+      15,
+      19
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "CZE",
+    "ccn3": "203",
+    "nameFr": "Tchéquie",
+    "capital": "Prague",
+    "flagSvgUrl": "/flags/CZE.svg",
+    "region": "Europe",
+    "latlng": [
+      49.75,
+      15.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ATF",
+    "ccn3": "260",
+    "nameFr": "Terres australes et antarctiques françaises",
+    "capital": "Port-aux-Français",
+    "flagSvgUrl": "/flags/ATF.svg",
+    "region": "Antarctic",
+    "latlng": [
+      -49.25,
+      69.167
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "IOT",
+    "ccn3": "086",
+    "nameFr": "Territoire britannique de l'océan Indien",
+    "capital": "Diego Garcia",
+    "flagSvgUrl": "/flags/IOT.svg",
+    "region": "Africa",
+    "latlng": [
+      -6,
+      71.5
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "THA",
+    "ccn3": "764",
+    "nameFr": "Thaïlande",
+    "capital": "Bangkok",
+    "flagSvgUrl": "/flags/THA.svg",
+    "region": "Asia",
+    "latlng": [
+      15,
+      100
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TLS",
+    "ccn3": "626",
+    "nameFr": "Timor oriental",
+    "capital": "Dili",
+    "flagSvgUrl": "/flags/TLS.svg",
+    "region": "Asia",
+    "latlng": [
+      -8.83333333,
+      125.91666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TGO",
+    "ccn3": "768",
+    "nameFr": "Togo",
+    "capital": "Lomé",
+    "flagSvgUrl": "/flags/TGO.svg",
+    "region": "Africa",
+    "latlng": [
+      8,
+      1.16666666
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TKL",
+    "ccn3": "772",
+    "nameFr": "Tokelau",
+    "capital": "Fakaofo",
+    "flagSvgUrl": "/flags/TKL.svg",
+    "region": "Oceania",
+    "latlng": [
+      -9,
+      -172
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "TON",
+    "ccn3": "776",
+    "nameFr": "Tonga",
+    "capital": "Nuku'alofa",
+    "flagSvgUrl": "/flags/TON.svg",
+    "region": "Oceania",
+    "latlng": [
+      -20,
+      -175
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TTO",
+    "ccn3": "780",
+    "nameFr": "Trinité-et-Tobago",
+    "capital": "Port of Spain",
+    "flagSvgUrl": "/flags/TTO.svg",
+    "region": "Americas",
+    "latlng": [
+      11,
+      -61
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TUN",
+    "ccn3": "788",
+    "nameFr": "Tunisie",
+    "capital": "Tunis",
+    "flagSvgUrl": "/flags/TUN.svg",
+    "region": "Africa",
+    "latlng": [
+      34,
+      9
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TKM",
+    "ccn3": "795",
+    "nameFr": "Turkménistan",
+    "capital": "Ashgabat",
+    "flagSvgUrl": "/flags/TKM.svg",
+    "region": "Asia",
+    "latlng": [
+      40,
+      60
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TUR",
+    "ccn3": "792",
+    "nameFr": "Turquie",
+    "capital": "Ankara",
+    "flagSvgUrl": "/flags/TUR.svg",
+    "region": "Asia",
+    "latlng": [
+      39,
+      35
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "TUV",
+    "ccn3": "798",
+    "nameFr": "Tuvalu",
+    "capital": "Funafuti",
+    "flagSvgUrl": "/flags/TUV.svg",
+    "region": "Oceania",
+    "latlng": [
+      -8,
+      178
+    ],
+    "hasShape": false
+  },
+  {
+    "cca3": "UKR",
+    "ccn3": "804",
+    "nameFr": "Ukraine",
+    "capital": "Kyiv",
+    "flagSvgUrl": "/flags/UKR.svg",
+    "region": "Europe",
+    "latlng": [
+      49,
+      32
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "URY",
+    "ccn3": "858",
+    "nameFr": "Uruguay",
+    "capital": "Montevideo",
+    "flagSvgUrl": "/flags/URY.svg",
+    "region": "Americas",
+    "latlng": [
+      -33,
+      -56
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VUT",
+    "ccn3": "548",
+    "nameFr": "Vanuatu",
+    "capital": "Port Vila",
+    "flagSvgUrl": "/flags/VUT.svg",
+    "region": "Oceania",
+    "latlng": [
+      -16,
+      167
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VEN",
+    "ccn3": "862",
+    "nameFr": "Venezuela",
+    "capital": "Caracas",
+    "flagSvgUrl": "/flags/VEN.svg",
+    "region": "Americas",
+    "latlng": [
+      8,
+      -66
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "VNM",
+    "ccn3": "704",
+    "nameFr": "Viêt Nam",
+    "capital": "Hanoi",
+    "flagSvgUrl": "/flags/VNM.svg",
+    "region": "Asia",
+    "latlng": [
+      16.16666666,
+      107.83333333
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "WLF",
+    "ccn3": "876",
+    "nameFr": "Wallis-et-Futuna",
+    "capital": "Mata-Utu",
+    "flagSvgUrl": "/flags/WLF.svg",
+    "region": "Oceania",
+    "latlng": [
+      -13.3,
+      -176.2
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "YEM",
+    "ccn3": "887",
+    "nameFr": "Yémen",
+    "capital": "Sana'a",
+    "flagSvgUrl": "/flags/YEM.svg",
+    "region": "Asia",
+    "latlng": [
+      15,
+      48
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ZMB",
+    "ccn3": "894",
+    "nameFr": "Zambie",
+    "capital": "Lusaka",
+    "flagSvgUrl": "/flags/ZMB.svg",
+    "region": "Africa",
+    "latlng": [
+      -15,
+      30
+    ],
+    "hasShape": true
+  },
+  {
+    "cca3": "ZWE",
+    "ccn3": "716",
+    "nameFr": "Zimbabwe",
+    "capital": "Harare",
+    "flagSvgUrl": "/flags/ZWE.svg",
+    "region": "Africa",
+    "latlng": [
+      -20,
+      30
+    ],
+    "hasShape": true
+  }
+]

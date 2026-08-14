@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/nocturne-3ce16950-89c6-4105-8895-351f22d68a94/styles.css">
+<script src="_ds/nocturne-3ce16950-89c6-4105-8895-351f22d68a94/_ds_bundle.js"></script>
+<style>body{margin:0;background:#0d0e16}::-webkit-scrollbar{width:0;height:0}
+@keyframes pop{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.12)}100%{transform:scale(1);opacity:1}}
+@keyframes shake{0%,100%{transform:rotate(0)}25%{transform:rotate(-9deg)}75%{transform:rotate(9deg)}}
+@keyframes rise{from{transform:translateY(14px);opacity:0}to{transform:translateY(0);opacity:1}}</style>
+</helmet>
+<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;padding:48px 24px;background:radial-gradient(1200px 700px at 50% -10%, #1b1e33 0%, #0d0e16 70%);font-family:Inter,system-ui,sans-serif">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" dark="on" hint-size="402px,874px">
+<div style="height:100%;display:flex;flex-direction:column;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-size:15px">
+
+<div style="flex:1;overflow:auto;padding:58px 0 0">
+
+<sc-if value="{{ showHome }}" hint-placeholder-val="{{ true }}">
+<div style="padding:11.2px 22.4px 96px;display:flex;flex-direction:column;gap:22.4px">
+<div style="display:flex;justify-content:space-between;align-items:center">
+<div>
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Profil {{ profile }} · {{ playerCount }} joueurs</div>
+<h2 style="font-size:32px;margin:0">Camembert</h2>
+</div>
+<div style="display:flex">
+<sc-for list="{{ avatars }}" as="p" hint-placeholder-count="4">
+<div style="width:32px;height:32px;margin-left:-8px;border-radius:100px;border:2px solid var(--color-bg);background:{{ p.bg }};color:#161826;font-size:12px;font-weight:500;display:flex;align-items:center;justify-content:center">{{ p.initial }}</div>
+</sc-for>
+</div>
+</div>
+
+<div style="padding:16.8px;border-radius:14px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-900);display:flex;gap:16.8px;align-items:center">
+<svg viewBox="0 0 100 100" style="width:96px;height:96px;flex:none">
+<sc-for list="{{ slices }}" as="w" hint-placeholder-count="6">
+<path d="{{ w.d }}" fill="{{ w.fill }}" stroke="#161826" stroke-width="1.2"></path>
+</sc-for>
+<circle cx="50" cy="50" r="14" fill="#161826" stroke="#3f424d" stroke-width="1"></circle>
+<text x="50" y="55" text-anchor="middle" font-size="14" fill="#e9e9ed" font-family="Inter">{{ wedgeCount }}</text>
+</svg>
+<div style="flex:1;display:flex;flex-direction:column;gap:5.6px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Au tour de {{ curName }}</div>
+<div style="font-size:19px;font-weight:500">{{ wedgeLabel }}</div>
+<div style="font-size:12px;color:var(--color-neutral-400)">Manque : {{ missingLabel }}</div>
+<button onClick="{{ goPlay }}" style="margin-top:5.6px;cursor:pointer;align-self:flex-start;font-family:var(--font-heading);font-weight:500;font-size:14px;padding:8.4px 16.8px;border-radius:8px;border:1px solid var(--color-accent);background:rgba(145,132,217,.16);color:var(--color-accent-300)">Reprendre →</button>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Modes</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8.4px">
+<div onClick="{{ goPlay }}" style="cursor:pointer;padding:16.8px;border-radius:8px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-900);display:flex;flex-direction:column;gap:5.6px" style-hover="background:#282b3a">
+<div style="font-size:22px">🥧</div>
+<div style="font-size:16px;font-weight:500">Partie classique</div>
+<div style="font-size:12px;color:var(--color-neutral-500)">Plateau · 2 à 6 joueurs</div>
+</div>
+<div onClick="{{ goGeo }}" style="cursor:pointer;padding:16.8px;border-radius:8px;background:linear-gradient(160deg,#2b2741,#232532);box-shadow:0 0 0 1px var(--color-accent-800);display:flex;flex-direction:column;gap:5.6px" style-hover="background:#312c4c">
+<div style="font-size:22px">🌍</div>
+<div style="font-size:16px;font-weight:500">Mode Géographie</div>
+<div style="font-size:12px;color:var(--color-accent-300)">Carte, drapeaux, capitales</div>
+</div>
+</div>
+<div onClick="{{ newGame }}" style="cursor:pointer;padding:11.2px 16.8px;border-radius:8px;box-shadow:0 0 0 1px var(--color-neutral-900);display:flex;justify-content:space-between;align-items:center" style-hover="background:#1d1f2c">
+<div><div style="font-size:15px;font-weight:500">Nouvelle partie</div><div style="font-size:12px;color:var(--color-neutral-500)">Choisir les joueurs et le profil</div></div>
+<div style="font-size:16px;color:var(--color-accent-300)">＋</div>
+</div>
+</div>
+
+<div style="display:flex;gap:22.4px">
+<div><div style="font-size:28px;font-weight:500">{{ score }}</div><div style="font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--color-neutral-500)">points</div></div>
+<div><div style="font-size:28px;font-weight:500">{{ answered }}</div><div style="font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--color-neutral-500)">questions</div></div>
+<div><div style="font-size:28px;font-weight:500;color:var(--color-accent-300)">{{ accuracy }}%</div><div style="font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--color-neutral-500)">réussite</div></div>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ showPlay }}" hint-placeholder-val="{{ false }}">
+<div style="padding:0 0 96px;display:flex;flex-direction:column;gap:16.8px">
+<div style="position:sticky;top:0;z-index:2;padding:11.2px 22.4px;display:flex;align-items:center;gap:11.2px;background:{{ curTint }};box-shadow:inset 0 -1px 0 var(--color-neutral-900)">
+<div style="width:36px;height:36px;border-radius:100px;background:{{ curColor }};color:#161826;font-weight:500;display:flex;align-items:center;justify-content:center">{{ curInitial }}</div>
+<div style="flex:1">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-400)">Au tour de</div>
+<div style="font-size:17px;font-weight:500">{{ curName }}</div>
+</div>
+<div style="display:flex;gap:3px">
+<sc-for list="{{ curWedgeDots }}" as="d" hint-placeholder-count="6">
+<div style="width:8px;height:8px;border-radius:100px;background:{{ d.fill }}"></div>
+</sc-for>
+</div>
+</div>
+
+<div style="padding:0 22.4px;display:flex;flex-direction:column;gap:16.8px;align-items:center">
+<svg viewBox="0 0 100 100" style="width:296px;height:296px">
+<circle cx="50" cy="50" r="46" fill="none" stroke="#232532" stroke-width="7"></circle>
+<sc-for list="{{ board }}" as="sp" hint-placeholder-count="24">
+<circle cx="{{ sp.cx }}" cy="{{ sp.cy }}" r="{{ sp.r }}" fill="{{ sp.fill }}" stroke="{{ sp.stroke }}" stroke-width="0.8"></circle>
+</sc-for>
+<sc-for list="{{ slices }}" as="w" hint-placeholder-count="6">
+<path d="{{ w.dSmall }}" fill="{{ w.fill }}" stroke="#161826" stroke-width="1"></path>
+</sc-for>
+<circle cx="50" cy="50" r="9" fill="#161826" stroke="#3f424d" stroke-width="1"></circle>
+<text x="50" y="53.5" text-anchor="middle" font-size="8" fill="#e9e9ed" font-family="Inter">{{ wedgeCount }}/6</text>
+<sc-for list="{{ pawns }}" as="p" hint-placeholder-count="4">
+<circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="3.4" fill="{{ p.fill }}" stroke="#161826" stroke-width="1"></circle>
+</sc-for>
+</svg>
+
+<div style="display:flex;align-items:center;gap:16.8px;width:100%">
+<div style="width:64px;height:64px;flex:none;border-radius:14px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-800);display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:500;animation:{{ dieAnim }}">{{ dieFace }}</div>
+<button onClick="{{ roll }}" style="flex:1;cursor:pointer;font-family:var(--font-heading);font-weight:500;font-size:17px;padding:16px;border-radius:8px;border:1px solid var(--color-accent);background:rgba(145,132,217,.16);color:var(--color-accent-300)">{{ rollLabel }}</button>
+</div>
+<div style="font-size:12px;color:var(--color-neutral-500);text-align:center">{{ boardHint }}</div>
+<button onClick="{{ finish }}" style="cursor:pointer;border:0;background:none;color:var(--color-neutral-600);font-size:12px;font-family:var(--font-heading);text-decoration:underline">Terminer la partie</button>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ showGeo }}" hint-placeholder-val="{{ false }}">
+<div style="padding:11.2px 22.4px 96px;display:flex;flex-direction:column;gap:22.4px">
+<div>
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-accent-300)">Mode dédié</div>
+<h2 style="font-size:32px;margin:0">Géographie</h2>
+<div style="font-size:13px;color:var(--color-neutral-400)">Quatre familles de questions. Les erreurs reviennent le lendemain.</div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8.4px">
+<sc-for list="{{ geoKinds }}" as="k" hint-placeholder-count="4">
+<div onClick="{{ k.start }}" style="cursor:pointer;padding:11.2px;border-radius:8px;background:var(--color-surface);box-shadow:0 0 0 1px {{ k.border }};display:flex;flex-direction:column;gap:2.8px" style-hover="background:#282b3a">
+<div style="font-size:18px">{{ k.glyph }}</div>
+<div style="font-size:14px;font-weight:500">{{ k.name }}</div>
+<div style="font-size:11px;color:var(--color-neutral-500)">{{ k.hint }}</div>
+</div>
+</sc-for>
+</div>
+<div style="display:flex;flex-direction:column;gap:11.2px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Progression par continent</div>
+<sc-for list="{{ continents }}" as="c" hint-placeholder-count="5">
+<div onClick="{{ c.start }}" style="cursor:pointer;display:flex;gap:11.2px;align-items:center">
+<div style="width:32px;font-size:18px;flex:none">{{ c.glyph }}</div>
+<div style="flex:1;min-width:0">
+<div style="font-size:15px;font-weight:500">{{ c.name }}</div>
+<div style="height:4px;border-radius:100px;background:#2b2d3a;margin-top:5.6px;overflow:hidden"><div style="height:100%;width:{{ c.pct }}%;background:var(--color-accent)"></div></div>
+</div>
+<div style="font-size:12px;color:var(--color-neutral-400)">{{ c.pct }}%</div>
+</div>
+</sc-for>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ showProfile }}" hint-placeholder-val="{{ false }}">
+<div style="padding:11.2px 22.4px 96px;display:flex;flex-direction:column;gap:22.4px">
+<h2 style="font-size:32px;margin:0">Profil</h2>
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Tranche d’âge</div>
+<div style="display:flex;gap:5.6px">
+<sc-for list="{{ profiles }}" as="p" hint-placeholder-count="3">
+<button onClick="{{ p.pick }}" style="flex:1;cursor:pointer;font-family:var(--font-heading);font-size:14px;padding:11.2px 5.6px;border-radius:8px;border:1px solid {{ p.border }};background:{{ p.bg }};color:{{ p.color }};display:flex;flex-direction:column;gap:2.8px;align-items:center">
+<span style="font-weight:500">{{ p.name }}</span>
+<span style="font-size:10px;opacity:.75">{{ p.age }}</span>
+</button>
+</sc-for>
+</div>
+<div style="font-size:12px;color:var(--color-neutral-400)">{{ profileNote }}</div>
+</div>
+
+<sc-if value="{{ isKids }}" hint-placeholder-val="{{ false }}">
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Mes autocollants</div>
+<div style="display:flex;flex-wrap:wrap;gap:8.4px">
+<sc-for list="{{ stickers }}" as="s" hint-placeholder-count="6">
+<div style="width:48px;height:48px;border-radius:12px;background:{{ s.bg }};display:flex;align-items:center;justify-content:center;font-size:24px;opacity:{{ s.opacity }}">{{ s.glyph }}</div>
+</sc-for>
+</div>
+<div style="font-size:12px;color:var(--color-neutral-500)">{{ stickerNote }}</div>
+</div>
+</sc-if>
+
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Maîtrise par catégorie</div>
+<sc-for list="{{ mastery }}" as="m" hint-placeholder-count="6">
+<div style="display:flex;align-items:center;gap:11.2px">
+<div style="width:96px;font-size:13px;color:var(--color-neutral-300)">{{ m.name }}</div>
+<div style="flex:1;height:6px;border-radius:100px;background:#2b2d3a;overflow:hidden"><div style="height:100%;width:{{ m.pct }}%;background:{{ m.fill }}"></div></div>
+<div style="width:34px;text-align:right;font-size:12px;color:var(--color-neutral-500)">{{ m.pct }}%</div>
+</div>
+</sc-for>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:2.8px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500);margin-bottom:5.6px">Réglages</div>
+<sc-for list="{{ settings }}" as="o" hint-placeholder-count="4">
+<div onClick="{{ o.toggle }}" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:11.2px 0;border-bottom:1px solid var(--color-neutral-900)">
+<div><div style="font-size:15px">{{ o.name }}</div><div style="font-size:12px;color:var(--color-neutral-500)">{{ o.hint }}</div></div>
+<div style="width:44px;height:26px;border-radius:100px;flex:none;padding:3px;background:{{ o.trackBg }};border:1px solid {{ o.trackBorder }};display:flex;justify-content:{{ o.justify }}">
+<div style="width:18px;height:18px;border-radius:100px;background:{{ o.knob }}"></div>
+</div>
+</div>
+</sc-for>
+</div>
+</div>
+</sc-if>
+
+</div>
+
+<sc-if value="{{ inQuestion }}" hint-placeholder-val="{{ false }}">
+<div style="position:absolute;inset:0;z-index:8;background:var(--color-bg);display:flex;flex-direction:column">
+<div style="flex:1;overflow:auto;padding:58px 22.4px 120px;display:flex;flex-direction:column;gap:16.8px">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-top:11.2px">
+<div style="display:flex;align-items:center;gap:8.4px">
+<div style="width:10px;height:10px;border-radius:100px;background:{{ q.color }}"></div>
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-400)">{{ q.cat }} · {{ curName }}</div>
+</div>
+<button onClick="{{ quit }}" style="cursor:pointer;border:0;background:none;color:var(--color-neutral-500);font-size:13px;font-family:var(--font-heading)">Quitter</button>
+</div>
+<sc-if value="{{ timerOn }}" hint-placeholder-val="{{ true }}">
+<div style="height:4px;border-radius:100px;background:#2b2d3a;overflow:hidden"><div style="height:100%;width:{{ timerPct }}%;background:{{ timerColor }}"></div></div>
+</sc-if>
+
+<sc-if value="{{ isKids }}" hint-placeholder-val="{{ false }}">
+<div style="border-radius:14px;padding:22.4px;background:linear-gradient(160deg,#2b2741,#232532);box-shadow:0 0 0 1px var(--color-accent-800);display:flex;flex-direction:column;align-items:center;gap:11.2px;text-align:center;animation:pop .3s ease-out">
+<div style="font-size:64px">{{ q.glyph }}</div>
+<div style="font-size:26px;line-height:1.2;font-family:var(--font-heading);font-weight:500;text-wrap:pretty">{{ q.text }}</div>
+</div>
+</sc-if>
+<sc-if value="{{ notKids }}" hint-placeholder-val="{{ true }}">
+<div style="font-size:24px;line-height:1.25;font-family:var(--font-heading);font-weight:500;text-wrap:pretty">{{ q.text }}</div>
+</sc-if>
+
+<sc-if value="{{ q.isFlag }}" hint-placeholder-val="{{ false }}">
+<div style="border-radius:8px;padding:22.4px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-900);display:flex;justify-content:center;font-size:72px">{{ q.flag }}</div>
+</sc-if>
+
+<sc-if value="{{ q.isMap }}" hint-placeholder-val="{{ false }}">
+<div style="border-radius:8px;overflow:hidden;box-shadow:0 0 0 1px var(--color-neutral-800);background:repeating-linear-gradient(135deg,#1b1d2b 0 8px,#20233a 8px 16px)">
+<svg viewBox="0 0 320 190" style="width:100%;height:auto;display:block">
+<text x="10" y="18" font-size="10" fill="#75798c" font-family="Inter">carte · {{ q.region }} — emplacement pour la carte réelle</text>
+<sc-for list="{{ spots }}" as="s" hint-placeholder-count="6">
+<circle onClick="{{ s.pick }}" cx="{{ s.x }}" cy="{{ s.y }}" r="17" fill="{{ s.fill }}" stroke="{{ s.stroke }}" stroke-width="1.5" style="cursor:pointer"></circle>
+<text x="{{ s.x }}" y="{{ s.ty }}" text-anchor="middle" font-size="9" fill="{{ s.textFill }}" font-family="Inter" style="pointer-events:none">{{ s.label }}</text>
+</sc-for>
+</svg>
+</div>
+</sc-if>
+
+<sc-if value="{{ hasOptions }}" hint-placeholder-val="{{ true }}">
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<sc-for list="{{ options }}" as="a" hint-placeholder-count="4">
+<button onClick="{{ a.pick }}" style="text-align:left;cursor:pointer;font-family:var(--font-body);font-size:{{ a.fs }};padding:{{ a.pad }};border-radius:8px;border:1px solid {{ a.border }};background:{{ a.bg }};color:{{ a.color }};display:flex;justify-content:space-between;gap:11.2px">
+<span>{{ a.label }}</span><span style="opacity:.9">{{ a.mark }}</span>
+</button>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{ answered2 }}" hint-placeholder-val="{{ false }}">
+<div style="padding:16.8px;border-radius:8px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-900);display:flex;flex-direction:column;gap:5.6px;animation:rise .25s ease-out">
+<div style="display:flex;align-items:center;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:{{ verdictColor }}">{{ verdict }}</div>
+<sc-if value="{{ showSticker }}" hint-placeholder-val="{{ false }}">
+<div style="font-size:22px;animation:shake .5s ease-in-out">{{ newSticker }}</div>
+</sc-if>
+</div>
+<div style="font-size:14px;line-height:1.6;color:var(--color-neutral-300)">{{ q.why }}</div>
+<div style="font-size:11px;color:var(--color-neutral-500);margin-top:2.8px">Source : {{ q.src }} · difficulté {{ q.lvl }}</div>
+</div>
+</sc-if>
+</div>
+<sc-if value="{{ answered2 }}" hint-placeholder-val="{{ false }}">
+<div style="position:absolute;left:0;right:0;bottom:0;padding:16.8px 22.4px 34px;background:linear-gradient(to top, var(--color-bg) 62%, rgba(22,24,38,0))">
+<button onClick="{{ next }}" style="width:100%;cursor:pointer;font-family:var(--font-heading);font-weight:500;font-size:15px;padding:12px;border-radius:8px;border:1px solid var(--color-accent);background:rgba(145,132,217,.16);color:var(--color-accent-300)">{{ nextLabel }}</button>
+</div>
+</sc-if>
+</div>
+</sc-if>
+
+<sc-if value="{{ isOnboard }}" hint-placeholder-val="{{ false }}">
+<div style="position:absolute;inset:0;z-index:12;background:var(--color-bg);display:flex;flex-direction:column;overflow:auto;padding:82px 22.4px 110px;gap:22.4px">
+<div>
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-accent-300)">Bienvenue</div>
+<h2 style="font-size:34px;margin:0">Qui joue ce soir ?</h2>
+<div style="font-size:13px;color:var(--color-neutral-400)">Le profil règle la difficulté, le minuteur et la forme des cartes.</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<sc-for list="{{ profiles }}" as="p" hint-placeholder-count="3">
+<div onClick="{{ p.pick }}" style="cursor:pointer;padding:16.8px;border-radius:12px;border:1px solid {{ p.border }};background:{{ p.bg }};display:flex;gap:11.2px;align-items:center">
+<div style="font-size:26px">{{ p.glyph }}</div>
+<div style="flex:1"><div style="font-size:18px;font-weight:500;color:{{ p.color }}">{{ p.name }}</div><div style="font-size:12px;color:var(--color-neutral-400)">{{ p.note }}</div></div>
+<div style="font-size:11px;color:var(--color-neutral-500)">{{ p.age }}</div>
+</div>
+</sc-for>
+</div>
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Joueurs · {{ playerCount }}</div>
+<div style="display:flex;gap:5.6px;flex-wrap:wrap">
+<sc-for list="{{ seats }}" as="s" hint-placeholder-count="6">
+<button onClick="{{ s.pick }}" style="cursor:pointer;width:44px;height:44px;border-radius:100px;font-family:var(--font-heading);font-size:15px;border:1px solid {{ s.border }};background:{{ s.bg }};color:{{ s.color }}">{{ s.n }}</button>
+</sc-for>
+</div>
+<div style="display:flex;gap:5.6px;flex-wrap:wrap;margin-top:5.6px">
+<sc-for list="{{ avatars }}" as="p" hint-placeholder-count="4">
+<div style="display:flex;align-items:center;gap:5.6px;padding:5.6px 11.2px;border-radius:100px;background:var(--color-surface)">
+<div style="width:16px;height:16px;border-radius:100px;background:{{ p.bg }}"></div>
+<span style="font-size:13px">{{ p.name }}</span>
+</div>
+</sc-for>
+</div>
+</div>
+<button onClick="{{ startGame }}" style="margin-top:auto;width:100%;cursor:pointer;font-family:var(--font-heading);font-weight:500;font-size:17px;padding:14px;border-radius:8px;border:1px solid var(--color-accent);background:rgba(145,132,217,.16);color:var(--color-accent-300)">Commencer la partie</button>
+</div>
+</sc-if>
+
+<sc-if value="{{ isEnd }}" hint-placeholder-val="{{ false }}">
+<div style="position:absolute;inset:0;z-index:14;background:var(--color-bg);overflow:auto;padding:82px 22.4px 110px;display:flex;flex-direction:column;gap:22.4px">
+<div style="display:flex;gap:16.8px;align-items:center;animation:rise .3s ease-out">
+<svg viewBox="0 0 100 100" style="width:88px;height:88px;flex:none">
+<sc-for list="{{ winnerSlices }}" as="w" hint-placeholder-count="6">
+<path d="{{ w.d }}" fill="{{ w.fill }}" stroke="#161826" stroke-width="1.2"></path>
+</sc-for>
+<circle cx="50" cy="50" r="13" fill="#161826" stroke="#3f424d" stroke-width="1"></circle>
+</svg>
+<div>
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-accent-300)">Partie terminée</div>
+<h2 style="font-size:30px;margin:0">{{ winnerName }} l’emporte</h2>
+<div style="font-size:13px;color:var(--color-neutral-400)">{{ winnerLine }}</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Classement</div>
+<sc-for list="{{ podium }}" as="p" hint-placeholder-count="4">
+<div style="display:flex;align-items:center;gap:11.2px;padding:8.4px 0;border-bottom:1px solid var(--color-neutral-900)">
+<div style="width:20px;font-size:13px;color:var(--color-neutral-500)">{{ p.rank }}</div>
+<div style="width:28px;height:28px;border-radius:100px;background:{{ p.bg }};color:#161826;font-size:12px;font-weight:500;display:flex;align-items:center;justify-content:center">{{ p.initial }}</div>
+<div style="flex:1;font-size:15px">{{ p.name }}</div>
+<div style="display:flex;gap:3px">
+<sc-for list="{{ p.dots }}" as="d" hint-placeholder-count="6">
+<div style="width:8px;height:8px;border-radius:100px;background:{{ d.fill }}"></div>
+</sc-for>
+</div>
+<div style="width:44px;text-align:right;font-size:13px;color:var(--color-neutral-400)">{{ p.pts }}</div>
+</div>
+</sc-for>
+</div>
+
+<div style="display:flex;gap:11.2px">
+<div style="flex:1;padding:11.2px;border-radius:8px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-900)">
+<div style="font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--color-neutral-500)">Meilleure catégorie</div>
+<div style="font-size:17px;font-weight:500;color:var(--color-accent-300)">{{ bestCat }}</div>
+</div>
+<div style="flex:1;padding:11.2px;border-radius:8px;background:var(--color-surface);box-shadow:0 0 0 1px var(--color-neutral-900)">
+<div style="font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--color-neutral-500)">À travailler</div>
+<div style="font-size:17px;font-weight:500">{{ worstCat }}</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:8.4px">
+<div style="font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--color-neutral-500)">Questions ratées · à revoir</div>
+<sc-for list="{{ missed }}" as="m" hint-placeholder-count="2">
+<div style="padding:11.2px;border-radius:8px;box-shadow:0 0 0 1px var(--color-neutral-900);display:flex;flex-direction:column;gap:2.8px">
+<div style="font-size:14px">{{ m.text }}</div>
+<div style="font-size:12px;color:var(--color-accent-300)">{{ m.answer }}</div>
+</div>
+</sc-for>
+<sc-if value="{{ noMissed }}" hint-placeholder-val="{{ false }}">
+<div style="font-size:13px;color:var(--color-neutral-500)">Aucune erreur cette partie. Suspect.</div>
+</sc-if>
+</div>
+
+<div style="display:flex;gap:8.4px;margin-top:5.6px">
+<button onClick="{{ rematch }}" style="flex:1;cursor:pointer;font-family:var(--font-heading);font-weight:500;font-size:15px;padding:12px;border-radius:8px;border:1px solid var(--color-accent);background:rgba(145,132,217,.16);color:var(--color-accent-300)">Revanche</button>
+<button onClick="{{ newGame }}" style="flex:1;cursor:pointer;font-family:var(--font-heading);font-weight:500;font-size:15px;padding:12px;border-radius:8px;border:1px solid var(--color-neutral-800);background:transparent;color:var(--color-neutral-300)">Nouveaux joueurs</button>
+</div>
+</div>
+</sc-if>
+
+<div style="position:absolute;left:0;right:0;bottom:0;z-index:5;display:flex;padding:8.4px 22.4px 26px;gap:8.4px;background:linear-gradient(to top,#12141f 70%,rgba(18,20,31,.86));box-shadow:0 -1px 0 var(--color-neutral-900);backdrop-filter:blur(12px)">
+<sc-for list="{{ tabs }}" as="t" hint-placeholder-count="4">
+<button onClick="{{ t.pick }}" style="flex:1;cursor:pointer;background:none;border:0;padding:5.6px 0;display:flex;flex-direction:column;align-items:center;gap:2.8px;color:{{ t.color }};font-family:var(--font-heading)">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="{{ t.icon }}"></path></svg>
+<span style="font-size:10px;letter-spacing:.04em">{{ t.label }}</span>
+</button>
+</sc-for>
+</div>
+
+</div>
+</x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:1000}}">
+const PAL = {
+  cats:['#9184d9','#b5abfc','#7972a9','#d2cefd','#5d5294','#a7a1db'],
+  accent:'var(--color-accent)', accentSoft:'rgba(145,132,217,.16)', accentText:'var(--color-accent-300)',
+  muted:'var(--color-neutral-500)', line:'var(--color-neutral-800)', idle:'rgba(145,132,217,.10)',
+  okBorder:'#7972a9', okBg:'rgba(145,132,217,.18)', okText:'var(--color-accent-300)',
+  badBorder:'var(--color-neutral-700)', badBg:'rgba(233,233,237,.05)',
+  spotIdle:'#2b2d3a', spotStroke:'#595d6c', text:'#e9e9ed', bad:'var(--color-accent-2-400)',
+};
+const CATS = ['Histoire','Sciences','Sport','Arts','Géographie','Culture pop'].map((name,i) =>
+  ({id:['his','sci','spo','art','geo','pop'][i], name, color:PAL.cats[i]}));
+
+const Q = [
+  {cat:'his',lvl:'Enfants',glyph:'👑',text:'Qui était le roi surnommé « le Roi-Soleil » ?',opts:['Louis XIV','Napoléon Ier','Charlemagne','François Ier'],ok:0,why:'Louis XIV règne 72 ans. Le soleil vient d’un ballet où il danse Apollon à 15 ans.',src:'Château de Versailles'},
+  {cat:'his',lvl:'Adultes',glyph:'🧱',text:'En quelle année le mur de Berlin est-il tombé ?',opts:['1987','1989','1991','1993'],ok:1,why:'Le 9 novembre 1989, après une conférence de presse mal préparée annonçant l’ouverture « immédiate » des frontières.',src:'Bundesarchiv'},
+  {cat:'sci',lvl:'Ados',glyph:'☀️',text:'Combien de temps met la lumière du Soleil pour nous atteindre ?',opts:['8 secondes','8 minutes','8 heures','8 jours'],ok:1,why:'8 min 20 s : 150 millions de km à 300 000 km/s. Vous voyez toujours un Soleil légèrement périmé.',src:'NASA'},
+  {cat:'sci',lvl:'Enfants',glyph:'🐋',text:'Quel est le plus grand animal du monde ?',opts:['L’éléphant','La baleine bleue','La girafe','Le requin blanc'],ok:1,why:'Jusqu’à 30 m et 150 tonnes. Son cœur pèse autant qu’une petite voiture.',src:'MNHN'},
+  {cat:'spo',lvl:'Ados',glyph:'🥇',text:'Tous les combien ont lieu les Jeux olympiques d’été ?',opts:['2 ans','3 ans','4 ans','5 ans'],ok:2,why:'Une olympiade = 4 ans. La série n’a été rompue que par les guerres mondiales.',src:'CIO'},
+  {cat:'spo',lvl:'Enfants',glyph:'⚽',text:'Combien de joueurs dans une équipe de football sur le terrain ?',opts:['9','11','13','15'],ok:1,why:'Onze, gardien compris. Le chiffre est fixé dès 1863 par la première Football Association.',src:'FIFA'},
+  {cat:'art',lvl:'Adultes',glyph:'🌌',text:'Qui a peint « La Nuit étoilée » ?',opts:['Monet','Van Gogh','Cézanne','Matisse'],ok:1,why:'Peinte en 1889 depuis sa chambre à l’asile de Saint-Rémy-de-Provence, de mémoire et en plein jour.',src:'MoMA'},
+  {cat:'pop',lvl:'Ados',glyph:'🐈',text:'Quel studio a créé « Mon voisin Totoro » ?',opts:['Studio Ghibli','Pixar','Toei','Madhouse'],ok:0,why:'Ghibli, 1988. Totoro est devenu le logo du studio dans la foulée.',src:'Studio Ghibli'},
+  {cat:'geo',lvl:'Enfants',kind:'capital',glyph:'🦘',text:'Quelle est la capitale de l’Australie ?',opts:['Sydney','Melbourne','Canberra','Perth'],ok:2,region:'Océanie',why:'Canberra a été construite exprès, à mi-chemin : Sydney et Melbourne se disputaient le titre.',src:'Geoscience Australia'},
+  {cat:'geo',lvl:'Ados',kind:'capital',glyph:'🏛️',text:'Quel fleuve traverse Le Caire ?',opts:['Le Niger','Le Nil','L’Euphrate','Le Congo'],ok:1,region:'Afrique du Nord',why:'6 650 km. 95 % des Égyptiens vivent à moins de 20 km de ses rives.',src:'UN Water'},
+  {cat:'geo',lvl:'Adultes',kind:'capital',glyph:'🕰️',text:'Quel pays compte le plus de fuseaux horaires ?',opts:['La Russie','Les États-Unis','La Chine','La France'],ok:3,region:'Monde',why:'La France : 12 fuseaux grâce à l’outre-mer, devant la Russie et ses 11.',src:'IGN'},
+  {cat:'geo',lvl:'Ados',kind:'flag',flag:'🇧🇷',glyph:'🏴',text:'À quel pays appartient ce drapeau ?',opts:['Le Brésil','Le Portugal','L’Argentine','Le Cameroun'],ok:0,region:'Amériques',why:'Les 27 étoiles figurent le ciel de Rio le matin du 15 novembre 1889, jour de la République.',src:'Presidência da República'},
+  {cat:'geo',lvl:'Enfants',kind:'flag',flag:'🇯🇵',glyph:'🏴',text:'À quel pays appartient ce drapeau ?',opts:['La Corée','Le Japon','La Chine','Le Viêt Nam'],ok:1,region:'Asie',why:'Le disque rouge est le soleil levant — d’où le nom du pays, Nippon, « origine du soleil ».',src:'Gouvernement du Japon'},
+  {cat:'geo',lvl:'Ados',kind:'locate',glyph:'📍',text:'Touchez le Portugal sur la carte.',region:'Europe de l’Ouest',
+   spots:[{id:'a',label:'1',x:60,y:120},{id:'b',label:'2',x:118,y:78},{id:'c',label:'3',x:176,y:112},{id:'d',label:'4',x:236,y:70},{id:'e',label:'5',x:284,y:132},{id:'f',label:'6',x:150,y:158}],
+   ok:'a', okLabel:'Zone 1 — façade atlantique, à l’ouest de l’Espagne',
+   why:'Le Portugal occupe la façade atlantique de la péninsule ibérique : 850 km de côtes, aucune frontière hors Espagne.',src:'IGN'},
+  {cat:'geo',lvl:'Adultes',kind:'locate',glyph:'🏙️',text:'Placez Marseille.',region:'France',
+   spots:[{id:'a',label:'1',x:70,y:60},{id:'b',label:'2',x:150,y:52},{id:'c',label:'3',x:120,y:110},{id:'d',label:'4',x:210,y:140},{id:'e',label:'5',x:250,y:80},{id:'f',label:'6',x:60,y:140}],
+   ok:'d', okLabel:'Zone 4 — sur la Méditerranée, à l’est du Rhône',
+   why:'Marseille est le plus vieux port de France : fondée vers 600 av. J.-C. par des Grecs de Phocée.',src:'INSEE'},
+];
+const TABS=[
+  {id:'home',label:'Accueil',icon:'M4 10.5 12 4l8 6.5V20H4z'},
+  {id:'play',label:'Jouer',icon:'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 0v9l7 4'},
+  {id:'geo',label:'Géo',icon:'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm-9 9h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z'},
+  {id:'profile',label:'Profil',icon:'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0'},
+];
+const PROFILES=[
+  {name:'Enfants',age:'6–10 ans',glyph:'🧸',note:'Grosses cartes illustrées, aucun minuteur, un autocollant par bonne réponse.'},
+  {name:'Ados',age:'11–17 ans',glyph:'🎧',note:'Minuteur 20 s, quatre propositions, un fait à retenir après chaque réponse.'},
+  {name:'Adultes',age:'18 ans et +',glyph:'🎩',note:'Minuteur 15 s, propositions rapprochées, aucune tolérance sur les dates.'},
+];
+const NAMES=['Léna','Marco','Yuki','Sam','Nour','Théo'];
+const STICKERS=['⭐','🚀','🦕','🌈','🐙','🍩','🦉','🏆'];
+const DICE=['⚀','⚁','⚂','⚃','⚄','⚅'];
+const NSPACE=24;
+
+function slicePath(i,n,r){
+  const a0=(i/n)*Math.PI*2-Math.PI/2, a1=((i+1)/n)*Math.PI*2-Math.PI/2;
+  const x0=50+r*Math.cos(a0), y0=50+r*Math.sin(a0), x1=50+r*Math.cos(a1), y1=50+r*Math.sin(a1);
+  return 'M50 50 L'+x0.toFixed(2)+' '+y0.toFixed(2)+' A'+r+' '+r+' 0 0 1 '+x1.toFixed(2)+' '+y1.toFixed(2)+' Z';
+}
+function ringPos(i, r){
+  const a=(i/NSPACE)*Math.PI*2-Math.PI/2;
+  return {x:50+r*Math.cos(a), y:50+r*Math.sin(a)};
+}
+const SPACES = Array.from({length:NSPACE}, (_,i) => ({i, cat:CATS[i%6].id, wedge:i%4===0}));
+
+class Component extends DCLogic {
+  state = {
+    screen:'onboard', tab:'home', profile:'Ados', count:4, cur:0,
+    players:NAMES.slice(0,4).map((n,i) => ({name:n, color:PAL.cats[i], wedges:i===0?['his','sci']:(i===1?['spo']:[]), pos:i*2, pts:i===0?180:120-i*30})),
+    phase:'idle', qi:null, picked:null, timer:20, die:3, rolling:false,
+    score:1240, answered:38, correct:29, mode:'classic', geoKind:null,
+    stickers:['⭐','🚀','🦕'], newSticker:null, missed:[],
+    settings:{son:true, minuteur:true, dys:false, hors:false},
+  };
+
+  componentDidMount(){
+    this._t = setInterval(() => {
+      const s = this.state;
+      if (s.phase==='question' && s.settings.minuteur && s.profile!=='Enfants') {
+        this.setState(p => (p.timer<=1 ? {timer:0, phase:'result', picked:'timeout'} : {timer:p.timer-1}));
+      }
+    }, 1000);
+  }
+  componentWillUnmount(){ clearInterval(this._t); clearInterval(this._r); }
+
+  pool(){
+    const s=this.state;
+    if (s.mode==='geo') return Q.filter(q => q.cat==='geo' && (!s.geoKind || (q.kind||'capital')===s.geoKind));
+    return Q;
+  }
+  ask(pool, catId){
+    let list = pool.filter(q => !catId || q.cat===catId);
+    if (!list.length) list = pool.length ? pool : Q;
+    const q = list[Math.floor(Math.random()*list.length)];
+    this.setState({phase:'question', qi:Q.indexOf(q), picked:null, newSticker:null,
+      timer:this.state.profile==='Adultes'?15:20});
+  }
+
+  roll(){
+    if (this.state.rolling) return;
+    this.setState({rolling:true, mode:'classic'});
+    let n = 0;
+    clearInterval(this._r);
+    this._r = setInterval(() => {
+      n++;
+      this.setState({die: 1 + Math.floor(Math.random()*6)});
+      if (n > 9) {
+        clearInterval(this._r);
+        const d = 1 + Math.floor(Math.random()*6);
+        const p = this.state.players[this.state.cur];
+        const dest = (p.pos + d) % NSPACE;
+        this.setState(st => ({die:d, rolling:false,
+          players: st.players.map((pl,i) => i===st.cur ? Object.assign({}, pl, {pos:dest}) : pl)}));
+        setTimeout(() => this.ask(Q, SPACES[dest].cat), 420);
+      }
+    }, 70);
+  }
+
+  startGeo(kind){
+    this.setState({mode:'geo', geoKind:kind||null, tab:'geo'}, );
+    setTimeout(() => this.ask(Q.filter(q => q.cat==='geo' && (!kind || (q.kind||'capital')===kind))), 0);
+  }
+
+  answer(good){
+    const s = this.state, q = Q[s.qi];
+    const wonSticker = good && s.profile==='Enfants' ? STICKERS[(s.stickers.length)%STICKERS.length] : null;
+    const land = SPACES[s.players[s.cur].pos];
+    this.setState(st => ({
+      phase:'result', answered:st.answered+1, correct:st.correct+(good?1:0), score:st.score+(good?60:0),
+      newSticker:wonSticker, stickers: wonSticker ? st.stickers.concat(wonSticker) : st.stickers,
+      missed: good ? st.missed : st.missed.concat({text:q.text, answer:this.correctLabel(q)}),
+      players: st.players.map((pl,i) => {
+        if (i!==st.cur) return pl;
+        const win = good && st.mode==='classic' && land.wedge && pl.wedges.indexOf(q.cat)===-1;
+        return Object.assign({}, pl, {pts: pl.pts + (good?60:0), wedges: win ? pl.wedges.concat(q.cat) : pl.wedges});
+      }),
+    }));
+  }
+  correctLabel(q){
+    if ((q.kind||'') === 'locate') return q.okLabel;
+    return q.opts[q.ok];
+  }
+  next(){
+    const s = this.state;
+    if (s.mode === 'geo') { this.ask(this.pool()); return; }
+    const good = s.picked !== 'timeout' && this.wasGood();
+    this.setState(st => ({phase:'idle', picked:null, cur: good ? st.cur : (st.cur+1)%st.players.length}));
+  }
+  wasGood(){
+    const s = this.state, q = Q[s.qi];
+    if (s.picked === 'timeout' || s.picked === null) return false;
+    return (q.kind||'')==='locate' ? s.picked===q.ok : s.picked===q.ok;
+  }
+
+  renderVals(){
+    const s = this.state, st = s.settings, kids = s.profile==='Enfants';
+    const q = s.qi===null ? null : Q[s.qi];
+    const kind = q ? (q.kind||'') : '';
+    const answered2 = s.phase==='result';
+    const cur = s.players[s.cur] || s.players[0];
+    const cat = q ? CATS.find(c => c.id===q.cat) : null;
+    const missing = CATS.filter(c => cur.wedges.indexOf(c.id)===-1).map(c => c.name);
+    const good = this.wasGood();
+    const ranked = s.players.slice().sort((a,b) => (b.wedges.length-a.wedges.length) || (b.pts-a.pts));
+    const winner = ranked[0];
+    const optCount = kids ? 3 : 4;
+
+    return {
+      isOnboard: s.screen==='onboard', isEnd: s.screen==='end', isKids: kids, notKids: !kids,
+      showHome: s.screen==='app' && s.tab==='home', showPlay: s.screen==='app' && s.tab==='play',
+      showGeo: s.screen==='app' && s.tab==='geo', showProfile: s.screen==='app' && s.tab==='profile',
+      inQuestion: s.phase!=='idle' && s.screen==='app', answered2,
+      profile: s.profile, playerCount: s.players.length,
+      score: s.score, answered: s.answered, accuracy: Math.round(s.correct/s.answered*100),
+      curName: cur.name, curColor: cur.color, curInitial: cur.name[0],
+      curTint: 'color-mix(in srgb, ' + cur.color + ' 14%, var(--color-bg))',
+      curWedgeDots: CATS.map(c => ({fill: cur.wedges.indexOf(c.id)>-1 ? c.color : '#2b2d3a'})),
+      wedgeCount: cur.wedges.length, wedgeLabel: cur.wedges.length + ' parts sur 6',
+      missingLabel: missing.length ? missing.join(', ') : 'rien — victoire !',
+      slices: CATS.map((c,i) => ({d:slicePath(i,6,48), dSmall:slicePath(i,6,30),
+        fill: cur.wedges.indexOf(c.id)>-1 ? c.color : PAL.idle})),
+      winnerSlices: CATS.map((c,i) => ({d:slicePath(i,6,48),
+        fill: winner.wedges.indexOf(c.id)>-1 ? c.color : PAL.idle})),
+      board: SPACES.map(sp => {
+        const p = ringPos(sp.i, 46), c = CATS.find(x => x.id===sp.cat);
+        return {cx:p.x.toFixed(2), cy:p.y.toFixed(2), r: sp.wedge ? 3.6 : 2.4,
+          fill: c.color, stroke: sp.wedge ? '#e9e9ed' : 'transparent'};
+      }),
+      pawns: s.players.map((pl,i) => {
+        const p = ringPos(pl.pos, 46 - (i%2?4.6:0));
+        return {cx:(p.x + (i>1?1.6:-1.6)).toFixed(2), cy:p.y.toFixed(2), fill:pl.color};
+      }),
+      dieFace: DICE[(s.die||1)-1], dieAnim: s.rolling ? 'shake .18s linear infinite' : 'none',
+      rollLabel: s.rolling ? 'Le dé roule…' : 'Lancer le dé',
+      boardHint: s.rolling ? '—' : 'Case camembert (cerclée) : bonne réponse = une part gagnée.',
+      roll: () => this.roll(),
+      finish: () => this.setState({screen:'end', phase:'idle'}),
+      rematch: () => this.setState(p => ({screen:'app', tab:'play', cur:0, missed:[],
+        players: p.players.map((pl,i) => Object.assign({}, pl, {wedges:[], pos:i*2, pts:0}))})),
+      newGame: () => this.setState({screen:'onboard'}),
+      startGame: () => this.setState({screen:'app', tab:'play'}),
+
+      q: q && {cat:cat.name, color:cat.color, text:q.text, why:q.why, src:q.src, lvl:q.lvl,
+        glyph:q.glyph, flag:q.flag, region:q.region||'',
+        isFlag: kind==='flag', isMap: kind==='locate'},
+      hasOptions: !!q && kind!=='locate',
+      timerOn: !kids && st.minuteur,
+      options: (q && kind!=='locate' ? q.opts.slice(0, optCount) : []).map((label,i) => {
+        const isOk = i===q.ok, isPicked = i===s.picked;
+        let border=PAL.line, bg='transparent', color=PAL.text, mark='';
+        if (answered2 && isOk){ border=PAL.okBorder; bg=PAL.okBg; color=PAL.okText; mark='✓'; }
+        else if (answered2 && isPicked){ border=PAL.badBorder; bg=PAL.badBg; color=PAL.muted; mark='✕'; }
+        else if (answered2){ color=PAL.muted; }
+        return {label, border, bg, color, mark, fs: kids?'18px':'15px', pad: kids?'18px':'14px',
+          pick: () => { if (!answered2){ this.setState({picked:i}); this.answer(i===q.ok); } }};
+      }),
+      spots: (q && kind==='locate' ? q.spots : []).map(sp => {
+        const isOk = sp.id===q.ok, isPicked = sp.id===s.picked;
+        let fill=PAL.spotIdle, stroke=PAL.spotStroke, textFill=PAL.text;
+        if (answered2 && isOk){ fill='rgba(145,132,217,.55)'; stroke='#e9e9ed'; }
+        else if (answered2 && isPicked){ fill='rgba(233,233,237,.06)'; stroke=PAL.badBorder; textFill=PAL.muted; }
+        return {x:sp.x, y:sp.y, ty:sp.y+3.4, label:sp.label, fill, stroke, textFill,
+          pick: () => { if (!answered2){ this.setState({picked:sp.id}); this.answer(sp.id===q.ok); } }};
+      }),
+      timerPct: Math.round(s.timer/(s.profile==='Adultes'?15:20)*100),
+      timerColor: s.timer<=5 ? PAL.bad : PAL.accent,
+      verdict: s.picked==='timeout' ? 'Temps écoulé' : (good ? 'Bonne réponse · +60' : 'Raté'),
+      verdictColor: good ? PAL.accentText : 'var(--color-neutral-400)',
+      showSticker: !!s.newSticker, newSticker: s.newSticker,
+      nextLabel: s.mode==='geo' ? 'Question suivante' : (good ? 'Rejouer — vous gardez la main' : 'Au joueur suivant'),
+      next: () => this.next(),
+      quit: () => this.setState({phase:'idle', picked:null}),
+      goPlay: () => this.setState({tab:'play'}),
+      goGeo: () => this.setState({tab:'geo'}),
+      tabs: TABS.map(t => ({label:t.label, icon:t.icon,
+        color: t.id===s.tab ? PAL.accentText : PAL.muted,
+        pick: () => this.setState({tab:t.id, phase:'idle'})})),
+      profiles: PROFILES.map(p => ({name:p.name, age:p.age, glyph:p.glyph, note:p.note,
+        border: p.name===s.profile ? PAL.accent : PAL.line,
+        bg: p.name===s.profile ? PAL.accentSoft : 'transparent',
+        color: p.name===s.profile ? PAL.accentText : PAL.text,
+        pick: () => this.setState({profile:p.name})})),
+      profileNote: (PROFILES.find(p => p.name===s.profile)||PROFILES[1]).note,
+      seats: [2,3,4,5,6].map(n => ({n,
+        border: n===s.players.length ? PAL.accent : PAL.line,
+        bg: n===s.players.length ? PAL.accentSoft : 'transparent',
+        color: n===s.players.length ? PAL.accentText : PAL.muted,
+        pick: () => this.setState({players: NAMES.slice(0,n).map((nm,i) => ({name:nm, color:PAL.cats[i], wedges:[], pos:i*2, pts:0})), cur:0})})),
+      avatars: s.players.map(p => ({name:p.name, initial:p.name[0], bg:p.color})),
+      geoKinds: [
+        {id:'locate', name:'Localiser', glyph:'📍', hint:'Toucher le pays sur la carte'},
+        {id:'flag', name:'Drapeaux', glyph:'🏴', hint:'Reconnaître à vue'},
+        {id:'capital', name:'Capitales', glyph:'🏛️', hint:'QCM classique'},
+        {id:'place', name:'Placer une ville', glyph:'🏙️', hint:'Ville ou fleuve sur la carte'},
+      ].map(k => Object.assign({}, k, {
+        border: 'var(--color-accent-800)',
+        start: () => this.startGeo(k.id==='place' ? 'locate' : k.id)})),
+      continents: [
+        {name:'Europe', glyph:'🇪🇺', pct:84},{name:'Afrique', glyph:'🌍', pct:52},
+        {name:'Asie', glyph:'🌏', pct:47},{name:'Amériques', glyph:'🌎', pct:61},
+        {name:'Océanie', glyph:'🏝️', pct:23},
+      ].map(c => Object.assign({}, c, {start: () => this.startGeo(null)})),
+      mastery: [78,64,41,55,86,72].map((pct,i) => ({name:CATS[i].name, pct, fill:CATS[i].color})),
+      stickers: STICKERS.map(g => ({glyph:g, bg: s.stickers.indexOf(g)>-1 ? '#2b2741' : '#1d1f2c',
+        opacity: s.stickers.indexOf(g)>-1 ? 1 : .28})),
+      stickerNote: s.stickers.length + ' autocollants sur ' + STICKERS.length + ' — un par bonne réponse.',
+      podium: ranked.map((p,i) => ({rank:(i+1)+'.', name:p.name, initial:p.name[0], bg:p.color,
+        pts:p.pts+' pts', dots: CATS.map(c => ({fill: p.wedges.indexOf(c.id)>-1 ? c.color : '#2b2d3a'}))})),
+      winnerName: winner.name,
+      winnerLine: winner.wedges.length + ' parts · ' + winner.pts + ' points · ' + s.players.length + ' joueurs',
+      bestCat: 'Géographie', worstCat: 'Sport',
+      missed: s.missed.slice(-4).map(m => ({text:m.text, answer:'Réponse : ' + m.answer})),
+      noMissed: s.missed.length===0,
+      settings: [
+        {key:'son', name:'Sons et vibrations', hint:'Retour haptique à chaque réponse'},
+        {key:'minuteur', name:'Minuteur', hint:'Désactivé d’office sur le profil Enfants'},
+        {key:'dys', name:'Police adaptée', hint:'Interlettrage élargi, lecture facilitée'},
+        {key:'hors', name:'Mode hors-ligne', hint:'1 200 questions téléchargées'},
+      ].map(o => {
+        const on = st[o.key];
+        return Object.assign({}, o, {
+          trackBg: on ? 'rgba(145,132,217,.28)' : 'transparent',
+          trackBorder: on ? PAL.accent : PAL.line,
+          justify: on ? 'flex-end' : 'flex-start',
+          knob: on ? PAL.accentText : 'var(--color-neutral-600)',
+          toggle: () => this.setState(prev => ({settings: Object.assign({}, prev.settings, {[o.key]: !prev.settings[o.key]})}))});
+      }),
+    };
+  }
+}
+</script>
+</body>
+</html>
