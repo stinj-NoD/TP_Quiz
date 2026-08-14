@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { ScreenHeader } from '../components/layout/ScreenHeader'
 import { ScreenTransition } from '../components/layout/ScreenTransition'
@@ -12,6 +12,7 @@ import { AnswerFeedback } from '../components/question/AnswerFeedback'
 import { loadCountries, loadCountriesWithShape } from '../domain/geo/countriesRepository'
 import { generateQuizSession, generateRandomTypeQuestion } from '../domain/geo/quizGenerator'
 import { useGeoStore } from '../store/geoStore'
+import { useProfileStore } from '../store/profileStore'
 import { useWakeLock } from '../hooks/useWakeLock'
 import type { Country, GeoQuizType } from '../types/geo.types'
 import { GEO_QUIZ_TYPE_LABELS } from '../types/geo.types'
@@ -39,6 +40,7 @@ export function GeoQuizScreen() {
   const answerCurrent = useGeoStore((state) => state.answerCurrent)
   const nextQuestion = useGeoStore((state) => state.nextQuestion)
   const discardSession = useGeoStore((state) => state.discardSession)
+  const autoAdvanceDelayMs = useProfileStore((state) => state.geoAutoAdvanceDelayMs)
 
   useWakeLock()
 
@@ -49,6 +51,7 @@ export function GeoQuizScreen() {
   const [allCountries, setAllCountries] = useState<Country[]>([])
   const [countriesWithShape, setCountriesWithShape] = useState<Country[]>([])
   const [showQuitConfirm, setShowQuitConfirm] = useState(false)
+  const advanceRef = useRef<(() => void) | null>(null)
 
   // Chargement initial : bifurque entre mode count (existant) et mode timer (nouveau).
   useEffect(() => {
@@ -103,6 +106,15 @@ export function GeoQuizScreen() {
     const interval = setInterval(tick, 250)
     return () => clearInterval(interval)
   }, [isTimerMode, session?.endsAt, navigate])
+
+  // Auto-avancement : la bonne réponse reste affichée le temps configuré avant de passer à la suite.
+  useEffect(() => {
+    if (selectedOption === null) return
+    const timeoutId = setTimeout(() => {
+      advanceRef.current?.()
+    }, autoAdvanceDelayMs)
+    return () => clearTimeout(timeoutId)
+  }, [selectedOption, autoAdvanceDelayMs])
 
   if (!type && !isTimerMode) {
     return (
@@ -171,9 +183,7 @@ export function GeoQuizScreen() {
     }
   }
 
-  const handleNext = () => {
-    advance()
-  }
+  advanceRef.current = advance
 
   const handleSkip = () => {
     if (selectedOption !== null) return
@@ -250,13 +260,7 @@ export function GeoQuizScreen() {
         )}
       </div>
 
-      {selectedOption !== null ? (
-        <div className="px-5 pb-5">
-          <Button size="lg" className="w-full" onClick={handleNext}>
-            {isLastQuestion ? 'Voir les résultats' : 'Question suivante'}
-          </Button>
-        </div>
-      ) : (
+      {selectedOption === null && (
         <div className="px-5 pb-5">
           <Button size="lg" variant="secondary" className="w-full" onClick={handleSkip}>
             Passer

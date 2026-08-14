@@ -14,6 +14,11 @@ import { AGE_LEVELS, AGE_LEVEL_LABELS, type AgeLevel } from '../types/question.t
 
 const QUESTION_COUNTS = [10, 20, 30] as const
 const DURATIONS = [60, 120, 180] as const
+const AUTO_ADVANCE_DELAYS_MS = [0, 500, 1000, 1500, 2000, 2500, 3000] as const
+
+function formatAutoAdvanceDelay(ms: number): string {
+  return ms === 0 ? 'Immédiat' : `${ms / 1000}s`
+}
 
 export function ProfileScreen() {
   const navigate = useNavigate()
@@ -26,6 +31,8 @@ export function ProfileScreen() {
   const setGeoQuestionCount = useProfileStore((state) => state.setGeoQuestionCount)
   const geoDuration = useProfileStore((state) => state.geoDuration)
   const setGeoDuration = useProfileStore((state) => state.setGeoDuration)
+  const geoAutoAdvanceDelayMs = useProfileStore((state) => state.geoAutoAdvanceDelayMs)
+  const setGeoAutoAdvanceDelayMs = useProfileStore((state) => state.setGeoAutoAdvanceDelayMs)
   const soundEnabled = useProfileStore((state) => state.soundEnabled)
   const toggleSound = useProfileStore((state) => state.toggleSound)
   const vibrationEnabled = useProfileStore((state) => state.vibrationEnabled)
@@ -186,6 +193,27 @@ export function ProfileScreen() {
                     }`}
                   >
                     {d / 60} min
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="text-xs text-[var(--color-text-muted)]">
+                Délai avant la question suivante
+              </span>
+              <div className="grid grid-cols-4 gap-2">
+                {AUTO_ADVANCE_DELAYS_MS.map((ms) => (
+                  <button
+                    key={ms}
+                    type="button"
+                    onClick={() => setGeoAutoAdvanceDelayMs(ms)}
+                    className={`rounded-[var(--radius-md)] py-2 text-sm font-semibold transition-[transform,box-shadow] active:scale-95 ${
+                      geoAutoAdvanceDelayMs === ms
+                        ? 'bg-[var(--gradient-primary)] text-white shadow-[var(--glow-sm)]'
+                        : 'bg-[var(--color-surface-raised)] text-[var(--color-text-muted)]'
+                    }`}
+                  >
+                    {formatAutoAdvanceDelay(ms)}
                   </button>
                 ))}
               </div>

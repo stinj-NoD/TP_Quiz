@@ -1,6 +1,7 @@
 import { Trophy } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { ScreenHeader } from '../components/layout/ScreenHeader'
 import { ScreenTransition } from '../components/layout/ScreenTransition'
 import { Button } from '../components/ui/Button'
 import { GeoScoreSummary } from '../components/geo/GeoScoreSummary'
@@ -43,8 +44,12 @@ export function GeoResultsScreen() {
   if (!result) {
     return (
       <ScreenTransition variant="fade">
-        <div className="flex flex-1 items-center justify-center px-6">
+        <ScreenHeader title="Résultats" onBack={() => navigate('/geographie')} />
+        <div className="flex flex-1 flex-col items-center justify-center gap-4 px-6 text-center">
           <p className="text-sm text-[var(--color-text-muted)]">Aucune session à afficher.</p>
+          <Button size="lg" onClick={() => navigate('/geographie')}>
+            Retour au menu
+          </Button>
         </div>
       </ScreenTransition>
     )

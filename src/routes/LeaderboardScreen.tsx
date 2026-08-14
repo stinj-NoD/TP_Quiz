@@ -1,4 +1,5 @@
 import { Trophy } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 import { ScreenHeader } from '../components/layout/ScreenHeader'
 import { ScreenTransition } from '../components/layout/ScreenTransition'
 import { Card } from '../components/ui/Card'
@@ -16,11 +17,12 @@ const RANK_COLORS: Record<number, string> = {
 }
 
 export function LeaderboardScreen() {
+  const navigate = useNavigate()
   const history = useGeoStore((state) => state.history)
 
   return (
     <ScreenTransition>
-      <ScreenHeader title="Classement" />
+      <ScreenHeader title="Classement" onBack={() => navigate('/geographie')} />
       <div className="flex flex-1 flex-col gap-3 overflow-y-auto px-5 pb-5">
         {history.length === 0 && (
           <div className="flex flex-1 flex-col items-center justify-center gap-3 text-center">

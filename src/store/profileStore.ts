@@ -7,6 +7,7 @@ interface ProfileState {
   ageLevel: AgeLevel
   geoQuestionCount: number
   geoDuration: number
+  geoAutoAdvanceDelayMs: number
   soundEnabled: boolean
   vibrationEnabled: boolean
   wakeLockEnabled: boolean
@@ -14,6 +15,7 @@ interface ProfileState {
   setAgeLevel: (level: AgeLevel) => void
   setGeoQuestionCount: (count: number) => void
   setGeoDuration: (duration: number) => void
+  setGeoAutoAdvanceDelayMs: (delayMs: number) => void
   toggleSound: () => void
   toggleVibration: () => void
   toggleWakeLock: () => void
@@ -25,6 +27,7 @@ const DEFAULTS = {
   ageLevel: 'adulte' as AgeLevel,
   geoQuestionCount: 10,
   geoDuration: 60,
+  geoAutoAdvanceDelayMs: 2000,
   soundEnabled: true,
   vibrationEnabled: true,
   wakeLockEnabled: false,
@@ -38,6 +41,7 @@ export const useProfileStore = create<ProfileState>()(
       setAgeLevel: (ageLevel) => set({ ageLevel }),
       setGeoQuestionCount: (geoQuestionCount) => set({ geoQuestionCount }),
       setGeoDuration: (geoDuration) => set({ geoDuration }),
+      setGeoAutoAdvanceDelayMs: (geoAutoAdvanceDelayMs) => set({ geoAutoAdvanceDelayMs }),
       toggleSound: () => set((state) => ({ soundEnabled: !state.soundEnabled })),
       toggleVibration: () => set((state) => ({ vibrationEnabled: !state.vibrationEnabled })),
       toggleWakeLock: () => set((state) => ({ wakeLockEnabled: !state.wakeLockEnabled })),
