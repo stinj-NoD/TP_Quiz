@@ -28,5 +28,10 @@
   { "id": "sci-ado-027", "category": "sciences-nature", "question": "Combien de temps la lumière du Soleil met-elle pour atteindre la Terre ?", "answer": "Environ 8 minutes" },
   { "id": "sci-ado-028", "category": "sciences-nature", "question": "Quel gaz les êtres humains rejettent-ils en expirant ?", "answer": "Le dioxyde de carbone (CO2)" },
   { "id": "sci-ado-029", "category": "sciences-nature", "question": "Quel est le nom du processus de division cellulaire produisant des cellules reproductrices ?", "answer": "La méiose" },
-  { "id": "sci-ado-030", "category": "sciences-nature", "question": "Quel organe humain est principalement composé de matière grise et blanche ?", "answer": "Le cerveau" }
+  { "id": "sci-ado-030", "category": "sciences-nature", "question": "Quel organe humain est principalement composé de matière grise et blanche ?", "answer": "Le cerveau" },
+  { "id": "sci-ado-031", "category": "sciences-nature", "question": "Quel est le nom du satellite naturel de la Terre ?", "answer": "La Lune" },
+  { "id": "sci-ado-032", "category": "sciences-nature", "question": "Quelle enzyme présente dans la salive commence la digestion de l'amidon ?", "answer": "L'amylase" },
+  { "id": "sci-ado-033", "category": "sciences-nature", "question": "Quel volcan italien a détruit la ville de Pompéi en l'an 79 ?", "answer": "Le Vésuve" },
+  { "id": "sci-ado-034", "category": "sciences-nature", "question": "Quel est le nom de la force qui maintient les planètes en orbite autour du Soleil ?", "answer": "La gravité" },
+  { "id": "sci-ado-035", "category": "sciences-nature", "question": "Quel crustacé change plusieurs fois de carapace au cours de sa vie ?", "answer": "Le crabe" }
 ]

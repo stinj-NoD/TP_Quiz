@@ -1,4 +1,4 @@
-import { ChevronRight, Download, RotateCcw, Smartphone, Trophy, Volume2, VolumeX } from 'lucide-react'
+import { ChevronRight, Download, Info, RefreshCw, RotateCcw, Smartphone, Trophy, Volume2, VolumeX } from 'lucide-react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ScreenTransition } from '../components/layout/ScreenTransition'
@@ -9,6 +9,7 @@ import { Toggle } from '../components/ui/Toggle'
 import { useProfileStore } from '../store/profileStore'
 import { useGeoStore } from '../store/geoStore'
 import { useInstallPrompt } from '../hooks/useInstallPrompt'
+import { useAppUpdate } from '../hooks/useAppUpdate'
 import { AGE_LEVELS, AGE_LEVEL_LABELS, type AgeLevel } from '../types/question.types'
 
 const QUESTION_COUNTS = [10, 20, 30] as const
@@ -37,6 +38,7 @@ export function ProfileScreen() {
   const clearHistory = useGeoStore((state) => state.clearHistory)
 
   const { canInstall, promptInstall } = useInstallPrompt()
+  const { needRefresh, checking, checkForUpdate, applyUpdate } = useAppUpdate()
 
   const [showResetConfirm, setShowResetConfirm] = useState(false)
 
@@ -205,6 +207,36 @@ export function ProfileScreen() {
             </Card>
           </div>
         )}
+
+        <div className="flex flex-col gap-2">
+          <span className="text-sm font-medium text-[var(--color-text-muted)]">Application</span>
+          <Card className="flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-md)] bg-[var(--color-surface-raised)]">
+                <Info size={20} className="text-[var(--color-text-muted)]" />
+              </span>
+              <div className="flex-1">
+                <p className="text-sm font-semibold">Version {__APP_VERSION__}</p>
+                <p className="text-xs text-[var(--color-text-muted)]">
+                  {needRefresh
+                    ? 'Une mise à jour est disponible'
+                    : checking
+                      ? 'Vérification en cours…'
+                      : 'Application à jour'}
+                </p>
+              </div>
+            </div>
+            <Button variant="secondary" onClick={checkForUpdate} disabled={checking}>
+              <RefreshCw size={16} className={checking ? 'animate-spin' : ''} />
+              Vérifier les mises à jour
+            </Button>
+            {needRefresh && (
+              <Button variant="primary" onClick={applyUpdate}>
+                Redémarrer pour mettre à jour
+              </Button>
+            )}
+          </Card>
+        </div>
 
         <Button
           variant="secondary"

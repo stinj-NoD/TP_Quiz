@@ -13,6 +13,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import * as topojson from 'topojson-client'
 import world50 from '../node_modules/world-atlas/countries-50m.json' with { type: 'json' }
+import frenchNameOverrides from '../src/data/geo/french-name-overrides.json' with { type: 'json' }
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -67,11 +68,13 @@ async function main() {
     if (flagDownloaded) flagsOk++
     else flagsFailed++
 
+    const override = frenchNameOverrides[c.cca3]
+
     snapshot.push({
       cca3: c.cca3,
       ccn3: c.ccn3 ?? '',
-      nameFr: c.translations.fra.common,
-      capital: c.capital[0],
+      nameFr: override?.nameFr ?? c.translations.fra.common,
+      capital: override?.capital ?? c.capital[0],
       flagSvgUrl: `/flags/${c.cca3}.svg`,
       region: c.region,
       latlng: c.latlng ?? [0, 0],

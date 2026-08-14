@@ -26,19 +26,6 @@
     "hasShape": true
   },
   {
-    "cca3": "ALA",
-    "ccn3": "248",
-    "nameFr": "Ahvenanmaa",
-    "capital": "Mariehamn",
-    "flagSvgUrl": "/flags/ALA.svg",
-    "region": "Europe",
-    "latlng": [
-      60.116667,
-      19.9
-    ],
-    "hasShape": true
-  },
-  {
     "cca3": "ALB",
     "ccn3": "008",
     "nameFr": "Albanie",
@@ -55,7 +42,7 @@
     "cca3": "DZA",
     "ccn3": "012",
     "nameFr": "Algérie",
-    "capital": "Algiers",
+    "capital": "Alger",
     "flagSvgUrl": "/flags/DZA.svg",
     "region": "Africa",
     "latlng": [
@@ -81,7 +68,7 @@
     "cca3": "AND",
     "ccn3": "020",
     "nameFr": "Andorre",
-    "capital": "Andorra la Vella",
+    "capital": "Andorre-la-Vieille",
     "flagSvgUrl": "/flags/AND.svg",
     "region": "Europe",
     "latlng": [
@@ -133,7 +120,7 @@
     "cca3": "SAU",
     "ccn3": "682",
     "nameFr": "Arabie Saoudite",
-    "capital": "Riyadh",
+    "capital": "Riyad",
     "flagSvgUrl": "/flags/SAU.svg",
     "region": "Asia",
     "latlng": [
@@ -198,7 +185,7 @@
     "cca3": "AUT",
     "ccn3": "040",
     "nameFr": "Autriche",
-    "capital": "Vienna",
+    "capital": "Vienne",
     "flagSvgUrl": "/flags/AUT.svg",
     "region": "Europe",
     "latlng": [
@@ -211,7 +198,7 @@
     "cca3": "AZE",
     "ccn3": "031",
     "nameFr": "Azerbaïdjan",
-    "capital": "Baku",
+    "capital": "Bakou",
     "flagSvgUrl": "/flags/AZE.svg",
     "region": "Asia",
     "latlng": [
@@ -276,7 +263,7 @@
     "cca3": "BEL",
     "ccn3": "056",
     "nameFr": "Belgique",
-    "capital": "Brussels",
+    "capital": "Bruxelles",
     "flagSvgUrl": "/flags/BEL.svg",
     "region": "Europe",
     "latlng": [
@@ -523,7 +510,7 @@
     "cca3": "CHN",
     "ccn3": "156",
     "nameFr": "Chine",
-    "capital": "Beijing",
+    "capital": "Pékin",
     "flagSvgUrl": "/flags/CHN.svg",
     "region": "Asia",
     "latlng": [
@@ -549,7 +536,7 @@
     "cca3": "VAT",
     "ccn3": "336",
     "nameFr": "Cité du Vatican",
-    "capital": "Vatican City",
+    "capital": "Cité du Vatican",
     "flagSvgUrl": "/flags/VAT.svg",
     "region": "Europe",
     "latlng": [
@@ -627,7 +614,7 @@
     "cca3": "KOR",
     "ccn3": "410",
     "nameFr": "Corée du Sud",
-    "capital": "Seoul",
+    "capital": "Séoul",
     "flagSvgUrl": "/flags/KOR.svg",
     "region": "Asia",
     "latlng": [
@@ -679,7 +666,7 @@
     "cca3": "CUB",
     "ccn3": "192",
     "nameFr": "Cuba",
-    "capital": "Havana",
+    "capital": "La Havane",
     "flagSvgUrl": "/flags/CUB.svg",
     "region": "Americas",
     "latlng": [
@@ -705,7 +692,7 @@
     "cca3": "DNK",
     "ccn3": "208",
     "nameFr": "Danemark",
-    "capital": "Copenhagen",
+    "capital": "Copenhague",
     "flagSvgUrl": "/flags/DNK.svg",
     "region": "Europe",
     "latlng": [
@@ -744,7 +731,7 @@
     "cca3": "EGY",
     "ccn3": "818",
     "nameFr": "Égypte",
-    "capital": "Cairo",
+    "capital": "Le Caire",
     "flagSvgUrl": "/flags/EGY.svg",
     "region": "Africa",
     "latlng": [
@@ -757,7 +744,7 @@
     "cca3": "ARE",
     "ccn3": "784",
     "nameFr": "Émirats arabes unis",
-    "capital": "Abu Dhabi",
+    "capital": "Abou Dabi",
     "flagSvgUrl": "/flags/ARE.svg",
     "region": "Asia",
     "latlng": [
@@ -835,7 +822,7 @@
     "cca3": "USA",
     "ccn3": "840",
     "nameFr": "États-Unis",
-    "capital": "Washington D.C.",
+    "capital": "Washington",
     "flagSvgUrl": "/flags/USA.svg",
     "region": "Americas",
     "latlng": [
@@ -848,7 +835,7 @@
     "cca3": "ETH",
     "ccn3": "231",
     "nameFr": "Éthiopie",
-    "capital": "Addis Ababa",
+    "capital": "Addis-Abeba",
     "flagSvgUrl": "/flags/ETH.svg",
     "region": "Africa",
     "latlng": [
@@ -926,7 +913,7 @@
     "cca3": "GEO",
     "ccn3": "268",
     "nameFr": "Géorgie",
-    "capital": "Tbilisi",
+    "capital": "Tbilissi",
     "flagSvgUrl": "/flags/GEO.svg",
     "region": "Asia",
     "latlng": [
@@ -978,7 +965,7 @@
     "cca3": "GRC",
     "ccn3": "300",
     "nameFr": "Grèce",
-    "capital": "Athens",
+    "capital": "Athènes",
     "flagSvgUrl": "/flags/GRC.svg",
     "region": "Europe",
     "latlng": [
@@ -1235,6 +1222,19 @@
     "hasShape": true
   },
   {
+    "cca3": "ALA",
+    "ccn3": "248",
+    "nameFr": "Îles Åland",
+    "capital": "Mariehamn",
+    "flagSvgUrl": "/flags/ALA.svg",
+    "region": "Europe",
+    "latlng": [
+      60.116667,
+      19.9
+    ],
+    "hasShape": true
+  },
+  {
     "cca3": "CYM",
     "ccn3": "136",
     "nameFr": "Îles Caïmans",
@@ -1433,7 +1433,7 @@
     "cca3": "IRQ",
     "ccn3": "368",
     "nameFr": "Irak",
-    "capital": "Baghdad",
+    "capital": "Bagdad",
     "flagSvgUrl": "/flags/IRQ.svg",
     "region": "Asia",
     "latlng": [
@@ -1446,7 +1446,7 @@
     "cca3": "IRN",
     "ccn3": "364",
     "nameFr": "Iran",
-    "capital": "Tehran",
+    "capital": "Téhéran",
     "flagSvgUrl": "/flags/IRN.svg",
     "region": "Asia",
     "latlng": [
@@ -1485,7 +1485,7 @@
     "cca3": "ISR",
     "ccn3": "376",
     "nameFr": "Israël",
-    "capital": "Jerusalem",
+    "capital": "Jérusalem",
     "flagSvgUrl": "/flags/ISR.svg",
     "region": "Asia",
     "latlng": [
@@ -1628,7 +1628,7 @@
     "cca3": "KWT",
     "ccn3": "414",
     "nameFr": "Koweït",
-    "capital": "Kuwait City",
+    "capital": "Koweït",
     "flagSvgUrl": "/flags/KWT.svg",
     "region": "Asia",
     "latlng": [
@@ -1680,7 +1680,7 @@
     "cca3": "LBN",
     "ccn3": "422",
     "nameFr": "Liban",
-    "capital": "Beirut",
+    "capital": "Beyrouth",
     "flagSvgUrl": "/flags/LBN.svg",
     "region": "Asia",
     "latlng": [
@@ -1901,7 +1901,7 @@
     "cca3": "MEX",
     "ccn3": "484",
     "nameFr": "Mexique",
-    "capital": "Mexico City",
+    "capital": "Mexico",
     "flagSvgUrl": "/flags/MEX.svg",
     "region": "Americas",
     "latlng": [
@@ -1953,7 +1953,7 @@
     "cca3": "MNG",
     "ccn3": "496",
     "nameFr": "Mongolie",
-    "capital": "Ulan Bator",
+    "capital": "Oulan-Bator",
     "flagSvgUrl": "/flags/MNG.svg",
     "region": "Asia",
     "latlng": [
@@ -2031,7 +2031,7 @@
     "cca3": "NPL",
     "ccn3": "524",
     "nameFr": "Népal",
-    "capital": "Kathmandu",
+    "capital": "Katmandou",
     "flagSvgUrl": "/flags/NPL.svg",
     "region": "Asia",
     "latlng": [
@@ -2135,7 +2135,7 @@
     "cca3": "OMN",
     "ccn3": "512",
     "nameFr": "Oman",
-    "capital": "Muscat",
+    "capital": "Mascate",
     "flagSvgUrl": "/flags/OMN.svg",
     "region": "Asia",
     "latlng": [
@@ -2304,7 +2304,7 @@
     "cca3": "POL",
     "ccn3": "616",
     "nameFr": "Pologne",
-    "capital": "Warsaw",
+    "capital": "Varsovie",
     "flagSvgUrl": "/flags/POL.svg",
     "region": "Europe",
     "latlng": [
@@ -2343,7 +2343,7 @@
     "cca3": "PRT",
     "ccn3": "620",
     "nameFr": "Portugal",
-    "capital": "Lisbon",
+    "capital": "Lisbonne",
     "flagSvgUrl": "/flags/PRT.svg",
     "region": "Europe",
     "latlng": [
@@ -2408,7 +2408,7 @@
     "cca3": "ROU",
     "ccn3": "642",
     "nameFr": "Roumanie",
-    "capital": "Bucharest",
+    "capital": "Bucarest",
     "flagSvgUrl": "/flags/ROU.svg",
     "region": "Europe",
     "latlng": [
@@ -2421,7 +2421,7 @@
     "cca3": "GBR",
     "ccn3": "826",
     "nameFr": "Royaume-Uni",
-    "capital": "London",
+    "capital": "Londres",
     "flagSvgUrl": "/flags/GBR.svg",
     "region": "Europe",
     "latlng": [
@@ -2434,7 +2434,7 @@
     "cca3": "RUS",
     "ccn3": "643",
     "nameFr": "Russie",
-    "capital": "Moscow",
+    "capital": "Moscou",
     "flagSvgUrl": "/flags/RUS.svg",
     "region": "Europe",
     "latlng": [
@@ -2499,7 +2499,7 @@
     "cca3": "SMR",
     "ccn3": "674",
     "nameFr": "Saint-Marin",
-    "capital": "City of San Marino",
+    "capital": "Saint-Marin",
     "flagSvgUrl": "/flags/SMR.svg",
     "region": "Europe",
     "latlng": [
@@ -2694,7 +2694,7 @@
     "cca3": "SGP",
     "ccn3": "702",
     "nameFr": "Singapour",
-    "capital": "Singapore",
+    "capital": "Singapour",
     "flagSvgUrl": "/flags/SGP.svg",
     "region": "Asia",
     "latlng": [
@@ -2798,7 +2798,7 @@
     "cca3": "CHE",
     "ccn3": "756",
     "nameFr": "Suisse",
-    "capital": "Bern",
+    "capital": "Berne",
     "flagSvgUrl": "/flags/CHE.svg",
     "region": "Europe",
     "latlng": [
@@ -2837,7 +2837,7 @@
     "cca3": "SYR",
     "ccn3": "760",
     "nameFr": "Syrie",
-    "capital": "Damascus",
+    "capital": "Damas",
     "flagSvgUrl": "/flags/SYR.svg",
     "region": "Asia",
     "latlng": [
@@ -3071,7 +3071,7 @@
     "cca3": "UKR",
     "ccn3": "804",
     "nameFr": "Ukraine",
-    "capital": "Kyiv",
+    "capital": "Kiev",
     "flagSvgUrl": "/flags/UKR.svg",
     "region": "Europe",
     "latlng": [
@@ -3123,7 +3123,7 @@
     "cca3": "VNM",
     "ccn3": "704",
     "nameFr": "Viêt Nam",
-    "capital": "Hanoi",
+    "capital": "Hanoï",
     "flagSvgUrl": "/flags/VNM.svg",
     "region": "Asia",
     "latlng": [
@@ -3149,7 +3149,7 @@
     "cca3": "YEM",
     "ccn3": "887",
     "nameFr": "Yémen",
-    "capital": "Sana'a",
+    "capital": "Sanaa",
     "flagSvgUrl": "/flags/YEM.svg",
     "region": "Asia",
     "latlng": [
