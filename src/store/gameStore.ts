@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { BOARD } from '../data/board/boardLayout'
-import { canEnterCenter, enterCenter, movePlayer } from '../domain/board/boardEngine'
+import { BOARD, START_NODE_ID, getNode } from '../data/board/boardLayout'
+import { movePlayer } from '../domain/board/boardEngine'
 import { rollDice } from '../domain/board/diceEngine'
 import { selectQuestion } from '../domain/questions/questionSelector'
 import { isVictory } from '../domain/board/victoryRules'
@@ -9,7 +9,6 @@ import { QUESTION_BANKS } from '../data/questions'
 import type { GameState, Player, PlayerColor } from '../types/game.types'
 import { createEmptyWedges } from '../types/game.types'
 import type { AgeLevel } from '../types/question.types'
-import { getCell } from '../data/board/boardLayout'
 
 export interface NewPlayerConfig {
   name: string
@@ -24,8 +23,8 @@ interface GameStore {
   rollDiceForCurrentPlayer: () => void
   /** Applique le déplacement calculé après l'animation du dé. */
   applyPendingMove: () => void
-  /** Quand le joueur a le choix d'entrer au centre (case wedge + 6 camemberts). */
-  chooseEnterCenter: (enter: boolean) => void
+  /** Quand le joueur atteint un embranchement (case wedge) : continuer sur l'anneau ou entrer dans le rayon. */
+  choosePathDirection: (direction: 'ring' | 'arm') => void
   answerCurrentQuestion: (correct: boolean) => void
 }
 
@@ -36,7 +35,7 @@ const initialGameState = (players: NewPlayerConfig[]): GameState => ({
       name: p.name,
       color: p.color,
       ageLevel: p.ageLevel,
-      position: 0,
+      position: START_NODE_ID,
       wedges: createEmptyWedges(),
       isInCenter: false,
     }),
@@ -47,10 +46,64 @@ const initialGameState = (players: NewPlayerConfig[]): GameState => ({
   lastDiceValue: null,
   currentQuestion: null,
   usedQuestionIds: [],
+  pendingBranch: null,
 })
 
 function nextPlayerIndex(index: number, total: number): number {
   return (index + 1) % total
+}
+
+/**
+ * Résout la case atteinte après un déplacement (direct ou après reprise sur
+ * embranchement) : sélectionne une question pour la catégorie de la case, ou
+ * termine le tour immédiatement si la case n'a pas de catégorie associée.
+ * `isInCenter` est dérivé du nœud atteint plutôt que suivi séparément.
+ */
+function resolveLanding(
+  game: GameState,
+  updatedPlayers: Player[],
+  updatedPlayer: Player,
+  set: (partial: { game: GameState }) => void,
+): void {
+  const node = getNode(updatedPlayer.position)
+  const playerAtCenter: Player = { ...updatedPlayer, isInCenter: node.type === 'center' }
+  const playersWithCenterFlag = updatedPlayers.map((p) =>
+    p.id === playerAtCenter.id ? playerAtCenter : p,
+  )
+
+  if (node.type === 'center') {
+    set({
+      game: { ...game, players: playersWithCenterFlag, phase: 'awaiting-answer' },
+    })
+    return
+  }
+
+  const category = node.category
+  if (!category) {
+    const newIndex = nextPlayerIndex(game.currentPlayerIndex, game.players.length)
+    set({
+      game: {
+        ...game,
+        players: playersWithCenterFlag,
+        currentPlayerIndex: newIndex,
+        phase: 'awaiting-roll',
+        lastDiceValue: null,
+      },
+    })
+    return
+  }
+
+  const bank = QUESTION_BANKS[playerAtCenter.ageLevel ?? 'adulte']
+  const { question, updatedUsedIds } = selectQuestion(bank, category, game.usedQuestionIds)
+  set({
+    game: {
+      ...game,
+      players: playersWithCenterFlag,
+      currentQuestion: question,
+      usedQuestionIds: updatedUsedIds,
+      phase: 'awaiting-answer',
+    },
+  })
 }
 
 export const useGameStore = create<GameStore>()(
@@ -75,80 +128,38 @@ export const useGameStore = create<GameStore>()(
         if (!game || game.phase !== 'moving' || game.lastDiceValue == null) return
 
         const player = game.players[game.currentPlayerIndex]
-        const { ringIndex, enteredCenterEligible } = movePlayer(player, game.lastDiceValue)
+        const result = movePlayer(player.position, game.lastDiceValue)
 
-        const updatedPlayer: Player = { ...player, position: ringIndex }
+        const updatedPlayer: Player = { ...player, position: result.nodeId }
         const updatedPlayers = game.players.map((p, i) => (i === game.currentPlayerIndex ? updatedPlayer : p))
 
-        if (enteredCenterEligible) {
-          // Le joueur peut choisir d'entrer au centre : on attend sa décision.
-          set({ game: { ...game, players: updatedPlayers, phase: 'resolving' } })
-          return
-        }
-
-        const cell = getCell(ringIndex)
-        if (cell.type === 'center') {
-          set({ game: { ...game, players: updatedPlayers, phase: 'awaiting-answer' } })
-          return
-        }
-
-        const category = cell.category
-        if (!category) {
-          // Case sans catégorie (ne devrait pas arriver avec le layout actuel) : fin de tour.
-          const newIndex = nextPlayerIndex(game.currentPlayerIndex, game.players.length)
+        if (result.awaitingChoice) {
+          // Le joueur atteint un embranchement (wedge) : on attend sa décision.
           set({
             game: {
               ...game,
               players: updatedPlayers,
-              currentPlayerIndex: newIndex,
-              phase: 'awaiting-roll',
-              lastDiceValue: null,
+              phase: 'choosing-path',
+              pendingBranch: { nodeId: result.branchNodeId!, remainingSteps: result.remainingSteps! },
             },
           })
           return
         }
 
-        const bank = QUESTION_BANKS[player.ageLevel ?? 'adulte']
-        const { question, updatedUsedIds } = selectQuestion(bank, category, game.usedQuestionIds)
-        set({
-          game: {
-            ...game,
-            players: updatedPlayers,
-            currentQuestion: question,
-            usedQuestionIds: updatedUsedIds,
-            phase: 'awaiting-answer',
-          },
-        })
+        resolveLanding(game, updatedPlayers, updatedPlayer, set)
       },
 
-      chooseEnterCenter: (enter) => {
+      choosePathDirection: (direction) => {
         const { game } = get()
-        if (!game || game.phase !== 'resolving') return
+        if (!game || game.phase !== 'choosing-path' || !game.pendingBranch) return
 
         const player = game.players[game.currentPlayerIndex]
+        const result = movePlayer(game.pendingBranch.nodeId, game.pendingBranch.remainingSteps, direction)
 
-        if (enter && canEnterCenter(player, player.position)) {
-          const updatedPlayer = enterCenter(player)
-          const updatedPlayers = game.players.map((p, i) => (i === game.currentPlayerIndex ? updatedPlayer : p))
-          set({ game: { ...game, players: updatedPlayers, phase: 'awaiting-answer' } })
-          return
-        }
+        const updatedPlayer: Player = { ...player, position: result.nodeId }
+        const updatedPlayers = game.players.map((p, i) => (i === game.currentPlayerIndex ? updatedPlayer : p))
 
-        // Le joueur reste sur l'anneau : on résout la case "wedge" normalement.
-        const cell = getCell(player.position)
-        const category = cell.category
-        if (!category) return
-
-        const bank = QUESTION_BANKS[player.ageLevel ?? 'adulte']
-        const { question, updatedUsedIds } = selectQuestion(bank, category, game.usedQuestionIds)
-        set({
-          game: {
-            ...game,
-            currentQuestion: question,
-            usedQuestionIds: updatedUsedIds,
-            phase: 'awaiting-answer',
-          },
-        })
+        resolveLanding({ ...game, pendingBranch: null }, updatedPlayers, updatedPlayer, set)
       },
 
       answerCurrentQuestion: (correct) => {
@@ -156,7 +167,7 @@ export const useGameStore = create<GameStore>()(
         if (!game || game.phase !== 'awaiting-answer') return
 
         const player = game.players[game.currentPlayerIndex]
-        const cell = getCell(player.position)
+        const cell = getNode(player.position)
 
         // Victoire : joueur au centre avec les 6 camemberts, bonne réponse à la question finale.
         if (cell.type === 'center') {

@@ -8,11 +8,11 @@ export const SECTOR_ANGLE = 360 / SECTOR_COUNT
 export const RING_INNER_RADIUS = 150
 export const RING_OUTER_RADIUS = 180
 
-/** Bras radiaux : raccourci décoratif vers le centre (6 cases par bras, non logiques). */
+/** Bras radiaux : rayon jouable vers le centre (3 cases par bras). */
 export const ARM_INNER_RADIUS = 58
 export const ARM_OUTER_RADIUS = RING_INNER_RADIUS
 export const ARM_HALF_WIDTH = 13
-export const ARM_CELLS = 6
+export const ARM_CELLS = 3
 
 /** Centre : petit hexagone à 6 parts, une par catégorie. */
 export const CENTER_RADIUS = ARM_INNER_RADIUS
@@ -138,6 +138,11 @@ export function armCellShapes(sectorIndex: number) {
     shapes.push({ path, center: pointOnArm(alongMid, 0, sectorIndex) })
   }
   return shapes
+}
+
+/** Position (centroïde) de la `armCellIndex`-ième case (0-indexée) du bras `sectorIndex` — utilisée pour les pions. */
+export function armCellPosition(sectorIndex: number, armCellIndex: number): Point {
+  return armCellShapes(sectorIndex)[armCellIndex].center
 }
 
 // ─── Centre : hexagone à 6 parts ───────────────────────────────────────────

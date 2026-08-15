@@ -28,5 +28,10 @@
   { "id": "sci-enfant-027", "category": "sciences-nature", "question": "Comment s'appelle la Lune qui tourne autour de la Terre ?", "answer": "La Lune" },
   { "id": "sci-enfant-028", "category": "sciences-nature", "question": "Quel animal a une trompe très longue ?", "answer": "L'éléphant" },
   { "id": "sci-enfant-029", "category": "sciences-nature", "question": "Combien de temps met la Terre pour faire un tour complet autour du Soleil ?", "answer": "Un an (environ 365 jours)" },
-  { "id": "sci-enfant-030", "category": "sciences-nature", "question": "Quel petit animal transforme une chenille grâce à une métamorphose ?", "answer": "Le papillon" }
+  { "id": "sci-enfant-030", "category": "sciences-nature", "question": "Quel petit animal transforme une chenille grâce à une métamorphose ?", "answer": "Le papillon" },
+  { "id": "sci-enfant-031", "category": "sciences-nature", "question": "Quel animal aux longues oreilles vit dans un terrier et adore les carottes ?", "answer": "Le lapin" },
+  { "id": "sci-enfant-032", "category": "sciences-nature", "question": "Quelle partie de la plante pousse sous la terre pour puiser l'eau ?", "answer": "La racine" },
+  { "id": "sci-enfant-033", "category": "sciences-nature", "question": "Quel animal à grosses dents ronge le bois pour construire des barrages ?", "answer": "Le castor" },
+  { "id": "sci-enfant-034", "category": "sciences-nature", "question": "Quelle saison de l'année suit l'hiver ?", "answer": "Le printemps" },
+  { "id": "sci-enfant-035", "category": "sciences-nature", "question": "Quel animal des mers froides a un gros corps rond et deux défenses ?", "answer": "Le morse" }
 ]

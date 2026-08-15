@@ -178,5 +178,40 @@
     "category": "histoire",
     "question": "Quelle expédition française a rapporté la pierre de Rosette en Europe ?",
     "answer": "La campagne d'Égypte de Napoléon Bonaparte"
+  },
+  {
+    "id": "his-adulte-031",
+    "category": "histoire",
+    "question": "Quel traité de 1648 a mis fin à la guerre de Trente Ans ?",
+    "answer": "Le traité de Westphalie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-032",
+    "category": "histoire",
+    "question": "Quelle impératrice russe, née princesse allemande, régna de 1762 à 1796 ?",
+    "answer": "Catherine II (Catherine la Grande)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-033",
+    "category": "histoire",
+    "question": "En quelle année a eu lieu le massacre de la Saint-Barthélemy, tuant des milliers de protestants à Paris ?",
+    "answer": "1572",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-034",
+    "category": "histoire",
+    "question": "Quel traité de 1992 a instauré l'Union européenne à partir de la Communauté économique européenne ?",
+    "answer": "Le traité de Maastricht",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-035",
+    "category": "histoire",
+    "question": "Quel roi de France a été guillotiné place de la Révolution en 1793 ?",
+    "answer": "Louis XVI",
+    "difficulty": "facile"
   }
 ]

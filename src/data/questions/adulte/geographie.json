@@ -178,5 +178,40 @@
     "category": "geographie",
     "question": "Quel pays possède le plus de fuseaux horaires ?",
     "answer": "La France (grâce à ses territoires d'outre-mer)"
+  },
+  {
+    "id": "geo-adulte-031",
+    "category": "geographie",
+    "question": "Quel pays d'Asie centrale possède le lac d'Aral, aujourd'hui largement asséché, qu'il partage avec l'Ouzbékistan ?",
+    "answer": "Le Kazakhstan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-032",
+    "category": "geographie",
+    "question": "Quelle capitale sud-américaine est la plus haute du monde en altitude ?",
+    "answer": "La Paz (Bolivie)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-033",
+    "category": "geographie",
+    "question": "Quel canal artificiel relie la mer Méditerranée à la mer Rouge ?",
+    "answer": "Le canal de Suez",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-034",
+    "category": "geographie",
+    "question": "Quelle est la fosse océanique la plus profonde du monde, située dans l'océan Pacifique ?",
+    "answer": "La fosse des Mariannes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-035",
+    "category": "geographie",
+    "question": "Quel pays enclavé d'Afrique australe est entièrement entouré par le territoire de l'Afrique du Sud ?",
+    "answer": "Le Lesotho",
+    "difficulty": "difficile"
   }
 ]

@@ -28,5 +28,10 @@
   { "id": "spo-enfant-027", "category": "sport-loisirs", "question": "Quel sport se pratique en équipe avec un ballon ovale que l'on peut porter avec les mains ?", "answer": "Le rugby" },
   { "id": "spo-enfant-028", "category": "sport-loisirs", "question": "Dans quel sport les patineurs glissent-ils sur la glace en musique ?", "answer": "Le patinage artistique" },
   { "id": "spo-enfant-029", "category": "sport-loisirs", "question": "Combien de trous compte un parcours de golf standard ?", "answer": "18" },
-  { "id": "spo-enfant-030", "category": "sport-loisirs", "question": "Dans quel sport nautique fait-on du surf sur les vagues avec une planche ?", "answer": "Le surf" }
+  { "id": "spo-enfant-030", "category": "sport-loisirs", "question": "Dans quel sport nautique fait-on du surf sur les vagues avec une planche ?", "answer": "Le surf" },
+  { "id": "spo-enfant-031", "category": "sport-loisirs", "question": "Dans quel sport lance-t-on des fléchettes sur une cible ronde ?", "answer": "Les fléchettes" },
+  { "id": "spo-enfant-032", "category": "sport-loisirs", "question": "Quel sport se pratique sur un échiquier avec des pièces comme le roi et la reine ?", "answer": "Les échecs" },
+  { "id": "spo-enfant-033", "category": "sport-loisirs", "question": "Dans quel sport les cavaliers montent-ils sur un cheval pour sauter des obstacles ?", "answer": "L'équitation" },
+  { "id": "spo-enfant-034", "category": "sport-loisirs", "question": "Quel sport de raquette se joue sur une petite table avec un filet et une balle légère ?", "answer": "Le tennis de table (ping-pong)" },
+  { "id": "spo-enfant-035", "category": "sport-loisirs", "question": "Dans quel sport pagaie-t-on assis dans une petite embarcation sur une rivière ?", "answer": "Le canoë-kayak" }
 ]

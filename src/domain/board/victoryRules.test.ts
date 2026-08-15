@@ -8,7 +8,7 @@ function makePlayer(overrides: Partial<Player> = {}): Player {
     name: 'Joueur 1',
     color: 'red',
     ageLevel: 'adulte',
-    position: 0,
+    position: 'ring-0',
     wedges: createEmptyWedges(),
     isInCenter: false,
     ...overrides,

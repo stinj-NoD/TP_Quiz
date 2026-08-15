@@ -28,5 +28,10 @@
   { "id": "spo-ado-027", "category": "sport-loisirs", "question": "Dans quel sport pratique-t-on le \"grand chelem\" avec quatre tournois majeurs dans l'année ?", "answer": "Le tennis" },
   { "id": "spo-ado-028", "category": "sport-loisirs", "question": "Quel sport olympique associe des figures artistiques à de la musique dans l'eau ?", "answer": "La natation synchronisée" },
   { "id": "spo-ado-029", "category": "sport-loisirs", "question": "Quelle discipline d'athlétisme consiste à sauter le plus loin possible après une course d'élan ?", "answer": "Le saut en longueur" },
-  { "id": "spo-ado-030", "category": "sport-loisirs", "question": "Quel pays a remporté le plus de Coupes du monde de football à ce jour ?", "answer": "Le Brésil" }
+  { "id": "spo-ado-030", "category": "sport-loisirs", "question": "Quel pays a remporté le plus de Coupes du monde de football à ce jour ?", "answer": "Le Brésil" },
+  { "id": "spo-ado-031", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de handball sur le terrain ?", "answer": "7" },
+  { "id": "spo-ado-032", "category": "sport-loisirs", "question": "Quel skateur ou discipline de glisse urbaine a fait son entrée aux Jeux olympiques de Tokyo en 2021 ?", "answer": "Le skateboard" },
+  { "id": "spo-ado-033", "category": "sport-loisirs", "question": "Quelle nageuse française a été porte-drapeau ou grande vedette de la natation tricolore avec de nombreux titres olympiques dans les années 2010-2020 ?", "answer": "Léon Marchand", "difficulty": "moyen" },
+  { "id": "spo-ado-034", "category": "sport-loisirs", "question": "Dans quel sport de raquette joue-t-on en simple ou en double sur un terrain divisé par un filet bas et une ligne de non-volée ?", "answer": "Le padel", "difficulty": "moyen" },
+  { "id": "spo-ado-035", "category": "sport-loisirs", "question": "Quelle célèbre course cycliste par étapes se termine traditionnellement sur les Champs-Élysées à Paris ?", "answer": "Le Tour de France" }
 ]

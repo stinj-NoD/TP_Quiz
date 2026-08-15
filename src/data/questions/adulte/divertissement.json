@@ -178,5 +178,40 @@
     "category": "divertissement",
     "question": "Quel groupe de rock britannique a sorti l'album \"The Dark Side of the Moon\" ?",
     "answer": "Pink Floyd"
+  },
+  {
+    "id": "div-adulte-031",
+    "category": "divertissement",
+    "question": "Quel compositeur autrichien est l'auteur de l'opéra \"La Flûte enchantée\" ?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-032",
+    "category": "divertissement",
+    "question": "Quel réalisateur français a signé les films \"La Haine\" et \"Un prophète\" ?",
+    "answer": "Mathieu Kassovitz a réalisé \"La Haine\", Jacques Audiard a réalisé \"Un prophète\"",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-033",
+    "category": "divertissement",
+    "question": "Quelle comédie musicale française, créée en 1998, raconte l'histoire de Quasimodo et d'Esmeralda ?",
+    "answer": "Notre-Dame de Paris",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-034",
+    "category": "divertissement",
+    "question": "Quel studio japonais a produit les films \"Mon voisin Totoro\" et \"Le Voyage de Chihiro\" ?",
+    "answer": "Studio Ghibli",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-035",
+    "category": "divertissement",
+    "question": "Quel acteur britannique incarne le détective Sherlock Holmes dans la série \"Sherlock\" produite par la BBC ?",
+    "answer": "Benedict Cumberbatch",
+    "difficulty": "moyen"
   }
 ]

@@ -28,5 +28,10 @@
   { "id": "art-ado-027", "category": "art-litterature", "question": "Qui a écrit la trilogie dystopique \"Hunger Games\" ?", "answer": "Suzanne Collins" },
   { "id": "art-ado-028", "category": "art-litterature", "question": "Quel peintre a fondé le mouvement surréaliste en littérature avec son manifeste de 1924 ?", "answer": "André Breton" },
   { "id": "art-ado-029", "category": "art-litterature", "question": "Qui est l'auteur de la saga \"Percy Jackson\" ?", "answer": "Rick Riordan" },
-  { "id": "art-ado-030", "category": "art-litterature", "question": "Quel poète français est l'auteur du recueil \"Les Fleurs du mal\" ?", "answer": "Charles Baudelaire" }
+  { "id": "art-ado-030", "category": "art-litterature", "question": "Quel poète français est l'auteur du recueil \"Les Fleurs du mal\" ?", "answer": "Charles Baudelaire" },
+  { "id": "art-ado-031", "category": "art-litterature", "question": "Qui est l'auteur de la saga de fantasy \"Eragon\", écrite alors qu'il était adolescent ?", "answer": "Christopher Paolini" },
+  { "id": "art-ado-032", "category": "art-litterature", "question": "Quel peintre mexicaine est célèbre pour ses nombreux autoportraits, dont \"Autoportrait au collier d'épines\" ?", "answer": "Frida Kahlo" },
+  { "id": "art-ado-033", "category": "art-litterature", "question": "Quel écrivain français a imaginé le capitaine Nemo dans \"Vingt Mille Lieues sous les mers\" ?", "answer": "Jules Verne" },
+  { "id": "art-ado-034", "category": "art-litterature", "question": "Quel artiste italien de la Renaissance a peint \"La Naissance de Vénus\" ?", "answer": "Sandro Botticelli" },
+  { "id": "art-ado-035", "category": "art-litterature", "question": "Quelle autrice britannique est à l'origine de la série de romans \"Le Journal de Bridget Jones\" ?", "answer": "Helen Fielding" }
 ]

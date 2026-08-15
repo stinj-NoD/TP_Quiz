@@ -28,5 +28,10 @@
   { "id": "geo-enfant-027", "category": "geographie", "question": "Comment s'appelle le pays qui a la forme d'un cœur en Europe centrale ?", "answer": "La France (ou selon la carte, d'autres pays sont parfois cités, réponse acceptée : la France)" },
   { "id": "geo-enfant-028", "category": "geographie", "question": "Quelle mer entoure la France au sud ?", "answer": "La mer Méditerranée" },
   { "id": "geo-enfant-029", "category": "geographie", "question": "Dans quel pays se trouve la Grande Muraille ?", "answer": "La Chine" },
-  { "id": "geo-enfant-030", "category": "geographie", "question": "Comment s'appelle la ville la plus connue des États-Unis pour ses gratte-ciel et sa grande statue verte ?", "answer": "New York" }
+  { "id": "geo-enfant-030", "category": "geographie", "question": "Comment s'appelle la ville la plus connue des États-Unis pour ses gratte-ciel et sa grande statue verte ?", "answer": "New York" },
+  { "id": "geo-enfant-031", "category": "geographie", "question": "Comment s'appelle la ville célèbre pour sa Tour Penchée en Italie ?", "answer": "Pise" },
+  { "id": "geo-enfant-032", "category": "geographie", "question": "Dans quel pays se trouve le Machu Picchu, la cité perdue des Incas ?", "answer": "Le Pérou" },
+  { "id": "geo-enfant-033", "category": "geographie", "question": "Quel est le plus petit pays du monde ?", "answer": "Le Vatican" },
+  { "id": "geo-enfant-034", "category": "geographie", "question": "Comment s'appelle la grande forêt qui pousse le long du fleuve Amazone ?", "answer": "La forêt amazonienne (l'Amazonie)" },
+  { "id": "geo-enfant-035", "category": "geographie", "question": "Dans quel pays peut-on voir des gondoles glisser sur les canaux ?", "answer": "L'Italie" }
 ]

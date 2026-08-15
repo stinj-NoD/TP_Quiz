@@ -28,5 +28,10 @@
   { "id": "his-enfant-027", "category": "histoire", "question": "Quel peuple de l'Antiquité organisait des courses de chars et des combats de gladiateurs ?", "answer": "Les Romains" },
   { "id": "his-enfant-028", "category": "histoire", "question": "Comment appelle-t-on l'écriture faite de petits dessins utilisée par les Égyptiens ?", "answer": "Les hiéroglyphes" },
   { "id": "his-enfant-029", "category": "histoire", "question": "Quel inventeur est connu pour avoir imaginé de nombreuses machines volantes et la Joconde ?", "answer": "Léonard de Vinci" },
-  { "id": "his-enfant-030", "category": "histoire", "question": "Comment s'appelle le monument de pierres géantes en cercle en Angleterre ?", "answer": "Stonehenge" }
+  { "id": "his-enfant-030", "category": "histoire", "question": "Comment s'appelle le monument de pierres géantes en cercle en Angleterre ?", "answer": "Stonehenge" },
+  { "id": "his-enfant-031", "category": "histoire", "question": "Comment s'appelle le pharaon égyptien dont on a retrouvé le tombeau rempli de trésors, avec un masque doré ?", "answer": "Toutânkhamon" },
+  { "id": "his-enfant-032", "category": "histoire", "question": "Quel explorateur français a fondé la ville de Québec ?", "answer": "Samuel de Champlain" },
+  { "id": "his-enfant-033", "category": "histoire", "question": "Comment s'appelle le grand voyageur qui a raconté ses aventures en Chine dans un livre célèbre ?", "answer": "Marco Polo" },
+  { "id": "his-enfant-034", "category": "histoire", "question": "Quel savant a eu l'idée de la gravité en voyant tomber une pomme, dit-on ?", "answer": "Isaac Newton" },
+  { "id": "his-enfant-035", "category": "histoire", "question": "Comment s'appelait le célèbre bateau sur lequel les Pèlerins ont traversé l'océan pour s'installer en Amérique ?", "answer": "Le Mayflower" }
 ]

@@ -28,5 +28,10 @@
   { "id": "geo-ado-027", "category": "geographie", "question": "Quel pays compte le plus grand nombre d'îles au monde ?", "answer": "La Suède" },
   { "id": "geo-ado-028", "category": "geographie", "question": "Quel est le plus petit État du monde ?", "answer": "Le Vatican" },
   { "id": "geo-ado-029", "category": "geographie", "question": "Dans quel pays se trouve le Machu Picchu ?", "answer": "Le Pérou" },
-  { "id": "geo-ado-030", "category": "geographie", "question": "Quel pays possède le plus de fuseaux horaires au monde ?", "answer": "La France (grâce à ses territoires d'outre-mer)" }
+  { "id": "geo-ado-030", "category": "geographie", "question": "Quel pays possède le plus de fuseaux horaires au monde ?", "answer": "La France (grâce à ses territoires d'outre-mer)" },
+  { "id": "geo-ado-031", "category": "geographie", "question": "Quelle est la capitale de la Corée du Sud ?", "answer": "Séoul" },
+  { "id": "geo-ado-032", "category": "geographie", "question": "Quel est le plus long fleuve du monde ?", "answer": "Le Nil" },
+  { "id": "geo-ado-033", "category": "geographie", "question": "Quel pays est célèbre pour ses milliers de temples à Bagan ?", "answer": "Le Myanmar" },
+  { "id": "geo-ado-034", "category": "geographie", "question": "Quelle capitale européenne est bâtie sur plusieurs îles reliées par des ponts ?", "answer": "Stockholm" },
+  { "id": "geo-ado-035", "category": "geographie", "question": "Quel désert est le plus grand du monde, glace comprise ?", "answer": "Le désert de l'Antarctique", "difficulty": "moyen" }
 ]

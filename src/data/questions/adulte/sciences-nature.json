@@ -178,5 +178,40 @@
     "category": "sciences-nature",
     "question": "Quel insecte est responsable de la pollinisation d'une grande partie des cultures mondiales ?",
     "answer": "L'abeille"
+  },
+  {
+    "id": "sci-adulte-031",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la couche de l'atmosphère terrestre où se produisent la plupart des phénomènes météorologiques ?",
+    "answer": "La troposphère",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-032",
+    "category": "sciences-nature",
+    "question": "Quel physicien allemand a énoncé le principe d'incertitude en mécanique quantique ?",
+    "answer": "Werner Heisenberg",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-033",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du seul mammifère capable de voler activement ?",
+    "answer": "La chauve-souris",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-034",
+    "category": "sciences-nature",
+    "question": "Quelle enzyme salivaire permet d'entamer la digestion de l'amidon dans la bouche ?",
+    "answer": "L'amylase (ptyaline)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-035",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène d'attraction gravitationnelle exercée par la Lune qui provoque les marées ?",
+    "answer": "La force de marée (attraction lunaire)",
+    "difficulty": "moyen"
   }
 ]

@@ -28,5 +28,10 @@
   { "id": "art-enfant-027", "category": "art-litterature", "question": "Comment s'appelle le petit ours qui porte un chapeau rouge et vient du Pérou dans les livres ?", "answer": "Paddington" },
   { "id": "art-enfant-028", "category": "art-litterature", "question": "Dans quelle histoire un pantin de bois voit son nez grandir quand il ment ?", "answer": "Pinocchio" },
   { "id": "art-enfant-029", "category": "art-litterature", "question": "Comment appelle-t-on une personne qui écrit des livres ?", "answer": "Un écrivain ou une écrivaine (ou un auteur/une autrice)" },
-  { "id": "art-enfant-030", "category": "art-litterature", "question": "Qui a créé le personnage de Winnie l'ourson dans ses histoires ?", "answer": "A.A. Milne" }
+  { "id": "art-enfant-030", "category": "art-litterature", "question": "Qui a créé le personnage de Winnie l'ourson dans ses histoires ?", "answer": "A.A. Milne" },
+  { "id": "art-enfant-031", "category": "art-litterature", "question": "Comment s'appelle le lion qui devient roi de la savane dans le dessin animé Disney ?", "answer": "Simba" },
+  { "id": "art-enfant-032", "category": "art-litterature", "question": "Qui a écrit les histoires du gros ours qui aime le miel, habitant la forêt des Cent Acres, avec ses amis Porcinet et Tigrou ?", "answer": "A.A. Milne (Winnie l'ourson)" },
+  { "id": "art-enfant-033", "category": "art-litterature", "question": "Comment s'appelle la poupée qui prend vie et part à l'aventure avec le cow-boy Woody dans un film d'animation ?", "answer": "Jessie (dans Toy Story)" },
+  { "id": "art-enfant-034", "category": "art-litterature", "question": "Dans quel conte une jeune fille aux longs cheveux dorés est enfermée en haut d'une tour ?", "answer": "Raiponce" },
+  { "id": "art-enfant-035", "category": "art-litterature", "question": "Comment appelle-t-on un lieu où l'on expose des tableaux et des sculptures pour que tout le monde puisse les voir ?", "answer": "Un musée" }
 ]

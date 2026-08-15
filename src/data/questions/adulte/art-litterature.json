@@ -178,5 +178,40 @@
     "category": "art-litterature",
     "question": "Qui a écrit la trilogie \"Le Seigneur des Anneaux\" ?",
     "answer": "J.R.R. Tolkien"
+  },
+  {
+    "id": "art-adulte-031",
+    "category": "art-litterature",
+    "question": "Quel écrivain français est l'auteur du cycle romanesque \"À la recherche du temps perdu\" ?",
+    "answer": "Marcel Proust",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-032",
+    "category": "art-litterature",
+    "question": "Quel peintre flamand du XVIIe siècle est l'auteur de \"La Ronde de nuit\" ?",
+    "answer": "Rembrandt",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-033",
+    "category": "art-litterature",
+    "question": "Quelle écrivaine française a reçu le prix Nobel de littérature en 2022 ?",
+    "answer": "Annie Ernaux",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-034",
+    "category": "art-litterature",
+    "question": "Quel peintre autrichien, figure majeure de l'Art nouveau viennois, a réalisé \"Le Baiser\" ?",
+    "answer": "Gustav Klimt",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-035",
+    "category": "art-litterature",
+    "question": "Quel dramaturge norvégien, considéré comme le père du théâtre moderne, a écrit \"Une maison de poupée\" ?",
+    "answer": "Henrik Ibsen",
+    "difficulty": "difficile"
   }
 ]

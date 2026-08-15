@@ -33,5 +33,10 @@
   { "id": "sci-ado-032", "category": "sciences-nature", "question": "Quelle enzyme présente dans la salive commence la digestion de l'amidon ?", "answer": "L'amylase" },
   { "id": "sci-ado-033", "category": "sciences-nature", "question": "Quel volcan italien a détruit la ville de Pompéi en l'an 79 ?", "answer": "Le Vésuve" },
   { "id": "sci-ado-034", "category": "sciences-nature", "question": "Quel est le nom de la force qui maintient les planètes en orbite autour du Soleil ?", "answer": "La gravité" },
-  { "id": "sci-ado-035", "category": "sciences-nature", "question": "Quel crustacé change plusieurs fois de carapace au cours de sa vie ?", "answer": "Le crabe" }
+  { "id": "sci-ado-035", "category": "sciences-nature", "question": "Quel crustacé change plusieurs fois de carapace au cours de sa vie ?", "answer": "Le crabe" },
+  { "id": "sci-ado-036", "category": "sciences-nature", "question": "Quel est le plus grand organe du corps humain ?", "answer": "La peau", "difficulty": "facile" },
+  { "id": "sci-ado-037", "category": "sciences-nature", "question": "Quelle est l'unité de mesure de la force dans le système international ?", "answer": "Le newton", "difficulty": "moyen" },
+  { "id": "sci-ado-038", "category": "sciences-nature", "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?", "answer": "Une roche magmatique (ou volcanique)", "difficulty": "moyen" },
+  { "id": "sci-ado-039", "category": "sciences-nature", "question": "Quel astronome italien a perfectionné la lunette astronomique et défendu le modèle héliocentrique ?", "answer": "Galilée", "difficulty": "facile" },
+  { "id": "sci-ado-040", "category": "sciences-nature", "question": "Quel animal australien pond des œufs tout en étant un mammifère ?", "answer": "L'ornithorynque", "difficulty": "moyen" }
 ]

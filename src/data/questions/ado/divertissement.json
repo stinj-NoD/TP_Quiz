@@ -28,5 +28,10 @@
   { "id": "div-ado-027", "category": "divertissement", "question": "Qui a composé la musique du film \"Le Roi Lion\" (1994) ?", "answer": "Hans Zimmer" },
   { "id": "div-ado-028", "category": "divertissement", "question": "Quel est le nom du héros incarné par Omar Sy dans le film \"Intouchables\" ?", "answer": "Driss" },
   { "id": "div-ado-029", "category": "divertissement", "question": "Dans quel jeu vidéo incarne-t-on un aventurier qui explore des donjons à la recherche de la princesse Zelda ?", "answer": "The Legend of Zelda" },
-  { "id": "div-ado-030", "category": "divertissement", "question": "Quel est le nom de famille de Mickey Mouse selon les comics Disney ?", "answer": "Mickey n'a pas de nom de famille officiel (parfois \"Mouse\")" }
+  { "id": "div-ado-030", "category": "divertissement", "question": "Quel est le nom de famille de Mickey Mouse selon les comics Disney ?", "answer": "Mickey n'a pas de nom de famille officiel (parfois \"Mouse\")" },
+  { "id": "div-ado-031", "category": "divertissement", "question": "Quel acteur incarne Batman dans le film \"The Batman\" sorti en 2022 ?", "answer": "Robert Pattinson" },
+  { "id": "div-ado-032", "category": "divertissement", "question": "Quelle chanteuse américaine a sorti l'album \"1989\" ?", "answer": "Taylor Swift" },
+  { "id": "div-ado-033", "category": "divertissement", "question": "Dans quel film d'animation Pixar un chef cuisinier est-il en réalité un rat ?", "answer": "Ratatouille" },
+  { "id": "div-ado-034", "category": "divertissement", "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"Assassin's Creed\" incarné dans le tout premier opus ?", "answer": "Altaïr" },
+  { "id": "div-ado-035", "category": "divertissement", "question": "Quel acteur français interprète le rôle principal dans la trilogie \"Taxi\" ?", "answer": "Samy Naceri" }
 ]

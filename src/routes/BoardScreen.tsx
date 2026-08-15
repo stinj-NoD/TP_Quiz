@@ -11,6 +11,8 @@ import { Button } from '../components/ui/Button'
 import { useGameStore } from '../store/gameStore'
 import { useWakeLock } from '../hooks/useWakeLock'
 import { PLAYER_COLOR_VALUES } from '../types/game.types'
+import { getNode } from '../data/board/boardLayout'
+import { CATEGORY_LABELS } from '../types/question.types'
 
 export function BoardScreen() {
   const navigate = useNavigate()
@@ -18,7 +20,7 @@ export function BoardScreen() {
   const game = useGameStore((state) => state.game)
   const rollDiceForCurrentPlayer = useGameStore((state) => state.rollDiceForCurrentPlayer)
   const applyPendingMove = useGameStore((state) => state.applyPendingMove)
-  const chooseEnterCenter = useGameStore((state) => state.chooseEnterCenter)
+  const choosePathDirection = useGameStore((state) => state.choosePathDirection)
   const answerCurrentQuestion = useGameStore((state) => state.answerCurrentQuestion)
   const resetGame = useGameStore((state) => state.resetGame)
 
@@ -99,18 +101,19 @@ export function BoardScreen() {
         onAnswer={answerCurrentQuestion}
       />
 
-      <Modal open={game.phase === 'resolving'}>
+      <Modal open={game.phase === 'choosing-path'}>
         <div className="flex flex-col gap-4">
           <p className="text-base font-semibold">
-            {currentPlayer.name}, vous avez les 6 camemberts ! Voulez-vous tenter d'entrer au centre pour
-            la question finale ?
+            {currentPlayer.name}, quelle direction pour votre pion ?
           </p>
           <div className="flex gap-3">
-            <Button variant="secondary" className="flex-1" onClick={() => chooseEnterCenter(false)}>
+            <Button variant="secondary" className="flex-1" onClick={() => choosePathDirection('ring')}>
               Continuer sur le plateau
             </Button>
-            <Button className="flex-1" onClick={() => chooseEnterCenter(true)}>
-              Entrer au centre
+            <Button className="flex-1" onClick={() => choosePathDirection('arm')}>
+              {game.pendingBranch?.nodeId
+                ? `Rayon ${CATEGORY_LABELS[getNode(game.pendingBranch.nodeId).category!]}`
+                : 'Entrer dans le rayon'}
             </Button>
           </div>
         </div>

@@ -4,11 +4,13 @@ import { CATEGORY_COLORS, CATEGORY_IDS } from '../../types/question.types'
 import type { Player } from '../../types/game.types'
 import { PlayerToken } from './PlayerToken'
 import {
+  ARM_CELLS,
   ARM_INNER_RADIUS,
   CENTER,
   RING_INNER_RADIUS,
   SECTOR_COUNT,
   SIZE,
+  armCellPosition,
   armCellShapes,
   centerSliceShape,
   polarPoint,
@@ -24,14 +26,14 @@ interface BoardProps {
 export function Board({ players }: BoardProps) {
   const ringSize = BOARD_RING.length
 
-  const playersByPosition = new Map<number, Player[]>()
+  const playersByPosition = new Map<string, Player[]>()
   for (const player of players) {
     const list = playersByPosition.get(player.position) ?? []
     list.push(player)
     playersByPosition.set(player.position, list)
   }
 
-  const centerPlayers = players.filter((p) => p.isInCenter)
+  const centerPlayers = playersByPosition.get('center') ?? []
 
   return (
     <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="w-full max-w-[380px]">
@@ -65,7 +67,7 @@ export function Board({ players }: BoardProps) {
         style={{ transformOrigin: `${CENTER}px ${CENTER}px` }}
       />
 
-      {/* 6 bras radiaux : raccourci décoratif vers le centre, cases en chevrons */}
+      {/* 6 bras radiaux : rayon jouable vers le centre, cases en chevrons */}
       {Array.from({ length: SECTOR_COUNT }, (_, sectorIndex) => {
         const category = CATEGORY_IDS[sectorIndex]
         const color = CATEGORY_COLORS[category]
@@ -86,14 +88,14 @@ export function Board({ players }: BoardProps) {
       })}
 
       {/* Anneau extérieur : 24 cases de circulation */}
-      {BOARD_RING.map((cell) => {
-        const { path } = ringCellShape(cell.index, ringSize)
+      {BOARD_RING.map((cell, index) => {
+        const { path } = ringCellShape(index, ringSize)
         const color = cell.category ? CATEGORY_COLORS[cell.category] : 'var(--color-surface-raised)'
         const isWedge = cell.type === 'wedge'
 
         return (
           <path
-            key={cell.index}
+            key={cell.id}
             d={path}
             fill={color}
             stroke="var(--color-bg)"
@@ -122,14 +124,27 @@ export function Board({ players }: BoardProps) {
       })}
 
       {/* Pions sur l'anneau */}
-      {Array.from(playersByPosition.entries()).map(([position, group]) => {
-        if (BOARD_RING[position]?.index !== position) return null
-        const pos = ringCellPosition(position, ringSize)
-        return group
-          .filter((p) => !p.isInCenter)
-          .map((player, i) => (
+      {BOARD_RING.map((cell, index) => {
+        const group = playersByPosition.get(cell.id)
+        if (!group) return null
+        const pos = ringCellPosition(index, ringSize)
+        return group.map((player, i) => (
+          <PlayerToken key={player.id} player={player} x={pos.x} y={pos.y} offsetIndex={i} />
+        ))
+      })}
+
+      {/* Pions sur les bras */}
+      {Array.from({ length: SECTOR_COUNT }, (_, sectorIndex) => {
+        const category = CATEGORY_IDS[sectorIndex]
+        return Array.from({ length: ARM_CELLS }, (_, armCellIndex) => {
+          const nodeId = `arm-${category}-${armCellIndex + 1}`
+          const group = playersByPosition.get(nodeId)
+          if (!group) return null
+          const pos = armCellPosition(sectorIndex, armCellIndex)
+          return group.map((player, i) => (
             <PlayerToken key={player.id} player={player} x={pos.x} y={pos.y} offsetIndex={i} />
           ))
+        })
       })}
 
       {/* Pions au centre */}

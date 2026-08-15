@@ -28,5 +28,10 @@
   { "id": "div-enfant-027", "category": "divertissement", "question": "Comment s'appelle le chat qui joue au chat et à la souris avec Jerry ?", "answer": "Tom" },
   { "id": "div-enfant-028", "category": "divertissement", "question": "Quel est le nom du poney/cheval magique à crinière arc-en-ciel dans un dessin animé populaire ?", "answer": "My Little Pony" },
   { "id": "div-enfant-029", "category": "divertissement", "question": "Comment s'appelle l'ourson qui adore le miel dans les histoires de la forêt des Rêves Bleus ?", "answer": "Winnie l'ourson" },
-  { "id": "div-enfant-030", "category": "divertissement", "question": "Dans quel dessin animé un poisson bleu nommé Dory a des problèmes de mémoire ?", "answer": "Le Monde de Nemo" }
+  { "id": "div-enfant-030", "category": "divertissement", "question": "Dans quel dessin animé un poisson bleu nommé Dory a des problèmes de mémoire ?", "answer": "Le Monde de Nemo" },
+  { "id": "div-enfant-031", "category": "divertissement", "question": "Comment s'appelle le petit poisson-clown orange perdu dans l'océan qui donne son nom à un dessin animé ?", "answer": "Nemo" },
+  { "id": "div-enfant-032", "category": "divertissement", "question": "Quel est le nom de la petite fée aux cheveux blonds et à la robe verte qui vole avec Peter Pan ?", "answer": "La Fée Clochette" },
+  { "id": "div-enfant-033", "category": "divertissement", "question": "Comment s'appelle le canard le plus connu de Disney, souvent en colère et vêtu d'un col marin ?", "answer": "Donald Duck" },
+  { "id": "div-enfant-034", "category": "divertissement", "question": "Dans quel dessin animé un jeune lion nommé Kion protège la Terre des Lions avec sa Garde ?", "answer": "La Garde du Roi Lion" },
+  { "id": "div-enfant-035", "category": "divertissement", "question": "Comment s'appelle la petite princesse qui dort cent ans après avoir touché un fuseau ?", "answer": "La Belle au bois dormant" }
 ]

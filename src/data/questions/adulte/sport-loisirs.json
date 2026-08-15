@@ -178,5 +178,40 @@
     "category": "sport-loisirs",
     "question": "Quel est le sport pratiqué à Wimbledon ?",
     "answer": "Le tennis"
+  },
+  {
+    "id": "spo-adulte-031",
+    "category": "sport-loisirs",
+    "question": "Quel nageur français a remporté quatre titres olympiques individuels aux Jeux de Paris 2024 ?",
+    "answer": "Léon Marchand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-032",
+    "category": "sport-loisirs",
+    "question": "Quel terme désigne, aux échecs, la situation où le roi est en échec sans possibilité d'y échapper ?",
+    "answer": "L'échec et mat",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-033",
+    "category": "sport-loisirs",
+    "question": "Dans quelle discipline olympique d'hiver Martin Fourcade a-t-il été quintuple champion olympique ?",
+    "answer": "Le biathlon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-034",
+    "category": "sport-loisirs",
+    "question": "Quel club de football anglais évolue traditionnellement à Old Trafford ?",
+    "answer": "Manchester United",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-035",
+    "category": "sport-loisirs",
+    "question": "Quel skipper français a remporté le Vendée Globe en 2020-2021 en établissant un temps record ?",
+    "answer": "Yannick Bestaven",
+    "difficulty": "difficile"
   }
 ]

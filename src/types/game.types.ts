@@ -18,29 +18,47 @@ export interface Player {
   name: string
   color: PlayerColor
   ageLevel: AgeLevel
-  position: number
+  position: string
   wedges: Record<CategoryId, boolean>
   isInCenter: boolean
 }
 
-export type CellType = 'category' | 'wedge' | 'roll-again' | 'center'
+export type BoardNodeType = 'ring' | 'wedge' | 'arm' | 'center'
 
-export interface BoardCell {
-  index: number
-  type: CellType
+/**
+ * Case du plateau modélisé en graphe. `next` contient les identifiants des
+ * cases atteignables en un pas : une seule entrée en temps normal, deux sur
+ * une case "wedge" (next[0] = continuer sur l'anneau, next[1] = entrer dans
+ * le rayon de la catégorie), aucune sur le centre (terminus).
+ */
+export interface BoardNode {
+  id: string
+  type: BoardNodeType
   category?: CategoryId
+  next: string[]
 }
 
-export type GamePhase = 'awaiting-roll' | 'moving' | 'awaiting-answer' | 'resolving' | 'victory'
+export type GamePhase =
+  | 'awaiting-roll'
+  | 'moving'
+  | 'choosing-path'
+  | 'awaiting-answer'
+  | 'victory'
+
+export interface PendingBranch {
+  nodeId: string
+  remainingSteps: number
+}
 
 export interface GameState {
   players: Player[]
   currentPlayerIndex: number
-  board: BoardCell[]
+  board: BoardNode[]
   phase: GamePhase
   lastDiceValue: number | null
   currentQuestion: Question | null
   usedQuestionIds: string[]
+  pendingBranch: PendingBranch | null
 }
 
 export function createEmptyWedges(): Record<CategoryId, boolean> {
