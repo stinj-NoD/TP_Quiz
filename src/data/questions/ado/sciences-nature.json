@@ -38,5 +38,15 @@
   { "id": "sci-ado-037", "category": "sciences-nature", "question": "Quelle est l'unité de mesure de la force dans le système international ?", "answer": "Le newton", "difficulty": "moyen" },
   { "id": "sci-ado-038", "category": "sciences-nature", "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?", "answer": "Une roche magmatique (ou volcanique)", "difficulty": "moyen" },
   { "id": "sci-ado-039", "category": "sciences-nature", "question": "Quel astronome italien a perfectionné la lunette astronomique et défendu le modèle héliocentrique ?", "answer": "Galilée", "difficulty": "facile" },
-  { "id": "sci-ado-040", "category": "sciences-nature", "question": "Quel animal australien pond des œufs tout en étant un mammifère ?", "answer": "L'ornithorynque", "difficulty": "moyen" }
+  { "id": "sci-ado-040", "category": "sciences-nature", "question": "Quel animal australien pond des œufs tout en étant un mammifère ?", "answer": "L'ornithorynque", "difficulty": "moyen" },
+  { "id": "sci-ado-041", "category": "sciences-nature", "question": "Quel est le nom de la couche de gaz qui protège la Terre des rayons ultraviolets ?", "answer": "La couche d'ozone", "difficulty": "facile" },
+  { "id": "sci-ado-042", "category": "sciences-nature", "question": "Quelle particule de l'atome porte une charge négative ?", "answer": "L'électron", "difficulty": "moyen" },
+  { "id": "sci-ado-043", "category": "sciences-nature", "question": "Quel est le plus long fleuve du monde ?", "answer": "Le Nil", "difficulty": "facile" },
+  { "id": "sci-ado-044", "category": "sciences-nature", "question": "Quel savant français a mis au point la vaccination contre la rage ?", "answer": "Louis Pasteur", "difficulty": "moyen" },
+  { "id": "sci-ado-045", "category": "sciences-nature", "question": "Quel est le nom du processus par lequel une chenille se transforme en papillon ?", "answer": "La métamorphose", "difficulty": "facile" },
+  { "id": "sci-ado-046", "category": "sciences-nature", "question": "Quelle planète du système solaire possède les anneaux les plus visibles ?", "answer": "Saturne", "difficulty": "facile" },
+  { "id": "sci-ado-047", "category": "sciences-nature", "question": "Quel est le nom de l'échelle utilisée pour mesurer la magnitude des séismes ?", "answer": "L'échelle de Richter", "difficulty": "moyen" },
+  { "id": "sci-ado-048", "category": "sciences-nature", "question": "Quel est le principal muscle qui permet la respiration chez l'humain ?", "answer": "Le diaphragme", "difficulty": "moyen" },
+  { "id": "sci-ado-049", "category": "sciences-nature", "question": "Quel physicien britannique est connu pour ses travaux sur les trous noirs et le livre \"Une brève histoire du temps\" ?", "answer": "Stephen Hawking", "difficulty": "moyen" },
+  { "id": "sci-ado-050", "category": "sciences-nature", "question": "Quel est le seul mammifère capable de voler activement ?", "answer": "La chauve-souris", "difficulty": "moyen" }
 ]

@@ -213,5 +213,110 @@
     "question": "Quel dramaturge norvégien, considéré comme le père du théâtre moderne, a écrit \"Une maison de poupée\" ?",
     "answer": "Henrik Ibsen",
     "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-036",
+    "category": "art-litterature",
+    "question": "Quel peintre italien de la Renaissance est l'auteur de \"La Naissance de Vénus\" ?",
+    "answer": "Sandro Botticelli",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-037",
+    "category": "art-litterature",
+    "question": "Quel écrivain colombien a écrit \"Cent ans de solitude\" ?",
+    "answer": "Gabriel García Márquez",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-038",
+    "category": "art-litterature",
+    "question": "Quel peintre français est le principal représentant du mouvement fauviste avec \"La Danse\" ?",
+    "answer": "Henri Matisse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-039",
+    "category": "art-litterature",
+    "question": "Quelle romancière anglaise du XIXe siècle est l'auteure des \"Hauts de Hurlevent\" ?",
+    "answer": "Emily Brontë",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-040",
+    "category": "art-litterature",
+    "question": "Quel sculpteur suisse est célèbre pour ses figures filiformes comme \"L'Homme qui marche\" ?",
+    "answer": "Alberto Giacometti",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-041",
+    "category": "art-litterature",
+    "question": "Qui a écrit la pièce de théâtre \"Cyrano de Bergerac\" ?",
+    "answer": "Edmond Rostand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-042",
+    "category": "art-litterature",
+    "question": "Quel peintre baroque italien est connu pour son usage dramatique du clair-obscur, notamment dans \"La Vocation de saint Matthieu\" ?",
+    "answer": "Le Caravage",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-043",
+    "category": "art-litterature",
+    "question": "Quelle écrivaine britannique est l'auteure de la série de romans policiers mettant en scène Hercule Poirot ?",
+    "answer": "Agatha Christie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-044",
+    "category": "art-litterature",
+    "question": "Quel peintre néerlandais du Siècle d'or est l'auteur de \"La Jeune Fille à la perle\" ?",
+    "answer": "Johannes Vermeer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-045",
+    "category": "art-litterature",
+    "question": "Quel philosophe et écrivain français a reçu le prix Nobel de littérature en 1964 avant de le refuser ?",
+    "answer": "Jean-Paul Sartre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-046",
+    "category": "art-litterature",
+    "question": "Quel peintre mexicaine est célèbre pour ses nombreux autoportraits marqués par la douleur physique, comme \"Les Deux Frida\" ?",
+    "answer": "Frida Kahlo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-047",
+    "category": "art-litterature",
+    "question": "Quel poète et dramaturge allemand est l'auteur de \"Faust\" ?",
+    "answer": "Johann Wolfgang von Goethe",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-048",
+    "category": "art-litterature",
+    "question": "Quel architecte espagnol, figure du modernisme catalan, a conçu la basilique de la Sagrada Família à Barcelone ?",
+    "answer": "Antoni Gaudí",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-049",
+    "category": "art-litterature",
+    "question": "Quelle romancière française du XXe siècle a écrit \"L'Amant\", récompensé par le prix Goncourt en 1984 ?",
+    "answer": "Marguerite Duras",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-050",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du Quattrocento a réalisé la fresque \"La Cène\" à Milan ?",
+    "answer": "Léonard de Vinci",
+    "difficulty": "facile"
   }
 ]

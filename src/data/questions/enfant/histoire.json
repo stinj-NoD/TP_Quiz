@@ -33,5 +33,20 @@
   { "id": "his-enfant-032", "category": "histoire", "question": "Quel explorateur français a fondé la ville de Québec ?", "answer": "Samuel de Champlain" },
   { "id": "his-enfant-033", "category": "histoire", "question": "Comment s'appelle le grand voyageur qui a raconté ses aventures en Chine dans un livre célèbre ?", "answer": "Marco Polo" },
   { "id": "his-enfant-034", "category": "histoire", "question": "Quel savant a eu l'idée de la gravité en voyant tomber une pomme, dit-on ?", "answer": "Isaac Newton" },
-  { "id": "his-enfant-035", "category": "histoire", "question": "Comment s'appelait le célèbre bateau sur lequel les Pèlerins ont traversé l'océan pour s'installer en Amérique ?", "answer": "Le Mayflower" }
+  { "id": "his-enfant-035", "category": "histoire", "question": "Comment s'appelait le célèbre bateau sur lequel les Pèlerins ont traversé l'océan pour s'installer en Amérique ?", "answer": "Le Mayflower" },
+  { "id": "his-enfant-036", "category": "histoire", "question": "Comment s'appelle le physicien qui a inventé le paratonnerre en jouant avec un cerf-volant pendant l'orage ?", "answer": "Benjamin Franklin", "difficulty": "moyen" },
+  { "id": "his-enfant-037", "category": "histoire", "question": "Quel roi de France a fait construire le magnifique château de Versailles ?", "answer": "Louis XIV", "difficulty": "moyen" },
+  { "id": "his-enfant-038", "category": "histoire", "question": "Comment s'appelaient les grands bateaux à voiles que montaient les pirates ?", "answer": "Des galions (ou voiliers de pirates)", "difficulty": "facile" },
+  { "id": "his-enfant-039", "category": "histoire", "question": "Quel scientifique a inventé un vaccin qui protège contre la rage ?", "answer": "Louis Pasteur", "difficulty": "moyen" },
+  { "id": "his-enfant-040", "category": "histoire", "question": "Comment s'appelle la grande statue verte qui accueille les bateaux à New York ?", "answer": "La statue de la Liberté", "difficulty": "facile" },
+  { "id": "his-enfant-041", "category": "histoire", "question": "Quel peuple de l'Antiquité vivait en Grèce et a inventé les premiers Jeux Olympiques ?", "answer": "Les Grecs (de la Grèce antique)", "difficulty": "moyen" },
+  { "id": "his-enfant-042", "category": "histoire", "question": "Comment s'appelle le célèbre cheval en bois que les Grecs ont utilisé pour entrer dans la ville de Troie ?", "answer": "Le cheval de Troie", "difficulty": "moyen" },
+  { "id": "his-enfant-043", "category": "histoire", "question": "Quel roi légendaire d'Angleterre possédait une célèbre table ronde avec ses chevaliers ?", "answer": "Le roi Arthur", "difficulty": "facile" },
+  { "id": "his-enfant-044", "category": "histoire", "question": "Comment s'appelle l'immense empereur mongol qui a conquis un très grand territoire à cheval ?", "answer": "Gengis Khan", "difficulty": "difficile" },
+  { "id": "his-enfant-045", "category": "histoire", "question": "Quel inventeur français est connu pour avoir créé les premiers frères à voler en montgolfière ?", "answer": "Les frères Montgolfier", "difficulty": "moyen" },
+  { "id": "his-enfant-046", "category": "histoire", "question": "Comment s'appelle la civilisation qui a bâti de grandes pyramides à degrés au Mexique, comme les Aztèques ou les Mayas ?", "answer": "Les Mayas (ou les Aztèques)", "difficulty": "moyen" },
+  { "id": "his-enfant-047", "category": "histoire", "question": "Quel savant italien a construit une des premières lunettes pour observer les étoiles ?", "answer": "Galilée", "difficulty": "difficile" },
+  { "id": "his-enfant-048", "category": "histoire", "question": "Comment s'appelle le grand bateau sur lequel Christophe Colomb a traversé l'océan Atlantique ?", "answer": "La Santa María", "difficulty": "difficile" },
+  { "id": "his-enfant-049", "category": "histoire", "question": "Quel animal les chevaliers du Moyen Âge montaient-ils pour combattre lors des tournois ?", "answer": "Le cheval", "difficulty": "facile" },
+  { "id": "his-enfant-050", "category": "histoire", "question": "Comment s'appelle le célèbre pont de pierre romain encore visible aujourd'hui, construit pour faire passer l'eau ?", "answer": "Un aqueduc (par exemple le pont du Gard)", "difficulty": "difficile" }
 ]

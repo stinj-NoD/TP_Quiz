@@ -33,5 +33,20 @@
   { "id": "spo-enfant-032", "category": "sport-loisirs", "question": "Quel sport se pratique sur un échiquier avec des pièces comme le roi et la reine ?", "answer": "Les échecs" },
   { "id": "spo-enfant-033", "category": "sport-loisirs", "question": "Dans quel sport les cavaliers montent-ils sur un cheval pour sauter des obstacles ?", "answer": "L'équitation" },
   { "id": "spo-enfant-034", "category": "sport-loisirs", "question": "Quel sport de raquette se joue sur une petite table avec un filet et une balle légère ?", "answer": "Le tennis de table (ping-pong)" },
-  { "id": "spo-enfant-035", "category": "sport-loisirs", "question": "Dans quel sport pagaie-t-on assis dans une petite embarcation sur une rivière ?", "answer": "Le canoë-kayak" }
+  { "id": "spo-enfant-035", "category": "sport-loisirs", "question": "Dans quel sport pagaie-t-on assis dans une petite embarcation sur une rivière ?", "answer": "Le canoë-kayak" },
+  { "id": "spo-enfant-036", "category": "sport-loisirs", "question": "Dans quel sport d'hiver glisse-t-on sur un petit traîneau très rapide couché sur le dos ?", "answer": "La luge", "difficulty": "moyen" },
+  { "id": "spo-enfant-037", "category": "sport-loisirs", "question": "Comment s'appelle la médaille remise au sportif qui arrive premier ?", "answer": "La médaille d'or", "difficulty": "facile" },
+  { "id": "spo-enfant-038", "category": "sport-loisirs", "question": "Dans quel sport les joueurs sautent-ils pour smasher le ballon par-dessus un filet ?", "answer": "Le volley-ball", "difficulty": "facile" },
+  { "id": "spo-enfant-039", "category": "sport-loisirs", "question": "Quel sport pratique-t-on avec des palmes et un masque sous l'eau ?", "answer": "La plongée", "difficulty": "facile" },
+  { "id": "spo-enfant-040", "category": "sport-loisirs", "question": "Dans quel sport grimpe-t-on le long d'un mur avec des prises pour les mains et les pieds ?", "answer": "L'escalade", "difficulty": "facile" },
+  { "id": "spo-enfant-041", "category": "sport-loisirs", "question": "Quel objet utilise-t-on pour sauter très haut par-dessus une barre en athlétisme ?", "answer": "Une perche", "difficulty": "moyen" },
+  { "id": "spo-enfant-042", "category": "sport-loisirs", "question": "Dans quel sport les joueurs font-ils des passes avec une crosse et une petite balle sur un terrain ?", "answer": "Le hockey sur gazon", "difficulty": "difficile" },
+  { "id": "spo-enfant-043", "category": "sport-loisirs", "question": "Quel sport se pratique en pédalant sur une route ou en montagne ?", "answer": "Le cyclisme (vélo)", "difficulty": "facile" },
+  { "id": "spo-enfant-044", "category": "sport-loisirs", "question": "Dans quel sport lance-t-on une boule le plus près possible d'une petite boule appelée cochonnet ?", "answer": "La pétanque", "difficulty": "facile" },
+  { "id": "spo-enfant-045", "category": "sport-loisirs", "question": "Combien de joueurs y a-t-il dans une équipe de rugby à XV sur le terrain ?", "answer": "15", "difficulty": "moyen" },
+  { "id": "spo-enfant-046", "category": "sport-loisirs", "question": "Dans quel sport court-on un très long parcours de 42 kilomètres ?", "answer": "Le marathon", "difficulty": "moyen" },
+  { "id": "spo-enfant-047", "category": "sport-loisirs", "question": "Quel sport pratique-t-on en glissant sur des roulettes fixées sous les chaussures ?", "answer": "Le roller (patin à roulettes)", "difficulty": "facile" },
+  { "id": "spo-enfant-048", "category": "sport-loisirs", "question": "Dans quel sport les joueurs frappent-ils une balle avec une batte pour marquer des points ?", "answer": "Le baseball", "difficulty": "moyen" },
+  { "id": "spo-enfant-049", "category": "sport-loisirs", "question": "Quel jeu de société permet de déplacer des pions selon le nombre indiqué par les dés ?", "answer": "Le jeu de l'oie (ou un jeu de plateau avec des dés)", "difficulty": "moyen" },
+  { "id": "spo-enfant-050", "category": "sport-loisirs", "question": "Dans quel sport les skieurs sautent-ils le plus loin possible depuis un grand tremplin ?", "answer": "Le saut à ski", "difficulty": "difficile" }
 ]

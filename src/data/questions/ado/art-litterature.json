@@ -33,5 +33,20 @@
   { "id": "art-ado-032", "category": "art-litterature", "question": "Quel peintre mexicaine est célèbre pour ses nombreux autoportraits, dont \"Autoportrait au collier d'épines\" ?", "answer": "Frida Kahlo" },
   { "id": "art-ado-033", "category": "art-litterature", "question": "Quel écrivain français a imaginé le capitaine Nemo dans \"Vingt Mille Lieues sous les mers\" ?", "answer": "Jules Verne" },
   { "id": "art-ado-034", "category": "art-litterature", "question": "Quel artiste italien de la Renaissance a peint \"La Naissance de Vénus\" ?", "answer": "Sandro Botticelli" },
-  { "id": "art-ado-035", "category": "art-litterature", "question": "Quelle autrice britannique est à l'origine de la série de romans \"Le Journal de Bridget Jones\" ?", "answer": "Helen Fielding" }
+  { "id": "art-ado-035", "category": "art-litterature", "question": "Quelle autrice britannique est à l'origine de la série de romans \"Le Journal de Bridget Jones\" ?", "answer": "Helen Fielding" },
+  { "id": "art-ado-036", "category": "art-litterature", "question": "Quel écrivain français a créé le personnage de Gavroche dans \"Les Misérables\" ?", "answer": "Victor Hugo", "difficulty": "moyen" },
+  { "id": "art-ado-037", "category": "art-litterature", "question": "Quel peintre hollandais du XVIIe siècle a peint \"La Jeune Fille à la perle\" ?", "answer": "Johannes Vermeer", "difficulty": "moyen" },
+  { "id": "art-ado-038", "category": "art-litterature", "question": "Quelle autrice américaine a écrit la saga \"Twilight\" ?", "answer": "Stephenie Meyer", "difficulty": "facile" },
+  { "id": "art-ado-039", "category": "art-litterature", "question": "Quel peintre français est célèbre pour ses tableaux de danseuses de ballet, comme \"L'Étoile\" ?", "answer": "Edgar Degas", "difficulty": "moyen" },
+  { "id": "art-ado-040", "category": "art-litterature", "question": "Quel romancier français est l'auteur de \"Le Comte de Monte-Cristo\" ?", "answer": "Alexandre Dumas", "difficulty": "facile" },
+  { "id": "art-ado-041", "category": "art-litterature", "question": "Quel artiste flamand du XVIIe siècle est célèbre pour ses tableaux baroques réalisés dans son atelier d'Anvers ?", "answer": "Pierre Paul Rubens", "difficulty": "difficile" },
+  { "id": "art-ado-042", "category": "art-litterature", "question": "Quel écrivain américain est l'auteur du roman \"Nos étoiles contraires\" ?", "answer": "John Green", "difficulty": "facile" },
+  { "id": "art-ado-043", "category": "art-litterature", "question": "Quel peintre italien de la Renaissance a peint \"L'École d'Athènes\" ?", "answer": "Raphaël", "difficulty": "moyen" },
+  { "id": "art-ado-044", "category": "art-litterature", "question": "Quel dramaturge français du XVIIe siècle a écrit \"Le Malade imaginaire\" ?", "answer": "Molière", "difficulty": "facile" },
+  { "id": "art-ado-045", "category": "art-litterature", "question": "Quel peintre autrichien a créé le tableau \"Le Baiser\", orné de dorures ?", "answer": "Gustav Klimt", "difficulty": "moyen" },
+  { "id": "art-ado-046", "category": "art-litterature", "question": "Quelle autrice britannique a créé le détective belge Hercule Poirot ?", "answer": "Agatha Christie", "difficulty": "facile" },
+  { "id": "art-ado-047", "category": "art-litterature", "question": "Quel peintre impressionniste français a réalisé de nombreuses toiles représentant des nénuphars ?", "answer": "Claude Monet", "difficulty": "facile" },
+  { "id": "art-ado-048", "category": "art-litterature", "question": "Quel écrivain colombien est l'auteur de \"Cent ans de solitude\" ?", "answer": "Gabriel García Márquez", "difficulty": "difficile" },
+  { "id": "art-ado-049", "category": "art-litterature", "question": "Quel sculpteur français a réalisé la Statue de la Liberté offerte aux États-Unis ?", "answer": "Frédéric Auguste Bartholdi", "difficulty": "moyen" },
+  { "id": "art-ado-050", "category": "art-litterature", "question": "Quelle autrice française a écrit \"L'Élégance du hérisson\" ?", "answer": "Muriel Barbery", "difficulty": "moyen" }
 ]

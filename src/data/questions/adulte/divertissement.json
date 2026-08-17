@@ -213,5 +213,110 @@
     "question": "Quel acteur britannique incarne le détective Sherlock Holmes dans la série \"Sherlock\" produite par la BBC ?",
     "answer": "Benedict Cumberbatch",
     "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-036",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain est à l'origine des films \"Pulp Fiction\" et \"Kill Bill\" ?",
+    "answer": "Quentin Tarantino",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-037",
+    "category": "divertissement",
+    "question": "Quelle actrice française a reçu l'Oscar de la meilleure actrice en 2008 pour son rôle dans \"La Môme\" ?",
+    "answer": "Marion Cotillard",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-038",
+    "category": "divertissement",
+    "question": "Quel est le pseudonyme de l'artiste britannique de son vrai nom Robert Del Naja, cofondateur du groupe Massive Attack ?",
+    "answer": "3D",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-039",
+    "category": "divertissement",
+    "question": "Dans quelle ville se déroule l'intrigue de la série \"Breaking Bad\" ?",
+    "answer": "Albuquerque, au Nouveau-Mexique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-040",
+    "category": "divertissement",
+    "question": "Quel compositeur italien a signé la musique du film \"Le Bon, la Brute et le Truand\" ?",
+    "answer": "Ennio Morricone",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-041",
+    "category": "divertissement",
+    "question": "Quel humoriste français a créé le personnage du \"Dîner de cons\" avant l'adaptation au cinéma, en tant qu'auteur de la pièce originale ?",
+    "answer": "Francis Veber",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-042",
+    "category": "divertissement",
+    "question": "Quel est le nom du prince déchu qui doit reconquérir le trône dans le dessin animé \"Le Roi Lion\" ?",
+    "answer": "Simba",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-043",
+    "category": "divertissement",
+    "question": "Quelle chanteuse islandaise a notamment sorti les albums \"Homogenic\" et \"Vespertine\" ?",
+    "answer": "Björk",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-044",
+    "category": "divertissement",
+    "question": "Quel réalisateur espagnol a signé les films \"Tout sur ma mère\" et \"Parle avec elle\" ?",
+    "answer": "Pedro Almodóvar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-045",
+    "category": "divertissement",
+    "question": "Dans la série \"Le Bureau des légendes\", quel est le nom de code du personnage principal, un agent de la DGSE ?",
+    "answer": "Malotru",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-046",
+    "category": "divertissement",
+    "question": "Quel acteur américain incarne le Joker dans le film \"Joker\" sorti en 2019 ?",
+    "answer": "Joaquin Phoenix",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-047",
+    "category": "divertissement",
+    "question": "Quel est le nom du label discographique fondé par Jay-Z en 1996, qui a lancé la carrière de plusieurs rappeurs ?",
+    "answer": "Roc-A-Fella Records",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-048",
+    "category": "divertissement",
+    "question": "Quel groupe de rock américain a interprété le titre \"Hotel California\" ?",
+    "answer": "Eagles",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-049",
+    "category": "divertissement",
+    "question": "Quel metteur en scène français est à l'origine de la comédie \"Bienvenue chez les Ch'tis\" avec Dany Boon ?",
+    "answer": "Dany Boon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-050",
+    "category": "divertissement",
+    "question": "Quel est le titre du premier long métrage d'animation en couleur produit par les studios Disney, sorti en 1937 ?",
+    "answer": "Blanche-Neige et les Sept Nains",
+    "difficulty": "moyen"
   }
 ]

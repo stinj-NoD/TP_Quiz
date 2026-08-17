@@ -104,11 +104,11 @@ export function ProfileScreen() {
               <Trophy size={20} color="white" />
             </span>
             <div className="flex-1">
-              <p className="text-sm font-semibold">Meilleurs scores Géo</p>
+              <p className="text-sm font-semibold">Classement</p>
               <p className="text-xs text-[var(--color-text-muted)]">
                 {sessionCount > 0
-                  ? `${sessionCount} session${sessionCount > 1 ? 's' : ''} · record ${bestPercent}%`
-                  : 'Aucune session enregistrée'}
+                  ? `${sessionCount} session${sessionCount > 1 ? 's' : ''} Géo · record ${bestPercent}%`
+                  : 'Aucune session Géo enregistrée'}
               </p>
             </div>
             <ChevronRight size={18} className="text-[var(--color-text-muted)]" />

@@ -213,5 +213,110 @@
     "question": "Quel pays enclavé d'Afrique australe est entièrement entouré par le territoire de l'Afrique du Sud ?",
     "answer": "Le Lesotho",
     "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-036",
+    "category": "geographie",
+    "question": "Quel est le plus grand archipel du monde par le nombre d'îles, situé en Asie du Sud-Est ?",
+    "answer": "L'Indonésie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-037",
+    "category": "geographie",
+    "question": "Quelle capitale européenne est construite sur 14 îles reliées par des ponts, au bord du lac Mälar ?",
+    "answer": "Stockholm",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-038",
+    "category": "geographie",
+    "question": "Quel désert d'Amérique du Sud, situé au Chili, est considéré comme le plus aride du monde ?",
+    "answer": "Le désert d'Atacama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-039",
+    "category": "geographie",
+    "question": "Quel pays africain compte le plus grand nombre d'habitants ?",
+    "answer": "Le Nigeria",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-040",
+    "category": "geographie",
+    "question": "Quelle mer intérieure, en réalité un lac salé, borde l'Iran, la Russie et le Kazakhstan et constitue la plus grande étendue d'eau fermée du monde ?",
+    "answer": "La mer Caspienne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-041",
+    "category": "geographie",
+    "question": "Quel est le nom du plateau tibétain souvent surnommé le « toit du monde » ?",
+    "answer": "Le plateau du Tibet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-042",
+    "category": "geographie",
+    "question": "Quelle ville portuaire, capitale économique du Maroc, est aussi le plus grand port du pays ?",
+    "answer": "Casablanca",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-043",
+    "category": "geographie",
+    "question": "Quel pays d'Europe du Nord est composé de trois régions autonomes : le Groenland, les îles Féroé et le territoire continental danois ?",
+    "answer": "Le Danemark",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-044",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "answer": "Wellington",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-045",
+    "category": "geographie",
+    "question": "Quel fleuve d'Amérique du Sud est le plus long du continent et le plus puissant en débit au monde ?",
+    "answer": "L'Amazone",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-046",
+    "category": "geographie",
+    "question": "Quel détroit sépare l'Asie de l'Amérique du Nord, entre la Sibérie et l'Alaska ?",
+    "answer": "Le détroit de Béring",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-047",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le désert du Namib, l'un des plus anciens déserts du monde ?",
+    "answer": "La Namibie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-048",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Norvège ?",
+    "answer": "Oslo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-049",
+    "category": "geographie",
+    "question": "Quel pays d'Asie du Sud-Est, ancien royaume du Siam, n'a jamais été colonisé par une puissance européenne ?",
+    "answer": "La Thaïlande",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-050",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes forme l'épine dorsale de l'Amérique du Sud, la plus longue chaîne continentale du monde ?",
+    "answer": "La cordillère des Andes",
+    "difficulty": "moyen"
   }
 ]

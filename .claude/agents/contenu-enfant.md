@@ -17,9 +17,14 @@ interface Question {
   category: CategoryId   // doit correspondre à la catégorie demandée
   question: string
   answer: string
-  difficulty?: 'facile' | 'moyen' | 'difficile'
+  difficulty: 'facile' | 'moyen' | 'difficile'
 }
 ```
+
+`difficulty` est OBLIGATOIRE sur chaque question générée (jamais omis). Pour le
+segment enfant, privilégie très largement `"facile"` ; réserve `"moyen"` aux
+questions qui demandent de croiser deux indices ou un peu plus de mémoire, et
+n'utilise jamais `"difficile"` sur ce segment.
 
 Ne réécris jamais le fichier complet, ne renvoie que les NOUVELLES entrées. N'écris pas sur le disque toi-même — un processus d'orchestration se charge de valider puis d'intégrer ta sortie.
 

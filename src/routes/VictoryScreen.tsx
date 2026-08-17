@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { Trophy } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -5,13 +6,27 @@ import { ScreenTransition } from '../components/layout/ScreenTransition'
 import { Button } from '../components/ui/Button'
 import { PLAYER_COLOR_VALUES } from '../types/game.types'
 import { useGameStore } from '../store/gameStore'
+import { useBoardHistoryStore } from '../store/boardHistoryStore'
 
 export function VictoryScreen() {
   const navigate = useNavigate()
   const game = useGameStore((state) => state.game)
   const resetGame = useGameStore((state) => state.resetGame)
+  const addBoardResult = useBoardHistoryStore((state) => state.addResult)
 
   const winner = game?.players[game.currentPlayerIndex]
+
+  const recordedRef = useRef(false)
+  useEffect(() => {
+    if (recordedRef.current || !winner || !game) return
+    recordedRef.current = true
+    addBoardResult({
+      winnerName: winner.name,
+      playerCount: game.players.length,
+      finishedAt: new Date().toISOString(),
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const handleNewGame = () => {
     resetGame()

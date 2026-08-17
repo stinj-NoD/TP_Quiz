@@ -47,6 +47,11 @@ plutôt que de générer pour les 18 combinaisons d'un coup.
    l'agent une reformulation avant de considérer la tâche terminée. Ne laisse
    jamais le dépôt dans un état où `validate-questions.mjs` échoue.
 
+   Vérifie aussi que chaque nouvelle entrée a bien un champ `difficulty`
+   rempli (`facile`, `moyen` ou `difficile`) — les sous-agents doivent le
+   fournir systématiquement ; si une entrée en est dépourvue, redemande-la
+   plutôt que de la fusionner telle quelle.
+
 4. **Résume** à l'utilisateur : combien de questions ont été ajoutées, dans
    quels fichiers, et le résultat de la validation.
 

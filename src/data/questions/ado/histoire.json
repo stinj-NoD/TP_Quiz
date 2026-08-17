@@ -33,5 +33,20 @@
   { "id": "his-ado-032", "category": "histoire", "question": "Quel roi de France a fait construire le château de Versailles ?", "answer": "Louis XIV", "difficulty": "facile" },
   { "id": "his-ado-033", "category": "histoire", "question": "Quel document fondamental a été proclamé lors de la Révolution française en 1789, garantissant les droits fondamentaux des citoyens ?", "answer": "La Déclaration des droits de l'homme et du citoyen", "difficulty": "moyen" },
   { "id": "his-ado-034", "category": "histoire", "question": "Quel général français a lancé l'appel du 18 juin 1940 depuis Londres ?", "answer": "Charles de Gaulle", "difficulty": "facile" },
-  { "id": "his-ado-035", "category": "histoire", "question": "Quelle ancienne civilisation a inventé l'écriture cunéiforme en Mésopotamie ?", "answer": "Les Sumériens", "difficulty": "moyen" }
+  { "id": "his-ado-035", "category": "histoire", "question": "Quelle ancienne civilisation a inventé l'écriture cunéiforme en Mésopotamie ?", "answer": "Les Sumériens", "difficulty": "moyen" },
+  { "id": "his-ado-036", "category": "histoire", "question": "Quel roi de France a été guillotiné en 1793 pendant la Révolution ?", "answer": "Louis XVI", "difficulty": "facile" },
+  { "id": "his-ado-037", "category": "histoire", "question": "Quelle reine d'Égypte antique a séduit Jules César puis Marc Antoine ?", "answer": "Cléopâtre", "difficulty": "facile" },
+  { "id": "his-ado-038", "category": "histoire", "question": "Quel jour de juin 1944 les Alliés ont-ils débarqué en Normandie ?", "answer": "Le 6 juin 1944", "difficulty": "moyen" },
+  { "id": "his-ado-039", "category": "histoire", "question": "Quel empereur romain a fait construire un immense amphithéâtre connu aujourd'hui sous le nom de Colisée ?", "answer": "Vespasien", "difficulty": "difficile" },
+  { "id": "his-ado-040", "category": "histoire", "question": "Quelle épidémie a décimé près d'un tiers de la population européenne au XIVe siècle ?", "answer": "La peste noire", "difficulty": "moyen" },
+  { "id": "his-ado-041", "category": "histoire", "question": "Quelle invention de Gutenberg, vers 1450, a révolutionné la diffusion du savoir en Europe ?", "answer": "L'imprimerie", "difficulty": "moyen" },
+  { "id": "his-ado-042", "category": "histoire", "question": "Quel physicien allemand a développé la théorie de la relativité et a fui l'Allemagne nazie ?", "answer": "Albert Einstein", "difficulty": "moyen" },
+  { "id": "his-ado-043", "category": "histoire", "question": "Quel mouvement artistique et intellectuel des XVe et XVIe siècles a vu naître Léonard de Vinci et Michel-Ange ?", "answer": "La Renaissance", "difficulty": "facile" },
+  { "id": "his-ado-044", "category": "histoire", "question": "Quel homme politique sud-africain, emprisonné 27 ans, est devenu président après la fin de l'apartheid ?", "answer": "Nelson Mandela", "difficulty": "facile" },
+  { "id": "his-ado-045", "category": "histoire", "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis de 1861 à 1865 ?", "answer": "La guerre de Sécession", "difficulty": "moyen" },
+  { "id": "his-ado-046", "category": "histoire", "question": "Quel empereur mongol a fondé le plus grand empire terrestre de l'histoire au XIIIe siècle ?", "answer": "Gengis Khan", "difficulty": "moyen" },
+  { "id": "his-ado-047", "category": "histoire", "question": "Quel philosophe grec a été le maître d'Alexandre le Grand ?", "answer": "Aristote", "difficulty": "moyen" },
+  { "id": "his-ado-048", "category": "histoire", "question": "Quel roi de Macédoine a conquis un immense empire allant de la Grèce jusqu'à l'Inde ?", "answer": "Alexandre le Grand", "difficulty": "facile" },
+  { "id": "his-ado-049", "category": "histoire", "question": "Quelle organisation internationale a été créée en 1945 pour maintenir la paix dans le monde ?", "answer": "L'Organisation des Nations unies (ONU)", "difficulty": "moyen" },
+  { "id": "his-ado-050", "category": "histoire", "question": "Quel navigateur portugais a dirigé la première expédition à faire le tour du monde, achevée en 1522 ?", "answer": "Fernand de Magellan", "difficulty": "difficile" }
 ]

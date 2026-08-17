@@ -33,5 +33,20 @@
   { "id": "geo-ado-032", "category": "geographie", "question": "Quel est le plus long fleuve du monde ?", "answer": "Le Nil" },
   { "id": "geo-ado-033", "category": "geographie", "question": "Quel pays est célèbre pour ses milliers de temples à Bagan ?", "answer": "Le Myanmar" },
   { "id": "geo-ado-034", "category": "geographie", "question": "Quelle capitale européenne est bâtie sur plusieurs îles reliées par des ponts ?", "answer": "Stockholm" },
-  { "id": "geo-ado-035", "category": "geographie", "question": "Quel désert est le plus grand du monde, glace comprise ?", "answer": "Le désert de l'Antarctique", "difficulty": "moyen" }
+  { "id": "geo-ado-035", "category": "geographie", "question": "Quel désert est le plus grand du monde, glace comprise ?", "answer": "Le désert de l'Antarctique", "difficulty": "moyen" },
+  { "id": "geo-ado-036", "category": "geographie", "question": "Quelle est la capitale de l'Espagne ?", "answer": "Madrid", "difficulty": "facile" },
+  { "id": "geo-ado-037", "category": "geographie", "question": "Quel pays d'Amérique du Sud a pour langue officielle le portugais ?", "answer": "Le Brésil", "difficulty": "facile" },
+  { "id": "geo-ado-038", "category": "geographie", "question": "Quel océan est le plus grand du monde ?", "answer": "L'océan Pacifique", "difficulty": "facile" },
+  { "id": "geo-ado-039", "category": "geographie", "question": "Dans quel pays se trouve la Grande Barrière de corail ?", "answer": "L'Australie", "difficulty": "facile" },
+  { "id": "geo-ado-040", "category": "geographie", "question": "Quelle est la capitale des Pays-Bas ?", "answer": "Amsterdam", "difficulty": "facile" },
+  { "id": "geo-ado-041", "category": "geographie", "question": "Quel fleuve traverse Paris ?", "answer": "La Seine", "difficulty": "facile" },
+  { "id": "geo-ado-042", "category": "geographie", "question": "Quel pays est surnommé le \"pays des mille lacs\" ?", "answer": "La Finlande", "difficulty": "moyen" },
+  { "id": "geo-ado-043", "category": "geographie", "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?", "answer": "Les Pyrénées", "difficulty": "facile" },
+  { "id": "geo-ado-044", "category": "geographie", "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie ?", "answer": "Le lac Supérieur", "difficulty": "difficile" },
+  { "id": "geo-ado-045", "category": "geographie", "question": "Quel pays africain a pour capitale Le Caire ?", "answer": "L'Égypte", "difficulty": "facile" },
+  { "id": "geo-ado-046", "category": "geographie", "question": "Quelle ville américaine est surnommée la \"Grosse Pomme\" ?", "answer": "New York", "difficulty": "facile" },
+  { "id": "geo-ado-047", "category": "geographie", "question": "Quel désert couvre une grande partie du sud du continent africain, entre la Namibie et le Botswana ?", "answer": "Le désert du Kalahari", "difficulty": "moyen" },
+  { "id": "geo-ado-048", "category": "geographie", "question": "Quelle capitale d'Amérique du Sud se situe à la plus haute altitude ?", "answer": "La Paz", "difficulty": "difficile" },
+  { "id": "geo-ado-049", "category": "geographie", "question": "Quel pays est traversé par le tropique du Cancer et abrite la ville du Caire ?", "answer": "L'Égypte", "difficulty": "moyen" },
+  { "id": "geo-ado-050", "category": "geographie", "question": "Quelle mer borde la Tunisie, l'Algérie et le Maroc au nord ?", "answer": "La mer Méditerranée", "difficulty": "facile" }
 ]

@@ -61,6 +61,12 @@ export interface GameState {
   pendingBranch: PendingBranch | null
 }
 
+export interface BoardGameResult {
+  winnerName: string
+  playerCount: number
+  finishedAt: string
+}
+
 export function createEmptyWedges(): Record<CategoryId, boolean> {
   return {
     geographie: false,

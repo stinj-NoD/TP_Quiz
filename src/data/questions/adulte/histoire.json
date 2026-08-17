@@ -213,5 +213,110 @@
     "question": "Quel roi de France a été guillotiné place de la Révolution en 1793 ?",
     "answer": "Louis XVI",
     "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-036",
+    "category": "histoire",
+    "question": "Quel édit de 1598, signé par Henri IV, accorde la liberté de culte aux protestants en France ?",
+    "answer": "L'édit de Nantes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-037",
+    "category": "histoire",
+    "question": "Quelle bataille de 1066 a permis à Guillaume le Conquérant de s'emparer du trône d'Angleterre ?",
+    "answer": "La bataille d'Hastings",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-038",
+    "category": "histoire",
+    "question": "Quel philosophe et empereur romain a régné de 161 à 180 et écrit les \"Pensées pour moi-même\" ?",
+    "answer": "Marc Aurèle",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-039",
+    "category": "histoire",
+    "question": "En quelle année la France a-t-elle aboli l'esclavage de manière définitive, sous l'impulsion de Victor Schœlcher ?",
+    "answer": "1848",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-040",
+    "category": "histoire",
+    "question": "Quel roi de Macédoine a conquis un empire s'étendant jusqu'à l'Indus au IVe siècle avant J.-C. ?",
+    "answer": "Alexandre le Grand",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-041",
+    "category": "histoire",
+    "question": "Quelle crise diplomatique et militaire de 1962 a opposé les États-Unis et l'URSS après l'installation de missiles soviétiques près des côtes américaines ?",
+    "answer": "La crise des missiles de Cuba",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-042",
+    "category": "histoire",
+    "question": "Quel roi des Francs fut sacré empereur d'Occident par le pape Léon III en l'an 800 ?",
+    "answer": "Charlemagne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-043",
+    "category": "histoire",
+    "question": "Quelle grande famine irlandaise, provoquée par le mildiou de la pomme de terre, a débuté en 1845 ?",
+    "answer": "La Grande Famine (An Gorta Mór)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-044",
+    "category": "histoire",
+    "question": "Quel physicien et théologien italien fut contraint par l'Inquisition d'abjurer sa défense du modèle héliocentrique en 1633 ?",
+    "answer": "Galilée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-045",
+    "category": "histoire",
+    "question": "Quel accord de 1938, signé à Munich, a cédé les Sudètes tchécoslovaques à l'Allemagne nazie ?",
+    "answer": "Les accords de Munich",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-046",
+    "category": "histoire",
+    "question": "Quelle reine d'Angleterre, fille d'Henri VIII, régna pendant plus de quarante ans et donna son nom à une ère glorieuse du théâtre anglais ?",
+    "answer": "Élisabeth Ire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-047",
+    "category": "histoire",
+    "question": "Quel mouvement insurrectionnel parisien de 1871, réprimé dans le sang lors de la \"Semaine sanglante\", a instauré un gouvernement révolutionnaire éphémère ?",
+    "answer": "La Commune de Paris",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-048",
+    "category": "histoire",
+    "question": "Quel empereur romain a fait édifier un mur défensif dans le nord de la Bretagne (actuelle Angleterre) au IIe siècle ?",
+    "answer": "Hadrien (le mur d'Hadrien)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-049",
+    "category": "histoire",
+    "question": "Quelle conférence de 1945, réunissant Roosevelt, Churchill et Staline, a organisé le partage de l'Europe d'après-guerre ?",
+    "answer": "La conférence de Yalta",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-050",
+    "category": "histoire",
+    "question": "Quel roi de France, dit \"le Bien-Aimé\", a régné de 1715 à 1774 et précède Louis XVI ?",
+    "answer": "Louis XV",
+    "difficulty": "moyen"
   }
 ]

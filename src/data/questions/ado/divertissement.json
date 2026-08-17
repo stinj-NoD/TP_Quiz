@@ -33,5 +33,20 @@
   { "id": "div-ado-032", "category": "divertissement", "question": "Quelle chanteuse américaine a sorti l'album \"1989\" ?", "answer": "Taylor Swift" },
   { "id": "div-ado-033", "category": "divertissement", "question": "Dans quel film d'animation Pixar un chef cuisinier est-il en réalité un rat ?", "answer": "Ratatouille" },
   { "id": "div-ado-034", "category": "divertissement", "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"Assassin's Creed\" incarné dans le tout premier opus ?", "answer": "Altaïr" },
-  { "id": "div-ado-035", "category": "divertissement", "question": "Quel acteur français interprète le rôle principal dans la trilogie \"Taxi\" ?", "answer": "Samy Naceri" }
+  { "id": "div-ado-035", "category": "divertissement", "question": "Quel acteur français interprète le rôle principal dans la trilogie \"Taxi\" ?", "answer": "Samy Naceri" },
+  { "id": "div-ado-036", "category": "divertissement", "question": "Quel acteur incarne Thor dans l'univers cinématographique Marvel ?", "answer": "Chris Hemsworth", "difficulty": "facile" },
+  { "id": "div-ado-037", "category": "divertissement", "question": "Quelle chanteuse interprète le titre \"Levitating\" ?", "answer": "Dua Lipa", "difficulty": "moyen" },
+  { "id": "div-ado-038", "category": "divertissement", "question": "Quel est le nom du royaume où se déroule l'histoire du film \"Black Panther\" ?", "answer": "Le Wakanda", "difficulty": "moyen" },
+  { "id": "div-ado-039", "category": "divertissement", "question": "Dans quelle série Netflix des adolescents affrontent-ils des monstres venus du \"Monde à l'envers\" ?", "answer": "Stranger Things", "difficulty": "facile" },
+  { "id": "div-ado-040", "category": "divertissement", "question": "Quel acteur prête sa voix et son image au Grinch dans le film de 2018 ?", "answer": "Benedict Cumberbatch", "difficulty": "difficile" },
+  { "id": "div-ado-041", "category": "divertissement", "question": "Quel est le nom du jeu vidéo de simulation de vie où l'on gère des personnages appelés des Sims ?", "answer": "Les Sims", "difficulty": "facile" },
+  { "id": "div-ado-042", "category": "divertissement", "question": "Quelle actrice incarne Katniss Everdeen dans la saga \"Hunger Games\" ?", "answer": "Jennifer Lawrence", "difficulty": "moyen" },
+  { "id": "div-ado-043", "category": "divertissement", "question": "Quel groupe américain est connu pour la chanson \"Uptown Funk\" avec Bruno Mars ?", "answer": "Mark Ronson", "difficulty": "difficile" },
+  { "id": "div-ado-044", "category": "divertissement", "question": "Dans quel jeu vidéo de rôle incarne-t-on un dresseur qui capture des créatures dans des Poké Balls ?", "answer": "Pokémon", "difficulty": "facile" },
+  { "id": "div-ado-045", "category": "divertissement", "question": "Quel réalisateur est à l'origine des films \"Astérix et Obélix : Mission Cléopâtre\" ?", "answer": "Alain Chabat", "difficulty": "moyen" },
+  { "id": "div-ado-046", "category": "divertissement", "question": "Quel est le nom du méchant qui affronte les Avengers dans les films \"Infinity War\" et \"Endgame\" ?", "answer": "Thanos", "difficulty": "facile" },
+  { "id": "div-ado-047", "category": "divertissement", "question": "Quelle chanteuse française a représenté la France à l'Eurovision 2021 avec \"Voilà\" ?", "answer": "Barbara Pravi", "difficulty": "moyen" },
+  { "id": "div-ado-048", "category": "divertissement", "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"God of War\" ?", "answer": "Kratos", "difficulty": "moyen" },
+  { "id": "div-ado-049", "category": "divertissement", "question": "Dans quel film d'animation Disney le personnage de Moana part-elle explorer l'océan ?", "answer": "Vaiana", "difficulty": "facile" },
+  { "id": "div-ado-050", "category": "divertissement", "question": "Quel humoriste et acteur français a créé le personnage de Kad dans le duo \"Kad et Olivier\" ?", "answer": "Kad Merad", "difficulty": "difficile" }
 ]

@@ -3,7 +3,7 @@ import { Modal } from '../ui/Modal'
 import { Button } from '../ui/Button'
 import { Badge } from '../ui/Badge'
 import { AnswerFeedback } from './AnswerFeedback'
-import { CATEGORY_COLORS, CATEGORY_LABELS } from '../../types/question.types'
+import { CATEGORY_COLORS, CATEGORY_LABELS, DIFFICULTY_COLORS, DIFFICULTY_LABELS } from '../../types/question.types'
 import type { Question } from '../../types/question.types'
 
 interface QuestionModalProps {
@@ -33,7 +33,14 @@ export function QuestionModal({ question, playerName, onAnswer }: QuestionModalP
     <Modal open={!!question}>
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
-          <Badge color={CATEGORY_COLORS[question.category]}>{CATEGORY_LABELS[question.category]}</Badge>
+          <div className="flex items-center gap-2">
+            <Badge color={CATEGORY_COLORS[question.category]}>{CATEGORY_LABELS[question.category]}</Badge>
+            {question.difficulty && (
+              <Badge color={DIFFICULTY_COLORS[question.difficulty]} filled={false}>
+                {DIFFICULTY_LABELS[question.difficulty]}
+              </Badge>
+            )}
+          </div>
           <span className="text-xs text-[var(--color-text-muted)]">Au tour de {playerName}</span>
         </div>
 

@@ -52,3 +52,17 @@ export const CATEGORY_COLORS: Record<CategoryId, string> = {
   'sciences-nature': 'var(--color-cat-sciences-nature)',
   'sport-loisirs': 'var(--color-cat-sport-loisirs)',
 }
+
+export type Difficulty = 'facile' | 'moyen' | 'difficile'
+
+export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
+  facile: 'Facile',
+  moyen: 'Moyen',
+  difficile: 'Difficile',
+}
+
+export const DIFFICULTY_COLORS: Record<Difficulty, string> = {
+  facile: '#4ade80',
+  moyen: '#facc15',
+  difficile: '#f87171',
+}

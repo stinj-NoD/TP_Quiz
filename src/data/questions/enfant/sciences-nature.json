@@ -33,5 +33,20 @@
   { "id": "sci-enfant-032", "category": "sciences-nature", "question": "Quelle partie de la plante pousse sous la terre pour puiser l'eau ?", "answer": "La racine" },
   { "id": "sci-enfant-033", "category": "sciences-nature", "question": "Quel animal à grosses dents ronge le bois pour construire des barrages ?", "answer": "Le castor" },
   { "id": "sci-enfant-034", "category": "sciences-nature", "question": "Quelle saison de l'année suit l'hiver ?", "answer": "Le printemps" },
-  { "id": "sci-enfant-035", "category": "sciences-nature", "question": "Quel animal des mers froides a un gros corps rond et deux défenses ?", "answer": "Le morse" }
+  { "id": "sci-enfant-035", "category": "sciences-nature", "question": "Quel animal des mers froides a un gros corps rond et deux défenses ?", "answer": "Le morse" },
+  { "id": "sci-enfant-036", "category": "sciences-nature", "question": "Quel animal a un cou couvert de piquants et se roule en boule pour se protéger ?", "answer": "Le hérisson", "difficulty": "facile" },
+  { "id": "sci-enfant-037", "category": "sciences-nature", "question": "Quel oiseau ne sait pas voler mais nage très bien dans l'eau froide ?", "answer": "Le manchot (ou pingouin)", "difficulty": "facile" },
+  { "id": "sci-enfant-038", "category": "sciences-nature", "question": "Quelle partie de la plante capte la lumière du soleil pour la nourrir ?", "answer": "La feuille", "difficulty": "moyen" },
+  { "id": "sci-enfant-039", "category": "sciences-nature", "question": "Quel animal est le plus grand des singes et vit en Afrique ?", "answer": "Le gorille", "difficulty": "moyen" },
+  { "id": "sci-enfant-040", "category": "sciences-nature", "question": "Comment s'appelle l'eau gelée qui tombe du ciel en petits morceaux blancs ?", "answer": "La neige", "difficulty": "facile" },
+  { "id": "sci-enfant-041", "category": "sciences-nature", "question": "Quel animal à grandes oreilles vit dans le désert et chasse la nuit ?", "answer": "Le fennec", "difficulty": "difficile" },
+  { "id": "sci-enfant-042", "category": "sciences-nature", "question": "Quelle planète est entourée de magnifiques anneaux ?", "answer": "Saturne", "difficulty": "moyen" },
+  { "id": "sci-enfant-043", "category": "sciences-nature", "question": "Quel est le plus grand poisson du monde, qui n'est pourtant pas dangereux ?", "answer": "Le requin-baleine", "difficulty": "difficile" },
+  { "id": "sci-enfant-044", "category": "sciences-nature", "question": "Quel animal peut vivre aussi bien dans l'eau que sur la terre ?", "answer": "La grenouille (un amphibien)", "difficulty": "moyen" },
+  { "id": "sci-enfant-045", "category": "sciences-nature", "question": "Quelle partie du corps utilise-t-on pour sentir les odeurs ?", "answer": "Le nez", "difficulty": "facile" },
+  { "id": "sci-enfant-046", "category": "sciences-nature", "question": "Quel animal construit une toile pour attraper ses proies ?", "answer": "L'araignée", "difficulty": "facile" },
+  { "id": "sci-enfant-047", "category": "sciences-nature", "question": "Comment appelle-t-on les petits qui sortent d'un œuf de grenouille avant de devenir grenouilles ?", "answer": "Les têtards", "difficulty": "moyen" },
+  { "id": "sci-enfant-048", "category": "sciences-nature", "question": "Quel grand félin orange à rayures noires est le plus grand chat du monde ?", "answer": "Le tigre", "difficulty": "facile" },
+  { "id": "sci-enfant-049", "category": "sciences-nature", "question": "Quel phénomène fait gronder le ciel juste après un éclair ?", "answer": "Le tonnerre", "difficulty": "facile" },
+  { "id": "sci-enfant-050", "category": "sciences-nature", "question": "Quel animal marin a une corne pointue sur la tête et est surnommé la \"licorne des mers\" ?", "answer": "Le narval", "difficulty": "difficile" }
 ]

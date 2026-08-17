@@ -213,5 +213,110 @@
     "question": "Quel skipper français a remporté le Vendée Globe en 2020-2021 en établissant un temps record ?",
     "answer": "Yannick Bestaven",
     "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-036",
+    "category": "sport-loisirs",
+    "question": "Quel pilote français détient le record du plus grand nombre de titres de champion du monde des rallyes, avec neuf couronnes consécutives ?",
+    "answer": "Sébastien Loeb",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-037",
+    "category": "sport-loisirs",
+    "question": "Quel joueur brésilien est le seul footballeur à avoir remporté trois Coupes du monde ?",
+    "answer": "Pelé",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-038",
+    "category": "sport-loisirs",
+    "question": "Dans quelle ville se déroule chaque année le Masters 1000 de tennis sur terre battue appelé \"Rolex Masters\" ?",
+    "answer": "Monte-Carlo (Roquebrune-Cap-Martin)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-039",
+    "category": "sport-loisirs",
+    "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres avec un temps de 9,58 secondes ?",
+    "answer": "Usain Bolt",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-040",
+    "category": "sport-loisirs",
+    "question": "Depuis quelle année le Grand Prix de Monaco de Formule 1 est-il disputé ?",
+    "answer": "1929",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-041",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure un match de rugby à XV hors arrêts de jeu ?",
+    "answer": "80 minutes (deux mi-temps de 40 minutes)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-042",
+    "category": "sport-loisirs",
+    "question": "En escrime, quelle est la seule arme autorisant les touches sur tout le corps, y compris le dos ?",
+    "answer": "Le sabre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-043",
+    "category": "sport-loisirs",
+    "question": "Quel club espagnol est surnommé \"les Merengues\" ?",
+    "answer": "Le Real Madrid",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-044",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse américaine détient le record du plus grand nombre de titres du Grand Chelem en simple dames à l'ère open, avec 23 titres ?",
+    "answer": "Serena Williams",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-045",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport hivernal les épreuves de descente, slalom et super-G sont-elles disputées ?",
+    "answer": "Le ski alpin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-046",
+    "category": "sport-loisirs",
+    "question": "Quel pilote allemand a détenu, avant d'être rejoint par Lewis Hamilton, le record du plus grand nombre de titres de champion du monde de Formule 1 ?",
+    "answer": "Michael Schumacher",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-047",
+    "category": "sport-loisirs",
+    "question": "Quel terme désigne, en golf, le fait de réussir un trou en un coup de moins que le par ?",
+    "answer": "Un birdie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-048",
+    "category": "sport-loisirs",
+    "question": "Quelle ville a accueilli les premiers Jeux olympiques d'été de l'ère moderne, en 1896 ?",
+    "answer": "Athènes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-049",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de basketball américain, surnommé \"His Airness\", a remporté six titres NBA avec les Chicago Bulls ?",
+    "answer": "Michael Jordan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-050",
+    "category": "sport-loisirs",
+    "question": "Quelle nageuse australienne a remporté le 400 mètres nage libre aux Jeux olympiques de Tokyo 2020 puis de Paris 2024 ?",
+    "answer": "Ariarne Titmus",
+    "difficulty": "difficile"
   }
 ]

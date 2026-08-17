@@ -33,5 +33,20 @@
   { "id": "spo-ado-032", "category": "sport-loisirs", "question": "Quel skateur ou discipline de glisse urbaine a fait son entrée aux Jeux olympiques de Tokyo en 2021 ?", "answer": "Le skateboard" },
   { "id": "spo-ado-033", "category": "sport-loisirs", "question": "Quelle nageuse française a été porte-drapeau ou grande vedette de la natation tricolore avec de nombreux titres olympiques dans les années 2010-2020 ?", "answer": "Léon Marchand", "difficulty": "moyen" },
   { "id": "spo-ado-034", "category": "sport-loisirs", "question": "Dans quel sport de raquette joue-t-on en simple ou en double sur un terrain divisé par un filet bas et une ligne de non-volée ?", "answer": "Le padel", "difficulty": "moyen" },
-  { "id": "spo-ado-035", "category": "sport-loisirs", "question": "Quelle célèbre course cycliste par étapes se termine traditionnellement sur les Champs-Élysées à Paris ?", "answer": "Le Tour de France" }
+  { "id": "spo-ado-035", "category": "sport-loisirs", "question": "Quelle célèbre course cycliste par étapes se termine traditionnellement sur les Champs-Élysées à Paris ?", "answer": "Le Tour de France" },
+  { "id": "spo-ado-036", "category": "sport-loisirs", "question": "Quel pilote français a été plusieurs fois champion du monde de Formule 1 dans les années 1990-2000 ?", "answer": "Alain Prost", "difficulty": "moyen" },
+  { "id": "spo-ado-037", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?", "answer": "15", "difficulty": "facile" },
+  { "id": "spo-ado-038", "category": "sport-loisirs", "question": "Dans quel sport peut-on réaliser un \"strike\" en faisant tomber toutes les quilles d'un coup ?", "answer": "Le bowling", "difficulty": "facile" },
+  { "id": "spo-ado-039", "category": "sport-loisirs", "question": "Quelle nation a dominé le rugby en remportant plusieurs fois la Coupe du monde, dont les éditions 2015 et 2019 ?", "answer": "L'Afrique du Sud", "difficulty": "moyen" },
+  { "id": "spo-ado-040", "category": "sport-loisirs", "question": "Quel geste technique permet de marquer en frappant le ballon de football avec la tête ?", "answer": "Une tête", "difficulty": "facile" },
+  { "id": "spo-ado-041", "category": "sport-loisirs", "question": "Dans quel sport d'hiver descend-on une piste en suivant un tracé de portes le plus vite possible ?", "answer": "Le ski alpin", "difficulty": "facile" },
+  { "id": "spo-ado-042", "category": "sport-loisirs", "question": "Quel joueur de basketball américain est surnommé \"King James\" ?", "answer": "LeBron James", "difficulty": "moyen" },
+  { "id": "spo-ado-043", "category": "sport-loisirs", "question": "Combien de sets faut-il gagner pour remporter un match de tennis en cinq sets ?", "answer": "3", "difficulty": "moyen" },
+  { "id": "spo-ado-044", "category": "sport-loisirs", "question": "Quel sport de combat japonais signifie littéralement \"la voie souple\" ?", "answer": "Le judo", "difficulty": "moyen" },
+  { "id": "spo-ado-045", "category": "sport-loisirs", "question": "Quelle équipe de football espagnole joue au stade du Santiago-Bernabéu ?", "answer": "Le Real Madrid", "difficulty": "facile" },
+  { "id": "spo-ado-046", "category": "sport-loisirs", "question": "Dans quelle discipline olympique les gymnastes évoluent-ils sur des agrès comme les barres asymétriques ou la poutre ?", "answer": "La gymnastique artistique", "difficulty": "facile" },
+  { "id": "spo-ado-047", "category": "sport-loisirs", "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres ?", "answer": "Usain Bolt", "difficulty": "facile" },
+  { "id": "spo-ado-048", "category": "sport-loisirs", "question": "Quel sport se pratique sur une table avec une petite balle et des raquettes appelées \"palettes\" ?", "answer": "Le tennis de table", "difficulty": "facile" },
+  { "id": "spo-ado-049", "category": "sport-loisirs", "question": "Combien de manches gagnantes faut-il remporter pour gagner un combat de judo par ippon direct ?", "answer": "1", "difficulty": "moyen" },
+  { "id": "spo-ado-050", "category": "sport-loisirs", "question": "Quelle célèbre épreuve cycliste italienne par étapes est surnommée la \"course rose\" en raison de son maillot de leader ?", "answer": "Le Tour d'Italie (Giro d'Italia)", "difficulty": "difficile" }
 ]

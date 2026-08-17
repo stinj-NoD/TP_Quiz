@@ -33,5 +33,20 @@
   { "id": "geo-enfant-032", "category": "geographie", "question": "Dans quel pays se trouve le Machu Picchu, la cité perdue des Incas ?", "answer": "Le Pérou" },
   { "id": "geo-enfant-033", "category": "geographie", "question": "Quel est le plus petit pays du monde ?", "answer": "Le Vatican" },
   { "id": "geo-enfant-034", "category": "geographie", "question": "Comment s'appelle la grande forêt qui pousse le long du fleuve Amazone ?", "answer": "La forêt amazonienne (l'Amazonie)" },
-  { "id": "geo-enfant-035", "category": "geographie", "question": "Dans quel pays peut-on voir des gondoles glisser sur les canaux ?", "answer": "L'Italie" }
+  { "id": "geo-enfant-035", "category": "geographie", "question": "Dans quel pays peut-on voir des gondoles glisser sur les canaux ?", "answer": "L'Italie" },
+  { "id": "geo-enfant-036", "category": "geographie", "question": "Quel est le plus grand pays d'Amérique du Sud ?", "answer": "Le Brésil", "difficulty": "moyen" },
+  { "id": "geo-enfant-037", "category": "geographie", "question": "Dans quel pays se trouve la célèbre opéra en forme de coquillages, à Sydney ?", "answer": "L'Australie", "difficulty": "moyen" },
+  { "id": "geo-enfant-038", "category": "geographie", "question": "Comment s'appelle la capitale de l'Espagne ?", "answer": "Madrid", "difficulty": "facile" },
+  { "id": "geo-enfant-039", "category": "geographie", "question": "Quel pays a pour symbole la feuille d'érable rouge sur son drapeau ?", "answer": "Le Canada", "difficulty": "facile" },
+  { "id": "geo-enfant-040", "category": "geographie", "question": "Dans quel pays vivent les tigres dans la jungle, aux côtés des éléphants d'Asie ?", "answer": "L'Inde", "difficulty": "moyen" },
+  { "id": "geo-enfant-041", "category": "geographie", "question": "Comment s'appelle la chaîne de montagnes la plus longue du monde, en Amérique du Sud ?", "answer": "La cordillère des Andes", "difficulty": "difficile" },
+  { "id": "geo-enfant-042", "category": "geographie", "question": "Quel pays est célèbre pour ses moulins à vent et ses champs de tulipes ?", "answer": "Les Pays-Bas", "difficulty": "moyen" },
+  { "id": "geo-enfant-043", "category": "geographie", "question": "Dans quel pays se trouve le célèbre Colisée ?", "answer": "L'Italie", "difficulty": "facile" },
+  { "id": "geo-enfant-044", "category": "geographie", "question": "Quel est le nom du continent où se trouve la France ?", "answer": "L'Europe", "difficulty": "facile" },
+  { "id": "geo-enfant-045", "category": "geographie", "question": "Comment s'appelle la capitale du Japon ?", "answer": "Tokyo", "difficulty": "facile" },
+  { "id": "geo-enfant-046", "category": "geographie", "question": "Dans quel pays peut-on voir des éruptions de geysers d'eau chaude et des volcans, tout près du cercle polaire ?", "answer": "L'Islande", "difficulty": "moyen" },
+  { "id": "geo-enfant-047", "category": "geographie", "question": "Quel océan faut-il traverser pour aller de la France aux États-Unis en bateau ?", "answer": "L'océan Atlantique", "difficulty": "moyen" },
+  { "id": "geo-enfant-048", "category": "geographie", "question": "Comment s'appelle le grand mur naturel de corail que l'on trouve en Australie, sous la mer ?", "answer": "La Grande Barrière de corail", "difficulty": "difficile" },
+  { "id": "geo-enfant-049", "category": "geographie", "question": "Dans quel pays se trouve la ville de Moscou ?", "answer": "La Russie", "difficulty": "facile" },
+  { "id": "geo-enfant-050", "category": "geographie", "question": "Quel pays africain est traversé par le fleuve Nil et abrite d'anciens pharaons ?", "answer": "L'Égypte", "difficulty": "moyen" }
 ]

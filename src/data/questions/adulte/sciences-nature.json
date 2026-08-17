@@ -213,5 +213,110 @@
     "question": "Quel est le nom du phénomène d'attraction gravitationnelle exercée par la Lune qui provoque les marées ?",
     "answer": "La force de marée (attraction lunaire)",
     "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-036",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel les plantes perdent de l'eau sous forme de vapeur par leurs feuilles ?",
+    "answer": "La transpiration",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-037",
+    "category": "sciences-nature",
+    "question": "Quel chimiste suédois a inventé la dynamite et institué les prix Nobel ?",
+    "answer": "Alfred Nobel",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-038",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la structure en forme de double hélice qui porte l'information génétique ?",
+    "answer": "L'ADN (acide désoxyribonucléique)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-039",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la pression dans le système international ?",
+    "answer": "Le pascal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-040",
+    "category": "sciences-nature",
+    "question": "Quel physicien danois a proposé un modèle de l'atome avec des électrons orbitant sur des niveaux d'énergie précis ?",
+    "answer": "Niels Bohr",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-041",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand désert chaud du monde ?",
+    "answer": "Le Sahara",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-042",
+    "category": "sciences-nature",
+    "question": "Quelle glande endocrine, située dans le cou, régule le métabolisme grâce aux hormones qu'elle sécrète ?",
+    "answer": "La thyroïde",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-043",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du satellite naturel de la Terre ?",
+    "answer": "La Lune",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-044",
+    "category": "sciences-nature",
+    "question": "Quel botaniste suédois est à l'origine de la classification binomiale moderne des espèces ?",
+    "answer": "Carl von Linné",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-045",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène optique produit par la réfraction et la réflexion de la lumière dans des gouttes d'eau ?",
+    "answer": "L'arc-en-ciel",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-046",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus longue rivière du monde en termes de longueur ?",
+    "answer": "Le Nil",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-047",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel un noyau atomique lourd se scinde en deux noyaux plus légers en libérant de l'énergie ?",
+    "answer": "La fission nucléaire",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-048",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand organe du corps humain ?",
+    "answer": "La peau",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-049",
+    "category": "sciences-nature",
+    "question": "Quel biologiste français, avec Jacques Monod, a expliqué la régulation de l'expression des gènes chez les bactéries ?",
+    "answer": "François Jacob",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-050",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la couche externe rocheuse de la Terre, fragmentée en plaques tectoniques ?",
+    "answer": "La lithosphère",
+    "difficulty": "moyen"
   }
 ]
