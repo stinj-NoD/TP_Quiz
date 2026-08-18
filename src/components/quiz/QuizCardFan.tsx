@@ -9,9 +9,9 @@ interface QuizCardFanProps {
   onChoose: (id: string) => void
 }
 
-const FAN_ROTATION = [-10, 0, 10]
-const FAN_OFFSET_X = [-48, 0, 48]
-const FAN_OFFSET_Y = [10, -6, 10]
+const FAN_ROTATION = [-8, 0, 8]
+const FAN_OFFSET_X = [-82, 0, 82]
+const FAN_OFFSET_Y = [8, -4, 8]
 
 export function QuizCardFan({ cards, chosenCardId, visualState, onChoose }: QuizCardFanProps) {
   const isLarge = chosenCardId !== null
@@ -37,6 +37,8 @@ export function QuizCardFan({ cards, chosenCardId, visualState, onChoose }: Quiz
               exit={{ opacity: 0, scale: 0.8, y: 24, transition: { duration: 0.25 } }}
               transition={{ type: 'spring', stiffness: 260, damping: 24 }}
               className="absolute"
+              style={{ zIndex: i }}
+              whileHover={!chosenCardId ? { zIndex: 10 } : undefined}
             >
               <QuizCard
                 card={card}

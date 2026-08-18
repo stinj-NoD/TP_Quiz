@@ -20,7 +20,7 @@ interface QuizCardProps {
  */
 export function QuizCard({ card, state, onClick, disabled, large }: QuizCardProps) {
   const isFlipped = state !== 'back'
-  const size = large ? { width: 240, height: 336 } : { width: 104, height: 148 }
+  const size = large ? { width: 240, height: 336 } : { width: 92, height: 130 }
 
   return (
     <div className="[perspective:1200px]" style={size}>
@@ -30,6 +30,8 @@ export function QuizCard({ card, state, onClick, disabled, large }: QuizCardProp
         disabled={disabled || state !== 'back'}
         className="relative h-full w-full [transform-style:preserve-3d] disabled:cursor-default"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
+        whileHover={!disabled && state === 'back' ? { scale: 1.06 } : undefined}
+        whileTap={!disabled && state === 'back' ? { scale: 0.96 } : undefined}
         transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="absolute inset-0 [backface-visibility:hidden]">
