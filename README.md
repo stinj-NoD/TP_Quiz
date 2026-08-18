@@ -1,18 +1,21 @@
-# Trivial Poursuit
+# Ludopia
 
-Un jeu de plateau façon Trivial Pursuit, jouable à plusieurs sur un même appareil, avec un mode Géographie dédié (drapeaux, capitales, silhouettes de pays). Application web installable (PWA), en français.
+<p align="center">
+  <img src=".github/assets/logo.svg" alt="Ludopia" height="80" />
+</p>
+
+L'univers de jeux entre amis, jouable à plusieurs sur un même appareil : un mode Quiz par cartes et un mode Géographie dédié (drapeaux, capitales, silhouettes de pays) aujourd'hui, d'autres familles de jeux à venir. Application web installable (PWA), en français.
 
 <p align="center">
   <img src=".github/assets/home.png" alt="Écran d'accueil" width="260" />
-  <img src=".github/assets/board.png" alt="Plateau de jeu" width="260" />
   <img src=".github/assets/geo-quiz.png" alt="Quiz Géographie" width="260" />
 </p>
 
 ## Fonctionnalités
 
-- **Partie classique** : 2 à 6 joueurs, plateau en forme de roue à 6 catégories (Géographie, Divertissement, Histoire, Art & Littérature, Sciences & Nature, Sport & Loisirs), questions adaptées à 3 niveaux d'âge (Enfant / Ado / Adulte).
+- **Mode Quiz** : 2 à 6 joueurs, cartes tirées parmi 6 catégories (Géographie, Divertissement, Histoire, Art & Littérature, Sciences & Nature, Sport & Loisirs) avec catégorie/difficulté cachées jusqu'au retournement, questions adaptées à 3 niveaux d'âge (Enfant / Ado / Adulte).
 - **Mode Géographie** : quiz dédiés — Drapeau → Pays, Pays → Capitale, Capitale → Pays, Pays → Forme — ou un Défi chrono mélangeant toutes les questions contre la montre.
-- **Classement** : les scores du mode Géographie sont enregistrés avec le nom du joueur et classés par meilleur score.
+- **Classement** : les scores des modes Quiz et Géographie sont enregistrés avec le nom du joueur et classés par meilleur score.
 - **Profil personnalisable** : nom par défaut, niveau d'âge par défaut, préférences de quiz Géo (nombre de questions, durée), sons, vibrations, anti-veille pendant une partie, installation en PWA.
 - **Hors-ligne** : l'application est installable et fonctionne sans connexion grâce à son service worker (vite-plugin-pwa).
 
@@ -52,11 +55,11 @@ npm run lint         # lint (oxlint)
 
 ```
 src/
-  components/   # composants réutilisables (plateau, UI, quiz Géo, questions)
+  components/   # composants réutilisables (UI, quiz, quiz Géo, questions)
   routes/       # écrans de l'application (un par route)
-  store/        # état global (parties, quiz Géo, profil) via Zustand
-  domain/       # logique métier pure (dé, plateau, victoire, génération de quiz)
-  data/         # banques de questions et données du plateau
+  store/        # état global (quiz, quiz Géo, profil) via Zustand
+  domain/       # logique métier pure (sélection de questions, génération de quiz)
+  data/         # banques de questions
   types/        # types TypeScript partagés
 public/
   data/         # données géographiques (pays, silhouettes)

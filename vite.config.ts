@@ -20,9 +20,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/*.png'],
       manifest: {
-        name: 'Trivial Poursuit',
-        short_name: 'Trivial',
-        description: 'Un jeu de plateau façon Trivial Pursuit, avec un mode Géographie dédié.',
+        name: 'Ludopia',
+        short_name: 'Ludopia',
+        description: "Ludopia, l'univers de jeux entre amis : quiz et mode Géographie.",
         theme_color: '#7c3aed',
         background_color: '#0a0a14',
         display: 'standalone',

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 140" width="470" height="140">
+  <defs>
+    <radialGradient id="logoLockupCoin" cx="35%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#241340"/>
+      <stop offset="55%" stop-color="#130a24"/>
+      <stop offset="100%" stop-color="#05030a"/>
+    </radialGradient>
+    <linearGradient id="logoLockupRingA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#c4b1fc"/>
+    </linearGradient>
+    <linearGradient id="logoLockupRingB" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#c8fbff"/>
+    </linearGradient>
+    <filter id="logoLockupBloom" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="logoLockupSpark" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(0, 0) scale(0.2734375)">
+    <!-- 140 / 512 = 0.2734375, icon drawn in its native 512 coordinate space -->
+    <rect width="512" height="512" rx="115" fill="url(#logoLockupCoin)"/>
+    <circle cx="256" cy="256" r="250" fill="none" stroke="rgba(167,139,250,0.35)" stroke-width="2"/>
+    <g filter="url(#logoLockupBloom)">
+      <circle cx="206" cy="256" r="108" fill="none" stroke="url(#logoLockupRingA)" stroke-width="30"/>
+      <circle cx="306" cy="256" r="108" fill="none" stroke="url(#logoLockupRingB)" stroke-width="30"/>
+      <circle cx="256" cy="160.27" r="13" fill="#f7f3ff" filter="url(#logoLockupSpark)"/>
+      <circle cx="256" cy="351.73" r="13" fill="#f0abfc" filter="url(#logoLockupSpark)"/>
+      <circle cx="256" cy="160.27" r="7.15" fill="#ffffff"/>
+      <circle cx="256" cy="351.73" r="7.15" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <text x="168" y="83" font-family="Orbitron, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="44" letter-spacing="1.5" fill="#7c3aed">LUDOPIA</text>
+</svg>

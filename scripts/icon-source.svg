@@ -1,15 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <radialGradient id="coin" cx="35%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#241340"/>
+      <stop offset="55%" stop-color="#130a24"/>
+      <stop offset="100%" stop-color="#05030a"/>
+    </radialGradient>
+    <linearGradient id="ringA" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#c4b1fc"/>
     </linearGradient>
+    <linearGradient id="ringB" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#c8fbff"/>
+    </linearGradient>
+    <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="spark" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+    </filter>
   </defs>
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <rect x="146" y="146" width="220" height="220" rx="44" fill="#ffffff"/>
-  <circle cx="196" cy="196" r="18" fill="#7c3aed"/>
-  <circle cx="316" cy="196" r="18" fill="#7c3aed"/>
-  <circle cx="196" cy="316" r="18" fill="#7c3aed"/>
-  <circle cx="316" cy="316" r="18" fill="#7c3aed"/>
-  <circle cx="256" cy="256" r="18" fill="#7c3aed"/>
+  <rect width="512" height="512" fill="url(#coin)"/>
+  <circle cx="256" cy="256" r="250" fill="none" stroke="rgba(167,139,250,0.35)" stroke-width="2"/>
+  <g filter="url(#bloom)">
+    <circle cx="206" cy="256" r="108" fill="none" stroke="url(#ringA)" stroke-width="30"/>
+    <circle cx="306" cy="256" r="108" fill="none" stroke="url(#ringB)" stroke-width="30"/>
+    <circle cx="256" cy="160.27121644980542" r="13" fill="#f7f3ff" filter="url(#spark)"/>
+    <circle cx="256" cy="351.7287835501946" r="13" fill="#f0abfc" filter="url(#spark)"/>
+    <circle cx="256" cy="160.27121644980542" r="7.15" fill="#ffffff"/>
+    <circle cx="256" cy="351.7287835501946" r="7.15" fill="#ffffff"/>
+  </g>
 </svg>

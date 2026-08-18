@@ -23,7 +23,7 @@
   --color-success-bg: rgba(46, 230, 168, 0.15);
   --color-danger-bg: rgba(255, 59, 107, 0.15);
 
-  /* Les 6 categories classiques du Trivial Pursuit */
+  /* Les 6 categories du mode Quiz */
   --color-cat-geographie: #2dd4ff;
   --color-cat-divertissement: #ff3fb0;
   --color-cat-histoire: #ffd60a;
