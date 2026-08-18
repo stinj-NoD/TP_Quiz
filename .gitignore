@@ -26,3 +26,6 @@ dist-ssr
 # Claude Code session artifacts
 .claude/scheduled_tasks.lock
 .claude/skills/*/screenshots/
+
+# Local test-only assets (never ship third-party reference art)
+/example/
