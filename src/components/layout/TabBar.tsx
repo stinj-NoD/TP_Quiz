@@ -1,4 +1,4 @@
-import { Dices, Globe2, Home, User } from 'lucide-react'
+import { BrainCircuit, Dices, Globe2, Home, User } from 'lucide-react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 interface Tab {
@@ -11,6 +11,7 @@ const TABS: Tab[] = [
   { path: '/', label: 'Accueil', icon: Home },
   { path: '/jouer', label: 'Jouer', icon: Dices },
   { path: '/geographie', label: 'Géo', icon: Globe2 },
+  { path: '/quiz', label: 'Quiz', icon: BrainCircuit },
   { path: '/profil', label: 'Profil', icon: User },
 ]
 

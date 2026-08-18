@@ -12,6 +12,9 @@ import { GeoModeMenuScreen } from './routes/GeoModeMenuScreen'
 import { GeoQuizScreen } from './routes/GeoQuizScreen'
 import { GeoResultsScreen } from './routes/GeoResultsScreen'
 import { LeaderboardScreen } from './routes/LeaderboardScreen'
+import { QuizSetupScreen } from './routes/QuizSetupScreen'
+import { QuizSessionScreen } from './routes/QuizSessionScreen'
+import { QuizResultsScreen } from './routes/QuizResultsScreen'
 
 /** Écrans racines des 4 onglets : la barre d'onglets reste visible. */
 function TabBarLayout() {
@@ -35,6 +38,7 @@ function AnimatedRoutes() {
           <Route path="/" element={<HomeScreen />} />
           <Route path="/jouer" element={<PlayHomeScreen />} />
           <Route path="/geographie" element={<GeoModeMenuScreen />} />
+          <Route path="/quiz" element={<QuizSetupScreen />} />
           <Route path="/profil" element={<ProfileScreen />} />
         </Route>
         <Route path="/nouvelle-partie" element={<GameSetupScreen />} />
@@ -42,6 +46,8 @@ function AnimatedRoutes() {
         <Route path="/victoire" element={<VictoryScreen />} />
         <Route path="/geographie/quiz" element={<GeoQuizScreen />} />
         <Route path="/geographie/resultats" element={<GeoResultsScreen />} />
+        <Route path="/quiz/session" element={<QuizSessionScreen />} />
+        <Route path="/quiz/resultats" element={<QuizResultsScreen />} />
         <Route path="/classement" element={<LeaderboardScreen />} />
       </Routes>
     </AnimatePresence>
