@@ -318,5 +318,635 @@
     "question": "Quel est le titre du premier long métrage d'animation en couleur produit par les studios Disney, sorti en 1937 ?",
     "answer": "Blanche-Neige et les Sept Nains",
     "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-051",
+    "category": "divertissement",
+    "question": "Quel réalisateur suédois a signé les films \"Le Septième Sceau\" et \"Fanny et Alexandre\" ?",
+    "answer": "Ingmar Bergman",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-052",
+    "category": "divertissement",
+    "question": "Quel groupe américain a interprété \"Smells Like Teen Spirit\" en 1991 ?",
+    "answer": "Nirvana",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-053",
+    "category": "divertissement",
+    "question": "Quel acteur français a incarné le commissaire Jules Maigret dans une adaptation télévisée culte des années 1990 ?",
+    "answer": "Bruno Cremer",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-054",
+    "category": "divertissement",
+    "question": "Quel est le nom du créateur de la série de jeux vidéo \"The Legend of Zelda\" ?",
+    "answer": "Shigeru Miyamoto",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-055",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne la reine Elizabeth II dans les deux premières saisons de la série \"The Crown\" ?",
+    "answer": "Claire Foy",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-056",
+    "category": "divertissement",
+    "question": "Quel compositeur français a écrit la musique du film \"Le Fabuleux Destin d'Amélie Poulain\" ?",
+    "answer": "Yann Tiersen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-057",
+    "category": "divertissement",
+    "question": "Quel est le nom du groupe de rap marseillais fondé par Akhenaton dans les années 1980 ?",
+    "answer": "IAM",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-058",
+    "category": "divertissement",
+    "question": "Quel réalisateur est à l'origine de la trilogie \"Le Parrain\" ?",
+    "answer": "Francis Ford Coppola",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-059",
+    "category": "divertissement",
+    "question": "Dans quelle série américaine évolue le personnage de Don Draper, publicitaire new-yorkais des années 1960 ?",
+    "answer": "\"Mad Men\"",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-060",
+    "category": "divertissement",
+    "question": "Quel chanteur français est l'interprète de \"Ne me quitte pas\" ?",
+    "answer": "Jacques Brel",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-061",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage principal, tueur en série, incarné par Michael C. Hall dans la série \"Dexter\" ?",
+    "answer": "Dexter Morgan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-062",
+    "category": "divertissement",
+    "question": "Quel duo de compositeurs suédois a écrit les musiques de plusieurs tubes du groupe ABBA ?",
+    "answer": "Benny Andersson et Björn Ulvaeus",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-063",
+    "category": "divertissement",
+    "question": "Quel acteur français interprète le rôle principal du général de Gaulle dans le film \"De Gaulle\" sorti en 2020 ?",
+    "answer": "Lambert Wilson",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-064",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le professeur Rémy dans la série \"Kaamelott\" en plus d'en être le créateur ?",
+    "answer": "Alexandre Astier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-065",
+    "category": "divertissement",
+    "question": "Quelle chanteuse américaine a sorti l'album \"Lemonade\" en 2016 ?",
+    "answer": "Beyoncé",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-066",
+    "category": "divertissement",
+    "question": "Quel réalisateur japonais est le fondateur du Studio Ghibli, à l'origine du \"Voyage de Chihiro\" ?",
+    "answer": "Hayao Miyazaki",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-067",
+    "category": "divertissement",
+    "question": "Dans quelle série américaine le personnage de Woody est-il barman dans un bar de Boston ?",
+    "answer": "\"Cheers\"",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-068",
+    "category": "divertissement",
+    "question": "Quel acteur britannique a incarné Obi-Wan Kenobi dans la trilogie originale \"Star Wars\" ?",
+    "answer": "Alec Guinness",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-069",
+    "category": "divertissement",
+    "question": "Quel célèbre festival de musique se tient chaque été à Belfort, en France ?",
+    "answer": "Les Eurockéennes de Belfort",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-070",
+    "category": "divertissement",
+    "question": "Quel est le nom de la chanteuse britannique connue pour l'album \"Back to Black\", disparue en 2011 ?",
+    "answer": "Amy Winehouse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-071",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain a mis en scène \"Psychose\" en 1960 ?",
+    "answer": "Alfred Hitchcock",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-072",
+    "category": "divertissement",
+    "question": "Quel acteur interprète le rôle-titre dans \"Forrest Gump\" ?",
+    "answer": "Tom Hanks",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-073",
+    "category": "divertissement",
+    "question": "Quel groupe de rock irlandais a sorti l'album \"The Joshua Tree\" en 1987 ?",
+    "answer": "U2",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-074",
+    "category": "divertissement",
+    "question": "Quel scénariste et producteur britannique a créé la série \"The Crown\", consacrée à la monarchie britannique ?",
+    "answer": "Peter Morgan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-075",
+    "category": "divertissement",
+    "question": "Quel chorégraphe français d'origine albanaise a fondé le Ballet Preljocaj en 1985 ?",
+    "answer": "Angelin Preljocaj",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-076",
+    "category": "divertissement",
+    "question": "Quel animateur a présenté \"Le Juste Prix\" sur TF1 dans les années 1990 ?",
+    "answer": "Philippe Risoli",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-077",
+    "category": "divertissement",
+    "question": "Quel dramaturge français du XVIIe siècle est l'auteur du \"Tartuffe\" et de \"L'Avare\" ?",
+    "answer": "Molière",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-078",
+    "category": "divertissement",
+    "question": "Quel festival de théâtre se déroule chaque été dans la Cour d'honneur du Palais des papes ?",
+    "answer": "Le Festival d'Avignon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-079",
+    "category": "divertissement",
+    "question": "Quelle actrice française incarne Manon dans le film \"Manon des sources\" de Claude Berri, sorti en 1986 ?",
+    "answer": "Emmanuelle Béart",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-080",
+    "category": "divertissement",
+    "question": "Quel rappeur américain a sorti l'album \"The Marshall Mathers LP\" en 2000 ?",
+    "answer": "Eminem",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-081",
+    "category": "divertissement",
+    "question": "Quel animateur a présenté le jeu télévisé \"Des chiffres et des lettres\" à partir de 1972 ?",
+    "answer": "Patrice Laffont",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-082",
+    "category": "divertissement",
+    "question": "Quel compositeur allemand est l'auteur de la Neuvième Symphonie, dite \"Symphonie avec chœur\" ?",
+    "answer": "Ludwig van Beethoven",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-083",
+    "category": "divertissement",
+    "question": "Quel acteur français interprète l'un des rôles récurrents de la série comique \"Caméra Café\" et en fut également le producteur ?",
+    "answer": "Bruno Solo",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-084",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Tony Soprano dans la série \"Les Soprano\" ?",
+    "answer": "James Gandolfini",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-085",
+    "category": "divertissement",
+    "question": "Quel groupe de heavy metal britannique a interprété le titre \"Paranoid\" en 1970 ?",
+    "answer": "Black Sabbath",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-086",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain a signé les films \"Taxi Driver\" et \"Raging Bull\" avec Robert De Niro ?",
+    "answer": "Martin Scorsese",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-087",
+    "category": "divertissement",
+    "question": "Quelle actrice française a obtenu le César de la meilleure actrice en 2017 pour son rôle dans \"Elle\" de Paul Verhoeven ?",
+    "answer": "Isabelle Huppert",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-088",
+    "category": "divertissement",
+    "question": "Quel groupe britannique, formé à Manchester par les frères Gallagher, a sorti l'album \"Definitely Maybe\" en 1994 ?",
+    "answer": "Oasis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-089",
+    "category": "divertissement",
+    "question": "Quel humoriste français est connu pour ses imitations d'accents étrangers dans ses spectacles depuis les années 1970 ?",
+    "answer": "Michel Leeb",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-090",
+    "category": "divertissement",
+    "question": "Dans quelle ville française se tient chaque année, sur la Croisette, le célèbre Festival international du film ?",
+    "answer": "Cannes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-091",
+    "category": "divertissement",
+    "question": "Quel acteur américain incarne Neo dans la trilogie \"Matrix\" ?",
+    "answer": "Keanu Reeves",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-092",
+    "category": "divertissement",
+    "question": "Quel est le véritable nom de la chanteuse française connue sous le nom de scène Zaz ?",
+    "answer": "Isabelle Geffroy",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-093",
+    "category": "divertissement",
+    "question": "Quel réalisateur polonais est l'auteur de la trilogie \"Trois couleurs : Bleu, Blanc, Rouge\" ?",
+    "answer": "Krzysztof Kieślowski",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-094",
+    "category": "divertissement",
+    "question": "Quel groupe de rock français, mené par le chanteur Nicola Sirkis, a interprété le titre \"J'ai demandé à la lune\" ?",
+    "answer": "Indochine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-095",
+    "category": "divertissement",
+    "question": "Quel acteur américain a incarné le rôle-titre du film \"Le Loup de Wall Street\" en 2013 ?",
+    "answer": "Leonardo DiCaprio",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-096",
+    "category": "divertissement",
+    "question": "Quelle série française créée par Fabrice Gobert met en scène le retour mystérieux de disparus dans une petite ville de montagne ?",
+    "answer": "\"Les Revenants\"",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-097",
+    "category": "divertissement",
+    "question": "Quel pianiste et chanteur britannique a composé la chanson \"Your Song\", sortie en 1970 ?",
+    "answer": "Elton John",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-098",
+    "category": "divertissement",
+    "question": "Quel cinéaste français est l'auteur du film \"La Grande Vadrouille\", sorti en 1966 avec Bourvil et Louis de Funès ?",
+    "answer": "Gérard Oury",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-099",
+    "category": "divertissement",
+    "question": "Quel groupe britannique a interprété \"Wonderwall\", extrait de l'album \"(What's the Story) Morning Glory?\" sorti en 1995 ?",
+    "answer": "Oasis",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-100",
+    "category": "divertissement",
+    "question": "Quel acteur belge incarne le personnage de Marcus dans la comédie \"Le Grand Bain\", sorti en 2018 ?",
+    "answer": "Benoît Poelvoorde",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-101",
+    "category": "divertissement",
+    "question": "Quelle chanteuse américaine a interprété \"I Will Always Love You\", bande originale du film \"Bodyguard\" en 1992 ?",
+    "answer": "Whitney Houston",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-102",
+    "category": "divertissement",
+    "question": "Quel scénariste français a créé la série \"Un village français\", diffusée sur France 3 à partir de 2009 ?",
+    "answer": "Frédéric Krivine",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-103",
+    "category": "divertissement",
+    "question": "Quel réalisateur britannique a mis en scène le film \"Trainspotting\" en 1996 ?",
+    "answer": "Danny Boyle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-104",
+    "category": "divertissement",
+    "question": "Quel groupe britannique de rock progressif a sorti l'album concept \"The Wall\" en 1979 ?",
+    "answer": "Pink Floyd",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-105",
+    "category": "divertissement",
+    "question": "Quel humoriste français est le créateur du personnage-signature de la caissière dans ses sketches ?",
+    "answer": "Élie Semoun",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-106",
+    "category": "divertissement",
+    "question": "Quel acteur américain incarne le personnage de Michael Corleone dans la trilogie \"Le Parrain\" ?",
+    "answer": "Al Pacino",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-107",
+    "category": "divertissement",
+    "question": "Quelle chanteuse française, révélée par la Star Academy en 2004, a notamment interprété le titre \"J'ai cherché\" ?",
+    "answer": "Amel Bent",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-108",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain d'origine tchèque a signé le film \"Vol au-dessus d'un nid de coucou\" en 1975 ?",
+    "answer": "Miloš Forman",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-109",
+    "category": "divertissement",
+    "question": "Quel groupe de rock californien, mené par le chanteur Anthony Kiedis, a interprété le titre \"Californication\" ?",
+    "answer": "Red Hot Chili Peppers",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-110",
+    "category": "divertissement",
+    "question": "Quelle série britannique créée par Julian Fellowes retrace la vie d'une famille aristocratique et de ses domestiques au début du XXe siècle ?",
+    "answer": "\"Downton Abbey\"",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-111",
+    "category": "divertissement",
+    "question": "Quel acteur français a incarné le rôle-titre dans la série de films \"Le Gendarme de Saint-Tropez\" ?",
+    "answer": "Louis de Funès",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-112",
+    "category": "divertissement",
+    "question": "Quel membre du duo Daft Punk, aux côtés de Guy-Manuel de Homem-Christo, est à l'origine du titre \"One More Time\" ?",
+    "answer": "Thomas Bangalter",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-113",
+    "category": "divertissement",
+    "question": "Quel réalisateur et acteur italien a signé le film \"La Vie est belle\", sorti en 1997, dans lequel il tient également le rôle principal ?",
+    "answer": "Roberto Benigni",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-114",
+    "category": "divertissement",
+    "question": "Quel présentateur français a animé le journal télévisé de 20 heures sur TF1 de 1988 à 2008 ?",
+    "answer": "Patrick Poivre d'Arvor",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-115",
+    "category": "divertissement",
+    "question": "Quelle actrice américaine incarne Carrie Bradshaw dans la série \"Sex and the City\" ?",
+    "answer": "Sarah Jessica Parker",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-116",
+    "category": "divertissement",
+    "question": "Quel groupe de rap français a sorti l'album \"L'École du micro d'argent\" en 1998 ?",
+    "answer": "NTM",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-117",
+    "category": "divertissement",
+    "question": "Quel réalisateur français a mis en scène le film \"La Grande Illusion\" en 1937 ?",
+    "answer": "Jean Renoir",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-118",
+    "category": "divertissement",
+    "question": "Quelle chanteuse québécoise a interprété \"My Heart Will Go On\", thème du film \"Titanic\" ?",
+    "answer": "Céline Dion",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-119",
+    "category": "divertissement",
+    "question": "Quel humoriste et acteur français incarne le personnage de Bernard dans le film \"Les Bronzés\" sorti en 1978 ?",
+    "answer": "Christian Clavier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-120",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain a mis en scène le film \"Shutter Island\" avec Leonardo DiCaprio en 2010 ?",
+    "answer": "Martin Scorsese",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-121",
+    "category": "divertissement",
+    "question": "Quel groupe britannique, mené par le chanteur Chris Martin, a interprété le titre \"Yellow\" en 2000 ?",
+    "answer": "Coldplay",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-122",
+    "category": "divertissement",
+    "question": "Quelle actrice française incarne le rôle-titre dans le film \"Coco avant Chanel\" sorti en 2009 ?",
+    "answer": "Audrey Tautou",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-123",
+    "category": "divertissement",
+    "question": "Quel présentateur français anime le jeu télévisé \"Questions pour un champion\" depuis 2009 ?",
+    "answer": "Samuel Étienne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-124",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain a mis en scène la trilogie \"Retour vers le futur\", produite par Steven Spielberg ?",
+    "answer": "Robert Zemeckis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-125",
+    "category": "divertissement",
+    "question": "Quelle chanteuse britannique a interprété \"Rolling in the Deep\", extrait de l'album \"21\" sorti en 2011 ?",
+    "answer": "Adele",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-126",
+    "category": "divertissement",
+    "question": "Quel acteur français a incarné le rôle-titre de la série \"Le Comte de Monte-Cristo\" dans l'adaptation télévisée de 1998 ?",
+    "answer": "Gérard Depardieu",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-127",
+    "category": "divertissement",
+    "question": "Quelle chanteuse allemande a interprété le titre \"99 Luftballons\" en 1983 ?",
+    "answer": "Nena",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-128",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain a signé le film \"Le Silence des agneaux\" en 1991 ?",
+    "answer": "Jonathan Demme",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-129",
+    "category": "divertissement",
+    "question": "Quelle actrice américaine incarne Elle Woods dans le film \"La Revanche d'une blonde\" ?",
+    "answer": "Reese Witherspoon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-130",
+    "category": "divertissement",
+    "question": "Quel humoriste français est le créateur du personnage de Jules-Édouard Moustic dans l'émission satirique \"Groland\" diffusée sur Canal+ ?",
+    "answer": "Christophe Salengro",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-131",
+    "category": "divertissement",
+    "question": "Quel groupe de rock américain, mené par le chanteur Axl Rose, a interprété le titre \"Sweet Child O' Mine\" ?",
+    "answer": "Guns N' Roses",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-132",
+    "category": "divertissement",
+    "question": "Quel réalisateur français a mis en scène le film \"La Haine\" en 1995 ?",
+    "answer": "Mathieu Kassovitz",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-133",
+    "category": "divertissement",
+    "question": "Quelle chanteuse belge a interprété le titre \"Balance ton quoi\", sorti en 2018 ?",
+    "answer": "Angèle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-adulte-134",
+    "category": "divertissement",
+    "question": "Quel acteur britannique incarne le professeur Severus Rogue dans la saga \"Harry Potter\" ?",
+    "answer": "Alan Rickman",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-135",
+    "category": "divertissement",
+    "question": "Quelle journaliste française anime le journal télévisé de 20 heures sur France 2 depuis 2017 ?",
+    "answer": "Anne-Sophie Lapix",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-136",
+    "category": "divertissement",
+    "question": "Quel chanteur américain, ancien membre des Stooges, a interprété le titre \"Lust for Life\", utilisé dans la bande originale du film \"Trainspotting\" ?",
+    "answer": "Iggy Pop",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-137",
+    "category": "divertissement",
+    "question": "Quel batteur et compositeur britannique a fondé le groupe Genesis avant de poursuivre une carrière solo à succès avec l'album \"No Jacket Required\" ?",
+    "answer": "Phil Collins",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-138",
+    "category": "divertissement",
+    "question": "Quelle chanteuse française a représenté la France à l'Eurovision en 2021 avec le titre \"Voilà\" ?",
+    "answer": "Barbara Pravi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-adulte-139",
+    "category": "divertissement",
+    "question": "Quel réalisateur britannique a mis en scène le film \"Le Discours d'un roi\", récompensé par l'Oscar du meilleur film en 2011 ?",
+    "answer": "Tom Hooper",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-adulte-140",
+    "category": "divertissement",
+    "question": "Quelle chanteuse française d'origine guadeloupéenne a représenté la France à l'Eurovision en 1990 avec le titre \"White and Black Blues\" ?",
+    "answer": "Joëlle Ursull",
+    "difficulty": "difficile"
   }
 ]

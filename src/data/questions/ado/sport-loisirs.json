@@ -1,52 +1,949 @@
 [
-  { "id": "spo-ado-001", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de football sur le terrain ?", "answer": "11" },
-  { "id": "spo-ado-002", "category": "sport-loisirs", "question": "Quel pays a remporté la Coupe du monde de football en 2018 ?", "answer": "La France" },
-  { "id": "spo-ado-003", "category": "sport-loisirs", "question": "Combien de points vaut un panier à trois points au basketball ?", "answer": "3" },
-  { "id": "spo-ado-004", "category": "sport-loisirs", "question": "Quel est le sport national du Japon ?", "answer": "Le sumo" },
-  { "id": "spo-ado-005", "category": "sport-loisirs", "question": "Dans quel sport utilise-t-on un volant ?", "answer": "Le badminton" },
-  { "id": "spo-ado-006", "category": "sport-loisirs", "question": "Combien de temps dure un match de football hors prolongations ?", "answer": "90 minutes" },
-  { "id": "spo-ado-007", "category": "sport-loisirs", "question": "Quel pays organise le tournoi de tennis de Roland-Garros ?", "answer": "La France" },
-  { "id": "spo-ado-008", "category": "sport-loisirs", "question": "Quel nageur américain a remporté 23 médailles d'or olympiques ?", "answer": "Michael Phelps" },
-  { "id": "spo-ado-009", "category": "sport-loisirs", "question": "Dans quel sport peut-on marquer un \"ace\" ?", "answer": "Le tennis (ou le volley-ball)" },
-  { "id": "spo-ado-010", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de basketball sur le terrain ?", "answer": "5" },
-  { "id": "spo-ado-011", "category": "sport-loisirs", "question": "Quel est le pays d'origine du judo ?", "answer": "Le Japon" },
-  { "id": "spo-ado-012", "category": "sport-loisirs", "question": "Comment appelle-t-on le maillot porté par le leader du classement général au Tour de France ?", "answer": "Le maillot jaune" },
-  { "id": "spo-ado-013", "category": "sport-loisirs", "question": "Combien de trous compte un parcours de golf standard ?", "answer": "18" },
-  { "id": "spo-ado-014", "category": "sport-loisirs", "question": "Quel boxeur est surnommé \"The Greatest\" ?", "answer": "Mohamed Ali" },
-  { "id": "spo-ado-015", "category": "sport-loisirs", "question": "Dans quel sport collectif utilise-t-on un palet ?", "answer": "Le hockey sur glace" },
-  { "id": "spo-ado-016", "category": "sport-loisirs", "question": "Quel pays a inventé le rugby ?", "answer": "L'Angleterre" },
-  { "id": "spo-ado-017", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de volley-ball sur le terrain ?", "answer": "6" },
-  { "id": "spo-ado-018", "category": "sport-loisirs", "question": "Quelle discipline olympique combine ski et tir à la carabine ?", "answer": "Le biathlon" },
-  { "id": "spo-ado-019", "category": "sport-loisirs", "question": "Quel joueur de football est surnommé \"CR7\" ?", "answer": "Cristiano Ronaldo" },
-  { "id": "spo-ado-020", "category": "sport-loisirs", "question": "Dans quelle ville se sont déroulés les Jeux olympiques d'été de 2024 ?", "answer": "Paris" },
-  { "id": "spo-ado-021", "category": "sport-loisirs", "question": "Quel est le nom du plus ancien tournoi de tennis du monde ?", "answer": "Wimbledon" },
-  { "id": "spo-ado-022", "category": "sport-loisirs", "question": "Combien de temps dure une mi-temps au football ?", "answer": "45 minutes" },
-  { "id": "spo-ado-023", "category": "sport-loisirs", "question": "Dans quel sport américain utilise-t-on un \"quarterback\" ?", "answer": "Le football américain" },
-  { "id": "spo-ado-024", "category": "sport-loisirs", "question": "Quel pays a accueilli la Coupe du monde de football 2022 ?", "answer": "Le Qatar" },
-  { "id": "spo-ado-025", "category": "sport-loisirs", "question": "Quel est le sport pratiqué à Wimbledon ?", "answer": "Le tennis" },
-  { "id": "spo-ado-026", "category": "sport-loisirs", "question": "Quel footballeur argentin a remporté la Coupe du monde 2022 avec son équipe nationale ?", "answer": "Lionel Messi" },
-  { "id": "spo-ado-027", "category": "sport-loisirs", "question": "Dans quel sport pratique-t-on le \"grand chelem\" avec quatre tournois majeurs dans l'année ?", "answer": "Le tennis" },
-  { "id": "spo-ado-028", "category": "sport-loisirs", "question": "Quel sport olympique associe des figures artistiques à de la musique dans l'eau ?", "answer": "La natation synchronisée" },
-  { "id": "spo-ado-029", "category": "sport-loisirs", "question": "Quelle discipline d'athlétisme consiste à sauter le plus loin possible après une course d'élan ?", "answer": "Le saut en longueur" },
-  { "id": "spo-ado-030", "category": "sport-loisirs", "question": "Quel pays a remporté le plus de Coupes du monde de football à ce jour ?", "answer": "Le Brésil" },
-  { "id": "spo-ado-031", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de handball sur le terrain ?", "answer": "7" },
-  { "id": "spo-ado-032", "category": "sport-loisirs", "question": "Quel skateur ou discipline de glisse urbaine a fait son entrée aux Jeux olympiques de Tokyo en 2021 ?", "answer": "Le skateboard" },
-  { "id": "spo-ado-033", "category": "sport-loisirs", "question": "Quelle nageuse française a été porte-drapeau ou grande vedette de la natation tricolore avec de nombreux titres olympiques dans les années 2010-2020 ?", "answer": "Léon Marchand", "difficulty": "moyen" },
-  { "id": "spo-ado-034", "category": "sport-loisirs", "question": "Dans quel sport de raquette joue-t-on en simple ou en double sur un terrain divisé par un filet bas et une ligne de non-volée ?", "answer": "Le padel", "difficulty": "moyen" },
-  { "id": "spo-ado-035", "category": "sport-loisirs", "question": "Quelle célèbre course cycliste par étapes se termine traditionnellement sur les Champs-Élysées à Paris ?", "answer": "Le Tour de France" },
-  { "id": "spo-ado-036", "category": "sport-loisirs", "question": "Quel pilote français a été plusieurs fois champion du monde de Formule 1 dans les années 1990-2000 ?", "answer": "Alain Prost", "difficulty": "moyen" },
-  { "id": "spo-ado-037", "category": "sport-loisirs", "question": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?", "answer": "15", "difficulty": "facile" },
-  { "id": "spo-ado-038", "category": "sport-loisirs", "question": "Dans quel sport peut-on réaliser un \"strike\" en faisant tomber toutes les quilles d'un coup ?", "answer": "Le bowling", "difficulty": "facile" },
-  { "id": "spo-ado-039", "category": "sport-loisirs", "question": "Quelle nation a dominé le rugby en remportant plusieurs fois la Coupe du monde, dont les éditions 2015 et 2019 ?", "answer": "L'Afrique du Sud", "difficulty": "moyen" },
-  { "id": "spo-ado-040", "category": "sport-loisirs", "question": "Quel geste technique permet de marquer en frappant le ballon de football avec la tête ?", "answer": "Une tête", "difficulty": "facile" },
-  { "id": "spo-ado-041", "category": "sport-loisirs", "question": "Dans quel sport d'hiver descend-on une piste en suivant un tracé de portes le plus vite possible ?", "answer": "Le ski alpin", "difficulty": "facile" },
-  { "id": "spo-ado-042", "category": "sport-loisirs", "question": "Quel joueur de basketball américain est surnommé \"King James\" ?", "answer": "LeBron James", "difficulty": "moyen" },
-  { "id": "spo-ado-043", "category": "sport-loisirs", "question": "Combien de sets faut-il gagner pour remporter un match de tennis en cinq sets ?", "answer": "3", "difficulty": "moyen" },
-  { "id": "spo-ado-044", "category": "sport-loisirs", "question": "Quel sport de combat japonais signifie littéralement \"la voie souple\" ?", "answer": "Le judo", "difficulty": "moyen" },
-  { "id": "spo-ado-045", "category": "sport-loisirs", "question": "Quelle équipe de football espagnole joue au stade du Santiago-Bernabéu ?", "answer": "Le Real Madrid", "difficulty": "facile" },
-  { "id": "spo-ado-046", "category": "sport-loisirs", "question": "Dans quelle discipline olympique les gymnastes évoluent-ils sur des agrès comme les barres asymétriques ou la poutre ?", "answer": "La gymnastique artistique", "difficulty": "facile" },
-  { "id": "spo-ado-047", "category": "sport-loisirs", "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres ?", "answer": "Usain Bolt", "difficulty": "facile" },
-  { "id": "spo-ado-048", "category": "sport-loisirs", "question": "Quel sport se pratique sur une table avec une petite balle et des raquettes appelées \"palettes\" ?", "answer": "Le tennis de table", "difficulty": "facile" },
-  { "id": "spo-ado-049", "category": "sport-loisirs", "question": "Combien de manches gagnantes faut-il remporter pour gagner un combat de judo par ippon direct ?", "answer": "1", "difficulty": "moyen" },
-  { "id": "spo-ado-050", "category": "sport-loisirs", "question": "Quelle célèbre épreuve cycliste italienne par étapes est surnommée la \"course rose\" en raison de son maillot de leader ?", "answer": "Le Tour d'Italie (Giro d'Italia)", "difficulty": "difficile" }
+  {
+    "id": "spo-ado-001",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de football sur le terrain ?",
+    "answer": "11"
+  },
+  {
+    "id": "spo-ado-002",
+    "category": "sport-loisirs",
+    "question": "Quel pays a remporté la Coupe du monde de football en 2018 ?",
+    "answer": "La France"
+  },
+  {
+    "id": "spo-ado-003",
+    "category": "sport-loisirs",
+    "question": "Combien de points vaut un panier à trois points au basketball ?",
+    "answer": "3"
+  },
+  {
+    "id": "spo-ado-004",
+    "category": "sport-loisirs",
+    "question": "Quel est le sport national du Japon ?",
+    "answer": "Le sumo"
+  },
+  {
+    "id": "spo-ado-005",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport utilise-t-on un volant ?",
+    "answer": "Le badminton"
+  },
+  {
+    "id": "spo-ado-006",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure un match de football hors prolongations ?",
+    "answer": "90 minutes"
+  },
+  {
+    "id": "spo-ado-007",
+    "category": "sport-loisirs",
+    "question": "Quel pays organise le tournoi de tennis de Roland-Garros ?",
+    "answer": "La France"
+  },
+  {
+    "id": "spo-ado-008",
+    "category": "sport-loisirs",
+    "question": "Quel nageur américain a remporté 23 médailles d'or olympiques ?",
+    "answer": "Michael Phelps"
+  },
+  {
+    "id": "spo-ado-009",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport peut-on marquer un \"ace\" ?",
+    "answer": "Le tennis (ou le volley-ball)"
+  },
+  {
+    "id": "spo-ado-010",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de basketball sur le terrain ?",
+    "answer": "5"
+  },
+  {
+    "id": "spo-ado-011",
+    "category": "sport-loisirs",
+    "question": "Quel est le pays d'origine du judo ?",
+    "answer": "Le Japon"
+  },
+  {
+    "id": "spo-ado-012",
+    "category": "sport-loisirs",
+    "question": "Comment appelle-t-on le maillot porté par le leader du classement général au Tour de France ?",
+    "answer": "Le maillot jaune"
+  },
+  {
+    "id": "spo-ado-013",
+    "category": "sport-loisirs",
+    "question": "Combien de trous compte un parcours de golf standard ?",
+    "answer": "18"
+  },
+  {
+    "id": "spo-ado-014",
+    "category": "sport-loisirs",
+    "question": "Quel boxeur est surnommé \"The Greatest\" ?",
+    "answer": "Mohamed Ali"
+  },
+  {
+    "id": "spo-ado-015",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport collectif utilise-t-on un palet ?",
+    "answer": "Le hockey sur glace"
+  },
+  {
+    "id": "spo-ado-016",
+    "category": "sport-loisirs",
+    "question": "Quel pays a inventé le rugby ?",
+    "answer": "L'Angleterre"
+  },
+  {
+    "id": "spo-ado-017",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de volley-ball sur le terrain ?",
+    "answer": "6"
+  },
+  {
+    "id": "spo-ado-018",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline olympique combine ski et tir à la carabine ?",
+    "answer": "Le biathlon"
+  },
+  {
+    "id": "spo-ado-019",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de football est surnommé \"CR7\" ?",
+    "answer": "Cristiano Ronaldo"
+  },
+  {
+    "id": "spo-ado-020",
+    "category": "sport-loisirs",
+    "question": "Dans quelle ville se sont déroulés les Jeux olympiques d'été de 2024 ?",
+    "answer": "Paris"
+  },
+  {
+    "id": "spo-ado-021",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom du plus ancien tournoi de tennis du monde ?",
+    "answer": "Wimbledon"
+  },
+  {
+    "id": "spo-ado-022",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure une mi-temps au football ?",
+    "answer": "45 minutes"
+  },
+  {
+    "id": "spo-ado-023",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport américain utilise-t-on un \"quarterback\" ?",
+    "answer": "Le football américain"
+  },
+  {
+    "id": "spo-ado-024",
+    "category": "sport-loisirs",
+    "question": "Quel pays a accueilli la Coupe du monde de football 2022 ?",
+    "answer": "Le Qatar"
+  },
+  {
+    "id": "spo-ado-025",
+    "category": "sport-loisirs",
+    "question": "Quel est le sport pratiqué à Wimbledon ?",
+    "answer": "Le tennis"
+  },
+  {
+    "id": "spo-ado-026",
+    "category": "sport-loisirs",
+    "question": "Quel footballeur argentin a remporté la Coupe du monde 2022 avec son équipe nationale ?",
+    "answer": "Lionel Messi"
+  },
+  {
+    "id": "spo-ado-027",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport pratique-t-on le \"grand chelem\" avec quatre tournois majeurs dans l'année ?",
+    "answer": "Le tennis"
+  },
+  {
+    "id": "spo-ado-028",
+    "category": "sport-loisirs",
+    "question": "Quel sport olympique associe des figures artistiques à de la musique dans l'eau ?",
+    "answer": "La natation synchronisée"
+  },
+  {
+    "id": "spo-ado-029",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline d'athlétisme consiste à sauter le plus loin possible après une course d'élan ?",
+    "answer": "Le saut en longueur"
+  },
+  {
+    "id": "spo-ado-030",
+    "category": "sport-loisirs",
+    "question": "Quel pays a remporté le plus de Coupes du monde de football à ce jour ?",
+    "answer": "Le Brésil"
+  },
+  {
+    "id": "spo-ado-031",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de handball sur le terrain ?",
+    "answer": "7"
+  },
+  {
+    "id": "spo-ado-032",
+    "category": "sport-loisirs",
+    "question": "Quel skateur ou discipline de glisse urbaine a fait son entrée aux Jeux olympiques de Tokyo en 2021 ?",
+    "answer": "Le skateboard"
+  },
+  {
+    "id": "spo-ado-033",
+    "category": "sport-loisirs",
+    "question": "Quelle nageuse française a été porte-drapeau ou grande vedette de la natation tricolore avec de nombreux titres olympiques dans les années 2010-2020 ?",
+    "answer": "Léon Marchand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-034",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de raquette joue-t-on en simple ou en double sur un terrain divisé par un filet bas et une ligne de non-volée ?",
+    "answer": "Le padel",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-035",
+    "category": "sport-loisirs",
+    "question": "Quelle célèbre course cycliste par étapes se termine traditionnellement sur les Champs-Élysées à Paris ?",
+    "answer": "Le Tour de France"
+  },
+  {
+    "id": "spo-ado-036",
+    "category": "sport-loisirs",
+    "question": "Quel pilote français a été plusieurs fois champion du monde de Formule 1 dans les années 1990-2000 ?",
+    "answer": "Alain Prost",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-037",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+    "answer": "15",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-038",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport peut-on réaliser un \"strike\" en faisant tomber toutes les quilles d'un coup ?",
+    "answer": "Le bowling",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-039",
+    "category": "sport-loisirs",
+    "question": "Quelle nation a dominé le rugby en remportant plusieurs fois la Coupe du monde, dont les éditions 2015 et 2019 ?",
+    "answer": "L'Afrique du Sud",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-040",
+    "category": "sport-loisirs",
+    "question": "Quel geste technique permet de marquer en frappant le ballon de football avec la tête ?",
+    "answer": "Une tête",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-041",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport d'hiver descend-on une piste en suivant un tracé de portes le plus vite possible ?",
+    "answer": "Le ski alpin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-042",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de basketball américain est surnommé \"King James\" ?",
+    "answer": "LeBron James",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-043",
+    "category": "sport-loisirs",
+    "question": "Combien de sets faut-il gagner pour remporter un match de tennis en cinq sets ?",
+    "answer": "3",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-044",
+    "category": "sport-loisirs",
+    "question": "Quel sport de combat japonais signifie littéralement \"la voie souple\" ?",
+    "answer": "Le judo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-045",
+    "category": "sport-loisirs",
+    "question": "Quelle équipe de football espagnole joue au stade du Santiago-Bernabéu ?",
+    "answer": "Le Real Madrid",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-046",
+    "category": "sport-loisirs",
+    "question": "Dans quelle discipline olympique les gymnastes évoluent-ils sur des agrès comme les barres asymétriques ou la poutre ?",
+    "answer": "La gymnastique artistique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-047",
+    "category": "sport-loisirs",
+    "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres ?",
+    "answer": "Usain Bolt",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-048",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique sur une table avec une petite balle et des raquettes appelées \"palettes\" ?",
+    "answer": "Le tennis de table",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-049",
+    "category": "sport-loisirs",
+    "question": "Combien de manches gagnantes faut-il remporter pour gagner un combat de judo par ippon direct ?",
+    "answer": "1",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-050",
+    "category": "sport-loisirs",
+    "question": "Quelle célèbre épreuve cycliste italienne par étapes est surnommée la \"course rose\" en raison de son maillot de leader ?",
+    "answer": "Le Tour d'Italie (Giro d'Italia)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-051",
+    "category": "sport-loisirs",
+    "question": "Quel club anglais évolue au stade d'Old Trafford ?",
+    "answer": "Manchester United",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-052",
+    "category": "sport-loisirs",
+    "question": "Quel sport nautique consiste à glisser sur l'eau tracté par un bateau en se tenant debout sur une planche ?",
+    "answer": "Le wakeboard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-053",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de baseball sur le terrain ?",
+    "answer": "9",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-054",
+    "category": "sport-loisirs",
+    "question": "Quel nageur français a remporté quatre médailles d'or aux Jeux olympiques de Paris 2024 ?",
+    "answer": "Léon Marchand",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-055",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de raquette le score peut-il atteindre \"40-0\" avant la fin d'un jeu ?",
+    "answer": "Le tennis",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-056",
+    "category": "sport-loisirs",
+    "question": "Quel pilote néerlandais a remporté plusieurs titres mondiaux de Formule 1 consécutifs dans les années 2020 ?",
+    "answer": "Max Verstappen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-057",
+    "category": "sport-loisirs",
+    "question": "Quel sport se joue avec une crosse et une balle, et se pratique traditionnellement sur gazon anglais avec des pauses appelées \"thé\" ?",
+    "answer": "Le cricket",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-058",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure un quart-temps au basketball selon les règles internationales de la FIBA ?",
+    "answer": "10 minutes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-059",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline consiste à enchaîner natation, cyclisme et course à pied ?",
+    "answer": "Le triathlon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-060",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de tennis suisse a remporté 20 titres du Grand Chelem au cours de sa carrière ?",
+    "answer": "Roger Federer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-061",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport d'hiver les athlètes s'élancent-ils d'un tremplin pour voler le plus loin possible ?",
+    "answer": "Le saut à ski",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-062",
+    "category": "sport-loisirs",
+    "question": "Quel pays a organisé la Coupe du monde de rugby à XV en 2023 ?",
+    "answer": "La France",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-063",
+    "category": "sport-loisirs",
+    "question": "Quel club de football italien est surnommé \"la Juve\" ?",
+    "answer": "La Juventus de Turin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-064",
+    "category": "sport-loisirs",
+    "question": "Quel sport de combat se pratique pieds et poings sur un tatami avec des ceintures de couleur selon le niveau ?",
+    "answer": "Le karaté",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-065",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline d'athlétisme consiste à franchir une barre le plus haut possible en effectuant un saut dorsal ?",
+    "answer": "Le saut en hauteur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-066",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de football français a remporté le Ballon d'or en 2022 après une belle Coupe du monde ?",
+    "answer": "Karim Benzema",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-067",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport utilise-t-on des termes comme \"birdie\" ou \"bogey\" pour compter les coups ?",
+    "answer": "Le golf",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-068",
+    "category": "sport-loisirs",
+    "question": "Quelle épreuve de natation en eau libre se déroule traditionnellement sur une distance de 10 kilomètres aux Jeux olympiques ?",
+    "answer": "Le marathon de natation en eau libre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-069",
+    "category": "sport-loisirs",
+    "question": "Quel sport de raquette se joue dans une salle fermée où la balle rebondit contre les quatre murs ?",
+    "answer": "Le squash",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-070",
+    "category": "sport-loisirs",
+    "question": "Quelle équipe américaine de basketball, basée à Los Angeles, a été le club de Kobe Bryant durant toute sa carrière ?",
+    "answer": "Les Lakers",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-071",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de football américain sur le terrain, hors remplaçants ?",
+    "answer": "11",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-072",
+    "category": "sport-loisirs",
+    "question": "Quel club français de football évolue au Parc des Princes ?",
+    "answer": "Le Paris Saint-Germain",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-073",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de basketball français a été choisi en 1ère position de la draft NBA 2023 ?",
+    "answer": "Victor Wembanyama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-074",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport peut-on remporter un match par un \"KO\" ?",
+    "answer": "La boxe",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-075",
+    "category": "sport-loisirs",
+    "question": "Combien de sets faut-il gagner pour remporter un match de volley-ball ?",
+    "answer": "3",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-076",
+    "category": "sport-loisirs",
+    "question": "Quelle nage se caractérise par un mouvement simultané des deux bras hors de l'eau, imitant un battement d'ailes ?",
+    "answer": "La nage papillon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-077",
+    "category": "sport-loisirs",
+    "question": "Quel sport de glace se joue avec des pierres que l'on glisse vers une cible tout en balayant la glace devant elles ?",
+    "answer": "Le curling",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-078",
+    "category": "sport-loisirs",
+    "question": "Quel athlète suédois est détenteur du record du monde du saut à la perche ?",
+    "answer": "Armand Duplantis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-079",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure une période au hockey sur glace ?",
+    "answer": "20 minutes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-080",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom du jeu vidéo de simulation de football publié chaque année par EA Sports jusqu'en 2023 sous ce nom ?",
+    "answer": "FIFA",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-081",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs s'affrontent-ils en visant des fléchettes sur une cible ronde numérotée ?",
+    "answer": "Les fléchettes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-082",
+    "category": "sport-loisirs",
+    "question": "Quel club allemand de football est surnommé \"le Bayern\" et domine régulièrement le championnat national ?",
+    "answer": "Le Bayern Munich",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-083",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline de glisse hivernale se pratique avec une seule planche fixée aux deux pieds ?",
+    "answer": "Le snowboard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-084",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de water-polo dans l'eau ?",
+    "answer": "7",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-085",
+    "category": "sport-loisirs",
+    "question": "Quel pilote allemand de Formule 1 détient sept titres de champion du monde, à égalité avec Lewis Hamilton ?",
+    "answer": "Michael Schumacher",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-086",
+    "category": "sport-loisirs",
+    "question": "Quel jeu vidéo de combat en équipe de 5 contre 5, très populaire en e-sport, est développé par Riot Games ?",
+    "answer": "League of Legends",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-087",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport un joueur peut-il marquer un \"home run\" ?",
+    "answer": "Le baseball",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-088",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline consiste à descendre une piste enneigée en slalomant entre des bosses, en musique et avec des figures ?",
+    "answer": "Le ski de bosses",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-089",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de tennis espagnol, surnommé le \"Roi de la terre battue\", a remporté Roland-Garros à 14 reprises ?",
+    "answer": "Rafael Nadal",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-090",
+    "category": "sport-loisirs",
+    "question": "Combien de flèches un archer tire-t-il généralement lors d'une volée en tir à l'arc olympique ?",
+    "answer": "3",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-091",
+    "category": "sport-loisirs",
+    "question": "Quel sport extrême consiste à sauter dans le vide relié à un élastique fixé aux chevilles ?",
+    "answer": "Le saut à l'élastique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-092",
+    "category": "sport-loisirs",
+    "question": "Quelle équipe nationale de football est surnommée \"la Roja\" ?",
+    "answer": "L'Espagne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-093",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport peut-on réaliser un \"grand chelem\" en remportant les quatre tournois majeurs la même année, comme au tennis ?",
+    "answer": "Le golf",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-094",
+    "category": "sport-loisirs",
+    "question": "Quel skateboardeur américain a réalisé le premier 900, soit deux tours et demi, en compétition ?",
+    "answer": "Tony Hawk",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-095",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de football gaélique sur le terrain ?",
+    "answer": "15",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-096",
+    "category": "sport-loisirs",
+    "question": "Quel sport de filet se joue avec un ballon gonflable frappé uniquement avec les pieds et la tête, populaire en Asie du Sud-Est ?",
+    "answer": "Le sepak takraw",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-097",
+    "category": "sport-loisirs",
+    "question": "Quelle athlète jamaïcaine, plusieurs fois championne olympique du sprint, est surnommée \"la fusée pocket\" ?",
+    "answer": "Shelly-Ann Fraser-Pryce",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-098",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport nautique se tient-on debout sur une planche pour glisser sur les vagues ?",
+    "answer": "Le surf",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-099",
+    "category": "sport-loisirs",
+    "question": "Quel club anglais de football, basé à Liverpool, joue au stade d'Anfield et est surnommé \"les Reds\" ?",
+    "answer": "Liverpool FC",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-100",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs composent une équipe de football à 7, format courant en tournoi amateur ?",
+    "answer": "7",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-101",
+    "category": "sport-loisirs",
+    "question": "Quel jeu vidéo de battle royale développé par Epic Games est devenu un phénomène mondial et un sport e-sport à part entière ?",
+    "answer": "Fortnite",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-102",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline olympique associe l'équitation, l'escrime, la natation, le tir et la course à pied ?",
+    "answer": "Le pentathlon moderne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-103",
+    "category": "sport-loisirs",
+    "question": "Quel geste au volley-ball consiste à sauter près du filet pour frapper violemment le ballon vers le camp adverse ?",
+    "answer": "Un smash",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-104",
+    "category": "sport-loisirs",
+    "question": "Quel pays possède l'écurie de Formule 1 la plus titrée de l'histoire, Ferrari ?",
+    "answer": "L'Italie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-105",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de glisse hivernale les concurrents dévalent-ils une piste de glace verglacée allongés sur un traîneau ?",
+    "answer": "La luge",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-106",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse de tennis américaine détient 23 titres du Grand Chelem en simple, un record de l'ère Open ?",
+    "answer": "Serena Williams",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-107",
+    "category": "sport-loisirs",
+    "question": "Combien de rondes compte un combat de boxe professionnelle classique pour un championnat du monde ?",
+    "answer": "12",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-108",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on sur un mur artificiel équipé de prises colorées à agripper pour grimper ?",
+    "answer": "L'escalade",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-109",
+    "category": "sport-loisirs",
+    "question": "Quelle équipe de la NBA, basée dans le Massachusetts, a remporté le plus de titres de champion à égalité avec les Lakers ?",
+    "answer": "Les Celtics de Boston",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-110",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de combat les athlètes s'affrontent-ils au sol en cherchant à obtenir une soumission par étranglement ou clé articulaire ?",
+    "answer": "Le jiu-jitsu brésilien",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-111",
+    "category": "sport-loisirs",
+    "question": "Quel footballeur portugais détient le record de buts marqués en équipe nationale, tous pays confondus ?",
+    "answer": "Cristiano Ronaldo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-112",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en 1 contre 1 sur un fronton, très populaire dans le sud-ouest de la France et au Pays basque ?",
+    "answer": "La pelote basque",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-113",
+    "category": "sport-loisirs",
+    "question": "Quelle épreuve d'athlétisme regroupe dix disciplines différentes sur deux jours pour les hommes ?",
+    "answer": "Le décathlon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-114",
+    "category": "sport-loisirs",
+    "question": "Quel athlète norvégien a battu le record du monde du 400 mètres haies aux Jeux olympiques de Tokyo en 2021 ?",
+    "answer": "Karsten Warholm",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-115",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de basketball américain, surnommé \"Air Jordan\", est considéré comme l'un des plus grands de l'histoire de la NBA ?",
+    "answer": "Michael Jordan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-116",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure un match de rugby à XV hors arrêts de jeu ?",
+    "answer": "80 minutes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-117",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse de tennis polonaise a remporté Roland-Garros en 2022 et occupe régulièrement la place de numéro 1 mondiale ?",
+    "answer": "Iga Świątek",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-118",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport une descente à ski se fait-elle en slalomant serré entre de nombreuses portes rapprochées ?",
+    "answer": "Le slalom spécial",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-119",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de football espagnol, formé au FC Barcelone, a été révélation puis Ballon d'or à 17 ans en 2025 ?",
+    "answer": "Lamine Yamal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-120",
+    "category": "sport-loisirs",
+    "question": "Quel geste technique du football consiste à faire une passe entre les jambes d'un adversaire ?",
+    "answer": "Un petit pont",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-121",
+    "category": "sport-loisirs",
+    "question": "Quel pays a remporté la Coupe du monde de football en 2014 ?",
+    "answer": "L'Allemagne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-122",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les compétiteurs sautent-ils depuis un plongeoir dans une piscine en réalisant des figures aériennes ?",
+    "answer": "Le plongeon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-123",
+    "category": "sport-loisirs",
+    "question": "Quel jeu vidéo de football, propriété de Konami, est le principal concurrent historique de la licence FIFA ?",
+    "answer": "Pro Evolution Soccer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-124",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport un joueur peut-il être sanctionné d'un carton rouge et être exclu définitivement du match ?",
+    "answer": "Le football",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-125",
+    "category": "sport-loisirs",
+    "question": "Quelle course automobile mythique de Formule 1 se déroule chaque année sur un circuit urbain de la Principauté de Monaco ?",
+    "answer": "Le Grand Prix de Monaco",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-126",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en s'accrochant à une voile fixée à une planche pour glisser sur l'eau grâce au vent ?",
+    "answer": "La planche à voile",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-127",
+    "category": "sport-loisirs",
+    "question": "Combien de kilomètres mesure un marathon officiel ?",
+    "answer": "42,195 kilomètres",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-128",
+    "category": "sport-loisirs",
+    "question": "Quelle nation a remporté la Coupe du monde de football féminine en 2023 ?",
+    "answer": "L'Espagne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-129",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport le terrain est-il appelé un \"ring\" et les affrontements des \"rounds\" ?",
+    "answer": "La boxe",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-130",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de football brésilien, considéré comme l'un des plus grands de l'histoire, a remporté trois Coupes du monde entre 1958 et 1970 ?",
+    "answer": "Pelé",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-131",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique avec des raquettes à neige fixées sous les pieds pour marcher sur la neige épaisse ?",
+    "answer": "La raquette à neige",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-132",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport collectif utilise-t-on une crosse pour propulser une petite balle dans un but, très populaire en Amérique du Nord ?",
+    "answer": "La crosse (lacrosse)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-133",
+    "category": "sport-loisirs",
+    "question": "Quelle compétition annuelle de football des clubs européens est considérée comme la plus prestigieuse du continent ?",
+    "answer": "La Ligue des champions",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-ado-134",
+    "category": "sport-loisirs",
+    "question": "Quel pilote britannique de Formule 1 détient le record du nombre de victoires en Grand Prix ?",
+    "answer": "Lewis Hamilton",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-135",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les athlètes lancent-ils un poids métallique en effectuant une rotation dans un cercle ?",
+    "answer": "Le lancer du poids",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-136",
+    "category": "sport-loisirs",
+    "question": "Quel jeu vidéo de simulation de basketball, publié chaque année par 2K, est la référence du genre ?",
+    "answer": "NBA 2K",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-137",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline de VTT consiste à dévaler des pentes très raides et techniques le plus vite possible ?",
+    "answer": "La descente (downhill)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-138",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de futsal sur le terrain ?",
+    "answer": "5",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-ado-139",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les compétiteurs s'affrontent-ils sur des rollers ou des patins pour effectuer des figures acrobatiques ?",
+    "answer": "Le patinage à roulettes freestyle",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-ado-140",
+    "category": "sport-loisirs",
+    "question": "Quel sport aquatique combine nage, plongée et passes de ballon dans un but immergé ?",
+    "answer": "Le water-polo",
+    "difficulty": "facile"
+  }
 ]

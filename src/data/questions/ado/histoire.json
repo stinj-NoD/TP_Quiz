@@ -1,52 +1,952 @@
 [
-  { "id": "his-ado-001", "category": "histoire", "question": "En quelle année a eu lieu la prise de la Bastille ?", "answer": "1789" },
-  { "id": "his-ado-002", "category": "histoire", "question": "Qui était l'empereur des Français sacré en 1804 ?", "answer": "Napoléon Bonaparte" },
-  { "id": "his-ado-003", "category": "histoire", "question": "En quelle année le mur de Berlin est-il tombé ?", "answer": "1989" },
-  { "id": "his-ado-004", "category": "histoire", "question": "Quel roi de France est surnommé le \"Roi Soleil\" ?", "answer": "Louis XIV" },
-  { "id": "his-ado-005", "category": "histoire", "question": "En quelle année a débuté la Première Guerre mondiale ?", "answer": "1914" },
-  { "id": "his-ado-006", "category": "histoire", "question": "Qui a été le premier président des États-Unis ?", "answer": "George Washington" },
-  { "id": "his-ado-007", "category": "histoire", "question": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?", "answer": "1945" },
-  { "id": "his-ado-008", "category": "histoire", "question": "Quel explorateur est crédité de la découverte de l'Amérique en 1492 ?", "answer": "Christophe Colomb" },
-  { "id": "his-ado-009", "category": "histoire", "question": "Quel mur symbolisait la division de l'Allemagne pendant la Guerre froide ?", "answer": "Le mur de Berlin" },
-  { "id": "his-ado-010", "category": "histoire", "question": "Qui était Jeanne d'Arc ?", "answer": "Une héroïne française de la guerre de Cent Ans" },
-  { "id": "his-ado-011", "category": "histoire", "question": "En quelle année la Révolution française a-t-elle débuté ?", "answer": "1789" },
-  { "id": "his-ado-012", "category": "histoire", "question": "Qui a dirigé le mouvement de résistance non-violente pour l'indépendance de l'Inde ?", "answer": "Gandhi" },
-  { "id": "his-ado-013", "category": "histoire", "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?", "answer": "1969" },
-  { "id": "his-ado-014", "category": "histoire", "question": "Quel général carthaginois a traversé les Alpes avec des éléphants ?", "answer": "Hannibal" },
-  { "id": "his-ado-015", "category": "histoire", "question": "Quelle bataille a marqué la défaite finale de Napoléon en 1815 ?", "answer": "La bataille de Waterloo" },
-  { "id": "his-ado-016", "category": "histoire", "question": "Qui était le pharaon dont la tombe intacte a été découverte en 1922 ?", "answer": "Toutânkhamon" },
-  { "id": "his-ado-017", "category": "histoire", "question": "Quel pays a offert la statue de la Liberté aux États-Unis ?", "answer": "La France" },
-  { "id": "his-ado-018", "category": "histoire", "question": "En quelle année a été signée la Déclaration d'indépendance des États-Unis ?", "answer": "1776" },
-  { "id": "his-ado-019", "category": "histoire", "question": "Quel roi anglais a eu six épouses ?", "answer": "Henri VIII" },
-  { "id": "his-ado-020", "category": "histoire", "question": "Quelle civilisation précolombienne a bâti le Machu Picchu ?", "answer": "Les Incas" },
-  { "id": "his-ado-021", "category": "histoire", "question": "Quel événement de 1789 a marqué le début symbolique de la Révolution française ?", "answer": "La prise de la Bastille" },
-  { "id": "his-ado-022", "category": "histoire", "question": "Qui a été assassiné aux Ides de Mars en -44 ?", "answer": "Jules César" },
-  { "id": "his-ado-023", "category": "histoire", "question": "Quel président américain a aboli l'esclavage ?", "answer": "Abraham Lincoln" },
-  { "id": "his-ado-024", "category": "histoire", "question": "Quel empire est tombé en 1453 avec la chute de Constantinople ?", "answer": "L'Empire byzantin" },
-  { "id": "his-ado-025", "category": "histoire", "question": "Quelle civilisation a construit les pyramides de Gizeh ?", "answer": "Les Égyptiens de l'Égypte antique" },
-  { "id": "his-ado-026", "category": "histoire", "question": "Quelle dynastie chinoise a fait construire une grande partie de la Grande Muraille ?", "answer": "La dynastie Ming" },
-  { "id": "his-ado-027", "category": "histoire", "question": "Quel traité a mis fin à la Première Guerre mondiale ?", "answer": "Le traité de Versailles" },
-  { "id": "his-ado-028", "category": "histoire", "question": "Comment appelle-t-on les peuples de guerriers scandinaves qui ont exploré l'Europe en bateau au Moyen Âge ?", "answer": "Les Vikings" },
-  { "id": "his-ado-029", "category": "histoire", "question": "Quel scientifique de la Renaissance italienne a peint la Joconde et dessiné des machines volantes ?", "answer": "Léonard de Vinci" },
-  { "id": "his-ado-030", "category": "histoire", "question": "Quelle expédition française a rapporté la pierre de Rosette en Europe ?", "answer": "La campagne d'Égypte de Napoléon Bonaparte" },
-  { "id": "his-ado-031", "category": "histoire", "question": "Quel événement de 1962 a opposé les États-Unis et l'URSS autour de missiles installés à Cuba ?", "answer": "La crise des missiles de Cuba", "difficulty": "moyen" },
-  { "id": "his-ado-032", "category": "histoire", "question": "Quel roi de France a fait construire le château de Versailles ?", "answer": "Louis XIV", "difficulty": "facile" },
-  { "id": "his-ado-033", "category": "histoire", "question": "Quel document fondamental a été proclamé lors de la Révolution française en 1789, garantissant les droits fondamentaux des citoyens ?", "answer": "La Déclaration des droits de l'homme et du citoyen", "difficulty": "moyen" },
-  { "id": "his-ado-034", "category": "histoire", "question": "Quel général français a lancé l'appel du 18 juin 1940 depuis Londres ?", "answer": "Charles de Gaulle", "difficulty": "facile" },
-  { "id": "his-ado-035", "category": "histoire", "question": "Quelle ancienne civilisation a inventé l'écriture cunéiforme en Mésopotamie ?", "answer": "Les Sumériens", "difficulty": "moyen" },
-  { "id": "his-ado-036", "category": "histoire", "question": "Quel roi de France a été guillotiné en 1793 pendant la Révolution ?", "answer": "Louis XVI", "difficulty": "facile" },
-  { "id": "his-ado-037", "category": "histoire", "question": "Quelle reine d'Égypte antique a séduit Jules César puis Marc Antoine ?", "answer": "Cléopâtre", "difficulty": "facile" },
-  { "id": "his-ado-038", "category": "histoire", "question": "Quel jour de juin 1944 les Alliés ont-ils débarqué en Normandie ?", "answer": "Le 6 juin 1944", "difficulty": "moyen" },
-  { "id": "his-ado-039", "category": "histoire", "question": "Quel empereur romain a fait construire un immense amphithéâtre connu aujourd'hui sous le nom de Colisée ?", "answer": "Vespasien", "difficulty": "difficile" },
-  { "id": "his-ado-040", "category": "histoire", "question": "Quelle épidémie a décimé près d'un tiers de la population européenne au XIVe siècle ?", "answer": "La peste noire", "difficulty": "moyen" },
-  { "id": "his-ado-041", "category": "histoire", "question": "Quelle invention de Gutenberg, vers 1450, a révolutionné la diffusion du savoir en Europe ?", "answer": "L'imprimerie", "difficulty": "moyen" },
-  { "id": "his-ado-042", "category": "histoire", "question": "Quel physicien allemand a développé la théorie de la relativité et a fui l'Allemagne nazie ?", "answer": "Albert Einstein", "difficulty": "moyen" },
-  { "id": "his-ado-043", "category": "histoire", "question": "Quel mouvement artistique et intellectuel des XVe et XVIe siècles a vu naître Léonard de Vinci et Michel-Ange ?", "answer": "La Renaissance", "difficulty": "facile" },
-  { "id": "his-ado-044", "category": "histoire", "question": "Quel homme politique sud-africain, emprisonné 27 ans, est devenu président après la fin de l'apartheid ?", "answer": "Nelson Mandela", "difficulty": "facile" },
-  { "id": "his-ado-045", "category": "histoire", "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis de 1861 à 1865 ?", "answer": "La guerre de Sécession", "difficulty": "moyen" },
-  { "id": "his-ado-046", "category": "histoire", "question": "Quel empereur mongol a fondé le plus grand empire terrestre de l'histoire au XIIIe siècle ?", "answer": "Gengis Khan", "difficulty": "moyen" },
-  { "id": "his-ado-047", "category": "histoire", "question": "Quel philosophe grec a été le maître d'Alexandre le Grand ?", "answer": "Aristote", "difficulty": "moyen" },
-  { "id": "his-ado-048", "category": "histoire", "question": "Quel roi de Macédoine a conquis un immense empire allant de la Grèce jusqu'à l'Inde ?", "answer": "Alexandre le Grand", "difficulty": "facile" },
-  { "id": "his-ado-049", "category": "histoire", "question": "Quelle organisation internationale a été créée en 1945 pour maintenir la paix dans le monde ?", "answer": "L'Organisation des Nations unies (ONU)", "difficulty": "moyen" },
-  { "id": "his-ado-050", "category": "histoire", "question": "Quel navigateur portugais a dirigé la première expédition à faire le tour du monde, achevée en 1522 ?", "answer": "Fernand de Magellan", "difficulty": "difficile" }
+  {
+    "id": "his-ado-001",
+    "category": "histoire",
+    "question": "En quelle année a eu lieu la prise de la Bastille ?",
+    "answer": "1789"
+  },
+  {
+    "id": "his-ado-002",
+    "category": "histoire",
+    "question": "Qui était l'empereur des Français sacré en 1804 ?",
+    "answer": "Napoléon Bonaparte"
+  },
+  {
+    "id": "his-ado-003",
+    "category": "histoire",
+    "question": "En quelle année le mur de Berlin est-il tombé ?",
+    "answer": "1989"
+  },
+  {
+    "id": "his-ado-004",
+    "category": "histoire",
+    "question": "Quel roi de France est surnommé le \"Roi Soleil\" ?",
+    "answer": "Louis XIV"
+  },
+  {
+    "id": "his-ado-005",
+    "category": "histoire",
+    "question": "En quelle année a débuté la Première Guerre mondiale ?",
+    "answer": "1914"
+  },
+  {
+    "id": "his-ado-006",
+    "category": "histoire",
+    "question": "Qui a été le premier président des États-Unis ?",
+    "answer": "George Washington"
+  },
+  {
+    "id": "his-ado-007",
+    "category": "histoire",
+    "question": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+    "answer": "1945"
+  },
+  {
+    "id": "his-ado-008",
+    "category": "histoire",
+    "question": "Quel explorateur est crédité de la découverte de l'Amérique en 1492 ?",
+    "answer": "Christophe Colomb"
+  },
+  {
+    "id": "his-ado-009",
+    "category": "histoire",
+    "question": "Quel mur symbolisait la division de l'Allemagne pendant la Guerre froide ?",
+    "answer": "Le mur de Berlin"
+  },
+  {
+    "id": "his-ado-010",
+    "category": "histoire",
+    "question": "Qui était Jeanne d'Arc ?",
+    "answer": "Une héroïne française de la guerre de Cent Ans"
+  },
+  {
+    "id": "his-ado-011",
+    "category": "histoire",
+    "question": "En quelle année la Révolution française a-t-elle débuté ?",
+    "answer": "1789"
+  },
+  {
+    "id": "his-ado-012",
+    "category": "histoire",
+    "question": "Qui a dirigé le mouvement de résistance non-violente pour l'indépendance de l'Inde ?",
+    "answer": "Gandhi"
+  },
+  {
+    "id": "his-ado-013",
+    "category": "histoire",
+    "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "answer": "1969"
+  },
+  {
+    "id": "his-ado-014",
+    "category": "histoire",
+    "question": "Quel général carthaginois a traversé les Alpes avec des éléphants ?",
+    "answer": "Hannibal"
+  },
+  {
+    "id": "his-ado-015",
+    "category": "histoire",
+    "question": "Quelle bataille a marqué la défaite finale de Napoléon en 1815 ?",
+    "answer": "La bataille de Waterloo"
+  },
+  {
+    "id": "his-ado-016",
+    "category": "histoire",
+    "question": "Qui était le pharaon dont la tombe intacte a été découverte en 1922 ?",
+    "answer": "Toutânkhamon"
+  },
+  {
+    "id": "his-ado-017",
+    "category": "histoire",
+    "question": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+    "answer": "La France"
+  },
+  {
+    "id": "his-ado-018",
+    "category": "histoire",
+    "question": "En quelle année a été signée la Déclaration d'indépendance des États-Unis ?",
+    "answer": "1776"
+  },
+  {
+    "id": "his-ado-019",
+    "category": "histoire",
+    "question": "Quel roi anglais a eu six épouses ?",
+    "answer": "Henri VIII"
+  },
+  {
+    "id": "his-ado-020",
+    "category": "histoire",
+    "question": "Quelle civilisation précolombienne a bâti le Machu Picchu ?",
+    "answer": "Les Incas"
+  },
+  {
+    "id": "his-ado-021",
+    "category": "histoire",
+    "question": "Quel événement de 1789 a marqué le début symbolique de la Révolution française ?",
+    "answer": "La prise de la Bastille"
+  },
+  {
+    "id": "his-ado-022",
+    "category": "histoire",
+    "question": "Qui a été assassiné aux Ides de Mars en -44 ?",
+    "answer": "Jules César"
+  },
+  {
+    "id": "his-ado-023",
+    "category": "histoire",
+    "question": "Quel président américain a aboli l'esclavage ?",
+    "answer": "Abraham Lincoln"
+  },
+  {
+    "id": "his-ado-024",
+    "category": "histoire",
+    "question": "Quel empire est tombé en 1453 avec la chute de Constantinople ?",
+    "answer": "L'Empire byzantin"
+  },
+  {
+    "id": "his-ado-025",
+    "category": "histoire",
+    "question": "Quelle civilisation a construit les pyramides de Gizeh ?",
+    "answer": "Les Égyptiens de l'Égypte antique"
+  },
+  {
+    "id": "his-ado-026",
+    "category": "histoire",
+    "question": "Quelle dynastie chinoise a fait construire une grande partie de la Grande Muraille ?",
+    "answer": "La dynastie Ming"
+  },
+  {
+    "id": "his-ado-027",
+    "category": "histoire",
+    "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+    "answer": "Le traité de Versailles"
+  },
+  {
+    "id": "his-ado-028",
+    "category": "histoire",
+    "question": "Comment appelle-t-on les peuples de guerriers scandinaves qui ont exploré l'Europe en bateau au Moyen Âge ?",
+    "answer": "Les Vikings"
+  },
+  {
+    "id": "his-ado-029",
+    "category": "histoire",
+    "question": "Quel scientifique de la Renaissance italienne a peint la Joconde et dessiné des machines volantes ?",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "id": "his-ado-030",
+    "category": "histoire",
+    "question": "Quelle expédition française a rapporté la pierre de Rosette en Europe ?",
+    "answer": "La campagne d'Égypte de Napoléon Bonaparte"
+  },
+  {
+    "id": "his-ado-031",
+    "category": "histoire",
+    "question": "Quel événement de 1962 a opposé les États-Unis et l'URSS autour de missiles installés à Cuba ?",
+    "answer": "La crise des missiles de Cuba",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-032",
+    "category": "histoire",
+    "question": "Quel roi de France a fait construire le château de Versailles ?",
+    "answer": "Louis XIV",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-033",
+    "category": "histoire",
+    "question": "Quel document fondamental a été proclamé lors de la Révolution française en 1789, garantissant les droits fondamentaux des citoyens ?",
+    "answer": "La Déclaration des droits de l'homme et du citoyen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-034",
+    "category": "histoire",
+    "question": "Quel général français a lancé l'appel du 18 juin 1940 depuis Londres ?",
+    "answer": "Charles de Gaulle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-035",
+    "category": "histoire",
+    "question": "Quelle ancienne civilisation a inventé l'écriture cunéiforme en Mésopotamie ?",
+    "answer": "Les Sumériens",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-036",
+    "category": "histoire",
+    "question": "Quel roi de France a été guillotiné en 1793 pendant la Révolution ?",
+    "answer": "Louis XVI",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-037",
+    "category": "histoire",
+    "question": "Quelle reine d'Égypte antique a séduit Jules César puis Marc Antoine ?",
+    "answer": "Cléopâtre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-038",
+    "category": "histoire",
+    "question": "Quel jour de juin 1944 les Alliés ont-ils débarqué en Normandie ?",
+    "answer": "Le 6 juin 1944",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-039",
+    "category": "histoire",
+    "question": "Quel empereur romain a fait construire un immense amphithéâtre connu aujourd'hui sous le nom de Colisée ?",
+    "answer": "Vespasien",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-040",
+    "category": "histoire",
+    "question": "Quelle épidémie a décimé près d'un tiers de la population européenne au XIVe siècle ?",
+    "answer": "La peste noire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-041",
+    "category": "histoire",
+    "question": "Quelle invention de Gutenberg, vers 1450, a révolutionné la diffusion du savoir en Europe ?",
+    "answer": "L'imprimerie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-042",
+    "category": "histoire",
+    "question": "Quel physicien allemand a développé la théorie de la relativité et a fui l'Allemagne nazie ?",
+    "answer": "Albert Einstein",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-043",
+    "category": "histoire",
+    "question": "Quel mouvement artistique et intellectuel des XVe et XVIe siècles a vu naître Léonard de Vinci et Michel-Ange ?",
+    "answer": "La Renaissance",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-044",
+    "category": "histoire",
+    "question": "Quel homme politique sud-africain, emprisonné 27 ans, est devenu président après la fin de l'apartheid ?",
+    "answer": "Nelson Mandela",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-045",
+    "category": "histoire",
+    "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis de 1861 à 1865 ?",
+    "answer": "La guerre de Sécession",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-046",
+    "category": "histoire",
+    "question": "Quel empereur mongol a fondé le plus grand empire terrestre de l'histoire au XIIIe siècle ?",
+    "answer": "Gengis Khan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-047",
+    "category": "histoire",
+    "question": "Quel philosophe grec a été le maître d'Alexandre le Grand ?",
+    "answer": "Aristote",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-048",
+    "category": "histoire",
+    "question": "Quel roi de Macédoine a conquis un immense empire allant de la Grèce jusqu'à l'Inde ?",
+    "answer": "Alexandre le Grand",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-049",
+    "category": "histoire",
+    "question": "Quelle organisation internationale a été créée en 1945 pour maintenir la paix dans le monde ?",
+    "answer": "L'Organisation des Nations unies (ONU)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-050",
+    "category": "histoire",
+    "question": "Quel navigateur portugais a dirigé la première expédition à faire le tour du monde, achevée en 1522 ?",
+    "answer": "Fernand de Magellan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-051",
+    "category": "histoire",
+    "question": "Quelle reine de France, épouse de Louis XVI, a été guillotinée en 1793 ?",
+    "answer": "Marie-Antoinette",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-052",
+    "category": "histoire",
+    "question": "Quel traité de 1648 a mis fin à la guerre de Trente Ans en Europe ?",
+    "answer": "Le traité de Westphalie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-053",
+    "category": "histoire",
+    "question": "Quelle bataille de 1066 a permis à Guillaume le Conquérant de conquérir l'Angleterre ?",
+    "answer": "La bataille de Hastings",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-054",
+    "category": "histoire",
+    "question": "Quel dictateur italien a dirigé le régime fasciste de 1922 à 1943 ?",
+    "answer": "Benito Mussolini",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-055",
+    "category": "histoire",
+    "question": "Quel événement tragique de 1912 a coulé un paquebot britannique réputé insubmersible ?",
+    "answer": "Le naufrage du Titanic",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-056",
+    "category": "histoire",
+    "question": "Quelle civilisation d'Amérique centrale possédait un calendrier très précis et a bâti Chichén Itzá ?",
+    "answer": "Les Mayas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-057",
+    "category": "histoire",
+    "question": "Quel roi de France est resté célèbre sous le nom de \"Saint Louis\" ?",
+    "answer": "Louis IX",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-058",
+    "category": "histoire",
+    "question": "Quelle place parisienne porte le nom d'une prison détruite lors de la Révolution française ?",
+    "answer": "La place de la Bastille",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-059",
+    "category": "histoire",
+    "question": "Quel chef militaire français est devenu empereur puis a été exilé sur l'île de Sainte-Hélène ?",
+    "answer": "Napoléon Bonaparte",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-060",
+    "category": "histoire",
+    "question": "Quel évènement de 1929 a provoqué une grave crise économique mondiale après le krach de Wall Street ?",
+    "answer": "La Grande Dépression",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-061",
+    "category": "histoire",
+    "question": "Quel physicien et inventeur américain a mis au point l'ampoule électrique à filament ?",
+    "answer": "Thomas Edison",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-062",
+    "category": "histoire",
+    "question": "Quelle famille de banquiers et de mécènes a dominé la vie politique et culturelle de Florence à la Renaissance ?",
+    "answer": "Les Médicis",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-063",
+    "category": "histoire",
+    "question": "Quel roi anglo-saxon a été vaincu par les Normands lors de la bataille de Hastings ?",
+    "answer": "Harold II",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-064",
+    "category": "histoire",
+    "question": "Quelle guerre a opposé la France et l'Angleterre de 1337 à 1453 ?",
+    "answer": "La guerre de Cent Ans",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-065",
+    "category": "histoire",
+    "question": "Quel pays a été le premier à envoyer un satellite artificiel, Spoutnik, dans l'espace en 1957 ?",
+    "answer": "L'URSS",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-066",
+    "category": "histoire",
+    "question": "Quel homme d'État britannique a dirigé le Royaume-Uni pendant la majeure partie de la Seconde Guerre mondiale ?",
+    "answer": "Winston Churchill",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-067",
+    "category": "histoire",
+    "question": "Quelle ville italienne a été ensevelie par l'éruption du Vésuve en l'an 79 ?",
+    "answer": "Pompéi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-068",
+    "category": "histoire",
+    "question": "Quel empereur romain a légalisé le christianisme dans l'Empire au IVe siècle ?",
+    "answer": "Constantin",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-069",
+    "category": "histoire",
+    "question": "Quel événement du 11 septembre 2001 a visé les tours du World Trade Center à New York ?",
+    "answer": "Les attentats du 11 septembre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-070",
+    "category": "histoire",
+    "question": "Quel savant polonais a formulé la théorie selon laquelle la Terre tourne autour du Soleil ?",
+    "answer": "Nicolas Copernic",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-071",
+    "category": "histoire",
+    "question": "Quel roi de France a été surnommé le \"Bien-Aimé\" avant de devenir très impopulaire ?",
+    "answer": "Louis XV",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-072",
+    "category": "histoire",
+    "question": "Quelle civilisation antique a inventé les Jeux olympiques dans la ville d'Olympie ?",
+    "answer": "La civilisation grecque antique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-073",
+    "category": "histoire",
+    "question": "Quel empereur byzantin a fait construire la basilique Sainte-Sophie à Constantinople ?",
+    "answer": "Justinien",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-074",
+    "category": "histoire",
+    "question": "Quel général britannique a vaincu Napoléon à la bataille de Waterloo en 1815 ?",
+    "answer": "Le duc de Wellington",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-075",
+    "category": "histoire",
+    "question": "Quel roi hébreu biblique est réputé pour sa sagesse et aurait fait construire le premier Temple de Jérusalem ?",
+    "answer": "Salomon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-076",
+    "category": "histoire",
+    "question": "Quel soulèvement des esclaves de Saint-Domingue a mené à la création d'Haïti, première république noire indépendante ?",
+    "answer": "La révolution haïtienne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-077",
+    "category": "histoire",
+    "question": "Quel philosophe français des Lumières a écrit \"Du contrat social\" ?",
+    "answer": "Jean-Jacques Rousseau",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-078",
+    "category": "histoire",
+    "question": "Quelle bataille navale de 1805 a vu la flotte britannique de Nelson vaincre les flottes française et espagnole ?",
+    "answer": "La bataille de Trafalgar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-079",
+    "category": "histoire",
+    "question": "Quel empire précolombien du Mexique, dirigé par Moctezuma, a été conquis par Hernán Cortés ?",
+    "answer": "L'empire aztèque",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-080",
+    "category": "histoire",
+    "question": "Quel philosophe grec antique est considéré comme le père de la médecine, avec un serment qui porte son nom ?",
+    "answer": "Hippocrate",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-081",
+    "category": "histoire",
+    "question": "Quel roi franc a été couronné empereur d'Occident par le pape en l'an 800 ?",
+    "answer": "Charlemagne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-082",
+    "category": "histoire",
+    "question": "Quelle reine d'Angleterre a régné pendant 63 ans au XIXe siècle et a donné son nom à une époque ?",
+    "answer": "La reine Victoria",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-083",
+    "category": "histoire",
+    "question": "Quel navigateur génois au service de l'Espagne a cru atteindre les Indes en abordant les Caraïbes ?",
+    "answer": "Christophe Colomb",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-084",
+    "category": "histoire",
+    "question": "Quel événement du 9 novembre 1989 a marqué symboliquement la fin de la Guerre froide en Europe ?",
+    "answer": "La chute du mur de Berlin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-085",
+    "category": "histoire",
+    "question": "Quelle grande reine égyptienne, célèbre pour son buste conservé à Berlin, était l'épouse du pharaon Akhenaton ?",
+    "answer": "Néfertiti",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-086",
+    "category": "histoire",
+    "question": "Quel traité de 1803 a permis aux États-Unis d'acheter à la France un immense territoire appelé la Louisiane ?",
+    "answer": "La vente de la Louisiane",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-087",
+    "category": "histoire",
+    "question": "Quel physicien anglais a formulé la loi de la gravitation universelle au XVIIe siècle ?",
+    "answer": "Isaac Newton",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-088",
+    "category": "histoire",
+    "question": "Quelle révolution industrielle britannique a débuté au XVIIIe siècle avec la machine à vapeur ?",
+    "answer": "La révolution industrielle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-089",
+    "category": "histoire",
+    "question": "Quel roi de Sparte a résisté aux Perses avec 300 soldats lors de la bataille des Thermopyles ?",
+    "answer": "Léonidas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-090",
+    "category": "histoire",
+    "question": "Quel dirigeant chinois a fondé la République populaire de Chine en 1949 ?",
+    "answer": "Mao Zedong",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-091",
+    "category": "histoire",
+    "question": "Quelle guerre a opposé la Grèce antique et l'Empire perse au Ve siècle avant J.-C. ?",
+    "answer": "Les guerres médiques",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-092",
+    "category": "histoire",
+    "question": "Quel chef germanique a déposé le dernier empereur romain d'Occident en 476, marquant la fin de l'Empire romain ?",
+    "answer": "Odoacre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-093",
+    "category": "histoire",
+    "question": "Quel militant américain a prononcé le célèbre discours \"I Have a Dream\" en 1963 ?",
+    "answer": "Martin Luther King",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-094",
+    "category": "histoire",
+    "question": "Quelle dynastie a régné sur la France de 987 à 1328, fondée par Hugues Capet ?",
+    "answer": "Les Capétiens",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-095",
+    "category": "histoire",
+    "question": "Quel savant italien a été condamné par l'Église pour avoir défendu que la Terre tourne autour du Soleil ?",
+    "answer": "Galilée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-096",
+    "category": "histoire",
+    "question": "Quelles expéditions militaires médiévales, lancées à l'appel du pape, visaient à reprendre Jérusalem aux musulmans ?",
+    "answer": "Les croisades",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-097",
+    "category": "histoire",
+    "question": "Quel homme politique a fondé le Pakistan lors de la partition de l'Inde britannique en 1947 ?",
+    "answer": "Muhammad Ali Jinnah",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-098",
+    "category": "histoire",
+    "question": "Quel document signé en 1215 par le roi Jean sans Terre a limité les pouvoirs du roi d'Angleterre ?",
+    "answer": "La Grande Charte (Magna Carta)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-099",
+    "category": "histoire",
+    "question": "Quelle chimiste et physicienne française a reçu deux prix Nobel pour ses travaux sur la radioactivité ?",
+    "answer": "Marie Curie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-100",
+    "category": "histoire",
+    "question": "Quel empire d'Afrique de l'Ouest, dirigé par Mansa Moussa, était réputé pour ses richesses en or au XIVe siècle ?",
+    "answer": "L'empire du Mali",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-101",
+    "category": "histoire",
+    "question": "Quelle tentative de fuite du roi Louis XVI et de sa famille a échoué en 1791 dans une petite ville de l'Est ?",
+    "answer": "La fuite à Varennes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-102",
+    "category": "histoire",
+    "question": "Quelle guerre entre le Nord et le Sud du Vietnam, avec intervention américaine, s'est terminée en 1975 ?",
+    "answer": "La guerre du Vietnam",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-103",
+    "category": "histoire",
+    "question": "Quel inventeur italien est parfois crédité d'avoir conçu le téléphone avant Graham Bell ?",
+    "answer": "Antonio Meucci",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-104",
+    "category": "histoire",
+    "question": "Quelle femme a régné en tant que pharaon d'Égypte et s'est fait représenter avec les attributs d'un roi, coiffe et fausse barbe ?",
+    "answer": "Hatchepsout",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-105",
+    "category": "histoire",
+    "question": "Quel événement de 1917 a renversé le tsar Nicolas II et amené les bolcheviks au pouvoir en Russie ?",
+    "answer": "La révolution russe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-106",
+    "category": "histoire",
+    "question": "Quel roi anglais légendaire aurait dirigé les chevaliers de la Table ronde à Camelot ?",
+    "answer": "Le roi Arthur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-107",
+    "category": "histoire",
+    "question": "Quel dirigeant allemand a instauré le régime nazi et déclenché la Seconde Guerre mondiale en 1939 ?",
+    "answer": "Adolf Hitler",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-108",
+    "category": "histoire",
+    "question": "Quelle civilisation antique des Andes a développé un vaste réseau de routes sans jamais utiliser la roue ?",
+    "answer": "Les Incas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-109",
+    "category": "histoire",
+    "question": "Quel scientifique français a mis au point le premier vaccin contre la rage à la fin du XIXe siècle ?",
+    "answer": "Louis Pasteur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-110",
+    "category": "histoire",
+    "question": "Quelle reine espagnole a financé le voyage de Christophe Colomb en 1492 ?",
+    "answer": "Isabelle la Catholique",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-111",
+    "category": "histoire",
+    "question": "Quel village français a donné son nom à la bataille décisive de 1916, l'une des plus meurtrières de la Première Guerre mondiale ?",
+    "answer": "Verdun",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-112",
+    "category": "histoire",
+    "question": "Quel conquistador espagnol a détruit l'empire inca centré sur Cuzco au XVIe siècle ?",
+    "answer": "Francisco Pizarro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-113",
+    "category": "histoire",
+    "question": "Quel philosophe grec est l'auteur de \"La République\" et fut l'élève de Socrate ?",
+    "answer": "Platon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-114",
+    "category": "histoire",
+    "question": "Quel accord signé le 11 novembre 1918 a marqué la fin des combats de la Première Guerre mondiale ?",
+    "answer": "L'armistice de 1918",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-115",
+    "category": "histoire",
+    "question": "Quelle guide amérindienne a accompagné l'expédition de Lewis et Clark à travers l'ouest américain ?",
+    "answer": "Sacagawea",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-116",
+    "category": "histoire",
+    "question": "Quel roi de Prusse est devenu le premier empereur allemand en 1871, après la victoire contre la France ?",
+    "answer": "Guillaume Ier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-117",
+    "category": "histoire",
+    "question": "Quelle organisation clandestine française a lutté contre l'occupation allemande pendant la Seconde Guerre mondiale ?",
+    "answer": "La Résistance",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-118",
+    "category": "histoire",
+    "question": "Quel empereur chinois a unifié le pays et fait construire l'armée de terre cuite de Xi'an pour son tombeau ?",
+    "answer": "Qin Shi Huang",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-119",
+    "category": "histoire",
+    "question": "Quelle bataille de 1942-1943 en URSS est considérée comme un tournant majeur de la Seconde Guerre mondiale ?",
+    "answer": "La bataille de Stalingrad",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-120",
+    "category": "histoire",
+    "question": "Quel roi de France a promulgué l'édit de Nantes en 1598 pour accorder la liberté de culte aux protestants ?",
+    "answer": "Henri IV",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-121",
+    "category": "histoire",
+    "question": "Quelle mission spatiale américaine a réalisé le premier alunissage habité en juillet 1969 ?",
+    "answer": "Apollo 11",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-ado-122",
+    "category": "histoire",
+    "question": "Quel roi babylonien a fait graver l'un des premiers grands codes de lois de l'histoire ?",
+    "answer": "Hammurabi",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-123",
+    "category": "histoire",
+    "question": "Quelle guerre entre la France et la Prusse en 1870-1871 a entraîné la chute du Second Empire de Napoléon III ?",
+    "answer": "La guerre franco-prussienne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-124",
+    "category": "histoire",
+    "question": "Quel empereur du Saint-Empire romain germanique a dû affronter la Réforme protestante lancée par Martin Luther ?",
+    "answer": "Charles Quint",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-125",
+    "category": "histoire",
+    "question": "Quel moine allemand a affiché ses 95 thèses en 1517, déclenchant la Réforme protestante ?",
+    "answer": "Martin Luther",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-126",
+    "category": "histoire",
+    "question": "Quelle bataille de 490 avant J.-C. a vu les Athéniens repousser une invasion perse en Grèce ?",
+    "answer": "La bataille de Marathon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-127",
+    "category": "histoire",
+    "question": "Quel explorateur français a fondé la ville de Québec en 1608 ?",
+    "answer": "Samuel de Champlain",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-128",
+    "category": "histoire",
+    "question": "Quelle guerre civile espagnole des années 1930 a opposé républicains et nationalistes menés par Franco ?",
+    "answer": "La guerre civile espagnole",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-129",
+    "category": "histoire",
+    "question": "Quel savant grec antique aurait crié \"Eurêka\" en découvrant le principe de la poussée des liquides ?",
+    "answer": "Archimède",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-130",
+    "category": "histoire",
+    "question": "Quelle favorite de Louis XV a soutenu de nombreux artistes et philosophes des Lumières à la cour de Versailles ?",
+    "answer": "Madame de Pompadour",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-131",
+    "category": "histoire",
+    "question": "Quel fils du roi Édouard III d'Angleterre, surnommé \"le Prince Noir\", s'est illustré lors de la guerre de Cent Ans ?",
+    "answer": "Le Prince Noir",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-132",
+    "category": "histoire",
+    "question": "Quelle ville allemande a accueilli le procès des principaux dirigeants nazis après la Seconde Guerre mondiale ?",
+    "answer": "Nuremberg",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-133",
+    "category": "histoire",
+    "question": "Quel prince portugais a encouragé les expéditions maritimes à l'origine de l'ère des grandes découvertes ?",
+    "answer": "Henri le Navigateur",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-134",
+    "category": "histoire",
+    "question": "Quelle aviatrice américaine a disparu en 1937 en tentant de faire le tour du monde en avion ?",
+    "answer": "Amelia Earhart",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-135",
+    "category": "histoire",
+    "question": "Quel événement du printemps 1968 en France a mêlé grèves générales et contestation étudiante ?",
+    "answer": "Mai 68",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-136",
+    "category": "histoire",
+    "question": "Quel royaume africain médiéval, situé dans l'actuel Zimbabwe, a laissé de célèbres ruines de pierre monumentales ?",
+    "answer": "Le royaume du Grand Zimbabwe",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-137",
+    "category": "histoire",
+    "question": "Quel document américain de 1787 a établi les institutions fédérales encore en vigueur aujourd'hui ?",
+    "answer": "La Constitution des États-Unis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-138",
+    "category": "histoire",
+    "question": "Quel volcan d'Indonésie a explosé en 1883 dans l'une des éruptions les plus violentes de l'histoire moderne ?",
+    "answer": "Le Krakatoa",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-ado-139",
+    "category": "histoire",
+    "question": "Quel économiste et philosophe allemand a écrit \"Le Capital\" et co-rédigé le \"Manifeste du parti communiste\" ?",
+    "answer": "Karl Marx",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-ado-140",
+    "category": "histoire",
+    "question": "Quelle route commerciale reliait la Chine à l'Europe et au Moyen-Orient depuis l'Antiquité, favorisant les échanges de soie et d'épices ?",
+    "answer": "La route de la soie",
+    "difficulty": "moyen"
+  }
 ]

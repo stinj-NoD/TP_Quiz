@@ -318,5 +318,635 @@
     "question": "Quel est le nom de la couche externe rocheuse de la Terre, fragmentée en plaques tectoniques ?",
     "answer": "La lithosphère",
     "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-051",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus chimique par lequel les cellules produisent de l'énergie à partir du glucose en présence d'oxygène ?",
+    "answer": "La respiration cellulaire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-052",
+    "category": "sciences-nature",
+    "question": "Quel astronome italien fut condamné par l'Inquisition pour avoir défendu le modèle héliocentrique ?",
+    "answer": "Galilée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-053",
+    "category": "sciences-nature",
+    "question": "Quel est le nom scientifique du grand requin blanc ?",
+    "answer": "Carcharodon carcharias",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-054",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la fréquence dans le système international ?",
+    "answer": "Le hertz",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-055",
+    "category": "sciences-nature",
+    "question": "Quel gaz est principalement responsable de l'effet de serre d'origine humaine ?",
+    "answer": "Le dioxyde de carbone (CO2)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-056",
+    "category": "sciences-nature",
+    "question": "Quel physicien et chimiste français a découvert la radioactivité naturelle de l'uranium en 1896 ?",
+    "answer": "Henri Becquerel",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-057",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la branche de la biologie qui étudie les champignons ?",
+    "answer": "La mycologie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-058",
+    "category": "sciences-nature",
+    "question": "Quelle planète du système solaire possède les anneaux les plus visibles ?",
+    "answer": "Saturne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-059",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du muscle principal qui permet la respiration en séparant le thorax de l'abdomen ?",
+    "answer": "Le diaphragme",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-060",
+    "category": "sciences-nature",
+    "question": "Quel chercheur britannique a codécouvert la structure de l'ADN avec James Watson ?",
+    "answer": "Francis Crick",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-061",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand récif corallien du monde, situé au large de l'Australie ?",
+    "answer": "La Grande Barrière de corail",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-062",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la quantité de matière dans le système international ?",
+    "answer": "La mole",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-063",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène par lequel un liquide se transforme en gaz sous l'effet de la chaleur, comme l'évaporation de la sueur ?",
+    "answer": "L'évaporation (vaporisation)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-064",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand félin sauvage vivant en Asie et connu pour son pelage rayé orange et noir ?",
+    "answer": "Le tigre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-065",
+    "category": "sciences-nature",
+    "question": "Quel biologiste autrichien a partagé le prix Nobel de médecine 1973 pour ses travaux fondateurs sur le comportement animal ?",
+    "answer": "Konrad Lorenz",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-066",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la force qui s'oppose au mouvement relatif entre deux surfaces en contact ?",
+    "answer": "Le frottement (la friction)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-067",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus géologique de formation des montagnes par déformation de la croûte terrestre ?",
+    "answer": "L'orogenèse",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-068",
+    "category": "sciences-nature",
+    "question": "Quelle vitamine est principalement synthétisée par la peau sous l'effet des rayons ultraviolets du soleil ?",
+    "answer": "La vitamine D",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-069",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand poisson vivant actuellement, un requin filtreur pouvant dépasser 12 mètres ?",
+    "answer": "Le requin-baleine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-070",
+    "category": "sciences-nature",
+    "question": "Quel chimiste russe a établi la première version du tableau périodique des éléments en 1869 ?",
+    "answer": "Dmitri Mendeleïev",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-071",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la loi physique reliant pression, volume et température d'un gaz parfait ?",
+    "answer": "La loi des gaz parfaits (PV = nRT)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-072",
+    "category": "sciences-nature",
+    "question": "Quel chirurgien et biologiste français a mis au point le vaccin contre la rage en 1885 ?",
+    "answer": "Louis Pasteur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-073",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'os le plus long du corps humain ?",
+    "answer": "Le fémur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-074",
+    "category": "sciences-nature",
+    "question": "Quelle est la température d'ébullition de l'eau au niveau de la mer, en degrés Celsius ?",
+    "answer": "100 °C",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-075",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du trou noir supermassif situé au centre de notre galaxie ?",
+    "answer": "Sagittarius A*",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-076",
+    "category": "sciences-nature",
+    "question": "Quel botaniste et moine autrichien est considéré comme le père de la génétique moderne grâce à ses travaux sur les petits pois ?",
+    "answer": "Gregor Mendel",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-077",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du minéral le plus dur connu à l'état naturel, utilisé comme référence sur l'échelle de Mohs ?",
+    "answer": "Le diamant",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-078",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la maladie auto-immune qui détruit progressivement la gaine de myéline des neurones ?",
+    "answer": "La sclérose en plaques",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-079",
+    "category": "sciences-nature",
+    "question": "Quelle agence spatiale a lancé le télescope spatial James Webb en décembre 2021 ?",
+    "answer": "La NASA (en collaboration avec l'ESA et l'ASC)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-080",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel une roche se transforme sous l'effet de la pression et de la température sans fondre ?",
+    "answer": "Le métamorphisme",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-081",
+    "category": "sciences-nature",
+    "question": "Quel est le nom scientifique donné à la peur irrationnelle des espaces clos ?",
+    "answer": "La claustrophobie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-082",
+    "category": "sciences-nature",
+    "question": "Quel astronome américain a développé la loi de l'expansion de l'univers via le décalage vers le rouge des galaxies ?",
+    "answer": "Edwin Hubble",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-083",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'hormone produite par le pancréas qui régule le taux de glucose dans le sang en le faisant baisser ?",
+    "answer": "L'insuline",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-084",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène climatique caractérisé par un réchauffement périodique des eaux du Pacifique équatorial ?",
+    "answer": "El Niño",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-085",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus petite planète naine reconnue du système solaire, ancienne neuvième planète ?",
+    "answer": "Pluton",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-086",
+    "category": "sciences-nature",
+    "question": "Quel biochimiste britannique a mis au point la première technique de séquençage de l'ADN, lui valant deux prix Nobel de chimie ?",
+    "answer": "Frederick Sanger",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-087",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel les bactéries deviennent insensibles aux antibiotiques ?",
+    "answer": "L'antibiorésistance",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-088",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand volcan actif d'Europe, situé en Sicile ?",
+    "answer": "L'Etna",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-089",
+    "category": "sciences-nature",
+    "question": "Quelle particule subatomique, dépourvue de charge électrique, a été surnommée la \"particule de Dieu\" dans sa version massive découverte en 2012 ?",
+    "answer": "Le boson de Higgs",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-090",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du groupe d'animaux vertébrés à sang froid qui pondent des œufs à coquille souple, comme les serpents et les lézards ?",
+    "answer": "Les reptiles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-091",
+    "category": "sciences-nature",
+    "question": "Quelle chercheuse française a reçu le prix Nobel de chimie 2020 pour le développement des ciseaux moléculaires CRISPR-Cas9, avec Jennifer Doudna ?",
+    "answer": "Emmanuelle Charpentier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-092",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la technique d'imagerie médicale utilisant un champ magnétique puissant et des ondes radio, sans rayons X ?",
+    "answer": "L'IRM (imagerie par résonance magnétique)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-093",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand désert froid du monde, correspondant au continent antarctique ?",
+    "answer": "Le désert antarctique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-094",
+    "category": "sciences-nature",
+    "question": "Quel astrophysicien britannique, auteur d'\"Une brève histoire du temps\", a consacré ses recherches aux trous noirs malgré une maladie neurodégénérative ?",
+    "answer": "Stephen Hawking",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-095",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus chimique de combinaison de petites molécules pour former de longues chaînes, comme dans la fabrication des plastiques ?",
+    "answer": "La polymérisation",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-096",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la partie de l'oreille interne responsable de l'équilibre ?",
+    "answer": "Le vestibule (l'appareil vestibulaire)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-097",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du courant marin chaud qui réchauffe le climat de l'Europe de l'Ouest ?",
+    "answer": "Le Gulf Stream",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-098",
+    "category": "sciences-nature",
+    "question": "Quel physicien français a mesuré avec précision la vitesse de la lumière au XIXe siècle grâce à un dispositif à miroir tournant ?",
+    "answer": "Léon Foucault",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-099",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la plus grande forêt tropicale du monde, principalement située au Brésil ?",
+    "answer": "La forêt amazonienne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-100",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène par lequel certains animaux, comme les caméléons, changent la couleur de leur peau ?",
+    "answer": "Le mimétisme chromatique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-101",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la maladie provoquée par une carence en vitamine C, historiquement fréquente chez les marins ?",
+    "answer": "Le scorbut",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-102",
+    "category": "sciences-nature",
+    "question": "Quel ingénieur écossais est crédité de l'invention du téléphone en 1876 ?",
+    "answer": "Alexander Graham Bell",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-103",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'unité de mesure de l'intensité sonore ?",
+    "answer": "Le décibel",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-104",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand lac d'eau douce du monde par sa superficie, situé en Amérique du Nord ?",
+    "answer": "Le lac Supérieur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-105",
+    "category": "sciences-nature",
+    "question": "Quelle mathématicienne et astronome britannique du XIXe siècle est considérée comme la première programmeuse informatique de l'histoire ?",
+    "answer": "Ada Lovelace",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-106",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel les continents se déplacent lentement à la surface du globe ?",
+    "answer": "La dérive des continents (tectonique des plaques)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-107",
+    "category": "sciences-nature",
+    "question": "Quel est le nom scientifique de la peur irrationnelle des araignées ?",
+    "answer": "L'arachnophobie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-108",
+    "category": "sciences-nature",
+    "question": "Quel physicien néerlandais a découvert la supraconductivité en 1911 grâce à ses travaux sur les très basses températures ?",
+    "answer": "Heike Kamerlingh Onnes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-109",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand mammifère terrestre après l'éléphant, vivant en Afrique et reconnaissable à sa corne nasale ?",
+    "answer": "Le rhinocéros",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-110",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la théorie selon laquelle l'univers est né d'une expansion extrêmement rapide à partir d'un état initial très dense et chaud ?",
+    "answer": "La théorie du Big Bang",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-111",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du gaz incolore et inodore, produit par une combustion incomplète, extrêmement toxique pour l'homme ?",
+    "answer": "Le monoxyde de carbone (CO)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-112",
+    "category": "sciences-nature",
+    "question": "Quel médecin britannique a mis au point la première vaccination, contre la variole, à la fin du XVIIIe siècle ?",
+    "answer": "Edward Jenner",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-113",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la branche de la géologie qui étudie les séismes ?",
+    "answer": "La sismologie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-114",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du principal neurotransmetteur associé à la sensation de plaisir et de récompense dans le cerveau ?",
+    "answer": "La dopamine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-115",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus grande île du monde ?",
+    "answer": "Le Groenland",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-116",
+    "category": "sciences-nature",
+    "question": "Quel physicien écossais a unifié l'électricité, le magnétisme et la lumière dans un ensemble d'équations au XIXe siècle ?",
+    "answer": "James Clerk Maxwell",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-117",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du procédé industriel de synthèse de l'ammoniac à partir d'azote et d'hydrogène, essentiel à la fabrication des engrais ?",
+    "answer": "Le procédé Haber-Bosch",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-118",
+    "category": "sciences-nature",
+    "question": "Quel est le nom commun de l'espèce Panthera leo ?",
+    "answer": "Le lion",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-119",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène par lequel une étoile massive s'effondre violemment en fin de vie en libérant une immense quantité d'énergie ?",
+    "answer": "La supernova",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-120",
+    "category": "sciences-nature",
+    "question": "Quel médecin autrichien est le fondateur de la psychanalyse ?",
+    "answer": "Sigmund Freud",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-121",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand mammifère marin après la baleine bleue, connu pour son chant et ses migrations transocéaniques ?",
+    "answer": "La baleine à bosse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-122",
+    "category": "sciences-nature",
+    "question": "Quel physicien britannique a formulé les lois du mouvement et de la gravitation universelle au XVIIe siècle ?",
+    "answer": "Isaac Newton",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-123",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'unité de mesure de la charge électrique dans le système international ?",
+    "answer": "Le coulomb",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-124",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand cratère météoritique bien conservé sur Terre, situé en Arizona ?",
+    "answer": "Le cratère de Barringer (Meteor Crater)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-125",
+    "category": "sciences-nature",
+    "question": "Quel médecin britannique a découvert la pénicilline en 1928, ouvrant l'ère des antibiotiques ?",
+    "answer": "Alexander Fleming",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-126",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la partie du cerveau responsable de l'équilibre et de la coordination motrice ?",
+    "answer": "Le cervelet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-127",
+    "category": "sciences-nature",
+    "question": "Quel physicien allemand a découvert les rayons X en 1895, lui valant le premier prix Nobel de physique ?",
+    "answer": "Wilhelm Röntgen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-128",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand poisson d'eau douce du monde, vivant dans le bassin du Mékong ?",
+    "answer": "Le silure géant du Mékong",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-129",
+    "category": "sciences-nature",
+    "question": "Quel biologiste britannique a formulé la théorie de l'évolution par sélection naturelle dans \"L'Origine des espèces\" ?",
+    "answer": "Charles Darwin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-130",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'unité de mesure de l'énergie dans le système international ?",
+    "answer": "Le joule",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-131",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand oiseau de proie volant, capable d'atteindre trois mètres d'envergure, vivant dans les Andes ?",
+    "answer": "Le condor des Andes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-132",
+    "category": "sciences-nature",
+    "question": "Quel ingénieur né en Serbie-Croatie est un pionnier du courant alternatif, avec une unité de champ magnétique portant son nom ?",
+    "answer": "Nikola Tesla",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-133",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du muscle qui se contracte pour faire battre le cœur ?",
+    "answer": "Le myocarde",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-134",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène par lequel la lumière blanche se décompose en un arc de couleurs après avoir traversé des gouttes d'eau ?",
+    "answer": "L'arc-en-ciel (réfraction et dispersion de la lumière)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-135",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la partie de l'œil qui capte la lumière et transmet l'image au cerveau via le nerf optique ?",
+    "answer": "La rétine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-136",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand reptile vivant, un crocodile pouvant dépasser six mètres de long ?",
+    "answer": "Le crocodile marin",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-137",
+    "category": "sciences-nature",
+    "question": "Quel chimiste suédois a inventé la dynamite et institué les prix qui portent son nom ?",
+    "answer": "Alfred Nobel",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-adulte-138",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus profond point connu des océans, situé dans la fosse des Mariannes ?",
+    "answer": "Challenger Deep",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-adulte-139",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand singe du monde, vivant en Afrique centrale et pesant jusqu'à 200 kg ?",
+    "answer": "Le gorille",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-adulte-140",
+    "category": "sciences-nature",
+    "question": "Quel astronome danois du XVIe siècle a réalisé, sans télescope, des observations précises ensuite utilisées par Kepler ?",
+    "answer": "Tycho Brahe",
+    "difficulty": "difficile"
   }
 ]

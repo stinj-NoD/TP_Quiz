@@ -1,52 +1,948 @@
 [
-  { "id": "geo-ado-001", "category": "geographie", "question": "Sur quel continent se trouve l'Égypte ?", "answer": "L'Afrique" },
-  { "id": "geo-ado-002", "category": "geographie", "question": "Quel océan sépare l'Europe de l'Amérique ?", "answer": "L'océan Atlantique" },
-  { "id": "geo-ado-003", "category": "geographie", "question": "Quelle est la capitale de l'Australie ?", "answer": "Canberra" },
-  { "id": "geo-ado-004", "category": "geographie", "question": "Quel pays a la forme d'une botte ?", "answer": "L'Italie" },
-  { "id": "geo-ado-005", "category": "geographie", "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?", "answer": "L'Oural" },
-  { "id": "geo-ado-006", "category": "geographie", "question": "Quelle est la capitale du Canada ?", "answer": "Ottawa" },
-  { "id": "geo-ado-007", "category": "geographie", "question": "Quel est le plus grand désert chaud du monde ?", "answer": "Le Sahara" },
-  { "id": "geo-ado-008", "category": "geographie", "question": "Dans quel pays se trouve le mont Fuji ?", "answer": "Le Japon" },
-  { "id": "geo-ado-009", "category": "geographie", "question": "Quel fleuve traverse l'Égypte ?", "answer": "Le Nil" },
-  { "id": "geo-ado-010", "category": "geographie", "question": "Quelle est la capitale de l'Allemagne ?", "answer": "Berlin" },
-  { "id": "geo-ado-011", "category": "geographie", "question": "Quel est le plus grand pays du monde par sa superficie ?", "answer": "La Russie" },
-  { "id": "geo-ado-012", "category": "geographie", "question": "Quel détroit sépare l'Espagne du Maroc ?", "answer": "Le détroit de Gibraltar" },
-  { "id": "geo-ado-013", "category": "geographie", "question": "Quel pays a pour capitale Brasilia ?", "answer": "Le Brésil" },
-  { "id": "geo-ado-014", "category": "geographie", "question": "Quelle montagne est le plus haut sommet du monde ?", "answer": "L'Everest" },
-  { "id": "geo-ado-015", "category": "geographie", "question": "Dans quel pays se trouvent les chutes du Niagara ?", "answer": "Le Canada (et les États-Unis)" },
-  { "id": "geo-ado-016", "category": "geographie", "question": "Quelle est la capitale de l'Égypte ?", "answer": "Le Caire" },
-  { "id": "geo-ado-017", "category": "geographie", "question": "Quel pays est traversé par la ligne de l'équateur et porte ce nom ?", "answer": "L'Équateur" },
-  { "id": "geo-ado-018", "category": "geographie", "question": "Quelle est la plus grande île du monde ?", "answer": "Le Groenland" },
-  { "id": "geo-ado-019", "category": "geographie", "question": "Quel pays est surnommé le \"pays du Soleil-Levant\" ?", "answer": "Le Japon" },
-  { "id": "geo-ado-020", "category": "geographie", "question": "Quelle est la capitale de l'Argentine ?", "answer": "Buenos Aires" },
-  { "id": "geo-ado-021", "category": "geographie", "question": "Quel pays est à cheval sur l'Europe et l'Asie, avec Istanbul pour plus grande ville ?", "answer": "La Turquie" },
-  { "id": "geo-ado-022", "category": "geographie", "question": "Quelle rivière traverse Londres ?", "answer": "La Tamise" },
-  { "id": "geo-ado-023", "category": "geographie", "question": "Quel continent abrite le plus de pays au monde ?", "answer": "L'Afrique" },
-  { "id": "geo-ado-024", "category": "geographie", "question": "Quelle mer sépare l'Europe de l'Afrique au niveau de Gibraltar ?", "answer": "La mer Méditerranée" },
-  { "id": "geo-ado-025", "category": "geographie", "question": "Quel est le point culminant de l'Afrique ?", "answer": "Le Kilimandjaro" },
-  { "id": "geo-ado-026", "category": "geographie", "question": "Quelle ville est surnommée la \"Ville Éternelle\" ?", "answer": "Rome" },
-  { "id": "geo-ado-027", "category": "geographie", "question": "Quel pays compte le plus grand nombre d'îles au monde ?", "answer": "La Suède" },
-  { "id": "geo-ado-028", "category": "geographie", "question": "Quel est le plus petit État du monde ?", "answer": "Le Vatican" },
-  { "id": "geo-ado-029", "category": "geographie", "question": "Dans quel pays se trouve le Machu Picchu ?", "answer": "Le Pérou" },
-  { "id": "geo-ado-030", "category": "geographie", "question": "Quel pays possède le plus de fuseaux horaires au monde ?", "answer": "La France (grâce à ses territoires d'outre-mer)" },
-  { "id": "geo-ado-031", "category": "geographie", "question": "Quelle est la capitale de la Corée du Sud ?", "answer": "Séoul" },
-  { "id": "geo-ado-032", "category": "geographie", "question": "Quel est le plus long fleuve du monde ?", "answer": "Le Nil" },
-  { "id": "geo-ado-033", "category": "geographie", "question": "Quel pays est célèbre pour ses milliers de temples à Bagan ?", "answer": "Le Myanmar" },
-  { "id": "geo-ado-034", "category": "geographie", "question": "Quelle capitale européenne est bâtie sur plusieurs îles reliées par des ponts ?", "answer": "Stockholm" },
-  { "id": "geo-ado-035", "category": "geographie", "question": "Quel désert est le plus grand du monde, glace comprise ?", "answer": "Le désert de l'Antarctique", "difficulty": "moyen" },
-  { "id": "geo-ado-036", "category": "geographie", "question": "Quelle est la capitale de l'Espagne ?", "answer": "Madrid", "difficulty": "facile" },
-  { "id": "geo-ado-037", "category": "geographie", "question": "Quel pays d'Amérique du Sud a pour langue officielle le portugais ?", "answer": "Le Brésil", "difficulty": "facile" },
-  { "id": "geo-ado-038", "category": "geographie", "question": "Quel océan est le plus grand du monde ?", "answer": "L'océan Pacifique", "difficulty": "facile" },
-  { "id": "geo-ado-039", "category": "geographie", "question": "Dans quel pays se trouve la Grande Barrière de corail ?", "answer": "L'Australie", "difficulty": "facile" },
-  { "id": "geo-ado-040", "category": "geographie", "question": "Quelle est la capitale des Pays-Bas ?", "answer": "Amsterdam", "difficulty": "facile" },
-  { "id": "geo-ado-041", "category": "geographie", "question": "Quel fleuve traverse Paris ?", "answer": "La Seine", "difficulty": "facile" },
-  { "id": "geo-ado-042", "category": "geographie", "question": "Quel pays est surnommé le \"pays des mille lacs\" ?", "answer": "La Finlande", "difficulty": "moyen" },
-  { "id": "geo-ado-043", "category": "geographie", "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?", "answer": "Les Pyrénées", "difficulty": "facile" },
-  { "id": "geo-ado-044", "category": "geographie", "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie ?", "answer": "Le lac Supérieur", "difficulty": "difficile" },
-  { "id": "geo-ado-045", "category": "geographie", "question": "Quel pays africain a pour capitale Le Caire ?", "answer": "L'Égypte", "difficulty": "facile" },
-  { "id": "geo-ado-046", "category": "geographie", "question": "Quelle ville américaine est surnommée la \"Grosse Pomme\" ?", "answer": "New York", "difficulty": "facile" },
-  { "id": "geo-ado-047", "category": "geographie", "question": "Quel désert couvre une grande partie du sud du continent africain, entre la Namibie et le Botswana ?", "answer": "Le désert du Kalahari", "difficulty": "moyen" },
-  { "id": "geo-ado-048", "category": "geographie", "question": "Quelle capitale d'Amérique du Sud se situe à la plus haute altitude ?", "answer": "La Paz", "difficulty": "difficile" },
-  { "id": "geo-ado-049", "category": "geographie", "question": "Quel pays est traversé par le tropique du Cancer et abrite la ville du Caire ?", "answer": "L'Égypte", "difficulty": "moyen" },
-  { "id": "geo-ado-050", "category": "geographie", "question": "Quelle mer borde la Tunisie, l'Algérie et le Maroc au nord ?", "answer": "La mer Méditerranée", "difficulty": "facile" }
+  {
+    "id": "geo-ado-001",
+    "category": "geographie",
+    "question": "Sur quel continent se trouve l'Égypte ?",
+    "answer": "L'Afrique"
+  },
+  {
+    "id": "geo-ado-002",
+    "category": "geographie",
+    "question": "Quel océan sépare l'Europe de l'Amérique ?",
+    "answer": "L'océan Atlantique"
+  },
+  {
+    "id": "geo-ado-003",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Australie ?",
+    "answer": "Canberra"
+  },
+  {
+    "id": "geo-ado-004",
+    "category": "geographie",
+    "question": "Quel pays a la forme d'une botte ?",
+    "answer": "L'Italie"
+  },
+  {
+    "id": "geo-ado-005",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+    "answer": "L'Oural"
+  },
+  {
+    "id": "geo-ado-006",
+    "category": "geographie",
+    "question": "Quelle est la capitale du Canada ?",
+    "answer": "Ottawa"
+  },
+  {
+    "id": "geo-ado-007",
+    "category": "geographie",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "answer": "Le Sahara"
+  },
+  {
+    "id": "geo-ado-008",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le mont Fuji ?",
+    "answer": "Le Japon"
+  },
+  {
+    "id": "geo-ado-009",
+    "category": "geographie",
+    "question": "Quel fleuve traverse l'Égypte ?",
+    "answer": "Le Nil"
+  },
+  {
+    "id": "geo-ado-010",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "answer": "Berlin"
+  },
+  {
+    "id": "geo-ado-011",
+    "category": "geographie",
+    "question": "Quel est le plus grand pays du monde par sa superficie ?",
+    "answer": "La Russie"
+  },
+  {
+    "id": "geo-ado-012",
+    "category": "geographie",
+    "question": "Quel détroit sépare l'Espagne du Maroc ?",
+    "answer": "Le détroit de Gibraltar"
+  },
+  {
+    "id": "geo-ado-013",
+    "category": "geographie",
+    "question": "Quel pays a pour capitale Brasilia ?",
+    "answer": "Le Brésil"
+  },
+  {
+    "id": "geo-ado-014",
+    "category": "geographie",
+    "question": "Quelle montagne est le plus haut sommet du monde ?",
+    "answer": "L'Everest"
+  },
+  {
+    "id": "geo-ado-015",
+    "category": "geographie",
+    "question": "Dans quel pays se trouvent les chutes du Niagara ?",
+    "answer": "Le Canada (et les États-Unis)"
+  },
+  {
+    "id": "geo-ado-016",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Égypte ?",
+    "answer": "Le Caire"
+  },
+  {
+    "id": "geo-ado-017",
+    "category": "geographie",
+    "question": "Quel pays est traversé par la ligne de l'équateur et porte ce nom ?",
+    "answer": "L'Équateur"
+  },
+  {
+    "id": "geo-ado-018",
+    "category": "geographie",
+    "question": "Quelle est la plus grande île du monde ?",
+    "answer": "Le Groenland"
+  },
+  {
+    "id": "geo-ado-019",
+    "category": "geographie",
+    "question": "Quel pays est surnommé le \"pays du Soleil-Levant\" ?",
+    "answer": "Le Japon"
+  },
+  {
+    "id": "geo-ado-020",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Argentine ?",
+    "answer": "Buenos Aires"
+  },
+  {
+    "id": "geo-ado-021",
+    "category": "geographie",
+    "question": "Quel pays est à cheval sur l'Europe et l'Asie, avec Istanbul pour plus grande ville ?",
+    "answer": "La Turquie"
+  },
+  {
+    "id": "geo-ado-022",
+    "category": "geographie",
+    "question": "Quelle rivière traverse Londres ?",
+    "answer": "La Tamise"
+  },
+  {
+    "id": "geo-ado-023",
+    "category": "geographie",
+    "question": "Quel continent abrite le plus de pays au monde ?",
+    "answer": "L'Afrique"
+  },
+  {
+    "id": "geo-ado-024",
+    "category": "geographie",
+    "question": "Quelle mer sépare l'Europe de l'Afrique au niveau de Gibraltar ?",
+    "answer": "La mer Méditerranée"
+  },
+  {
+    "id": "geo-ado-025",
+    "category": "geographie",
+    "question": "Quel est le point culminant de l'Afrique ?",
+    "answer": "Le Kilimandjaro"
+  },
+  {
+    "id": "geo-ado-026",
+    "category": "geographie",
+    "question": "Quelle ville est surnommée la \"Ville Éternelle\" ?",
+    "answer": "Rome"
+  },
+  {
+    "id": "geo-ado-027",
+    "category": "geographie",
+    "question": "Quel pays compte le plus grand nombre d'îles au monde ?",
+    "answer": "La Suède"
+  },
+  {
+    "id": "geo-ado-028",
+    "category": "geographie",
+    "question": "Quel est le plus petit État du monde ?",
+    "answer": "Le Vatican"
+  },
+  {
+    "id": "geo-ado-029",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le Machu Picchu ?",
+    "answer": "Le Pérou"
+  },
+  {
+    "id": "geo-ado-030",
+    "category": "geographie",
+    "question": "Quel pays possède le plus de fuseaux horaires au monde ?",
+    "answer": "La France (grâce à ses territoires d'outre-mer)"
+  },
+  {
+    "id": "geo-ado-031",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Corée du Sud ?",
+    "answer": "Séoul"
+  },
+  {
+    "id": "geo-ado-032",
+    "category": "geographie",
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil"
+  },
+  {
+    "id": "geo-ado-033",
+    "category": "geographie",
+    "question": "Quel pays est célèbre pour ses milliers de temples à Bagan ?",
+    "answer": "Le Myanmar"
+  },
+  {
+    "id": "geo-ado-034",
+    "category": "geographie",
+    "question": "Quelle capitale européenne est bâtie sur plusieurs îles reliées par des ponts ?",
+    "answer": "Stockholm"
+  },
+  {
+    "id": "geo-ado-035",
+    "category": "geographie",
+    "question": "Quel désert est le plus grand du monde, glace comprise ?",
+    "answer": "Le désert de l'Antarctique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-036",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Espagne ?",
+    "answer": "Madrid",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-037",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud a pour langue officielle le portugais ?",
+    "answer": "Le Brésil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-038",
+    "category": "geographie",
+    "question": "Quel océan est le plus grand du monde ?",
+    "answer": "L'océan Pacifique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-039",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la Grande Barrière de corail ?",
+    "answer": "L'Australie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-040",
+    "category": "geographie",
+    "question": "Quelle est la capitale des Pays-Bas ?",
+    "answer": "Amsterdam",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-041",
+    "category": "geographie",
+    "question": "Quel fleuve traverse Paris ?",
+    "answer": "La Seine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-042",
+    "category": "geographie",
+    "question": "Quel pays est surnommé le \"pays des mille lacs\" ?",
+    "answer": "La Finlande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-043",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+    "answer": "Les Pyrénées",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-044",
+    "category": "geographie",
+    "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie ?",
+    "answer": "Le lac Supérieur",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-045",
+    "category": "geographie",
+    "question": "Quel pays africain a pour capitale Le Caire ?",
+    "answer": "L'Égypte",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-046",
+    "category": "geographie",
+    "question": "Quelle ville américaine est surnommée la \"Grosse Pomme\" ?",
+    "answer": "New York",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-047",
+    "category": "geographie",
+    "question": "Quel désert couvre une grande partie du sud du continent africain, entre la Namibie et le Botswana ?",
+    "answer": "Le désert du Kalahari",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-048",
+    "category": "geographie",
+    "question": "Quelle capitale d'Amérique du Sud se situe à la plus haute altitude ?",
+    "answer": "La Paz",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-049",
+    "category": "geographie",
+    "question": "Quel pays est traversé par le tropique du Cancer et abrite la ville du Caire ?",
+    "answer": "L'Égypte",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-050",
+    "category": "geographie",
+    "question": "Quelle mer borde la Tunisie, l'Algérie et le Maroc au nord ?",
+    "answer": "La mer Méditerranée",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-051",
+    "category": "geographie",
+    "question": "Quelle est la capitale du Portugal ?",
+    "answer": "Lisbonne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-052",
+    "category": "geographie",
+    "question": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+    "answer": "L'Algérie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-053",
+    "category": "geographie",
+    "question": "Quel canal artificiel relie la mer Méditerranée à la mer Rouge ?",
+    "answer": "Le canal de Suez",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-054",
+    "category": "geographie",
+    "question": "Quelle ville est la capitale de la Grèce ?",
+    "answer": "Athènes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-055",
+    "category": "geographie",
+    "question": "Quel pays d'Asie compte le plus grand nombre d'habitants au monde depuis 2023 ?",
+    "answer": "L'Inde",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-056",
+    "category": "geographie",
+    "question": "Quel volcan italien domine la ville de Naples ?",
+    "answer": "Le Vésuve",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-057",
+    "category": "geographie",
+    "question": "Quel archipel espagnol se situe au large des côtes marocaines dans l'océan Atlantique ?",
+    "answer": "Les îles Canaries",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-058",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Suisse ?",
+    "answer": "Berne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-059",
+    "category": "geographie",
+    "question": "Quel fleuve traverse la ville de Rome ?",
+    "answer": "Le Tibre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-060",
+    "category": "geographie",
+    "question": "Quel pays scandinave a pour capitale Oslo ?",
+    "answer": "La Norvège",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-061",
+    "category": "geographie",
+    "question": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+    "answer": "Le détroit de Béring",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-062",
+    "category": "geographie",
+    "question": "Quelle région désertique s'étend sur une grande partie de la Mongolie et du nord de la Chine ?",
+    "answer": "Le désert de Gobi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-063",
+    "category": "geographie",
+    "question": "Quelle est la capitale du Mexique ?",
+    "answer": "Mexico",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-064",
+    "category": "geographie",
+    "question": "Quel pays est constitué de plus de 17 000 îles en Asie du Sud-Est ?",
+    "answer": "L'Indonésie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-065",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes traverse l'Amérique du Sud d'un bout à l'autre ?",
+    "answer": "La cordillère des Andes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-066",
+    "category": "geographie",
+    "question": "Quel pays africain a pour capitale Nairobi ?",
+    "answer": "Le Kenya",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-067",
+    "category": "geographie",
+    "question": "Quelle mer intérieure bordant l'Europe de l'Est est en réalité le plus grand lac du monde ?",
+    "answer": "La mer Caspienne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-068",
+    "category": "geographie",
+    "question": "Quelle ville est surnommée la \"Cité des Anges\" aux États-Unis ?",
+    "answer": "Los Angeles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-069",
+    "category": "geographie",
+    "question": "Quel pays possède la ville de Dubaï ?",
+    "answer": "Les Émirats arabes unis",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-070",
+    "category": "geographie",
+    "question": "Quel fleuve d'Amérique du Sud transporte le plus grand volume d'eau au monde ?",
+    "answer": "L'Amazone",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-071",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Pologne ?",
+    "answer": "Varsovie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-072",
+    "category": "geographie",
+    "question": "Quel fleuve traverse l'Allemagne et se jette dans la mer du Nord aux Pays-Bas ?",
+    "answer": "Le Rhin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-073",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique centrale est célèbre pour son canal reliant l'océan Atlantique à l'océan Pacifique ?",
+    "answer": "Le Panama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-074",
+    "category": "geographie",
+    "question": "Quelle île de l'océan Indien, ancienne colonie française, a pour capitale Antananarivo ?",
+    "answer": "Madagascar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-075",
+    "category": "geographie",
+    "question": "Quel pays scandinave est traversé par de nombreux fjords le long de sa côte ?",
+    "answer": "La Norvège",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-076",
+    "category": "geographie",
+    "question": "Quel désert d'Amérique du Sud, situé au Chili, est considéré comme le plus aride du monde ?",
+    "answer": "Le désert d'Atacama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-077",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Thaïlande ?",
+    "answer": "Bangkok",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-078",
+    "category": "geographie",
+    "question": "Quel océan borde la côte ouest des États-Unis ?",
+    "answer": "L'océan Pacifique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-079",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes borde l'est de l'Amérique du Nord, de l'Alabama au Québec ?",
+    "answer": "Les Appalaches",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-080",
+    "category": "geographie",
+    "question": "Quel pays possède le plus long littoral du monde ?",
+    "answer": "Le Canada",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-081",
+    "category": "geographie",
+    "question": "Quelle mer borde Israël, la Jordanie et la Palestine et est connue pour sa très forte salinité ?",
+    "answer": "La mer Morte",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-082",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique de l'Ouest a pour capitale Dakar ?",
+    "answer": "Le Sénégal",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-083",
+    "category": "geographie",
+    "question": "Quelle île britannique, séparée du continent par la Manche, abrite Londres ?",
+    "answer": "La Grande-Bretagne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-084",
+    "category": "geographie",
+    "question": "Quel pays d'Europe centrale a pour capitale Vienne ?",
+    "answer": "L'Autriche",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-085",
+    "category": "geographie",
+    "question": "Quelle frontière naturelle sépare le Botswana, la Namibie, la Zambie et le Zimbabwe autour des chutes Victoria ?",
+    "answer": "Le fleuve Zambèze",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-086",
+    "category": "geographie",
+    "question": "Quel pays asiatique est constitué d'un archipel de plus de 7 000 îles, dont Luçon et Mindanao ?",
+    "answer": "Les Philippines",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-087",
+    "category": "geographie",
+    "question": "Quelle capitale africaine se trouve à la fois sur le continent et dispose d'une ville jumelle appelée Brazzaville de l'autre côté du fleuve ?",
+    "answer": "Kinshasa",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-088",
+    "category": "geographie",
+    "question": "Quel climat est caractérisé par une saison sèche et une saison des pluies, typique de l'Afrique subsaharienne ?",
+    "answer": "Le climat tropical",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-089",
+    "category": "geographie",
+    "question": "Quelle est la capitale de l'Irlande ?",
+    "answer": "Dublin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-090",
+    "category": "geographie",
+    "question": "Quel pays d'Océanie est constitué de deux îles principales, l'île du Nord et l'île du Sud ?",
+    "answer": "La Nouvelle-Zélande",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-091",
+    "category": "geographie",
+    "question": "Quel fleuve chinois est le plus long d'Asie ?",
+    "answer": "Le Yangtsé",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-092",
+    "category": "geographie",
+    "question": "Quel pays africain compte le plus d'habitants ?",
+    "answer": "Le Nigeria",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-093",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes traverse l'Italie du nord au sud ?",
+    "answer": "Les Apennins",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-094",
+    "category": "geographie",
+    "question": "Quel détroit sépare la France de l'Angleterre ?",
+    "answer": "Le pas de Calais",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-095",
+    "category": "geographie",
+    "question": "Quel pays est le seul à posséder une frontière terrestre avec les États-Unis au sud ?",
+    "answer": "Le Mexique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-096",
+    "category": "geographie",
+    "question": "Quelle capitale se situe au bord du détroit du Bosphore mais n'est pas Istanbul, contrairement à une idée reçue ?",
+    "answer": "Ankara",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-097",
+    "category": "geographie",
+    "question": "Quel désert s'étend sur une grande partie du sud-ouest des États-Unis et du nord du Mexique, connu pour ses cactus saguaros ?",
+    "answer": "Le désert de Sonora",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-098",
+    "category": "geographie",
+    "question": "Quelle mer sépare la péninsule Arabique de l'Afrique de l'Est ?",
+    "answer": "La mer Rouge",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-099",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud est bordé à la fois par l'océan Atlantique et l'océan Pacifique ?",
+    "answer": "Le Chili",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-100",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Belgique ?",
+    "answer": "Bruxelles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-101",
+    "category": "geographie",
+    "question": "Quel pays du Maghreb a pour capitale Rabat ?",
+    "answer": "Le Maroc",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-102",
+    "category": "geographie",
+    "question": "Quelle île volcanique de l'Atlantique Nord, entre l'Europe et l'Amérique, est connue pour ses geysers et ses volcans actifs ?",
+    "answer": "L'Islande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-103",
+    "category": "geographie",
+    "question": "Quel pays possède la plus grande forêt tropicale du monde sur son territoire ?",
+    "answer": "Le Brésil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-104",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes sépare la Chine du Népal et abrite l'Everest ?",
+    "answer": "L'Himalaya",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-105",
+    "category": "geographie",
+    "question": "Quel pays balte a pour capitale Riga ?",
+    "answer": "La Lettonie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-106",
+    "category": "geographie",
+    "question": "Quelle péninsule européenne regroupe l'Espagne et le Portugal ?",
+    "answer": "La péninsule Ibérique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-107",
+    "category": "geographie",
+    "question": "Quel pays du Proche-Orient a pour capitale Beyrouth ?",
+    "answer": "Le Liban",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-108",
+    "category": "geographie",
+    "question": "Quelle ville est la capitale économique du Nigeria, plus peuplée que sa capitale politique Abuja ?",
+    "answer": "Lagos",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-109",
+    "category": "geographie",
+    "question": "Quel est le plus petit continent du monde ?",
+    "answer": "L'Océanie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-110",
+    "category": "geographie",
+    "question": "Quelle mer borde la Croatie, l'Italie et l'Albanie ?",
+    "answer": "La mer Adriatique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-111",
+    "category": "geographie",
+    "question": "Quel pays africain, entièrement enclavé dans l'Afrique du Sud, est un royaume montagneux ?",
+    "answer": "Le Lesotho",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-112",
+    "category": "geographie",
+    "question": "Quelle capitale d'Amérique du Nord est bâtie sur une île du fleuve Saint-Laurent ?",
+    "answer": "Montréal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-113",
+    "category": "geographie",
+    "question": "Quel pays d'Asie centrale, le plus grand enclavé du monde, a pour capitale Astana ?",
+    "answer": "Le Kazakhstan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-114",
+    "category": "geographie",
+    "question": "Quelle île française de l'océan Indien est un département d'outre-mer célèbre pour son piton de la Fournaise ?",
+    "answer": "La Réunion",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-115",
+    "category": "geographie",
+    "question": "Quel pays scandinave a pour capitale Copenhague ?",
+    "answer": "Le Danemark",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-116",
+    "category": "geographie",
+    "question": "Quelle vallée du nord-est de l'Afrique, traversée par une faille géologique, s'étend du Mozambique jusqu'au Liban ?",
+    "answer": "La vallée du Grand Rift",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-117",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud est entièrement enclavé, sans accès à la mer, entre le Brésil et l'Argentine ?",
+    "answer": "Le Paraguay",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-118",
+    "category": "geographie",
+    "question": "Quelle ville est la capitale du Vietnam ?",
+    "answer": "Hanoï",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-119",
+    "category": "geographie",
+    "question": "Quel pays possède le plus grand nombre de fuseaux horaires après la France, avec 11 fuseaux sur son immense territoire ?",
+    "answer": "La Russie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-120",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes traverse l'Afrique du Nord, entre le Maroc, l'Algérie et la Tunisie ?",
+    "answer": "L'Atlas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-121",
+    "category": "geographie",
+    "question": "Quel pays du golfe Persique est une péninsule connue pour son gaz naturel et sa capitale Doha ?",
+    "answer": "Le Qatar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-122",
+    "category": "geographie",
+    "question": "Quelle mer, presque totalement fermée, borde la Russie, la Géorgie et la Turquie et donne son nom à une région montagneuse ?",
+    "answer": "La mer Noire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-123",
+    "category": "geographie",
+    "question": "Quel pays d'Europe du Nord est formé d'un archipel de plus de 400 îles, avec Helsinki pour capitale ?",
+    "answer": "La Finlande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-124",
+    "category": "geographie",
+    "question": "Quelle île de la mer Méditerranée, région autonome italienne, est dominée par le volcan Etna ?",
+    "answer": "La Sicile",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-125",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique centrale a pour capitale San José ?",
+    "answer": "Le Costa Rica",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-126",
+    "category": "geographie",
+    "question": "Quel pays possède le plus grand nombre de volcans actifs au monde ?",
+    "answer": "L'Indonésie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-127",
+    "category": "geographie",
+    "question": "Quelle capitale d'Afrique australe est aussi la ville la plus au sud de tout le continent parmi les grandes capitales ?",
+    "answer": "Le Cap",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-128",
+    "category": "geographie",
+    "question": "Quel pays d'Asie du Sud a pour capitale Islamabad ?",
+    "answer": "Le Pakistan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-129",
+    "category": "geographie",
+    "question": "Quelle île de l'Atlantique, territoire britannique isolé, abrite l'une des populations les plus réduites du monde ?",
+    "answer": "Sainte-Hélène",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-130",
+    "category": "geographie",
+    "question": "Quel pays d'Europe de l'Est a pour capitale Bucarest ?",
+    "answer": "La Roumanie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-131",
+    "category": "geographie",
+    "question": "Quel climat est caractérisé par des étés chauds et secs et des hivers doux et humides, typique du pourtour méditerranéen ?",
+    "answer": "Le climat méditerranéen",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-132",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud abrite la majeure partie du lac Titicaca, partagé avec la Bolivie ?",
+    "answer": "Le Pérou",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-133",
+    "category": "geographie",
+    "question": "Quelle mer sépare la Corée du Japon ?",
+    "answer": "La mer du Japon",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-ado-134",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique de l'Est, jamais colonisé, a pour capitale Addis-Abeba ?",
+    "answer": "L'Éthiopie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-135",
+    "category": "geographie",
+    "question": "Quelle ville est la capitale de la Colombie ?",
+    "answer": "Bogota",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-136",
+    "category": "geographie",
+    "question": "Quel pays est séparé de l'Italie par le tunnel du Mont-Blanc ?",
+    "answer": "La France",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-ado-137",
+    "category": "geographie",
+    "question": "Quelle est la plus grande île de la Méditerranée ?",
+    "answer": "La Sicile",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-138",
+    "category": "geographie",
+    "question": "Quel pays d'Asie du Sud-Est, jamais colonisé par une puissance européenne, a pour capitale Bangkok ?",
+    "answer": "La Thaïlande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-139",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud a pour capitale Quito, l'une des plus hautes capitales du monde ?",
+    "answer": "L'Équateur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-ado-140",
+    "category": "geographie",
+    "question": "Quel détroit sépare l'Espagne du Maroc, reliant l'océan Atlantique à la mer Méditerranée ?",
+    "answer": "Le détroit de Gibraltar",
+    "difficulty": "moyen"
+  }
 ]

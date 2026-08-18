@@ -318,5 +318,1335 @@
     "question": "Quel roi de France, dit \"le Bien-Aimé\", a régné de 1715 à 1774 et précède Louis XVI ?",
     "answer": "Louis XV",
     "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-051",
+    "category": "histoire",
+    "question": "Quelle dynastie a régné sur la France de 1589 à 1792, avant la Révolution ?",
+    "answer": "La dynastie des Bourbons",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-052",
+    "category": "histoire",
+    "question": "Quel amiral et découvreur portugais a été le premier Européen à atteindre l'Inde par voie maritime en 1498 ?",
+    "answer": "Vasco de Gama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-053",
+    "category": "histoire",
+    "question": "Quelle guerre opposant la France et l'Angleterre s'est étendue de 1337 à 1453 ?",
+    "answer": "La guerre de Cent Ans",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-054",
+    "category": "histoire",
+    "question": "Quel révolutionnaire mexicain, aux côtés d'Emiliano Zapata, mena la révolution de 1910 dans le nord du pays ?",
+    "answer": "Pancho Villa",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-055",
+    "category": "histoire",
+    "question": "En quelle année a eu lieu le débarquement allié en Normandie ?",
+    "answer": "1944",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-056",
+    "category": "histoire",
+    "question": "Quel chancelier prussien, surnommé le \"chancelier de fer\", a orchestré l'unification allemande en 1871 ?",
+    "answer": "Otto von Bismarck",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-057",
+    "category": "histoire",
+    "question": "Quelle épidémie du XIVe siècle a décimé environ un tiers de la population européenne ?",
+    "answer": "La peste noire",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-058",
+    "category": "histoire",
+    "question": "Quel général germanique a déposé le dernier empereur romain d'Occident, Romulus Augustule, en 476 ?",
+    "answer": "Odoacre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-059",
+    "category": "histoire",
+    "question": "Quelle bataille navale de 1805, remportée par l'amiral Nelson qui y trouva la mort, consacra la suprématie maritime britannique sur la flotte franco-espagnole ?",
+    "answer": "La bataille de Trafalgar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-060",
+    "category": "histoire",
+    "question": "Quel pharaon égyptien a tenté d'imposer le culte monothéiste du dieu Aton au XIVe siècle avant J.-C. ?",
+    "answer": "Akhenaton",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-061",
+    "category": "histoire",
+    "question": "Quelle guerre civile américaine, opposant le Nord et le Sud, s'est déroulée de 1861 à 1865 ?",
+    "answer": "La guerre de Sécession",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-062",
+    "category": "histoire",
+    "question": "Quel dirigeant soviétique a lancé les politiques de glasnost et de perestroïka dans les années 1980 ?",
+    "answer": "Mikhaïl Gorbatchev",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-063",
+    "category": "histoire",
+    "question": "Quel empire précolombien fut conquis par le conquistador espagnol Hernán Cortés en 1521 ?",
+    "answer": "L'Empire aztèque",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-064",
+    "category": "histoire",
+    "question": "Quel traité de 1803 a permis aux États-Unis d'acquérir un vaste territoire français en Amérique du Nord ?",
+    "answer": "La vente de la Louisiane (Louisiana Purchase)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-065",
+    "category": "histoire",
+    "question": "Quelle reine de France, épouse de Louis XVI, fut guillotinée en octobre 1793 ?",
+    "answer": "Marie-Antoinette",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-066",
+    "category": "histoire",
+    "question": "Quel général et homme d'État français a lancé l'Appel du 18 juin 1940 depuis Londres ?",
+    "answer": "Charles de Gaulle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-067",
+    "category": "histoire",
+    "question": "Quelle bataille de 1916, l'une des plus meurtrières de la Première Guerre mondiale, s'est déroulée dans la Meuse et a duré près de dix mois ?",
+    "answer": "La bataille de Verdun",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-068",
+    "category": "histoire",
+    "question": "Quel empire précolombien avait pour capitale Cuzco, dans les Andes péruviennes ?",
+    "answer": "L'Empire inca",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-069",
+    "category": "histoire",
+    "question": "Quelle souveraine égyptienne, l'une des rares femmes pharaons, se fit représenter avec une fausse barbe rituelle au XVe siècle avant J.-C. ?",
+    "answer": "Hatchepsout",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-070",
+    "category": "histoire",
+    "question": "Quel dirigeant mexicain fut renversé par la révolution de 1910 après plus de trente ans au pouvoir ?",
+    "answer": "Porfirio Díaz",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-071",
+    "category": "histoire",
+    "question": "Quel roi de Babylone a fait graver l'un des plus anciens codes de lois connus, vers 1750 avant J.-C. ?",
+    "answer": "Hammurabi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-072",
+    "category": "histoire",
+    "question": "Quelle bataille de 490 avant J.-C. a vu les hoplites athéniens repousser la première invasion perse en Grèce ?",
+    "answer": "La bataille de Marathon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-073",
+    "category": "histoire",
+    "question": "Quel roi spartiate a résisté aux Perses avec ses trois cents hommes au défilé des Thermopyles en 480 avant J.-C. ?",
+    "answer": "Léonidas Ier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-074",
+    "category": "histoire",
+    "question": "Quel homme d'État athénien a fait édifier le Parthénon au Ve siècle avant J.-C. ?",
+    "answer": "Périclès",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-075",
+    "category": "histoire",
+    "question": "Quelle bataille de 31 avant J.-C. a vu Octave vaincre la flotte d'Antoine et Cléopâtre, ouvrant la voie à l'Empire romain ?",
+    "answer": "La bataille d'Actium",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-076",
+    "category": "histoire",
+    "question": "Quel gladiateur thrace a mené une révolte d'esclaves contre Rome de 73 à 71 avant J.-C. ?",
+    "answer": "Spartacus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-077",
+    "category": "histoire",
+    "question": "Quel empereur romain a fait de Byzance sa nouvelle capitale, rebaptisée en son honneur en 330 après J.-C. ?",
+    "answer": "Constantin Ier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-078",
+    "category": "histoire",
+    "question": "Quel roi des Huns, surnommé le \"fléau de Dieu\", ravagea l'Europe au Ve siècle ?",
+    "answer": "Attila",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-079",
+    "category": "histoire",
+    "question": "Quelle bataille de 732 a vu Charles Martel arrêter la progression musulmane en Gaule ?",
+    "answer": "La bataille de Poitiers",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-080",
+    "category": "histoire",
+    "question": "Quel calife a fondé la dynastie abbasside et déplacé la capitale du monde musulman à Bagdad au VIIIe siècle ?",
+    "answer": "Abu al-Abbas as-Saffah",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-081",
+    "category": "histoire",
+    "question": "Quel pape a proclamé la première croisade lors du concile de Clermont en 1095 ?",
+    "answer": "Urbain II",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-082",
+    "category": "histoire",
+    "question": "Quel sultan kurde a repris Jérusalem aux croisés en 1187 ?",
+    "answer": "Saladin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-083",
+    "category": "histoire",
+    "question": "Quel chef mongol a fondé au XIIIe siècle le plus vaste empire terrestre continu de l'histoire ?",
+    "answer": "Gengis Khan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-084",
+    "category": "histoire",
+    "question": "Quelle grande charte anglaise de 1215, imposée au roi Jean sans Terre, limita pour la première fois le pouvoir royal ?",
+    "answer": "La Magna Carta (Grande Charte)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-085",
+    "category": "histoire",
+    "question": "Quel navigateur vénitien a rapporté d'Asie le récit de ses voyages dans \"Le Livre des merveilles\" au XIIIe siècle ?",
+    "answer": "Marco Polo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-086",
+    "category": "histoire",
+    "question": "Quelle famille de banquiers et de mécènes a dominé la vie politique et culturelle de Florence à la Renaissance ?",
+    "answer": "Les Médicis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-087",
+    "category": "histoire",
+    "question": "Quel moine allemand a affiché ses 95 thèses à Wittenberg en 1517, déclenchant la Réforme protestante ?",
+    "answer": "Martin Luther",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-088",
+    "category": "histoire",
+    "question": "Quel navigateur portugais a dirigé la première expédition à faire le tour du monde, bien qu'il soit mort en cours de route aux Philippines en 1521 ?",
+    "answer": "Fernand de Magellan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-089",
+    "category": "histoire",
+    "question": "Quel conquistador espagnol a renversé l'Empire inca et fait exécuter l'empereur Atahualpa en 1533 ?",
+    "answer": "Francisco Pizarro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-090",
+    "category": "histoire",
+    "question": "Quelle flotte espagnole, envoyée envahir l'Angleterre en 1588, fut défaite par la marine d'Élisabeth Ire et les tempêtes ?",
+    "answer": "L'Invincible Armada",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-091",
+    "category": "histoire",
+    "question": "Quel cardinal et principal ministre de Louis XIII a renforcé l'autorité royale et fondé l'Académie française ?",
+    "answer": "Richelieu",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-092",
+    "category": "histoire",
+    "question": "Quelle révolution anglaise de 1688 a chassé le roi Jacques II au profit de Guillaume d'Orange sans effusion de sang majeure ?",
+    "answer": "La Glorieuse Révolution",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-093",
+    "category": "histoire",
+    "question": "Quel tsar de Russie a fondé Saint-Pétersbourg en 1703 pour ouvrir son pays sur l'Europe ?",
+    "answer": "Pierre le Grand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-094",
+    "category": "histoire",
+    "question": "Quelle guerre opposant plusieurs puissances européennes, de 1756 à 1763, est parfois considérée comme le premier conflit mondial ?",
+    "answer": "La guerre de Sept Ans",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-095",
+    "category": "histoire",
+    "question": "Quel avocat révolutionnaire, figure de la Terreur, fut guillotiné en juillet 1794 après la chute de son parti ?",
+    "answer": "Maximilien de Robespierre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-096",
+    "category": "histoire",
+    "question": "Quel document de 1789, adopté par l'Assemblée nationale constituante, proclame les droits naturels et inaliénables de l'homme ?",
+    "answer": "La Déclaration des droits de l'homme et du citoyen",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-097",
+    "category": "histoire",
+    "question": "Quel amiral japonais a orchestré l'attaque surprise sur Pearl Harbor en décembre 1941 ?",
+    "answer": "Isoroku Yamamoto",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-098",
+    "category": "histoire",
+    "question": "Quelle ville japonaise a reçu la première bombe atomique de l'histoire, le 6 août 1945 ?",
+    "answer": "Hiroshima",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-099",
+    "category": "histoire",
+    "question": "Quel procès de 1945-1946, tenu en Allemagne, a jugé les principaux dirigeants nazis pour crimes contre l'humanité ?",
+    "answer": "Le procès de Nuremberg",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-100",
+    "category": "histoire",
+    "question": "Quel dirigeant italien, allié de Hitler, fut destitué en 1943 puis exécuté par des partisans en 1945 ?",
+    "answer": "Benito Mussolini",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-101",
+    "category": "histoire",
+    "question": "Quelle bataille de l'hiver 1942-1943 a marqué un tournant décisif sur le front de l'Est en Union soviétique ?",
+    "answer": "La bataille de Stalingrad",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-102",
+    "category": "histoire",
+    "question": "Quel réseau de camps d'extermination nazis, situé en Pologne occupée, est devenu le symbole du génocide des Juifs d'Europe ?",
+    "answer": "Auschwitz-Birkenau",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-103",
+    "category": "histoire",
+    "question": "Quel homme d'État britannique, Premier ministre pendant la Seconde Guerre mondiale, obtint le prix Nobel de littérature en 1953 ?",
+    "answer": "Winston Churchill",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-104",
+    "category": "histoire",
+    "question": "Quel accord de 1947, signé à Genève, a jeté les bases du système commercial international d'après-guerre ?",
+    "answer": "Le GATT (Accord général sur les tarifs douaniers et le commerce)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-105",
+    "category": "histoire",
+    "question": "Quel pont aérien de 1948-1949 a permis aux Occidentaux de ravitailler Berlin-Ouest bloquée par les Soviétiques ?",
+    "answer": "Le pont aérien de Berlin",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-106",
+    "category": "histoire",
+    "question": "Quel leader révolutionnaire a proclamé la République populaire de Chine le 1er octobre 1949 ?",
+    "answer": "Mao Zedong",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-107",
+    "category": "histoire",
+    "question": "Quelle guerre a opposé la Corée du Nord, soutenue par la Chine, à la Corée du Sud, appuyée par l'ONU, de 1950 à 1953 ?",
+    "answer": "La guerre de Corée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-108",
+    "category": "histoire",
+    "question": "Quelle bataille de 1954 a précipité la fin de la présence française en Indochine ?",
+    "answer": "La bataille de Diên Biên Phu",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-109",
+    "category": "histoire",
+    "question": "Quel militant afro-américain, pasteur baptiste, a prononcé le discours \"I Have a Dream\" en 1963 ?",
+    "answer": "Martin Luther King",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-110",
+    "category": "histoire",
+    "question": "Quel président américain a été assassiné à Dallas le 22 novembre 1963 ?",
+    "answer": "John Fitzgerald Kennedy",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-111",
+    "category": "histoire",
+    "question": "Quel dirigeant sud-africain, emprisonné 27 ans, est devenu le premier président noir de son pays en 1994 ?",
+    "answer": "Nelson Mandela",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-112",
+    "category": "histoire",
+    "question": "Quel régime de ségrégation raciale institutionnalisée a été instauré en Afrique du Sud en 1948 ?",
+    "answer": "L'apartheid",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-113",
+    "category": "histoire",
+    "question": "Quel accord de 1962, mettant fin à la guerre d'Algérie, a été signé entre la France et le Gouvernement provisoire algérien ?",
+    "answer": "Les accords d'Évian",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-114",
+    "category": "histoire",
+    "question": "Quel mouvement étudiant et social français a paralysé le pays en mai 1968 ?",
+    "answer": "Mai 68",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-115",
+    "category": "histoire",
+    "question": "Quel dictateur espagnol a dirigé le pays d'une main de fer de 1939 jusqu'à sa mort en 1975 ?",
+    "answer": "Francisco Franco",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-116",
+    "category": "histoire",
+    "question": "Quel révolutionnaire argentin d'origine, compagnon de Fidel Castro, est devenu une icône des mouvements de gauche après sa mort en Bolivie en 1967 ?",
+    "answer": "Che Guevara",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-117",
+    "category": "histoire",
+    "question": "Quel dirigeant cubain a pris le pouvoir en 1959 après avoir renversé le régime de Fulgencio Batista ?",
+    "answer": "Fidel Castro",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-118",
+    "category": "histoire",
+    "question": "Quel génocide a coûté la vie à environ 800 000 Tutsis et Hutus modérés au Rwanda en 1994 ?",
+    "answer": "Le génocide des Tutsis au Rwanda",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-119",
+    "category": "histoire",
+    "question": "Quel royaume ouest-africain, prospère grâce au commerce de l'or et du sel, atteignit son apogée sous Kankan Moussa au XIVe siècle ?",
+    "answer": "L'Empire du Mali",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-120",
+    "category": "histoire",
+    "question": "Quel royaume d'Afrique australe a fait construire les impressionnantes ruines de pierre du Grand Zimbabwe entre le XIe et le XVe siècle ?",
+    "answer": "Le royaume du Zimbabwe (civilisation shona)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-121",
+    "category": "histoire",
+    "question": "Quel roi du Bénin (royaume d'Édo) a vu son palais pillé par les Britanniques en 1897, dispersant les célèbres bronzes du Bénin ?",
+    "answer": "L'oba Ovonramwen",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-122",
+    "category": "histoire",
+    "question": "Quelle conférence de 1884-1885, réunie à l'initiative de Bismarck, a organisé le partage colonial de l'Afrique entre puissances européennes ?",
+    "answer": "La conférence de Berlin",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-123",
+    "category": "histoire",
+    "question": "Quel négus éthiopien a infligé une défaite retentissante aux troupes italiennes à la bataille d'Adoua en 1896 ?",
+    "answer": "Ménélik II",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-124",
+    "category": "histoire",
+    "question": "Quel empereur mongol, petit-fils de Gengis Khan, a fondé la dynastie Yuan et conquis la Chine au XIIIe siècle ?",
+    "answer": "Kubilai Khan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-125",
+    "category": "histoire",
+    "question": "Quelle dynastie chinoise, la première à unifier l'empire, est associée à l'armée en terre cuite de son fondateur Qin Shi Huang ?",
+    "answer": "La dynastie Qin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-126",
+    "category": "histoire",
+    "question": "Quel shogunat a imposé au Japon une politique d'isolement quasi total, le sakoku, du XVIIe au XIXe siècle ?",
+    "answer": "Le shogunat Tokugawa",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-127",
+    "category": "histoire",
+    "question": "Quelle restauration impériale de 1868 a mis fin au shogunat et engagé la modernisation accélérée du Japon ?",
+    "answer": "La restauration de Meiji",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-128",
+    "category": "histoire",
+    "question": "Quelle guerre opposant la Chine et le Royaume-Uni, déclenchée en 1839, portait sur le commerce de l'opium ?",
+    "answer": "La première guerre de l'opium",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-129",
+    "category": "histoire",
+    "question": "Quelle compagnie commerciale britannique a administré une grande partie de l'Inde avant sa reprise en main directe par la Couronne en 1858 ?",
+    "answer": "La Compagnie britannique des Indes orientales",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-130",
+    "category": "histoire",
+    "question": "Quel empereur moghol a fait construire le Taj Mahal au XVIIe siècle en mémoire de son épouse défunte ?",
+    "answer": "Shah Jahan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-131",
+    "category": "histoire",
+    "question": "Quel dirigeant vietnamien, fondateur du Việt Minh, a proclamé l'indépendance du Vietnam en 1945 ?",
+    "answer": "Hô Chi Minh",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-132",
+    "category": "histoire",
+    "question": "Quel empire précolombien du Mexique, antérieur aux Aztèques, a bâti la pyramide du Soleil à Teotihuacan ?",
+    "answer": "La civilisation de Teotihuacan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-133",
+    "category": "histoire",
+    "question": "Quelle civilisation méso-américaine, connue pour son calendrier et ses cités-États comme Tikal, a prospéré en Amérique centrale avant l'arrivée des Européens ?",
+    "answer": "La civilisation maya",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-134",
+    "category": "histoire",
+    "question": "Quel prêtre mexicain a lancé le \"cri de Dolores\" en 1810, marquant le début de la guerre d'indépendance du Mexique ?",
+    "answer": "Miguel Hidalgo",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-135",
+    "category": "histoire",
+    "question": "Quel général et homme d'État vénézuélien, surnommé le \"Libertador\", a mené l'indépendance de plusieurs pays d'Amérique du Sud face à l'Espagne ?",
+    "answer": "Simón Bolívar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-136",
+    "category": "histoire",
+    "question": "Quel esclave affranchi a mené la révolte qui aboutit à l'indépendance d'Haïti, première république noire libre, en 1804 ?",
+    "answer": "Toussaint Louverture",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-137",
+    "category": "histoire",
+    "question": "Quel commerce triangulaire, entre le XVIe et le XIXe siècle, a déporté des millions d'Africains vers les Amériques ?",
+    "answer": "La traite négrière transatlantique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-138",
+    "category": "histoire",
+    "question": "Quel navire britannique a coulé après avoir heurté un iceberg dans l'Atlantique Nord en avril 1912 ?",
+    "answer": "Le Titanic",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-139",
+    "category": "histoire",
+    "question": "Quel attentat de Sarajevo, le 28 juin 1914, a déclenché l'engrenage menant à la Première Guerre mondiale ?",
+    "answer": "L'assassinat de l'archiduc François-Ferdinand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-140",
+    "category": "histoire",
+    "question": "Quelle révolution de février puis d'octobre 1917 a renversé le tsarisme puis porté les bolcheviks au pouvoir en Russie ?",
+    "answer": "La révolution russe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-141",
+    "category": "histoire",
+    "question": "Quel dernier tsar de Russie fut exécuté avec sa famille par les bolcheviks en 1918 ?",
+    "answer": "Nicolas II",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-142",
+    "category": "histoire",
+    "question": "Quelle crise économique mondiale, débutée par le krach boursier de Wall Street, a frappé l'économie mondiale à partir de 1929 ?",
+    "answer": "La Grande Dépression",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-143",
+    "category": "histoire",
+    "question": "Quel maréchal français a dirigé le régime de Vichy et signé l'armistice avec l'Allemagne nazie en 1940 ?",
+    "answer": "Philippe Pétain",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-144",
+    "category": "histoire",
+    "question": "Quelle rafle de juillet 1942, menée par la police française, a conduit à l'arrestation de plus de 13 000 Juifs à Paris ?",
+    "answer": "La rafle du Vél d'Hiv",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-145",
+    "category": "histoire",
+    "question": "Quel plan américain de 1948 a financé la reconstruction économique de l'Europe de l'Ouest après la Seconde Guerre mondiale ?",
+    "answer": "Le plan Marshall",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-146",
+    "category": "histoire",
+    "question": "Quel traité de 1957, signé par six pays européens, a créé la Communauté économique européenne ?",
+    "answer": "Le traité de Rome",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-147",
+    "category": "histoire",
+    "question": "Quelle guerre entre les États-Unis et le Nord-Vietnam s'est achevée par le retrait américain en 1973 et la chute de Saïgon en 1975 ?",
+    "answer": "La guerre du Vietnam",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-148",
+    "category": "histoire",
+    "question": "Quel roi wisigoth a mis fin à l'Empire romain d'Occident lors du sac de Rome en 410 ?",
+    "answer": "Alaric Ier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-149",
+    "category": "histoire",
+    "question": "Quel empereur byzantin a fait construire la basilique Sainte-Sophie à Constantinople au VIe siècle ?",
+    "answer": "Justinien Ier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-150",
+    "category": "histoire",
+    "question": "Quelle bataille de 1429 a permis à Jeanne d'Arc de délivrer une ville assiégée par les Anglais, marquant un tournant de la guerre de Cent Ans ?",
+    "answer": "Le siège d'Orléans",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-151",
+    "category": "histoire",
+    "question": "Quel peintre et savant italien a laissé de nombreux carnets de croquis techniques tout en travaillant à la cour de François Ier ?",
+    "answer": "Léonard de Vinci",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-152",
+    "category": "histoire",
+    "question": "Quel roi de France, dit \"le Père et Restaurateur des Lettres\", a fait construire le château de Chambord et invité Léonard de Vinci en France ?",
+    "answer": "François Ier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-153",
+    "category": "histoire",
+    "question": "Quelle guerre civile française du XVIe siècle a opposé catholiques et protestants de 1562 à 1598 ?",
+    "answer": "Les guerres de Religion",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-154",
+    "category": "histoire",
+    "question": "Quel philosophe des Lumières français, auteur de \"L'Esprit des lois\", a théorisé la séparation des pouvoirs ?",
+    "answer": "Montesquieu",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-155",
+    "category": "histoire",
+    "question": "Quel écrivain et philosophe français des Lumières, auteur de \"Candide\", fut emprisonné à la Bastille avant de s'exiler en Angleterre ?",
+    "answer": "Voltaire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-156",
+    "category": "histoire",
+    "question": "Quelle grande encyclopédie du XVIIIe siècle, dirigée par Diderot et d'Alembert, visait à rassembler l'ensemble des savoirs de l'époque ?",
+    "answer": "L'Encyclopédie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-157",
+    "category": "histoire",
+    "question": "Quel physicien et homme politique américain, inventeur du paratonnerre, a participé à la rédaction de la Déclaration d'indépendance ?",
+    "answer": "Benjamin Franklin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-158",
+    "category": "histoire",
+    "question": "Quelle bataille de 1781, remportée avec l'aide décisive des troupes françaises, a scellé la victoire américaine contre les Britanniques ?",
+    "answer": "La bataille de Yorktown",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-159",
+    "category": "histoire",
+    "question": "Quel marquis français, héros des deux mondes, a combattu aux côtés des insurgés américains avant de jouer un rôle clé dans la Révolution française ?",
+    "answer": "La Fayette",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-160",
+    "category": "histoire",
+    "question": "Quelle bataille navale de 1798, remportée par Nelson en baie d'Aboukir, détruisit la flotte française lors de la campagne d'Égypte ?",
+    "answer": "La bataille d'Aboukir",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-161",
+    "category": "histoire",
+    "question": "Quelle bataille de 1812, marquant l'entrée de la Grande Armée en Russie, précéda la retraite désastreuse de Napoléon ?",
+    "answer": "La bataille de la Moskova (Borodino)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-162",
+    "category": "histoire",
+    "question": "Quel congrès de 1814-1815, réunissant les grandes puissances européennes à Vienne, a redessiné les frontières après la chute de Napoléon ?",
+    "answer": "Le congrès de Vienne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-163",
+    "category": "histoire",
+    "question": "Quel empereur du Brésil, fils du roi du Portugal, a proclamé l'indépendance du pays en 1822 ?",
+    "answer": "Pierre Ier du Brésil (Dom Pedro Ier)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-164",
+    "category": "histoire",
+    "question": "Quelle ruée vers un métal précieux, débutée en 1848, a provoqué un afflux massif de population vers la Californie ?",
+    "answer": "La ruée vers l'or de Californie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-165",
+    "category": "histoire",
+    "question": "Quel ingénieur français a conçu le canal de Suez, inauguré en 1869 pour relier la Méditerranée à la mer Rouge ?",
+    "answer": "Ferdinand de Lesseps",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-166",
+    "category": "histoire",
+    "question": "Quelle guerre franco-prussienne de 1870-1871 a entraîné la chute du Second Empire et la perte de l'Alsace-Moselle ?",
+    "answer": "La guerre franco-prussienne (franco-allemande)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-167",
+    "category": "histoire",
+    "question": "Quel officier français d'origine juive fut faussement accusé d'espionnage et condamné en 1894, déchaînant une crise politique majeure ?",
+    "answer": "Alfred Dreyfus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-168",
+    "category": "histoire",
+    "question": "Quelle loi française de 1905 a instauré la séparation des Églises et de l'État ?",
+    "answer": "La loi de séparation des Églises et de l'État",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-169",
+    "category": "histoire",
+    "question": "Quel paquebot français, l'un des plus grands transatlantiques de son époque, a effectué son voyage inaugural en 1935 sous le nom de \"Normandie\" ?",
+    "answer": "Le Normandie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-170",
+    "category": "histoire",
+    "question": "Quel dirigeant nord-coréen a fondé la République populaire démocratique de Corée en 1948 ?",
+    "answer": "Kim Il-sung",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-171",
+    "category": "histoire",
+    "question": "Quel mur, érigé en 1961 par la RDA, a séparé Berlin-Est de Berlin-Ouest pendant 28 ans ?",
+    "answer": "Le mur de Berlin (construction)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-172",
+    "category": "histoire",
+    "question": "Quel conflit israélo-arabe de juin 1967, remporté rapidement par Israël, a duré exactement six jours ?",
+    "answer": "La guerre des Six Jours",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-173",
+    "category": "histoire",
+    "question": "Quel scandale politique américain, révélé par une enquête journalistique, a contraint Richard Nixon à démissionner en 1974 ?",
+    "answer": "Le scandale du Watergate",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-174",
+    "category": "histoire",
+    "question": "Quelle révolution de 1979 a renversé le Shah d'Iran et instauré une république islamique dirigée par l'ayatollah Khomeiny ?",
+    "answer": "La révolution iranienne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-175",
+    "category": "histoire",
+    "question": "Quel syndicat polonais, fondé en 1980 par Lech Wałęsa, a joué un rôle majeur dans la chute du communisme en Pologne ?",
+    "answer": "Solidarność (Solidarité)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-176",
+    "category": "histoire",
+    "question": "Quelle centrale nucléaire d'Ukraine soviétique a connu une catastrophe majeure en avril 1986 ?",
+    "answer": "La centrale de Tchernobyl",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-177",
+    "category": "histoire",
+    "question": "Quelle guerre du Golfe de 1990-1991 a été déclenchée par l'invasion irakienne du Koweït ?",
+    "answer": "La guerre du Golfe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-178",
+    "category": "histoire",
+    "question": "Quel conflit des années 1990, résultant de l'éclatement de la Yougoslavie, a inclus le siège de Sarajevo ?",
+    "answer": "Les guerres de Yougoslavie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-179",
+    "category": "histoire",
+    "question": "Quel attentat du 11 septembre 2001 a visé les tours jumelles du World Trade Center à New York ?",
+    "answer": "Les attentats du 11 septembre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-180",
+    "category": "histoire",
+    "question": "Quelle reine d'Écosse, cousine d'Élisabeth Ire, fut décapitée en 1587 après dix-neuf ans de captivité ?",
+    "answer": "Marie Stuart",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-181",
+    "category": "histoire",
+    "question": "Quel roi hittite a signé avec Ramsès II le plus ancien traité de paix connu, après la bataille de Qadesh, vers 1259 avant J.-C. ?",
+    "answer": "Hattousili III",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-182",
+    "category": "histoire",
+    "question": "Quel empereur romain a instauré le christianisme comme religion d'État de l'Empire en 380, par l'édit de Thessalonique ?",
+    "answer": "Théodose Ier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-183",
+    "category": "histoire",
+    "question": "Quel roi franc mérovingien, converti au catholicisme, a unifié l'essentiel de la Gaule à la fin du Ve siècle ?",
+    "answer": "Clovis Ier",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-184",
+    "category": "histoire",
+    "question": "Quel roi d'Angleterre, dit \"Cœur de Lion\", a participé à la troisième croisade avant d'être capturé sur le chemin du retour ?",
+    "answer": "Richard Ier d'Angleterre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-185",
+    "category": "histoire",
+    "question": "Quel ordre religieux et militaire, créé pour protéger les pèlerins en Terre sainte, fut supprimé et ses membres persécutés par Philippe le Bel en 1307 ?",
+    "answer": "L'ordre des Templiers",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-186",
+    "category": "histoire",
+    "question": "Quelle union dynastique de 1469, entre Isabelle de Castille et Ferdinand d'Aragon, a jeté les bases de l'Espagne unifiée ?",
+    "answer": "Le mariage d'Isabelle la Catholique et de Ferdinand le Catholique",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-187",
+    "category": "histoire",
+    "question": "Quel sultan ottoman a conquis Constantinople en 1453 à l'âge de vingt et un ans, lui valant le surnom de \"le Conquérant\" ?",
+    "answer": "Mehmed II",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-188",
+    "category": "histoire",
+    "question": "Quel sultan ottoman, contemporain de François Ier, a porté l'empire à son apogée territoriale et législative au XVIe siècle ?",
+    "answer": "Soliman le Magnifique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-189",
+    "category": "histoire",
+    "question": "Quelle bataille navale de 1571, remportée par une coalition chrétienne sur la flotte ottomane, s'est déroulée dans le golfe de Corinthe ?",
+    "answer": "La bataille de Lépante",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-190",
+    "category": "histoire",
+    "question": "Quel botaniste et navigateur français a introduit la pomme de terre en France à la fin du XVIIIe siècle ?",
+    "answer": "Antoine Parmentier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-191",
+    "category": "histoire",
+    "question": "Quelle expédition scientifique et militaire, menée par Napoléon en 1798, comptait de nombreux savants ayant fondé l'égyptologie moderne ?",
+    "answer": "La campagne d'Égypte (l'expédition d'Égypte)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-192",
+    "category": "histoire",
+    "question": "Quel code juridique, promulgué en 1804, a profondément influencé les systèmes de droit civil dans le monde ?",
+    "answer": "Le Code civil (Code Napoléon)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-193",
+    "category": "histoire",
+    "question": "Quelle guerre opposant le Royaume-Uni et ses colonies boers d'Afrique du Sud s'est déroulée de 1899 à 1902 ?",
+    "answer": "La guerre des Boers",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-194",
+    "category": "histoire",
+    "question": "Quelle insurrection anti-coloniale de 1857, menée par des cipayes, a ébranlé la domination britannique en Inde ?",
+    "answer": "La révolte des cipayes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-195",
+    "category": "histoire",
+    "question": "Quel État précolonial ouest-africain, dirigé par Chaka au début du XIXe siècle, a bâti sa puissance sur une réforme militaire majeure ?",
+    "answer": "Le royaume zoulou",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-196",
+    "category": "histoire",
+    "question": "Quelle famine dévastatrice, provoquée en partie par les politiques staliniennes de collectivisation, a frappé l'Ukraine soviétique en 1932-1933 ?",
+    "answer": "L'Holodomor",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-197",
+    "category": "histoire",
+    "question": "Quelle purge politique menée par Staline dans les années 1930 a éliminé une grande partie des cadres du Parti communiste et de l'armée soviétique ?",
+    "answer": "La Grande Terreur (les purges staliniennes)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-198",
+    "category": "histoire",
+    "question": "Quel traité, signé en août 1939 entre l'Allemagne nazie et l'URSS, comportait un protocole secret de partage de la Pologne ?",
+    "answer": "Le pacte germano-soviétique (pacte Molotov-Ribbentrop)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-199",
+    "category": "histoire",
+    "question": "Quel dirigeant portugais a instauré et dirigé le régime autoritaire de l'Estado Novo de 1932 à 1968 ?",
+    "answer": "António de Oliveira Salazar",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-200",
+    "category": "histoire",
+    "question": "Quel massacre commis par des soldats de l'Empire ottoman à partir de 1915 a coûté la vie à environ 1,2 million d'Arméniens ?",
+    "answer": "Le génocide arménien",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-201",
+    "category": "histoire",
+    "question": "Quel officier turc, fondateur de la République de Turquie en 1923, est considéré comme le père de la Turquie moderne ?",
+    "answer": "Mustafa Kemal Atatürk",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-202",
+    "category": "histoire",
+    "question": "Quel traité de paix de 1919, distinct de celui de Versailles, a démantelé l'Empire austro-hongrois et créé plusieurs nouveaux États ?",
+    "answer": "Le traité de Saint-Germain-en-Laye",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-203",
+    "category": "histoire",
+    "question": "Quelle organisation internationale, ancêtre de l'ONU, a été fondée en 1920 pour préserver la paix après la Première Guerre mondiale ?",
+    "answer": "La Société des Nations (SDN)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-204",
+    "category": "histoire",
+    "question": "Quelle organisation internationale a été créée en 1945 à San Francisco pour succéder à la SDN et maintenir la paix mondiale ?",
+    "answer": "L'Organisation des Nations unies (ONU)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-205",
+    "category": "histoire",
+    "question": "Quel premier ministre indien, fille de Jawaharlal Nehru, a dirigé le pays pendant une grande partie des années 1970 et 1980 ?",
+    "answer": "Indira Gandhi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-206",
+    "category": "histoire",
+    "question": "Quelle partition de 1947, accompagnant l'indépendance de l'Inde, a créé le Pakistan et provoqué des migrations massives et sanglantes ?",
+    "answer": "La partition des Indes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-207",
+    "category": "histoire",
+    "question": "Quel royaume ouest-africain, connu pour son artisanat du bronze et son roi puissant, fut anéanti par une expédition punitive britannique en 1897 ?",
+    "answer": "Le royaume du Bénin (Édo)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-208",
+    "category": "histoire",
+    "question": "Quelle guerre d'indépendance algérienne contre la France a duré de 1954 à 1962 ?",
+    "answer": "La guerre d'Algérie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-209",
+    "category": "histoire",
+    "question": "Quel roi de France, dit \"le Sage\", a fait construire la Bastille et le donjon de Vincennes au XIVe siècle ?",
+    "answer": "Charles V",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-210",
+    "category": "histoire",
+    "question": "Quelle guerre opposant la Prusse et l'Autriche en 1866 a consacré la suprématie prussienne en Allemagne avant l'unification ?",
+    "answer": "La guerre austro-prussienne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-211",
+    "category": "histoire",
+    "question": "Quel physicien allemand a présenté sa théorie de la relativité restreinte en 1905, avant d'émigrer aux États-Unis dans les années 1930 ?",
+    "answer": "Albert Einstein",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-212",
+    "category": "histoire",
+    "question": "Quelle expédition polaire norvégienne, dirigée par Roald Amundsen, a atteint le pôle Sud la première en décembre 1911 ?",
+    "answer": "L'expédition d'Amundsen au pôle Sud",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-213",
+    "category": "histoire",
+    "question": "Quel royaume d'Asie du Sud-Est, aujourd'hui la Thaïlande, est le seul pays de la région à n'avoir jamais été colonisé par une puissance européenne ?",
+    "answer": "Le Siam (Thaïlande)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-214",
+    "category": "histoire",
+    "question": "Quelle dynastie a régné sur l'Empire moghol en Inde du XVIe au XIXe siècle, fondée par Babur ?",
+    "answer": "La dynastie moghole",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-215",
+    "category": "histoire",
+    "question": "Quel traité signé en 1494 entre l'Espagne et le Portugal a partagé les territoires nouvellement découverts hors d'Europe ?",
+    "answer": "Le traité de Tordesillas",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-216",
+    "category": "histoire",
+    "question": "Quelle guerre hispano-américaine de 1898, marquée par des défaites navales à Cavite et Santiago, a mis fin à l'empire colonial espagnol dans le Pacifique et les Caraïbes ?",
+    "answer": "La guerre hispano-américaine",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-217",
+    "category": "histoire",
+    "question": "Quel homme politique français a été le premier président de la Ve République, instaurée en 1958 ?",
+    "answer": "Charles de Gaulle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-218",
+    "category": "histoire",
+    "question": "Quelle place de Pékin a été le théâtre de la répression sanglante d'un mouvement étudiant pro-démocratie en juin 1989 ?",
+    "answer": "La place Tian'anmen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-219",
+    "category": "histoire",
+    "question": "Quel dirigeant chinois a lancé les réformes économiques d'ouverture qui ont transformé la Chine à partir de la fin des années 1970 ?",
+    "answer": "Deng Xiaoping",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-220",
+    "category": "histoire",
+    "question": "Quel roi de Prusse, dit \"le Grand\", contemporain des Lumières, a fait de son royaume une grande puissance militaire au XVIIIe siècle ?",
+    "answer": "Frédéric II de Prusse (Frédéric le Grand)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-221",
+    "category": "histoire",
+    "question": "Quel explorateur français a remonté le fleuve Saint-Laurent et fondé la ville de Québec en 1608 ?",
+    "answer": "Samuel de Champlain",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-222",
+    "category": "histoire",
+    "question": "Quelle bataille de 1815 a définitivement mis fin au règne de Napoléon Ier ?",
+    "answer": "La bataille de Waterloo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-223",
+    "category": "histoire",
+    "question": "Quel traité de 1648 a mis fin à la guerre de Trente Ans en Europe ?",
+    "answer": "Le traité de Westphalie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-224",
+    "category": "histoire",
+    "question": "Quel physicien et mathématicien anglais du XVIIe siècle a formulé les lois du mouvement et de la gravitation universelle ?",
+    "answer": "Isaac Newton",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-225",
+    "category": "histoire",
+    "question": "Quelle dynastie chinoise a été renversée en 1912, mettant fin à plus de deux mille ans d'empire ?",
+    "answer": "La dynastie Qing",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-226",
+    "category": "histoire",
+    "question": "Quel général et homme d'État français a dirigé le pays de 1958 à 1969 en tant que président de la Ve République ?",
+    "answer": "Charles de Gaulle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-227",
+    "category": "histoire",
+    "question": "Quelle épidémie de grippe, apparue en 1918, a fait plus de victimes que la Première Guerre mondiale elle-même ?",
+    "answer": "La grippe espagnole",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-228",
+    "category": "histoire",
+    "question": "Quel roi anglais a rompu avec l'Église catholique en 1534 pour fonder l'Église anglicane ?",
+    "answer": "Henri VIII",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-229",
+    "category": "histoire",
+    "question": "Quelle expédition maritime portugaise, menée par Vasco de Gama, a atteint l'Inde par la mer en 1498 ?",
+    "answer": "L'expédition de Vasco de Gama vers l'Inde",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-230",
+    "category": "histoire",
+    "question": "Quel philosophe chinois, contemporain de Confucius, a fondé le taoïsme selon la tradition ?",
+    "answer": "Lao Tseu",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-231",
+    "category": "histoire",
+    "question": "Quel roi de France a été assassiné par Ravaillac en 1610 ?",
+    "answer": "Henri IV",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-232",
+    "category": "histoire",
+    "question": "Quelle guerre opposant la Russie et le Japon en 1904-1905 s'est soldée par une victoire japonaise inattendue ?",
+    "answer": "La guerre russo-japonaise",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-233",
+    "category": "histoire",
+    "question": "Quel traité de 1919, signé au palais de Versailles, a officiellement mis fin à la Première Guerre mondiale entre les Alliés et l'Allemagne ?",
+    "answer": "Le traité de Versailles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-234",
+    "category": "histoire",
+    "question": "Quel chef militaire carthaginois a traversé les Alpes avec des éléphants pour envahir l'Italie romaine ?",
+    "answer": "Hannibal Barca",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-235",
+    "category": "histoire",
+    "question": "Quelle grande muraille défensive, construite sur plusieurs siècles, protégeait le nord de la Chine contre les invasions nomades ?",
+    "answer": "La Grande Muraille de Chine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-236",
+    "category": "histoire",
+    "question": "Quel roi de France, dit \"le Grand\", a régné à Versailles pendant 72 ans, le règne le plus long de l'histoire de France ?",
+    "answer": "Louis XIV",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-adulte-237",
+    "category": "histoire",
+    "question": "Quelle organisation paramilitaire irlandaise a mené une lutte armée pour l'indépendance de l'Irlande au XXe siècle ?",
+    "answer": "L'IRA (Armée républicaine irlandaise)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-238",
+    "category": "histoire",
+    "question": "Quel roi égyptien, dont la tombe presque intacte fut découverte en 1922 par Howard Carter, est mort très jeune ?",
+    "answer": "Toutânkhamon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-adulte-239",
+    "category": "histoire",
+    "question": "Quelle bataille de 1836 au Texas, marquée par la résistance héroïque d'un petit fort, est devenue un symbole de l'indépendance texane ?",
+    "answer": "La bataille de Fort Alamo",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-adulte-240",
+    "category": "histoire",
+    "question": "Quel navigateur hollandais a découvert la Nouvelle-Zélande et la Tasmanie au XVIIe siècle ?",
+    "answer": "Abel Tasman",
+    "difficulty": "difficile"
   }
 ]

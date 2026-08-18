@@ -1,52 +1,947 @@
 [
-  { "id": "his-enfant-001", "category": "histoire", "question": "Comment s'appelle le bateau géant qui a coulé après avoir heurté un iceberg ?", "answer": "Le Titanic" },
-  { "id": "his-enfant-002", "category": "histoire", "question": "Qui étaient les hommes qui construisaient les pyramides en Égypte, il y a très longtemps ?", "answer": "Les Égyptiens de l'Égypte antique" },
-  { "id": "his-enfant-003", "category": "histoire", "question": "Comment s'appelle la jeune fille française qui a mené des soldats au combat il y a très longtemps ?", "answer": "Jeanne d'Arc" },
-  { "id": "his-enfant-004", "category": "histoire", "question": "Quel explorateur a traversé l'océan et découvert l'Amérique en bateau ?", "answer": "Christophe Colomb" },
-  { "id": "his-enfant-005", "category": "histoire", "question": "Comment appelle-t-on les grands monuments triangulaires construits par les Égyptiens ?", "answer": "Les pyramides" },
-  { "id": "his-enfant-006", "category": "histoire", "question": "Qui était le roi de France surnommé le \"Roi Soleil\" ?", "answer": "Louis XIV" },
-  { "id": "his-enfant-007", "category": "histoire", "question": "En quelle année les hommes ont-ils marché sur la Lune pour la première fois ?", "answer": "1969" },
-  { "id": "his-enfant-008", "category": "histoire", "question": "Comment s'appelle le grand mur construit en Chine, visible depuis très loin ?", "answer": "La Grande Muraille de Chine" },
-  { "id": "his-enfant-009", "category": "histoire", "question": "Quel empereur français portait un célèbre chapeau bicorne ?", "answer": "Napoléon Bonaparte" },
-  { "id": "his-enfant-010", "category": "histoire", "question": "Comment appelle-t-on les grands animaux disparus comme le tricératops et le tyrannosaure ?", "answer": "Les dinosaures" },
-  { "id": "his-enfant-011", "category": "histoire", "question": "Quel monument parisien a été construit pour une grande exposition en 1889 ?", "answer": "La tour Eiffel" },
-  { "id": "his-enfant-012", "category": "histoire", "question": "Comment s'appelaient les chevaliers qui vivaient dans des châteaux forts, il y a très longtemps ?", "answer": "Les chevaliers du Moyen Âge" },
-  { "id": "his-enfant-013", "category": "histoire", "question": "Qui a inventé une célèbre ampoule électrique qui s'allume ?", "answer": "Thomas Edison" },
-  { "id": "his-enfant-014", "category": "histoire", "question": "Comment s'appelle la reine d'Égypte très célèbre, connue pour ses bijoux et sa couronne ?", "answer": "Cléopâtre" },
-  { "id": "his-enfant-015", "category": "histoire", "question": "Quel peuple de guerriers portait des casques à cornes et naviguait sur de grands bateaux, il y a très longtemps ?", "answer": "Les Vikings" },
-  { "id": "his-enfant-016", "category": "histoire", "question": "Comment s'appelle le premier homme à avoir marché sur la Lune ?", "answer": "Neil Armstrong" },
-  { "id": "his-enfant-017", "category": "histoire", "question": "Quel type de bâtiment habitaient les rois et les reines au Moyen Âge ?", "answer": "Un château" },
-  { "id": "his-enfant-018", "category": "histoire", "question": "Comment s'appelaient les hommes qui combattaient dans de grandes arènes rondes chez les Romains ?", "answer": "Les gladiateurs" },
-  { "id": "his-enfant-019", "category": "histoire", "question": "Quel objet les pirates cherchaient-ils souvent, enterré sur une île ?", "answer": "Un trésor" },
-  { "id": "his-enfant-020", "category": "histoire", "question": "Comment s'appelle le grand bateau en bois que les Vikings utilisaient pour naviguer ?", "answer": "Le drakkar" },
-  { "id": "his-enfant-021", "category": "histoire", "question": "Quel pays a construit la statue de la Liberté avant de l'offrir aux États-Unis ?", "answer": "La France" },
-  { "id": "his-enfant-022", "category": "histoire", "question": "Comment s'appelaient les hommes préhistoriques qui peignaient sur les murs des grottes ?", "answer": "Les hommes préhistoriques (ex : Homo sapiens)" },
-  { "id": "his-enfant-023", "category": "histoire", "question": "Quel roi anglais est connu pour avoir eu six épouses ?", "answer": "Henri VIII" },
-  { "id": "his-enfant-024", "category": "histoire", "question": "Comment appelle-t-on la période très ancienne où vivaient les chevaliers et les châteaux forts ?", "answer": "Le Moyen Âge" },
-  { "id": "his-enfant-025", "category": "histoire", "question": "Quel objet rond et doré les rois portaient-ils sur la tête ?", "answer": "Une couronne" },
-  { "id": "his-enfant-026", "category": "histoire", "question": "Comment s'appelle la civilisation qui a construit le Machu Picchu, une cité perchée en montagne ?", "answer": "Les Incas" },
-  { "id": "his-enfant-027", "category": "histoire", "question": "Quel peuple de l'Antiquité organisait des courses de chars et des combats de gladiateurs ?", "answer": "Les Romains" },
-  { "id": "his-enfant-028", "category": "histoire", "question": "Comment appelle-t-on l'écriture faite de petits dessins utilisée par les Égyptiens ?", "answer": "Les hiéroglyphes" },
-  { "id": "his-enfant-029", "category": "histoire", "question": "Quel inventeur est connu pour avoir imaginé de nombreuses machines volantes et la Joconde ?", "answer": "Léonard de Vinci" },
-  { "id": "his-enfant-030", "category": "histoire", "question": "Comment s'appelle le monument de pierres géantes en cercle en Angleterre ?", "answer": "Stonehenge" },
-  { "id": "his-enfant-031", "category": "histoire", "question": "Comment s'appelle le pharaon égyptien dont on a retrouvé le tombeau rempli de trésors, avec un masque doré ?", "answer": "Toutânkhamon" },
-  { "id": "his-enfant-032", "category": "histoire", "question": "Quel explorateur français a fondé la ville de Québec ?", "answer": "Samuel de Champlain" },
-  { "id": "his-enfant-033", "category": "histoire", "question": "Comment s'appelle le grand voyageur qui a raconté ses aventures en Chine dans un livre célèbre ?", "answer": "Marco Polo" },
-  { "id": "his-enfant-034", "category": "histoire", "question": "Quel savant a eu l'idée de la gravité en voyant tomber une pomme, dit-on ?", "answer": "Isaac Newton" },
-  { "id": "his-enfant-035", "category": "histoire", "question": "Comment s'appelait le célèbre bateau sur lequel les Pèlerins ont traversé l'océan pour s'installer en Amérique ?", "answer": "Le Mayflower" },
-  { "id": "his-enfant-036", "category": "histoire", "question": "Comment s'appelle le physicien qui a inventé le paratonnerre en jouant avec un cerf-volant pendant l'orage ?", "answer": "Benjamin Franklin", "difficulty": "moyen" },
-  { "id": "his-enfant-037", "category": "histoire", "question": "Quel roi de France a fait construire le magnifique château de Versailles ?", "answer": "Louis XIV", "difficulty": "moyen" },
-  { "id": "his-enfant-038", "category": "histoire", "question": "Comment s'appelaient les grands bateaux à voiles que montaient les pirates ?", "answer": "Des galions (ou voiliers de pirates)", "difficulty": "facile" },
-  { "id": "his-enfant-039", "category": "histoire", "question": "Quel scientifique a inventé un vaccin qui protège contre la rage ?", "answer": "Louis Pasteur", "difficulty": "moyen" },
-  { "id": "his-enfant-040", "category": "histoire", "question": "Comment s'appelle la grande statue verte qui accueille les bateaux à New York ?", "answer": "La statue de la Liberté", "difficulty": "facile" },
-  { "id": "his-enfant-041", "category": "histoire", "question": "Quel peuple de l'Antiquité vivait en Grèce et a inventé les premiers Jeux Olympiques ?", "answer": "Les Grecs (de la Grèce antique)", "difficulty": "moyen" },
-  { "id": "his-enfant-042", "category": "histoire", "question": "Comment s'appelle le célèbre cheval en bois que les Grecs ont utilisé pour entrer dans la ville de Troie ?", "answer": "Le cheval de Troie", "difficulty": "moyen" },
-  { "id": "his-enfant-043", "category": "histoire", "question": "Quel roi légendaire d'Angleterre possédait une célèbre table ronde avec ses chevaliers ?", "answer": "Le roi Arthur", "difficulty": "facile" },
-  { "id": "his-enfant-044", "category": "histoire", "question": "Comment s'appelle l'immense empereur mongol qui a conquis un très grand territoire à cheval ?", "answer": "Gengis Khan", "difficulty": "difficile" },
-  { "id": "his-enfant-045", "category": "histoire", "question": "Quel inventeur français est connu pour avoir créé les premiers frères à voler en montgolfière ?", "answer": "Les frères Montgolfier", "difficulty": "moyen" },
-  { "id": "his-enfant-046", "category": "histoire", "question": "Comment s'appelle la civilisation qui a bâti de grandes pyramides à degrés au Mexique, comme les Aztèques ou les Mayas ?", "answer": "Les Mayas (ou les Aztèques)", "difficulty": "moyen" },
-  { "id": "his-enfant-047", "category": "histoire", "question": "Quel savant italien a construit une des premières lunettes pour observer les étoiles ?", "answer": "Galilée", "difficulty": "difficile" },
-  { "id": "his-enfant-048", "category": "histoire", "question": "Comment s'appelle le grand bateau sur lequel Christophe Colomb a traversé l'océan Atlantique ?", "answer": "La Santa María", "difficulty": "difficile" },
-  { "id": "his-enfant-049", "category": "histoire", "question": "Quel animal les chevaliers du Moyen Âge montaient-ils pour combattre lors des tournois ?", "answer": "Le cheval", "difficulty": "facile" },
-  { "id": "his-enfant-050", "category": "histoire", "question": "Comment s'appelle le célèbre pont de pierre romain encore visible aujourd'hui, construit pour faire passer l'eau ?", "answer": "Un aqueduc (par exemple le pont du Gard)", "difficulty": "difficile" }
+  {
+    "id": "his-enfant-001",
+    "category": "histoire",
+    "question": "Comment s'appelle le bateau géant qui a coulé après avoir heurté un iceberg ?",
+    "answer": "Le Titanic"
+  },
+  {
+    "id": "his-enfant-002",
+    "category": "histoire",
+    "question": "Qui étaient les hommes qui construisaient les pyramides en Égypte, il y a très longtemps ?",
+    "answer": "Les Égyptiens de l'Égypte antique"
+  },
+  {
+    "id": "his-enfant-003",
+    "category": "histoire",
+    "question": "Comment s'appelle la jeune fille française qui a mené des soldats au combat il y a très longtemps ?",
+    "answer": "Jeanne d'Arc"
+  },
+  {
+    "id": "his-enfant-004",
+    "category": "histoire",
+    "question": "Quel explorateur a traversé l'océan et découvert l'Amérique en bateau ?",
+    "answer": "Christophe Colomb"
+  },
+  {
+    "id": "his-enfant-005",
+    "category": "histoire",
+    "question": "Comment appelle-t-on les grands monuments triangulaires construits par les Égyptiens ?",
+    "answer": "Les pyramides"
+  },
+  {
+    "id": "his-enfant-006",
+    "category": "histoire",
+    "question": "Qui était le roi de France surnommé le \"Roi Soleil\" ?",
+    "answer": "Louis XIV"
+  },
+  {
+    "id": "his-enfant-007",
+    "category": "histoire",
+    "question": "En quelle année les hommes ont-ils marché sur la Lune pour la première fois ?",
+    "answer": "1969"
+  },
+  {
+    "id": "his-enfant-008",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand mur construit en Chine, visible depuis très loin ?",
+    "answer": "La Grande Muraille de Chine"
+  },
+  {
+    "id": "his-enfant-009",
+    "category": "histoire",
+    "question": "Quel empereur français portait un célèbre chapeau bicorne ?",
+    "answer": "Napoléon Bonaparte"
+  },
+  {
+    "id": "his-enfant-010",
+    "category": "histoire",
+    "question": "Comment appelle-t-on les grands animaux disparus comme le tricératops et le tyrannosaure ?",
+    "answer": "Les dinosaures"
+  },
+  {
+    "id": "his-enfant-011",
+    "category": "histoire",
+    "question": "Quel monument parisien a été construit pour une grande exposition en 1889 ?",
+    "answer": "La tour Eiffel"
+  },
+  {
+    "id": "his-enfant-012",
+    "category": "histoire",
+    "question": "Comment s'appelaient les chevaliers qui vivaient dans des châteaux forts, il y a très longtemps ?",
+    "answer": "Les chevaliers du Moyen Âge"
+  },
+  {
+    "id": "his-enfant-013",
+    "category": "histoire",
+    "question": "Qui a inventé une célèbre ampoule électrique qui s'allume ?",
+    "answer": "Thomas Edison"
+  },
+  {
+    "id": "his-enfant-014",
+    "category": "histoire",
+    "question": "Comment s'appelle la reine d'Égypte très célèbre, connue pour ses bijoux et sa couronne ?",
+    "answer": "Cléopâtre"
+  },
+  {
+    "id": "his-enfant-015",
+    "category": "histoire",
+    "question": "Quel peuple de guerriers portait des casques à cornes et naviguait sur de grands bateaux, il y a très longtemps ?",
+    "answer": "Les Vikings"
+  },
+  {
+    "id": "his-enfant-016",
+    "category": "histoire",
+    "question": "Comment s'appelle le premier homme à avoir marché sur la Lune ?",
+    "answer": "Neil Armstrong"
+  },
+  {
+    "id": "his-enfant-017",
+    "category": "histoire",
+    "question": "Quel type de bâtiment habitaient les rois et les reines au Moyen Âge ?",
+    "answer": "Un château"
+  },
+  {
+    "id": "his-enfant-018",
+    "category": "histoire",
+    "question": "Comment s'appelaient les hommes qui combattaient dans de grandes arènes rondes chez les Romains ?",
+    "answer": "Les gladiateurs"
+  },
+  {
+    "id": "his-enfant-019",
+    "category": "histoire",
+    "question": "Quel objet les pirates cherchaient-ils souvent, enterré sur une île ?",
+    "answer": "Un trésor"
+  },
+  {
+    "id": "his-enfant-020",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand bateau en bois que les Vikings utilisaient pour naviguer ?",
+    "answer": "Le drakkar"
+  },
+  {
+    "id": "his-enfant-021",
+    "category": "histoire",
+    "question": "Quel pays a construit la statue de la Liberté avant de l'offrir aux États-Unis ?",
+    "answer": "La France"
+  },
+  {
+    "id": "his-enfant-022",
+    "category": "histoire",
+    "question": "Comment s'appelaient les hommes préhistoriques qui peignaient sur les murs des grottes ?",
+    "answer": "Les hommes préhistoriques (ex : Homo sapiens)"
+  },
+  {
+    "id": "his-enfant-023",
+    "category": "histoire",
+    "question": "Quel roi anglais est connu pour avoir eu six épouses ?",
+    "answer": "Henri VIII"
+  },
+  {
+    "id": "his-enfant-024",
+    "category": "histoire",
+    "question": "Comment appelle-t-on la période très ancienne où vivaient les chevaliers et les châteaux forts ?",
+    "answer": "Le Moyen Âge"
+  },
+  {
+    "id": "his-enfant-025",
+    "category": "histoire",
+    "question": "Quel objet rond et doré les rois portaient-ils sur la tête ?",
+    "answer": "Une couronne"
+  },
+  {
+    "id": "his-enfant-026",
+    "category": "histoire",
+    "question": "Comment s'appelle la civilisation qui a construit le Machu Picchu, une cité perchée en montagne ?",
+    "answer": "Les Incas"
+  },
+  {
+    "id": "his-enfant-027",
+    "category": "histoire",
+    "question": "Quel peuple de l'Antiquité organisait des courses de chars et des combats de gladiateurs ?",
+    "answer": "Les Romains"
+  },
+  {
+    "id": "his-enfant-028",
+    "category": "histoire",
+    "question": "Comment appelle-t-on l'écriture faite de petits dessins utilisée par les Égyptiens ?",
+    "answer": "Les hiéroglyphes"
+  },
+  {
+    "id": "his-enfant-029",
+    "category": "histoire",
+    "question": "Quel inventeur est connu pour avoir imaginé de nombreuses machines volantes et la Joconde ?",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "id": "his-enfant-030",
+    "category": "histoire",
+    "question": "Comment s'appelle le monument de pierres géantes en cercle en Angleterre ?",
+    "answer": "Stonehenge"
+  },
+  {
+    "id": "his-enfant-031",
+    "category": "histoire",
+    "question": "Comment s'appelle le pharaon égyptien dont on a retrouvé le tombeau rempli de trésors, avec un masque doré ?",
+    "answer": "Toutânkhamon"
+  },
+  {
+    "id": "his-enfant-032",
+    "category": "histoire",
+    "question": "Quel explorateur français a fondé la ville de Québec ?",
+    "answer": "Samuel de Champlain"
+  },
+  {
+    "id": "his-enfant-033",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand voyageur qui a raconté ses aventures en Chine dans un livre célèbre ?",
+    "answer": "Marco Polo"
+  },
+  {
+    "id": "his-enfant-034",
+    "category": "histoire",
+    "question": "Quel savant a eu l'idée de la gravité en voyant tomber une pomme, dit-on ?",
+    "answer": "Isaac Newton"
+  },
+  {
+    "id": "his-enfant-035",
+    "category": "histoire",
+    "question": "Comment s'appelait le célèbre bateau sur lequel les Pèlerins ont traversé l'océan pour s'installer en Amérique ?",
+    "answer": "Le Mayflower"
+  },
+  {
+    "id": "his-enfant-036",
+    "category": "histoire",
+    "question": "Comment s'appelle le physicien qui a inventé le paratonnerre en jouant avec un cerf-volant pendant l'orage ?",
+    "answer": "Benjamin Franklin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-037",
+    "category": "histoire",
+    "question": "Quel roi de France a fait construire le magnifique château de Versailles ?",
+    "answer": "Louis XIV",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-038",
+    "category": "histoire",
+    "question": "Comment s'appelaient les grands bateaux à voiles que montaient les pirates ?",
+    "answer": "Des galions (ou voiliers de pirates)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-039",
+    "category": "histoire",
+    "question": "Quel scientifique a inventé un vaccin qui protège contre la rage ?",
+    "answer": "Louis Pasteur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-040",
+    "category": "histoire",
+    "question": "Comment s'appelle la grande statue verte qui accueille les bateaux à New York ?",
+    "answer": "La statue de la Liberté",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-041",
+    "category": "histoire",
+    "question": "Quel peuple de l'Antiquité vivait en Grèce et a inventé les premiers Jeux Olympiques ?",
+    "answer": "Les Grecs (de la Grèce antique)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-042",
+    "category": "histoire",
+    "question": "Comment s'appelle le célèbre cheval en bois que les Grecs ont utilisé pour entrer dans la ville de Troie ?",
+    "answer": "Le cheval de Troie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-043",
+    "category": "histoire",
+    "question": "Quel roi légendaire d'Angleterre possédait une célèbre table ronde avec ses chevaliers ?",
+    "answer": "Le roi Arthur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-044",
+    "category": "histoire",
+    "question": "Comment s'appelle l'immense empereur mongol qui a conquis un très grand territoire à cheval ?",
+    "answer": "Gengis Khan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-045",
+    "category": "histoire",
+    "question": "Quel inventeur français est connu pour avoir créé les premiers frères à voler en montgolfière ?",
+    "answer": "Les frères Montgolfier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-046",
+    "category": "histoire",
+    "question": "Comment s'appelle la civilisation qui a bâti de grandes pyramides à degrés au Mexique, comme les Aztèques ou les Mayas ?",
+    "answer": "Les Mayas (ou les Aztèques)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-047",
+    "category": "histoire",
+    "question": "Quel savant italien a construit une des premières lunettes pour observer les étoiles ?",
+    "answer": "Galilée",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-048",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand bateau sur lequel Christophe Colomb a traversé l'océan Atlantique ?",
+    "answer": "La Santa María",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-049",
+    "category": "histoire",
+    "question": "Quel animal les chevaliers du Moyen Âge montaient-ils pour combattre lors des tournois ?",
+    "answer": "Le cheval",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-050",
+    "category": "histoire",
+    "question": "Comment s'appelle le célèbre pont de pierre romain encore visible aujourd'hui, construit pour faire passer l'eau ?",
+    "answer": "Un aqueduc (par exemple le pont du Gard)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-051",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand empereur romain qui a donné son nom au mois de juillet ?",
+    "answer": "Jules César",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-052",
+    "category": "histoire",
+    "question": "Quel peuple de l'Antiquité vivait le long du Nil et adorait des dieux comme Rê, dieu du soleil ?",
+    "answer": "Les Égyptiens",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-053",
+    "category": "histoire",
+    "question": "Comment s'appelle le célèbre roi de France qui vivait au château de Versailles avec toute sa cour ?",
+    "answer": "Louis XIV",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-054",
+    "category": "histoire",
+    "question": "Quel outil les hommes préhistoriques utilisaient-ils pour tailler la pierre ?",
+    "answer": "Un silex",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-055",
+    "category": "histoire",
+    "question": "Comment s'appelle la grande tour penchée construite en Italie, il y a très longtemps ?",
+    "answer": "La tour de Pise",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-056",
+    "category": "histoire",
+    "question": "Quel peuple a construit le Colisée, un immense stade rond, dans sa capitale ?",
+    "answer": "Les Romains",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-057",
+    "category": "histoire",
+    "question": "Comment s'appelait le célèbre bateau qui a exploré les mers avec le capitaine James Cook ?",
+    "answer": "L'Endeavour",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-058",
+    "category": "histoire",
+    "question": "Quel inventeur américain a créé le téléphone ?",
+    "answer": "Alexander Graham Bell",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-059",
+    "category": "histoire",
+    "question": "Comment s'appelle le monument en forme d'arc, situé à Paris, sous lequel brûle une flamme ?",
+    "answer": "L'Arc de Triomphe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-060",
+    "category": "histoire",
+    "question": "Quel peuple d'Amérique du Sud a construit d'immenses routes et vivait dans les montagnes des Andes ?",
+    "answer": "Les Incas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-061",
+    "category": "histoire",
+    "question": "Comment s'appelle la reine d'Angleterre qui a régné très longtemps, pendant plus de 60 ans, au XIXe siècle ?",
+    "answer": "La reine Victoria",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-062",
+    "category": "histoire",
+    "question": "Quel explorateur portugais a été le premier à faire le tour du monde en bateau ?",
+    "answer": "Fernand de Magellan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-063",
+    "category": "histoire",
+    "question": "Comment appelle-t-on les maisons rondes en pierre où vivaient certains hommes préhistoriques ?",
+    "answer": "Des huttes (ou cabanes préhistoriques)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-064",
+    "category": "histoire",
+    "question": "Quel savant a inventé le paratonnerre pour protéger les maisons de la foudre ?",
+    "answer": "Benjamin Franklin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-065",
+    "category": "histoire",
+    "question": "Comment s'appelle la princesse égyptienne qui régnait avec un serpent doré sur sa couronne ?",
+    "answer": "Cléopâtre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-066",
+    "category": "histoire",
+    "question": "Quel type d'armure les chevaliers portaient-ils pour se protéger pendant les combats ?",
+    "answer": "Une armure en métal (armure de fer)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-067",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand bateau de guerre viking, avec une tête de dragon sculptée à l'avant ?",
+    "answer": "Le drakkar",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-068",
+    "category": "histoire",
+    "question": "Quel peuple ancien a inventé l'écriture cunéiforme, avec des petits traits sur des tablettes d'argile ?",
+    "answer": "Les Sumériens",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-069",
+    "category": "histoire",
+    "question": "Comment s'appelle le célèbre inventeur qui a créé l'automobile moderne fabriquée en grande série ?",
+    "answer": "Henry Ford",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-070",
+    "category": "histoire",
+    "question": "Quel roi de France portait le surnom de \"Saint Louis\" et rendait la justice sous un chêne ?",
+    "answer": "Louis IX",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "his-enfant-071",
+    "category": "histoire",
+    "question": "Comment s'appelle le premier empereur de Chine, qui a fait fabriquer une armée de soldats en terre cuite ?",
+    "answer": "Qin Shi Huang",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-072",
+    "category": "histoire",
+    "question": "Quel explorateur italien a servi l'empereur de Chine et lui a rapporté des pâtes, dit-on ?",
+    "answer": "Marco Polo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-073",
+    "category": "histoire",
+    "question": "Comment s'appelle la déesse égyptienne représentée avec une tête de chat ?",
+    "answer": "Bastet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-074",
+    "category": "histoire",
+    "question": "Quel peuple d'Amérique centrale pratiquait un jeu de balle sacré et cultivait le cacao ?",
+    "answer": "Les Aztèques (ou les Mayas)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-075",
+    "category": "histoire",
+    "question": "Comment s'appelle la ville engloutie par un volcan en Italie, retrouvée presque intacte sous la cendre ?",
+    "answer": "Pompéi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-076",
+    "category": "histoire",
+    "question": "Quel volcan italien a recouvert la ville de Pompéi de cendres, il y a très longtemps ?",
+    "answer": "Le Vésuve",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-077",
+    "category": "histoire",
+    "question": "Comment s'appelle le philosophe grec qui a été le maître du grand conquérant Alexandre le Grand ?",
+    "answer": "Aristote",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-078",
+    "category": "histoire",
+    "question": "Quel jeune roi grec a conquis un immense empire jusqu'en Inde avant d'avoir trente ans ?",
+    "answer": "Alexandre le Grand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-079",
+    "category": "histoire",
+    "question": "Comment s'appelle la grande bibliothèque de l'Égypte antique qui contenait des milliers de rouleaux de papyrus ?",
+    "answer": "La bibliothèque d'Alexandrie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-080",
+    "category": "histoire",
+    "question": "Sur quel matériau les Égyptiens de l'Antiquité écrivaient-ils, fabriqué à partir d'une plante du Nil ?",
+    "answer": "Le papyrus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-081",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand temple grec construit en l'honneur de la déesse Athéna, à Athènes ?",
+    "answer": "Le Parthénon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-082",
+    "category": "histoire",
+    "question": "Quel roi biblique était réputé pour sa très grande sagesse et rendait des jugements justes ?",
+    "answer": "Le roi Salomon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-083",
+    "category": "histoire",
+    "question": "Comment appelle-t-on les grands jardins suspendus qui figuraient parmi les merveilles du monde antique ?",
+    "answer": "Les jardins suspendus de Babylone",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-084",
+    "category": "histoire",
+    "question": "Quelle immense statue en bronze, aujourd'hui disparue, se dressait autrefois à l'entrée d'un port grec ?",
+    "answer": "Le colosse de Rhodes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-085",
+    "category": "histoire",
+    "question": "Comment s'appelle le célèbre phare de l'Antiquité qui guidait les bateaux vers un port égyptien ?",
+    "answer": "Le phare d'Alexandrie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-086",
+    "category": "histoire",
+    "question": "Quel personnage légendaire aurait construit une grande arche pour sauver les animaux d'un déluge ?",
+    "answer": "Noé",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-087",
+    "category": "histoire",
+    "question": "Comment s'appelle la reine légendaire qui aurait fondé la ville de Carthage, en Afrique du Nord ?",
+    "answer": "Didon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-088",
+    "category": "histoire",
+    "question": "Quel général célèbre a traversé les Alpes avec des éléphants pour attaquer Rome ?",
+    "answer": "Hannibal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-089",
+    "category": "histoire",
+    "question": "Comment s'appelle le premier empereur romain, qui a donné son nom au mois d'août ?",
+    "answer": "Auguste",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-090",
+    "category": "histoire",
+    "question": "Quel peuple nomade vivait dans des tipis et chassait le bison dans les grandes plaines d'Amérique ?",
+    "answer": "Les Amérindiens (par exemple les Sioux)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-091",
+    "category": "histoire",
+    "question": "Comment s'appelle la fête que les premiers colons et les Amérindiens auraient partagée autour d'un grand repas ?",
+    "answer": "Thanksgiving",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-092",
+    "category": "histoire",
+    "question": "Quel explorateur norvégien a été le premier à atteindre le pôle Sud ?",
+    "answer": "Roald Amundsen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-093",
+    "category": "histoire",
+    "question": "Comment s'appelle l'inventeur qui a mis au point la première imprimerie avec des lettres mobiles ?",
+    "answer": "Gutenberg",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-094",
+    "category": "histoire",
+    "question": "Quel objet Gutenberg a-t-il permis de fabriquer beaucoup plus vite grâce à son invention ?",
+    "answer": "Les livres",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-095",
+    "category": "histoire",
+    "question": "Comment s'appelle le peintre italien qui a peint le plafond de la chapelle Sixtine, allongé sur le dos ?",
+    "answer": "Michel-Ange",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-096",
+    "category": "histoire",
+    "question": "Quel savant polonais a découvert que la Terre tourne autour du Soleil ?",
+    "answer": "Copernic",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-097",
+    "category": "histoire",
+    "question": "Comment s'appelle la scientifique française qui a découvert la radioactivité et reçu deux prix Nobel ?",
+    "answer": "Marie Curie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-098",
+    "category": "histoire",
+    "question": "Quel inventeur écossais a créé un vaccin en observant que les fermières attrapant la vaccine ne tombaient pas malades de la variole ?",
+    "answer": "Edward Jenner",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-099",
+    "category": "histoire",
+    "question": "Comment s'appelle le frère et sœur de France qui ont réalisé les premiers films de l'histoire ?",
+    "answer": "Les frères Lumière",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-100",
+    "category": "histoire",
+    "question": "Quels sont les deux frères américains qui ont réussi le premier vol en avion motorisé ?",
+    "answer": "Les frères Wright",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-101",
+    "category": "histoire",
+    "question": "Comment s'appelle la reine d'Égypte dont le buste, avec sa couronne bleue, est très célèbre ?",
+    "answer": "Néfertiti",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-102",
+    "category": "histoire",
+    "question": "Quel animal les Égyptiens de l'Antiquité momifiaient-ils souvent car ils le considéraient comme sacré ?",
+    "answer": "Le chat",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-103",
+    "category": "histoire",
+    "question": "Comment s'appelle la technique égyptienne qui permettait de conserver le corps des pharaons après leur mort ?",
+    "answer": "La momification",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-104",
+    "category": "histoire",
+    "question": "Quel fleuve, très important pour les Égyptiens, débordait chaque année et rendait la terre fertile ?",
+    "answer": "Le Nil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-105",
+    "category": "histoire",
+    "question": "Comment appelle-t-on le grand marché couvert où les gens du Moyen Âge venaient vendre et acheter des marchandises ?",
+    "answer": "Les halles (marché médiéval)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-106",
+    "category": "histoire",
+    "question": "Quel événement du Moyen Âge opposait des chevaliers à cheval, armés de lances, devant un public ?",
+    "answer": "Un tournoi de chevalerie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-107",
+    "category": "histoire",
+    "question": "Comment s'appelle le grand bâtiment religieux aux vitraux colorés que l'on construisait au Moyen Âge, comme Notre-Dame de Paris ?",
+    "answer": "Une cathédrale",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-108",
+    "category": "histoire",
+    "question": "Quel roi de France a construit le Louvre comme forteresse avant qu'il ne devienne un musée ?",
+    "answer": "Philippe Auguste",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-109",
+    "category": "histoire",
+    "question": "Comment s'appelle le bâtiment parisien qui était autrefois un palais royal et qui abrite aujourd'hui la Joconde ?",
+    "answer": "Le musée du Louvre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-110",
+    "category": "histoire",
+    "question": "Quel roi de France, très jeune au moment de son sacre, est resté célèbre sous le nom de Louis XVI, marié à Marie-Antoinette ?",
+    "answer": "Louis XVI",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-111",
+    "category": "histoire",
+    "question": "Comment s'appelait la reine de France, épouse de Louis XVI, connue pour ses belles robes et ses bijoux ?",
+    "answer": "Marie-Antoinette",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-112",
+    "category": "histoire",
+    "question": "Quelle grande forteresse parisienne, aujourd'hui disparue, a été prise par le peuple un jour de juillet ?",
+    "answer": "La Bastille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-113",
+    "category": "histoire",
+    "question": "Comment s'appelle la femme qui a piloté un avion et traversé l'océan Atlantique seule, la première parmi les femmes ?",
+    "answer": "Amelia Earhart",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-114",
+    "category": "histoire",
+    "question": "Comment s'appelle l'inventeur italien connu pour avoir mis au point la pile électrique ?",
+    "answer": "Alessandro Volta",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-115",
+    "category": "histoire",
+    "question": "Quel physicien allemand a imaginé la théorie de la relativité et tirait souvent la langue sur les photos ?",
+    "answer": "Albert Einstein",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-116",
+    "category": "histoire",
+    "question": "Comment s'appelle l'inventeur qui a créé le premier stylo à bille, encore utilisé aujourd'hui ?",
+    "answer": "László Bíró",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-117",
+    "category": "histoire",
+    "question": "Comment s'appelle le fameux archer anglais légendaire qui volait aux riches pour donner aux pauvres ?",
+    "answer": "Robin des Bois",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-118",
+    "category": "histoire",
+    "question": "Comment s'appelle l'explorateur espagnol qui a conquis l'empire aztèque au Mexique ?",
+    "answer": "Hernán Cortés",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-119",
+    "category": "histoire",
+    "question": "Quel empereur aztèque régnait au Mexique lorsque les explorateurs espagnols sont arrivés ?",
+    "answer": "Moctezuma",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-120",
+    "category": "histoire",
+    "question": "Comment s'appelle la civilisation ancienne du Mexique connue pour son calendrier très précis et ses pyramides ?",
+    "answer": "Les Mayas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-121",
+    "category": "histoire",
+    "question": "Quel oiseau sacré, symbole du Mexique ancien, orne aujourd'hui le drapeau du pays avec un serpent ?",
+    "answer": "L'aigle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-122",
+    "category": "histoire",
+    "question": "Comment s'appelle le fleuve d'Amérique du Sud le long duquel vivaient de nombreux peuples anciens de la forêt ?",
+    "answer": "L'Amazone",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-123",
+    "category": "histoire",
+    "question": "Quel métal précieux les Incas utilisaient-ils pour fabriquer des objets en l'honneur du Soleil ?",
+    "answer": "L'or",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-124",
+    "category": "histoire",
+    "question": "Comment s'appelle la grande cité perchée dans les montagnes du Pérou, redécouverte au début du XXe siècle ?",
+    "answer": "Le Machu Picchu",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-125",
+    "category": "histoire",
+    "question": "Quel type d'animal les Incas utilisaient-ils pour transporter des charges dans les montagnes ?",
+    "answer": "Le lama",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-126",
+    "category": "histoire",
+    "question": "Quel roi anglais surnommé \"Cœur de Lion\" est parti combattre très loin pendant les croisades ?",
+    "answer": "Richard Cœur de Lion",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-127",
+    "category": "histoire",
+    "question": "Comment appelle-t-on la longue période de voyages lointains où des explorateurs européens ont découvert de nouvelles routes maritimes ?",
+    "answer": "Les grandes découvertes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-128",
+    "category": "histoire",
+    "question": "Quel explorateur portugais a été le premier Européen à contourner l'Afrique par bateau pour rejoindre l'Inde ?",
+    "answer": "Vasco de Gama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-129",
+    "category": "histoire",
+    "question": "Comment appelle-t-on l'instrument que les marins d'autrefois utilisaient pour connaître leur direction en mer ?",
+    "answer": "La boussole",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-130",
+    "category": "histoire",
+    "question": "Quel pays a inventé la boussole, la poudre à canon et le papier, il y a très longtemps ?",
+    "answer": "La Chine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-131",
+    "category": "histoire",
+    "question": "Comment s'appelle la longue route commerciale qui reliait autrefois la Chine à l'Europe, empruntée par les marchands ?",
+    "answer": "La route de la soie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-132",
+    "category": "histoire",
+    "question": "Quel tissu précieux, fabriqué à partir d'un fil produit par des vers, voyageait le long de la route de la soie ?",
+    "answer": "La soie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-133",
+    "category": "histoire",
+    "question": "Comment s'appelle l'armée en argile grandeur nature, retrouvée enterrée près du tombeau d'un empereur chinois ?",
+    "answer": "L'armée de terre cuite",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-134",
+    "category": "histoire",
+    "question": "Quel animal fantastique orne souvent les toits des temples et palais impériaux chinois ?",
+    "answer": "Le dragon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-135",
+    "category": "histoire",
+    "question": "Comment s'appelle le titre donné au chef suprême qui gouvernait la Chine autrefois ?",
+    "answer": "L'empereur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "his-enfant-136",
+    "category": "histoire",
+    "question": "Quel philosophe chinois, célèbre pour ses maximes de sagesse, a donné son nom à une pensée encore enseignée aujourd'hui ?",
+    "answer": "Confucius",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-137",
+    "category": "histoire",
+    "question": "Comment s'appelle le savant italien qui a défendu l'idée que la Terre tourne autour du Soleil et a observé le ciel avec une lunette ?",
+    "answer": "Galilée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-138",
+    "category": "histoire",
+    "question": "Quel roi de France, dit \"le Bien-Aimé\", a régné juste avant Louis XVI ?",
+    "answer": "Louis XV",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-139",
+    "category": "histoire",
+    "question": "Comment s'appelle le peuple ancien qui a inventé les premiers Jeux olympiques, dans la ville d'Olympie ?",
+    "answer": "Les Grecs (la civilisation grecque antique)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "his-enfant-140",
+    "category": "histoire",
+    "question": "Quel inventeur américain a créé l'ampoule électrique que l'on utilise pour éclairer les maisons ?",
+    "answer": "Thomas Edison",
+    "difficulty": "moyen"
+  }
 ]

@@ -1,52 +1,947 @@
 [
-  { "id": "art-ado-001", "category": "art-litterature", "question": "Qui a peint la Joconde ?", "answer": "Léonard de Vinci" },
-  { "id": "art-ado-002", "category": "art-litterature", "question": "Qui est l'auteur des \"Misérables\" ?", "answer": "Victor Hugo" },
-  { "id": "art-ado-003", "category": "art-litterature", "question": "Quel peintre néerlandais s'est coupé une partie de l'oreille ?", "answer": "Vincent van Gogh" },
-  { "id": "art-ado-004", "category": "art-litterature", "question": "Qui a écrit \"Roméo et Juliette\" ?", "answer": "William Shakespeare" },
-  { "id": "art-ado-005", "category": "art-litterature", "question": "Dans quel musée parisien peut-on admirer la Joconde ?", "answer": "Le musée du Louvre" },
-  { "id": "art-ado-006", "category": "art-litterature", "question": "Qui est l'auteure de la saga \"Harry Potter\" ?", "answer": "J.K. Rowling" },
-  { "id": "art-ado-007", "category": "art-litterature", "question": "Quel sculpteur français a créé \"Le Penseur\" ?", "answer": "Auguste Rodin" },
-  { "id": "art-ado-008", "category": "art-litterature", "question": "Qui a écrit \"Le Petit Prince\" ?", "answer": "Antoine de Saint-Exupéry" },
-  { "id": "art-ado-009", "category": "art-litterature", "question": "Quel mouvement pictural est associé à Claude Monet ?", "answer": "L'impressionnisme" },
-  { "id": "art-ado-010", "category": "art-litterature", "question": "Quel peintre espagnol est le père du cubisme avec Georges Braque ?", "answer": "Pablo Picasso" },
-  { "id": "art-ado-011", "category": "art-litterature", "question": "Quel artiste a peint \"La Nuit étoilée\" ?", "answer": "Vincent van Gogh" },
-  { "id": "art-ado-012", "category": "art-litterature", "question": "Qui est l'auteur du roman \"1984\" ?", "answer": "George Orwell" },
-  { "id": "art-ado-013", "category": "art-litterature", "question": "Quel écrivain français a créé le personnage de d'Artagnan ?", "answer": "Alexandre Dumas" },
-  { "id": "art-ado-014", "category": "art-litterature", "question": "Quel peintre italien a réalisé le plafond de la chapelle Sixtine ?", "answer": "Michel-Ange" },
-  { "id": "art-ado-015", "category": "art-litterature", "question": "Qui a écrit \"Orgueil et Préjugés\" ?", "answer": "Jane Austen" },
-  { "id": "art-ado-016", "category": "art-litterature", "question": "Quel peintre norvégien a créé le tableau \"Le Cri\" ?", "answer": "Edvard Munch" },
-  { "id": "art-ado-017", "category": "art-litterature", "question": "Qui a écrit la trilogie \"Le Seigneur des Anneaux\" ?", "answer": "J.R.R. Tolkien" },
-  { "id": "art-ado-018", "category": "art-litterature", "question": "Quel artiste est célèbre pour ses montres molles dans le tableau \"La Persistance de la mémoire\" ?", "answer": "Salvador Dalí" },
-  { "id": "art-ado-019", "category": "art-litterature", "question": "Qui est l'auteur de \"Notre-Dame de Paris\" ?", "answer": "Victor Hugo" },
-  { "id": "art-ado-020", "category": "art-litterature", "question": "Quel artiste américain est célèbre pour ses œuvres pop art représentant des boîtes de soupe Campbell ?", "answer": "Andy Warhol" },
-  { "id": "art-ado-021", "category": "art-litterature", "question": "Qui a sculpté le David, exposé à Florence ?", "answer": "Michel-Ange" },
-  { "id": "art-ado-022", "category": "art-litterature", "question": "Quel romancier russe a écrit \"Guerre et Paix\" ?", "answer": "Léon Tolstoï" },
-  { "id": "art-ado-023", "category": "art-litterature", "question": "Qui a créé le personnage de Sherlock Holmes ?", "answer": "Arthur Conan Doyle" },
-  { "id": "art-ado-024", "category": "art-litterature", "question": "Quel peintre est associé au mouvement du pointillisme avec le tableau \"Un dimanche après-midi à l'Île de la Grande Jatte\" ?", "answer": "Georges Seurat" },
-  { "id": "art-ado-025", "category": "art-litterature", "question": "Qui a écrit la dystopie \"Le Meilleur des mondes\" ?", "answer": "Aldous Huxley" },
-  { "id": "art-ado-026", "category": "art-litterature", "question": "Quel street artiste britannique anonyme est connu pour ses pochoirs engagés ?", "answer": "Banksy" },
-  { "id": "art-ado-027", "category": "art-litterature", "question": "Qui a écrit la trilogie dystopique \"Hunger Games\" ?", "answer": "Suzanne Collins" },
-  { "id": "art-ado-028", "category": "art-litterature", "question": "Quel peintre a fondé le mouvement surréaliste en littérature avec son manifeste de 1924 ?", "answer": "André Breton" },
-  { "id": "art-ado-029", "category": "art-litterature", "question": "Qui est l'auteur de la saga \"Percy Jackson\" ?", "answer": "Rick Riordan" },
-  { "id": "art-ado-030", "category": "art-litterature", "question": "Quel poète français est l'auteur du recueil \"Les Fleurs du mal\" ?", "answer": "Charles Baudelaire" },
-  { "id": "art-ado-031", "category": "art-litterature", "question": "Qui est l'auteur de la saga de fantasy \"Eragon\", écrite alors qu'il était adolescent ?", "answer": "Christopher Paolini" },
-  { "id": "art-ado-032", "category": "art-litterature", "question": "Quel peintre mexicaine est célèbre pour ses nombreux autoportraits, dont \"Autoportrait au collier d'épines\" ?", "answer": "Frida Kahlo" },
-  { "id": "art-ado-033", "category": "art-litterature", "question": "Quel écrivain français a imaginé le capitaine Nemo dans \"Vingt Mille Lieues sous les mers\" ?", "answer": "Jules Verne" },
-  { "id": "art-ado-034", "category": "art-litterature", "question": "Quel artiste italien de la Renaissance a peint \"La Naissance de Vénus\" ?", "answer": "Sandro Botticelli" },
-  { "id": "art-ado-035", "category": "art-litterature", "question": "Quelle autrice britannique est à l'origine de la série de romans \"Le Journal de Bridget Jones\" ?", "answer": "Helen Fielding" },
-  { "id": "art-ado-036", "category": "art-litterature", "question": "Quel écrivain français a créé le personnage de Gavroche dans \"Les Misérables\" ?", "answer": "Victor Hugo", "difficulty": "moyen" },
-  { "id": "art-ado-037", "category": "art-litterature", "question": "Quel peintre hollandais du XVIIe siècle a peint \"La Jeune Fille à la perle\" ?", "answer": "Johannes Vermeer", "difficulty": "moyen" },
-  { "id": "art-ado-038", "category": "art-litterature", "question": "Quelle autrice américaine a écrit la saga \"Twilight\" ?", "answer": "Stephenie Meyer", "difficulty": "facile" },
-  { "id": "art-ado-039", "category": "art-litterature", "question": "Quel peintre français est célèbre pour ses tableaux de danseuses de ballet, comme \"L'Étoile\" ?", "answer": "Edgar Degas", "difficulty": "moyen" },
-  { "id": "art-ado-040", "category": "art-litterature", "question": "Quel romancier français est l'auteur de \"Le Comte de Monte-Cristo\" ?", "answer": "Alexandre Dumas", "difficulty": "facile" },
-  { "id": "art-ado-041", "category": "art-litterature", "question": "Quel artiste flamand du XVIIe siècle est célèbre pour ses tableaux baroques réalisés dans son atelier d'Anvers ?", "answer": "Pierre Paul Rubens", "difficulty": "difficile" },
-  { "id": "art-ado-042", "category": "art-litterature", "question": "Quel écrivain américain est l'auteur du roman \"Nos étoiles contraires\" ?", "answer": "John Green", "difficulty": "facile" },
-  { "id": "art-ado-043", "category": "art-litterature", "question": "Quel peintre italien de la Renaissance a peint \"L'École d'Athènes\" ?", "answer": "Raphaël", "difficulty": "moyen" },
-  { "id": "art-ado-044", "category": "art-litterature", "question": "Quel dramaturge français du XVIIe siècle a écrit \"Le Malade imaginaire\" ?", "answer": "Molière", "difficulty": "facile" },
-  { "id": "art-ado-045", "category": "art-litterature", "question": "Quel peintre autrichien a créé le tableau \"Le Baiser\", orné de dorures ?", "answer": "Gustav Klimt", "difficulty": "moyen" },
-  { "id": "art-ado-046", "category": "art-litterature", "question": "Quelle autrice britannique a créé le détective belge Hercule Poirot ?", "answer": "Agatha Christie", "difficulty": "facile" },
-  { "id": "art-ado-047", "category": "art-litterature", "question": "Quel peintre impressionniste français a réalisé de nombreuses toiles représentant des nénuphars ?", "answer": "Claude Monet", "difficulty": "facile" },
-  { "id": "art-ado-048", "category": "art-litterature", "question": "Quel écrivain colombien est l'auteur de \"Cent ans de solitude\" ?", "answer": "Gabriel García Márquez", "difficulty": "difficile" },
-  { "id": "art-ado-049", "category": "art-litterature", "question": "Quel sculpteur français a réalisé la Statue de la Liberté offerte aux États-Unis ?", "answer": "Frédéric Auguste Bartholdi", "difficulty": "moyen" },
-  { "id": "art-ado-050", "category": "art-litterature", "question": "Quelle autrice française a écrit \"L'Élégance du hérisson\" ?", "answer": "Muriel Barbery", "difficulty": "moyen" }
+  {
+    "id": "art-ado-001",
+    "category": "art-litterature",
+    "question": "Qui a peint la Joconde ?",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "id": "art-ado-002",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur des \"Misérables\" ?",
+    "answer": "Victor Hugo"
+  },
+  {
+    "id": "art-ado-003",
+    "category": "art-litterature",
+    "question": "Quel peintre néerlandais s'est coupé une partie de l'oreille ?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "art-ado-004",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Roméo et Juliette\" ?",
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": "art-ado-005",
+    "category": "art-litterature",
+    "question": "Dans quel musée parisien peut-on admirer la Joconde ?",
+    "answer": "Le musée du Louvre"
+  },
+  {
+    "id": "art-ado-006",
+    "category": "art-litterature",
+    "question": "Qui est l'auteure de la saga \"Harry Potter\" ?",
+    "answer": "J.K. Rowling"
+  },
+  {
+    "id": "art-ado-007",
+    "category": "art-litterature",
+    "question": "Quel sculpteur français a créé \"Le Penseur\" ?",
+    "answer": "Auguste Rodin"
+  },
+  {
+    "id": "art-ado-008",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Le Petit Prince\" ?",
+    "answer": "Antoine de Saint-Exupéry"
+  },
+  {
+    "id": "art-ado-009",
+    "category": "art-litterature",
+    "question": "Quel mouvement pictural est associé à Claude Monet ?",
+    "answer": "L'impressionnisme"
+  },
+  {
+    "id": "art-ado-010",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol est le père du cubisme avec Georges Braque ?",
+    "answer": "Pablo Picasso"
+  },
+  {
+    "id": "art-ado-011",
+    "category": "art-litterature",
+    "question": "Quel artiste a peint \"La Nuit étoilée\" ?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "art-ado-012",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur du roman \"1984\" ?",
+    "answer": "George Orwell"
+  },
+  {
+    "id": "art-ado-013",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a créé le personnage de d'Artagnan ?",
+    "answer": "Alexandre Dumas"
+  },
+  {
+    "id": "art-ado-014",
+    "category": "art-litterature",
+    "question": "Quel peintre italien a réalisé le plafond de la chapelle Sixtine ?",
+    "answer": "Michel-Ange"
+  },
+  {
+    "id": "art-ado-015",
+    "category": "art-litterature",
+    "question": "Qui a écrit \"Orgueil et Préjugés\" ?",
+    "answer": "Jane Austen"
+  },
+  {
+    "id": "art-ado-016",
+    "category": "art-litterature",
+    "question": "Quel peintre norvégien a créé le tableau \"Le Cri\" ?",
+    "answer": "Edvard Munch"
+  },
+  {
+    "id": "art-ado-017",
+    "category": "art-litterature",
+    "question": "Qui a écrit la trilogie \"Le Seigneur des Anneaux\" ?",
+    "answer": "J.R.R. Tolkien"
+  },
+  {
+    "id": "art-ado-018",
+    "category": "art-litterature",
+    "question": "Quel artiste est célèbre pour ses montres molles dans le tableau \"La Persistance de la mémoire\" ?",
+    "answer": "Salvador Dalí"
+  },
+  {
+    "id": "art-ado-019",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur de \"Notre-Dame de Paris\" ?",
+    "answer": "Victor Hugo"
+  },
+  {
+    "id": "art-ado-020",
+    "category": "art-litterature",
+    "question": "Quel artiste américain est célèbre pour ses œuvres pop art représentant des boîtes de soupe Campbell ?",
+    "answer": "Andy Warhol"
+  },
+  {
+    "id": "art-ado-021",
+    "category": "art-litterature",
+    "question": "Qui a sculpté le David, exposé à Florence ?",
+    "answer": "Michel-Ange"
+  },
+  {
+    "id": "art-ado-022",
+    "category": "art-litterature",
+    "question": "Quel romancier russe a écrit \"Guerre et Paix\" ?",
+    "answer": "Léon Tolstoï"
+  },
+  {
+    "id": "art-ado-023",
+    "category": "art-litterature",
+    "question": "Qui a créé le personnage de Sherlock Holmes ?",
+    "answer": "Arthur Conan Doyle"
+  },
+  {
+    "id": "art-ado-024",
+    "category": "art-litterature",
+    "question": "Quel peintre est associé au mouvement du pointillisme avec le tableau \"Un dimanche après-midi à l'Île de la Grande Jatte\" ?",
+    "answer": "Georges Seurat"
+  },
+  {
+    "id": "art-ado-025",
+    "category": "art-litterature",
+    "question": "Qui a écrit la dystopie \"Le Meilleur des mondes\" ?",
+    "answer": "Aldous Huxley"
+  },
+  {
+    "id": "art-ado-026",
+    "category": "art-litterature",
+    "question": "Quel street artiste britannique anonyme est connu pour ses pochoirs engagés ?",
+    "answer": "Banksy"
+  },
+  {
+    "id": "art-ado-027",
+    "category": "art-litterature",
+    "question": "Qui a écrit la trilogie dystopique \"Hunger Games\" ?",
+    "answer": "Suzanne Collins"
+  },
+  {
+    "id": "art-ado-028",
+    "category": "art-litterature",
+    "question": "Quel peintre a fondé le mouvement surréaliste en littérature avec son manifeste de 1924 ?",
+    "answer": "André Breton"
+  },
+  {
+    "id": "art-ado-029",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur de la saga \"Percy Jackson\" ?",
+    "answer": "Rick Riordan"
+  },
+  {
+    "id": "art-ado-030",
+    "category": "art-litterature",
+    "question": "Quel poète français est l'auteur du recueil \"Les Fleurs du mal\" ?",
+    "answer": "Charles Baudelaire"
+  },
+  {
+    "id": "art-ado-031",
+    "category": "art-litterature",
+    "question": "Qui est l'auteur de la saga de fantasy \"Eragon\", écrite alors qu'il était adolescent ?",
+    "answer": "Christopher Paolini"
+  },
+  {
+    "id": "art-ado-032",
+    "category": "art-litterature",
+    "question": "Quel peintre mexicaine est célèbre pour ses nombreux autoportraits, dont \"Autoportrait au collier d'épines\" ?",
+    "answer": "Frida Kahlo"
+  },
+  {
+    "id": "art-ado-033",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a imaginé le capitaine Nemo dans \"Vingt Mille Lieues sous les mers\" ?",
+    "answer": "Jules Verne"
+  },
+  {
+    "id": "art-ado-034",
+    "category": "art-litterature",
+    "question": "Quel artiste italien de la Renaissance a peint \"La Naissance de Vénus\" ?",
+    "answer": "Sandro Botticelli"
+  },
+  {
+    "id": "art-ado-035",
+    "category": "art-litterature",
+    "question": "Quelle autrice britannique est à l'origine de la série de romans \"Le Journal de Bridget Jones\" ?",
+    "answer": "Helen Fielding"
+  },
+  {
+    "id": "art-ado-036",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a créé le personnage de Gavroche dans \"Les Misérables\" ?",
+    "answer": "Victor Hugo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-037",
+    "category": "art-litterature",
+    "question": "Quel peintre hollandais du XVIIe siècle a peint \"La Jeune Fille à la perle\" ?",
+    "answer": "Johannes Vermeer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-038",
+    "category": "art-litterature",
+    "question": "Quelle autrice américaine a écrit la saga \"Twilight\" ?",
+    "answer": "Stephenie Meyer",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-039",
+    "category": "art-litterature",
+    "question": "Quel peintre français est célèbre pour ses tableaux de danseuses de ballet, comme \"L'Étoile\" ?",
+    "answer": "Edgar Degas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-040",
+    "category": "art-litterature",
+    "question": "Quel romancier français est l'auteur de \"Le Comte de Monte-Cristo\" ?",
+    "answer": "Alexandre Dumas",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-041",
+    "category": "art-litterature",
+    "question": "Quel artiste flamand du XVIIe siècle est célèbre pour ses tableaux baroques réalisés dans son atelier d'Anvers ?",
+    "answer": "Pierre Paul Rubens",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-042",
+    "category": "art-litterature",
+    "question": "Quel écrivain américain est l'auteur du roman \"Nos étoiles contraires\" ?",
+    "answer": "John Green",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-043",
+    "category": "art-litterature",
+    "question": "Quel peintre italien de la Renaissance a peint \"L'École d'Athènes\" ?",
+    "answer": "Raphaël",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-044",
+    "category": "art-litterature",
+    "question": "Quel dramaturge français du XVIIe siècle a écrit \"Le Malade imaginaire\" ?",
+    "answer": "Molière",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-045",
+    "category": "art-litterature",
+    "question": "Quel peintre autrichien a créé le tableau \"Le Baiser\", orné de dorures ?",
+    "answer": "Gustav Klimt",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-046",
+    "category": "art-litterature",
+    "question": "Quelle autrice britannique a créé le détective belge Hercule Poirot ?",
+    "answer": "Agatha Christie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-047",
+    "category": "art-litterature",
+    "question": "Quel peintre impressionniste français a réalisé de nombreuses toiles représentant des nénuphars ?",
+    "answer": "Claude Monet",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-048",
+    "category": "art-litterature",
+    "question": "Quel écrivain colombien est l'auteur de \"Cent ans de solitude\" ?",
+    "answer": "Gabriel García Márquez",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-049",
+    "category": "art-litterature",
+    "question": "Quel sculpteur français a réalisé la Statue de la Liberté offerte aux États-Unis ?",
+    "answer": "Frédéric Auguste Bartholdi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-050",
+    "category": "art-litterature",
+    "question": "Quelle autrice française a écrit \"L'Élégance du hérisson\" ?",
+    "answer": "Muriel Barbery",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-051",
+    "category": "art-litterature",
+    "question": "Quel peintre français est célèbre pour ses tableaux de danseuses et courtisanes, comme \"Au Moulin Rouge\" ?",
+    "answer": "Henri de Toulouse-Lautrec",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-052",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a créé le personnage de Cyrano de Bergerac au théâtre ?",
+    "answer": "Edmond Rostand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-053",
+    "category": "art-litterature",
+    "question": "Quelle autrice britannique est l'auteure de la saga \"Divergente\" ?",
+    "answer": "Veronica Roth",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-054",
+    "category": "art-litterature",
+    "question": "Quel peintre allemand de la Renaissance est célèbre pour ses gravures comme \"Melencolia I\" ?",
+    "answer": "Albrecht Dürer",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-055",
+    "category": "art-litterature",
+    "question": "Quel écrivain britannique a créé le personnage du hobbit Bilbon Sacquet ?",
+    "answer": "J.R.R. Tolkien",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-056",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol a réalisé \"Guernica\" en réaction au bombardement de cette ville ?",
+    "answer": "Pablo Picasso",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-057",
+    "category": "art-litterature",
+    "question": "Quelle autrice française a écrit \"Bonjour tristesse\" à seulement 18 ans ?",
+    "answer": "Françoise Sagan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-058",
+    "category": "art-litterature",
+    "question": "Quel peintre français a fondé le mouvement fauviste avec des œuvres comme \"La Danse\" ?",
+    "answer": "Henri Matisse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-059",
+    "category": "art-litterature",
+    "question": "Quel poète et dramaturge français est l'auteur de \"Le Cid\" ?",
+    "answer": "Pierre Corneille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-060",
+    "category": "art-litterature",
+    "question": "Quel écrivain irlandais est l'auteur du roman \"Dracula\" ?",
+    "answer": "Bram Stoker",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-061",
+    "category": "art-litterature",
+    "question": "Quel sculpteur et peintre suisse est connu pour ses statues filiformes et allongées ?",
+    "answer": "Alberto Giacometti",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-062",
+    "category": "art-litterature",
+    "question": "Quelle autrice américaine a écrit la trilogie young adult \"La Sélection\" ?",
+    "answer": "Kiera Cass",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-063",
+    "category": "art-litterature",
+    "question": "Quel peintre russe est considéré comme l'un des pionniers de l'art abstrait, avec des œuvres comme \"Jaune Rouge Bleu\" ?",
+    "answer": "Vassily Kandinsky",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-064",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a imaginé le personnage de Quasimodo dans \"Notre-Dame de Paris\" ?",
+    "answer": "Victor Hugo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-065",
+    "category": "art-litterature",
+    "question": "Quel peintre italien est l'auteur de la fresque \"La Cène\", représentant le dernier repas du Christ ?",
+    "answer": "Léonard de Vinci",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-066",
+    "category": "art-litterature",
+    "question": "Quel écrivain britannique est l'auteur du roman \"Sa Majesté des Mouches\" ?",
+    "answer": "William Golding",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-067",
+    "category": "art-litterature",
+    "question": "Quel peintre français impressionniste a également peint de nombreuses scènes de courses hippiques ?",
+    "answer": "Edgar Degas",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-068",
+    "category": "art-litterature",
+    "question": "Quel auteur britannique a écrit la série de romans fantastiques \"À la croisée des mondes\" ?",
+    "answer": "Philip Pullman",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-069",
+    "category": "art-litterature",
+    "question": "Quel peintre mexicain, mari de Frida Kahlo, est célèbre pour ses fresques murales engagées ?",
+    "answer": "Diego Rivera",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-070",
+    "category": "art-litterature",
+    "question": "Quel auteur américain a écrit \"Le Journal d'un dégonflé\" ?",
+    "answer": "Jeff Kinney",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-071",
+    "category": "art-litterature",
+    "question": "Quel mangaka japonais est le créateur de \"One Piece\" ?",
+    "answer": "Eiichirō Oda",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-072",
+    "category": "art-litterature",
+    "question": "Quel écrivain français est l'auteur de \"L'Étranger\" ?",
+    "answer": "Albert Camus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-073",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du Trecento est considéré comme le précurseur de la Renaissance, notamment avec les fresques de la chapelle Scrovegni ?",
+    "answer": "Giotto",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-074",
+    "category": "art-litterature",
+    "question": "Quelle bande dessinée franco-belge met en scène un petit Gaulois accompagné de son ami Obélix ?",
+    "answer": "Astérix",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-075",
+    "category": "art-litterature",
+    "question": "Quel dessinateur belge a créé le personnage de Tintin ?",
+    "answer": "Hergé",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-076",
+    "category": "art-litterature",
+    "question": "Quelle autrice britannique a écrit \"Les Hauts de Hurlevent\" ?",
+    "answer": "Emily Brontë",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-077",
+    "category": "art-litterature",
+    "question": "Quel street artiste français, connu pour ses portraits en noir et blanc collés dans l'espace public, a lancé le projet \"Inside Out\" ?",
+    "answer": "JR",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-078",
+    "category": "art-litterature",
+    "question": "Quel poète français du XIXe siècle a écrit \"Le Dormeur du val\" alors qu'il était adolescent ?",
+    "answer": "Arthur Rimbaud",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-079",
+    "category": "art-litterature",
+    "question": "Quel écrivain américain, auteur de \"Fahrenheit 451\", a imaginé une société où les livres sont interdits et brûlés ?",
+    "answer": "Ray Bradbury",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-080",
+    "category": "art-litterature",
+    "question": "Quel peintre anglais du XIXe siècle est célèbre pour ses paysages romantiques comme \"Pluie, vapeur et vitesse\" ?",
+    "answer": "William Turner",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-081",
+    "category": "art-litterature",
+    "question": "Quel écrivain britannique a créé le petit ours Winnie l'ourson ?",
+    "answer": "A.A. Milne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-082",
+    "category": "art-litterature",
+    "question": "Quel mangaka est le créateur de \"Naruto\" ?",
+    "answer": "Masashi Kishimoto",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-083",
+    "category": "art-litterature",
+    "question": "Quel sculpteur roumain du XXe siècle a créé l'œuvre épurée \"L'Oiseau dans l'espace\" ?",
+    "answer": "Constantin Brâncuși",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-084",
+    "category": "art-litterature",
+    "question": "Quelle romancière anglaise a écrit \"Frankenstein ou le Prométhée moderne\" à seulement 18 ans ?",
+    "answer": "Mary Shelley",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-085",
+    "category": "art-litterature",
+    "question": "Quel dramaturge norvégien est considéré comme le père du théâtre moderne avec des pièces comme \"Maison de poupée\" ?",
+    "answer": "Henrik Ibsen",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-086",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a écrit le conte philosophique \"Candide\" ?",
+    "answer": "Voltaire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-087",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XVIIIe siècle, célèbre pour ses scènes galantes, a peint \"L'Escarpolette\" ?",
+    "answer": "Jean-Honoré Fragonard",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-088",
+    "category": "art-litterature",
+    "question": "Quel auteur britannique a créé le monde imaginaire de Narnia ?",
+    "answer": "C.S. Lewis",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-089",
+    "category": "art-litterature",
+    "question": "Quel mangaka a créé la série \"Dragon Ball\" ?",
+    "answer": "Akira Toriyama",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-090",
+    "category": "art-litterature",
+    "question": "Quelle poétesse américaine du XIXe siècle a mené une vie très recluse et n'a été publiée massivement qu'après sa mort ?",
+    "answer": "Emily Dickinson",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-091",
+    "category": "art-litterature",
+    "question": "Quel peintre néoclassique français a peint \"Le Sacre de Napoléon\" ?",
+    "answer": "Jacques-Louis David",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-092",
+    "category": "art-litterature",
+    "question": "Quel écrivain russe est l'auteur du roman \"Crime et Châtiment\" ?",
+    "answer": "Fiodor Dostoïevski",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-093",
+    "category": "art-litterature",
+    "question": "Quelle autrice britannique a écrit la série de romans jeunesse \"Le Club des Cinq\" ?",
+    "answer": "Enid Blyton",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-094",
+    "category": "art-litterature",
+    "question": "Quel peintre romantique français a peint \"La Liberté guidant le peuple\" ?",
+    "answer": "Eugène Delacroix",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-095",
+    "category": "art-litterature",
+    "question": "Quel auteur britannique de romans policiers a créé l'espion James Bond ?",
+    "answer": "Ian Fleming",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-096",
+    "category": "art-litterature",
+    "question": "Quel peintre hollandais du Siècle d'or est célèbre pour ses autoportraits nombreux et son usage du clair-obscur, comme dans \"La Ronde de nuit\" ?",
+    "answer": "Rembrandt",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-097",
+    "category": "art-litterature",
+    "question": "Quelle jeune fille juive néerlandaise a rédigé, cachée pendant l'Occupation, un journal devenu un témoignage universel ?",
+    "answer": "Anne Frank",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-098",
+    "category": "art-litterature",
+    "question": "Quel dramaturge grec de l'Antiquité est l'auteur de la tragédie \"Œdipe roi\" ?",
+    "answer": "Sophocle",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-099",
+    "category": "art-litterature",
+    "question": "Quel peintre allemand du XIXe siècle, figure du romantisme, a peint \"Le Voyageur au-dessus de la mer de nuages\" ?",
+    "answer": "Caspar David Friedrich",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-100",
+    "category": "art-litterature",
+    "question": "Quel écrivain britannique a créé le personnage de Peter Pan ?",
+    "answer": "J.M. Barrie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-101",
+    "category": "art-litterature",
+    "question": "Quel dessinateur japonais a illustré la série \"Death Note\" avec le scénariste Tsugumi Ohba ?",
+    "answer": "Takeshi Obata",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-102",
+    "category": "art-litterature",
+    "question": "Quelle sculptrice française, élève et compagne d'Auguste Rodin, est connue pour son œuvre \"La Valse\" ?",
+    "answer": "Camille Claudel",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-103",
+    "category": "art-litterature",
+    "question": "Quel écrivain irlandais a créé le majordome et détective amateur de la série \"Artemis Fowl\" ?",
+    "answer": "Eoin Colfer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-104",
+    "category": "art-litterature",
+    "question": "Quel peintre italien maniériste, actif à la cour des Habsbourg, est célèbre pour ses portraits composés de fruits et légumes ?",
+    "answer": "Giuseppe Arcimboldo",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-105",
+    "category": "art-litterature",
+    "question": "Quelle autrice américaine a écrit la saga fantasy \"Six of Crows\" ?",
+    "answer": "Leigh Bardugo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-106",
+    "category": "art-litterature",
+    "question": "Quel peintre italien baroque est célèbre pour son usage dramatique de la lumière dans des œuvres comme \"La Vocation de saint Matthieu\" ?",
+    "answer": "Le Caravage",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-107",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a écrit \"Le Grand Meaulnes\", son unique roman publié avant sa mort à la guerre ?",
+    "answer": "Alain-Fournier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-108",
+    "category": "art-litterature",
+    "question": "Quel dessinateur français est le créateur de la bande dessinée \"Lucky Luke\" ?",
+    "answer": "Morris",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-109",
+    "category": "art-litterature",
+    "question": "Quel auteur américain a écrit la série de fantasy \"Les Royaumes de feu\" ?",
+    "answer": "Tui T. Sutherland",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-110",
+    "category": "art-litterature",
+    "question": "Quel peintre français impressionniste, ami de Monet, a peint de nombreuses scènes de canotage sur la Seine comme \"Le Déjeuner des canotiers\" ?",
+    "answer": "Auguste Renoir",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-111",
+    "category": "art-litterature",
+    "question": "Quel poète et romancier français du XIXe siècle, auteur des \"Misérables\", a aussi écrit le recueil \"Les Contemplations\" ?",
+    "answer": "Victor Hugo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-112",
+    "category": "art-litterature",
+    "question": "Quel auteur britannique a écrit la trilogie fantasy \"À la croisée des mondes\" (\"His Dark Materials\") ?",
+    "answer": "Philip Pullman",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-113",
+    "category": "art-litterature",
+    "question": "Quel peintre mexicain du XXe siècle, célèbre pour ses fresques murales engagées, a travaillé aux côtés de Diego Rivera ?",
+    "answer": "David Alfaro Siqueiros",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-114",
+    "category": "art-litterature",
+    "question": "Quel écrivain américain a écrit \"La Vie sur le Mississippi\" et créé le personnage de Tom Sawyer ?",
+    "answer": "Mark Twain",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-115",
+    "category": "art-litterature",
+    "question": "Quelle bande dessinée japonaise met en scène le pirate au chapeau de paille Monkey D. Luffy ?",
+    "answer": "One Piece",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-116",
+    "category": "art-litterature",
+    "question": "Quel peintre suisse-allemand du XXe siècle, associé au Bauhaus, est connu pour ses œuvres colorées et poétiques comme \"Sénécio\" ?",
+    "answer": "Paul Klee",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-117",
+    "category": "art-litterature",
+    "question": "Quel dramaturge et poète français du XVIIe siècle a écrit \"Phèdre\" et \"Andromaque\" ?",
+    "answer": "Jean Racine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-118",
+    "category": "art-litterature",
+    "question": "Quel écrivain britannique a créé le détective Sherlock Holmes ?",
+    "answer": "Arthur Conan Doyle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-119",
+    "category": "art-litterature",
+    "question": "Quel peintre américain du XXe siècle est célèbre pour le tableau réaliste \"Nighthawks\", représentant un diner de nuit ?",
+    "answer": "Edward Hopper",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-120",
+    "category": "art-litterature",
+    "question": "Quel écrivain italien du XIVe siècle a écrit \"La Divine Comédie\" ?",
+    "answer": "Dante Alighieri",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-121",
+    "category": "art-litterature",
+    "question": "Quel écrivain français, philosophe de l'absurde, est l'auteur du roman \"La Peste\" ?",
+    "answer": "Albert Camus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-122",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol surréaliste a réalisé des décors pour le film \"Un chien andalou\" avec Luis Buñuel ?",
+    "answer": "Salvador Dalí",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-123",
+    "category": "art-litterature",
+    "question": "Quel dessinateur belge a créé le personnage de Gaston Lagaffe ?",
+    "answer": "André Franquin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-124",
+    "category": "art-litterature",
+    "question": "Quel auteur américain a écrit la trilogie de science-fiction jeunesse \"Le Labyrinthe\" ?",
+    "answer": "James Dashner",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-125",
+    "category": "art-litterature",
+    "question": "Quel sculpteur italien de la Renaissance a réalisé la statue équestre du condottiere Gattamelata ?",
+    "answer": "Donatello",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-126",
+    "category": "art-litterature",
+    "question": "Quel écrivain français du XXe siècle a écrit \"La Nausée\" et développé la philosophie existentialiste ?",
+    "answer": "Jean-Paul Sartre",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-127",
+    "category": "art-litterature",
+    "question": "Quel mangaka a créé la série \"Fullmetal Alchemist\" ?",
+    "answer": "Hiromu Arakawa",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-128",
+    "category": "art-litterature",
+    "question": "Quel écrivain français a écrit le roman \"Thérèse Desqueyroux\" ?",
+    "answer": "François Mauriac",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-129",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XIXe siècle, précurseur du réalisme, a peint \"Un enterrement à Ornans\" ?",
+    "answer": "Gustave Courbet",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-130",
+    "category": "art-litterature",
+    "question": "Quel écrivain anglais a créé le personnage de Robinson Crusoé ?",
+    "answer": "Daniel Defoe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-131",
+    "category": "art-litterature",
+    "question": "Quelle bande dessinée franco-belge met en scène des personnages bleus vivant dans un village de champignons ?",
+    "answer": "Les Schtroumpfs",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-132",
+    "category": "art-litterature",
+    "question": "Quelle peintre française du XVIIIe siècle, portraitiste attitrée de Marie-Antoinette, était reconnue de son vivant ?",
+    "answer": "Élisabeth Vigée Le Brun",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-133",
+    "category": "art-litterature",
+    "question": "Quel auteur britannique a écrit \"Alice au pays des merveilles\" ?",
+    "answer": "Lewis Carroll",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-134",
+    "category": "art-litterature",
+    "question": "Quel mangaka a créé la série \"L'Attaque des Titans\" ?",
+    "answer": "Hajime Isayama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-135",
+    "category": "art-litterature",
+    "question": "Quel peintre italien de la Renaissance a peint \"Le Printemps\" et \"La Naissance de Vénus\" ?",
+    "answer": "Sandro Botticelli",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-136",
+    "category": "art-litterature",
+    "question": "Quel poète français surréaliste, auteur du \"Manifeste du surréalisme\", est aussi connu pour ses poèmes engagés ?",
+    "answer": "André Breton",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-137",
+    "category": "art-litterature",
+    "question": "Quel acteur incarne le pirate Jack Sparrow dans la saga \"Pirates des Caraïbes\" ?",
+    "answer": "Johnny Depp",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-ado-138",
+    "category": "art-litterature",
+    "question": "Quel peintre flamand du XVe siècle est l'auteur du triptyque \"Le Jardin des délices\" ?",
+    "answer": "Jérôme Bosch",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-ado-139",
+    "category": "art-litterature",
+    "question": "Quelle autrice britannique a écrit \"Jane Eyre\" ?",
+    "answer": "Charlotte Brontë",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-ado-140",
+    "category": "art-litterature",
+    "question": "Quel dessinateur français est le créateur de la bande dessinée \"Titeuf\" ?",
+    "answer": "Zep",
+    "difficulty": "facile"
+  }
 ]

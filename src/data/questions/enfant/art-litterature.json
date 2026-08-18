@@ -1,52 +1,947 @@
 [
-  { "id": "art-enfant-001", "category": "art-litterature", "question": "Qui a peint le tableau très célèbre d'une femme qui sourit un peu, la Joconde ?", "answer": "Léonard de Vinci" },
-  { "id": "art-enfant-002", "category": "art-litterature", "question": "Comment s'appelle le petit garçon en bois qui rêve de devenir un vrai petit garçon ?", "answer": "Pinocchio" },
-  { "id": "art-enfant-003", "category": "art-litterature", "question": "Qui a écrit l'histoire d'un petit prince qui vient d'une autre planète ?", "answer": "Antoine de Saint-Exupéry" },
-  { "id": "art-enfant-004", "category": "art-litterature", "question": "Comment s'appelle la sorcière du conte qui offre une pomme empoisonnée à une princesse ?", "answer": "La méchante reine (dans Blanche-Neige)" },
-  { "id": "art-enfant-005", "category": "art-litterature", "question": "Dans quel conte une jeune fille perd sa chaussure en verre en partant du bal à minuit ?", "answer": "Cendrillon" },
-  { "id": "art-enfant-006", "category": "art-litterature", "question": "Qui a créé le personnage du jeune sorcier Harry Potter ?", "answer": "J.K. Rowling" },
-  { "id": "art-enfant-007", "category": "art-litterature", "question": "Comment s'appelle le loup qui souffle sur les maisons des trois petits cochons ?", "answer": "Le grand méchant loup" },
-  { "id": "art-enfant-008", "category": "art-litterature", "question": "Dans quel musée français peut-on voir la Joconde ?", "answer": "Le musée du Louvre" },
-  { "id": "art-enfant-009", "category": "art-litterature", "question": "Comment s'appelle la petite fille aux cheveux blonds qui tombe dans un terrier de lapin ?", "answer": "Alice (Alice au pays des merveilles)" },
-  { "id": "art-enfant-010", "category": "art-litterature", "question": "Qui a peint des tournesols et s'est coupé une partie de l'oreille ?", "answer": "Vincent van Gogh" },
-  { "id": "art-enfant-011", "category": "art-litterature", "question": "Dans quel conte une princesse dort pendant cent ans après s'être piquée avec un fuseau ?", "answer": "La Belle au bois dormant" },
-  { "id": "art-enfant-012", "category": "art-litterature", "question": "Comment s'appelle le géant vert qui vit avec un âne parlant dans un marécage ?", "answer": "Shrek" },
-  { "id": "art-enfant-013", "category": "art-litterature", "question": "Qui a écrit les aventures d'un garçon qui ne veut pas grandir et sait voler ?", "answer": "James Matthew Barrie (Peter Pan)" },
-  { "id": "art-enfant-014", "category": "art-litterature", "question": "Comment appelle-t-on une personne qui peint des tableaux ?", "answer": "Un peintre ou une peintre" },
-  { "id": "art-enfant-015", "category": "art-litterature", "question": "Dans quel conte un petit chaperon rouge rencontre un loup dans la forêt ?", "answer": "Le Petit Chaperon rouge" },
-  { "id": "art-enfant-016", "category": "art-litterature", "question": "Comment s'appelle la petite sirène qui veut devenir humaine dans le dessin animé Disney ?", "answer": "Ariel" },
-  { "id": "art-enfant-017", "category": "art-litterature", "question": "Qui a sculpté une célèbre statue d'un homme assis qui réfléchit, appelée \"Le Penseur\" ?", "answer": "Auguste Rodin" },
-  { "id": "art-enfant-018", "category": "art-litterature", "question": "Dans quelle histoire un enfant découvre un monde magique derrière une armoire ?", "answer": "Le Monde de Narnia" },
-  { "id": "art-enfant-019", "category": "art-litterature", "question": "Comment s'appelle le grand méchant capitaine avec un crochet à la place de la main dans Peter Pan ?", "answer": "Le capitaine Crochet" },
-  { "id": "art-enfant-020", "category": "art-litterature", "question": "Qui a écrit les romans sur les Trois Mousquetaires et leur ami d'Artagnan ?", "answer": "Alexandre Dumas" },
-  { "id": "art-enfant-021", "category": "art-litterature", "question": "Dans quel conte un vilain petit canard devient un magnifique cygne ?", "answer": "Le Vilain Petit Canard" },
-  { "id": "art-enfant-022", "category": "art-litterature", "question": "Comment appelle-t-on un livre rempli de dessins qui racontent une histoire, comme Astérix ?", "answer": "Une bande dessinée" },
-  { "id": "art-enfant-023", "category": "art-litterature", "question": "Qui a peint le tableau où l'on voit un ciel tourbillonnant plein d'étoiles, la nuit ?", "answer": "Vincent van Gogh (La Nuit étoilée)" },
-  { "id": "art-enfant-024", "category": "art-litterature", "question": "Comment s'appelle le petit guerrier gaulois malin, ami du costaud Obélix, dans la bande dessinée ?", "answer": "Astérix" },
-  { "id": "art-enfant-025", "category": "art-litterature", "question": "Dans quel conte une jeune fille échange des haricots magiques contre une vache et grimpe dans le ciel ?", "answer": "Jack et le Haricot magique" },
-  { "id": "art-enfant-026", "category": "art-litterature", "question": "Qui a sculpté la grande statue d'un jeune homme appelée le David, en Italie ?", "answer": "Michel-Ange" },
-  { "id": "art-enfant-027", "category": "art-litterature", "question": "Comment s'appelle le petit ours qui porte un chapeau rouge et vient du Pérou dans les livres ?", "answer": "Paddington" },
-  { "id": "art-enfant-028", "category": "art-litterature", "question": "Dans quelle histoire un pantin de bois voit son nez grandir quand il ment ?", "answer": "Pinocchio" },
-  { "id": "art-enfant-029", "category": "art-litterature", "question": "Comment appelle-t-on une personne qui écrit des livres ?", "answer": "Un écrivain ou une écrivaine (ou un auteur/une autrice)" },
-  { "id": "art-enfant-030", "category": "art-litterature", "question": "Qui a créé le personnage de Winnie l'ourson dans ses histoires ?", "answer": "A.A. Milne" },
-  { "id": "art-enfant-031", "category": "art-litterature", "question": "Comment s'appelle le lion qui devient roi de la savane dans le dessin animé Disney ?", "answer": "Simba" },
-  { "id": "art-enfant-032", "category": "art-litterature", "question": "Qui a écrit les histoires du gros ours qui aime le miel, habitant la forêt des Cent Acres, avec ses amis Porcinet et Tigrou ?", "answer": "A.A. Milne (Winnie l'ourson)" },
-  { "id": "art-enfant-033", "category": "art-litterature", "question": "Comment s'appelle la poupée qui prend vie et part à l'aventure avec le cow-boy Woody dans un film d'animation ?", "answer": "Jessie (dans Toy Story)" },
-  { "id": "art-enfant-034", "category": "art-litterature", "question": "Dans quel conte une jeune fille aux longs cheveux dorés est enfermée en haut d'une tour ?", "answer": "Raiponce" },
-  { "id": "art-enfant-035", "category": "art-litterature", "question": "Comment appelle-t-on un lieu où l'on expose des tableaux et des sculptures pour que tout le monde puisse les voir ?", "answer": "Un musée" },
-  { "id": "art-enfant-036", "category": "art-litterature", "question": "Comment s'appelle le grillon qui sert de conscience à Pinocchio ?", "answer": "Jiminy Cricket", "difficulty": "moyen" },
-  { "id": "art-enfant-037", "category": "art-litterature", "question": "Qui a écrit les histoires du petit garçon qui vit dans la jungle avec les animaux, appelé Mowgli ?", "answer": "Rudyard Kipling (Le Livre de la jungle)", "difficulty": "moyen" },
-  { "id": "art-enfant-038", "category": "art-litterature", "question": "Comment s'appelle la sorcière des mers qui vole la voix de la petite sirène ?", "answer": "Ursula", "difficulty": "facile" },
-  { "id": "art-enfant-039", "category": "art-litterature", "question": "Dans quel conte un jeune garçon suit un chemin de cailloux blancs pour retrouver sa maison ?", "answer": "Le Petit Poucet", "difficulty": "moyen" },
-  { "id": "art-enfant-040", "category": "art-litterature", "question": "Comment appelle-t-on un artiste qui dessine les images d'un livre ou d'une bande dessinée ?", "answer": "Un illustrateur ou une illustratrice (ou un dessinateur)", "difficulty": "facile" },
-  { "id": "art-enfant-041", "category": "art-litterature", "question": "Comment s'appelle le renne au nez rouge qui guide le traîneau du Père Noël dans la chanson ?", "answer": "Rudolphe", "difficulty": "facile" },
-  { "id": "art-enfant-042", "category": "art-litterature", "question": "Qui a écrit les aventures d'un lapin malicieux appelé Peter Rabbit ?", "answer": "Beatrix Potter", "difficulty": "difficile" },
-  { "id": "art-enfant-043", "category": "art-litterature", "question": "Comment s'appelle le poisson-clown qui part à la recherche de son fils perdu dans un dessin animé ?", "answer": "Marin (dans Le Monde de Nemo)", "difficulty": "facile" },
-  { "id": "art-enfant-044", "category": "art-litterature", "question": "Dans quel conte des lutins cordonniers aident un pauvre artisan pendant la nuit ?", "answer": "Les Lutins et le Cordonnier", "difficulty": "difficile" },
-  { "id": "art-enfant-045", "category": "art-litterature", "question": "Comment appelle-t-on la musique et les paroles chantées dans un dessin animé, comme dans les films Disney ?", "answer": "Une chanson (ou une comédie musicale)", "difficulty": "facile" },
-  { "id": "art-enfant-046", "category": "art-litterature", "question": "Qui a peint de nombreux tableaux de danseuses de ballet, comme \"La Classe de danse\" ?", "answer": "Edgar Degas", "difficulty": "difficile" },
-  { "id": "art-enfant-047", "category": "art-litterature", "question": "Comment s'appelle le tigre en peluche qui prend vie et parle avec son ami Calvin dans la bande dessinée ?", "answer": "Hobbes", "difficulty": "moyen" },
-  { "id": "art-enfant-048", "category": "art-litterature", "question": "Dans quelle histoire une petite fille suit un lapin blanc pressé qui regarde sa montre ?", "answer": "Alice au pays des merveilles", "difficulty": "facile" },
-  { "id": "art-enfant-049", "category": "art-litterature", "question": "Comment appelle-t-on une histoire imaginaire avec des fées, des sorcières ou des princesses, souvent racontée aux enfants ?", "answer": "Un conte de fées", "difficulty": "facile" },
-  { "id": "art-enfant-050", "category": "art-litterature", "question": "Qui a peint le tableau représentant des nénuphars dans son jardin, à Giverny en France ?", "answer": "Claude Monet", "difficulty": "moyen" }
+  {
+    "id": "art-enfant-001",
+    "category": "art-litterature",
+    "question": "Qui a peint le tableau très célèbre d'une femme qui sourit un peu, la Joconde ?",
+    "answer": "Léonard de Vinci"
+  },
+  {
+    "id": "art-enfant-002",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit garçon en bois qui rêve de devenir un vrai petit garçon ?",
+    "answer": "Pinocchio"
+  },
+  {
+    "id": "art-enfant-003",
+    "category": "art-litterature",
+    "question": "Qui a écrit l'histoire d'un petit prince qui vient d'une autre planète ?",
+    "answer": "Antoine de Saint-Exupéry"
+  },
+  {
+    "id": "art-enfant-004",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la sorcière du conte qui offre une pomme empoisonnée à une princesse ?",
+    "answer": "La méchante reine (dans Blanche-Neige)"
+  },
+  {
+    "id": "art-enfant-005",
+    "category": "art-litterature",
+    "question": "Dans quel conte une jeune fille perd sa chaussure en verre en partant du bal à minuit ?",
+    "answer": "Cendrillon"
+  },
+  {
+    "id": "art-enfant-006",
+    "category": "art-litterature",
+    "question": "Qui a créé le personnage du jeune sorcier Harry Potter ?",
+    "answer": "J.K. Rowling"
+  },
+  {
+    "id": "art-enfant-007",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le loup qui souffle sur les maisons des trois petits cochons ?",
+    "answer": "Le grand méchant loup"
+  },
+  {
+    "id": "art-enfant-008",
+    "category": "art-litterature",
+    "question": "Dans quel musée français peut-on voir la Joconde ?",
+    "answer": "Le musée du Louvre"
+  },
+  {
+    "id": "art-enfant-009",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la petite fille aux cheveux blonds qui tombe dans un terrier de lapin ?",
+    "answer": "Alice (Alice au pays des merveilles)"
+  },
+  {
+    "id": "art-enfant-010",
+    "category": "art-litterature",
+    "question": "Qui a peint des tournesols et s'est coupé une partie de l'oreille ?",
+    "answer": "Vincent van Gogh"
+  },
+  {
+    "id": "art-enfant-011",
+    "category": "art-litterature",
+    "question": "Dans quel conte une princesse dort pendant cent ans après s'être piquée avec un fuseau ?",
+    "answer": "La Belle au bois dormant"
+  },
+  {
+    "id": "art-enfant-012",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le géant vert qui vit avec un âne parlant dans un marécage ?",
+    "answer": "Shrek"
+  },
+  {
+    "id": "art-enfant-013",
+    "category": "art-litterature",
+    "question": "Qui a écrit les aventures d'un garçon qui ne veut pas grandir et sait voler ?",
+    "answer": "James Matthew Barrie (Peter Pan)"
+  },
+  {
+    "id": "art-enfant-014",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on une personne qui peint des tableaux ?",
+    "answer": "Un peintre ou une peintre"
+  },
+  {
+    "id": "art-enfant-015",
+    "category": "art-litterature",
+    "question": "Dans quel conte un petit chaperon rouge rencontre un loup dans la forêt ?",
+    "answer": "Le Petit Chaperon rouge"
+  },
+  {
+    "id": "art-enfant-016",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la petite sirène qui veut devenir humaine dans le dessin animé Disney ?",
+    "answer": "Ariel"
+  },
+  {
+    "id": "art-enfant-017",
+    "category": "art-litterature",
+    "question": "Qui a sculpté une célèbre statue d'un homme assis qui réfléchit, appelée \"Le Penseur\" ?",
+    "answer": "Auguste Rodin"
+  },
+  {
+    "id": "art-enfant-018",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire un enfant découvre un monde magique derrière une armoire ?",
+    "answer": "Le Monde de Narnia"
+  },
+  {
+    "id": "art-enfant-019",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand méchant capitaine avec un crochet à la place de la main dans Peter Pan ?",
+    "answer": "Le capitaine Crochet"
+  },
+  {
+    "id": "art-enfant-020",
+    "category": "art-litterature",
+    "question": "Qui a écrit les romans sur les Trois Mousquetaires et leur ami d'Artagnan ?",
+    "answer": "Alexandre Dumas"
+  },
+  {
+    "id": "art-enfant-021",
+    "category": "art-litterature",
+    "question": "Dans quel conte un vilain petit canard devient un magnifique cygne ?",
+    "answer": "Le Vilain Petit Canard"
+  },
+  {
+    "id": "art-enfant-022",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un livre rempli de dessins qui racontent une histoire, comme Astérix ?",
+    "answer": "Une bande dessinée"
+  },
+  {
+    "id": "art-enfant-023",
+    "category": "art-litterature",
+    "question": "Qui a peint le tableau où l'on voit un ciel tourbillonnant plein d'étoiles, la nuit ?",
+    "answer": "Vincent van Gogh (La Nuit étoilée)"
+  },
+  {
+    "id": "art-enfant-024",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit guerrier gaulois malin, ami du costaud Obélix, dans la bande dessinée ?",
+    "answer": "Astérix"
+  },
+  {
+    "id": "art-enfant-025",
+    "category": "art-litterature",
+    "question": "Dans quel conte une jeune fille échange des haricots magiques contre une vache et grimpe dans le ciel ?",
+    "answer": "Jack et le Haricot magique"
+  },
+  {
+    "id": "art-enfant-026",
+    "category": "art-litterature",
+    "question": "Qui a sculpté la grande statue d'un jeune homme appelée le David, en Italie ?",
+    "answer": "Michel-Ange"
+  },
+  {
+    "id": "art-enfant-027",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit ours qui porte un chapeau rouge et vient du Pérou dans les livres ?",
+    "answer": "Paddington"
+  },
+  {
+    "id": "art-enfant-028",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire un pantin de bois voit son nez grandir quand il ment ?",
+    "answer": "Pinocchio"
+  },
+  {
+    "id": "art-enfant-029",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on une personne qui écrit des livres ?",
+    "answer": "Un écrivain ou une écrivaine (ou un auteur/une autrice)"
+  },
+  {
+    "id": "art-enfant-030",
+    "category": "art-litterature",
+    "question": "Qui a créé le personnage de Winnie l'ourson dans ses histoires ?",
+    "answer": "A.A. Milne"
+  },
+  {
+    "id": "art-enfant-031",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le lion qui devient roi de la savane dans le dessin animé Disney ?",
+    "answer": "Simba"
+  },
+  {
+    "id": "art-enfant-032",
+    "category": "art-litterature",
+    "question": "Qui a écrit les histoires du gros ours qui aime le miel, habitant la forêt des Cent Acres, avec ses amis Porcinet et Tigrou ?",
+    "answer": "A.A. Milne (Winnie l'ourson)"
+  },
+  {
+    "id": "art-enfant-033",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la poupée qui prend vie et part à l'aventure avec le cow-boy Woody dans un film d'animation ?",
+    "answer": "Jessie (dans Toy Story)"
+  },
+  {
+    "id": "art-enfant-034",
+    "category": "art-litterature",
+    "question": "Dans quel conte une jeune fille aux longs cheveux dorés est enfermée en haut d'une tour ?",
+    "answer": "Raiponce"
+  },
+  {
+    "id": "art-enfant-035",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un lieu où l'on expose des tableaux et des sculptures pour que tout le monde puisse les voir ?",
+    "answer": "Un musée"
+  },
+  {
+    "id": "art-enfant-036",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grillon qui sert de conscience à Pinocchio ?",
+    "answer": "Jiminy Cricket",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-037",
+    "category": "art-litterature",
+    "question": "Qui a écrit les histoires du petit garçon qui vit dans la jungle avec les animaux, appelé Mowgli ?",
+    "answer": "Rudyard Kipling (Le Livre de la jungle)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-038",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la sorcière des mers qui vole la voix de la petite sirène ?",
+    "answer": "Ursula",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-039",
+    "category": "art-litterature",
+    "question": "Dans quel conte un jeune garçon suit un chemin de cailloux blancs pour retrouver sa maison ?",
+    "answer": "Le Petit Poucet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-040",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un artiste qui dessine les images d'un livre ou d'une bande dessinée ?",
+    "answer": "Un illustrateur ou une illustratrice (ou un dessinateur)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-041",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le renne au nez rouge qui guide le traîneau du Père Noël dans la chanson ?",
+    "answer": "Rudolphe",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-042",
+    "category": "art-litterature",
+    "question": "Qui a écrit les aventures d'un lapin malicieux appelé Peter Rabbit ?",
+    "answer": "Beatrix Potter",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-043",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le poisson-clown qui part à la recherche de son fils perdu dans un dessin animé ?",
+    "answer": "Marin (dans Le Monde de Nemo)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-044",
+    "category": "art-litterature",
+    "question": "Dans quel conte des lutins cordonniers aident un pauvre artisan pendant la nuit ?",
+    "answer": "Les Lutins et le Cordonnier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-045",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on la musique et les paroles chantées dans un dessin animé, comme dans les films Disney ?",
+    "answer": "Une chanson (ou une comédie musicale)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-046",
+    "category": "art-litterature",
+    "question": "Qui a peint de nombreux tableaux de danseuses de ballet, comme \"La Classe de danse\" ?",
+    "answer": "Edgar Degas",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-047",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le tigre en peluche qui prend vie et parle avec son ami Calvin dans la bande dessinée ?",
+    "answer": "Hobbes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-048",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire une petite fille suit un lapin blanc pressé qui regarde sa montre ?",
+    "answer": "Alice au pays des merveilles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-049",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on une histoire imaginaire avec des fées, des sorcières ou des princesses, souvent racontée aux enfants ?",
+    "answer": "Un conte de fées",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-050",
+    "category": "art-litterature",
+    "question": "Qui a peint le tableau représentant des nénuphars dans son jardin, à Giverny en France ?",
+    "answer": "Claude Monet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-051",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le renard rusé qui devient l'ami du Petit Prince dans le livre ?",
+    "answer": "Le renard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-052",
+    "category": "art-litterature",
+    "question": "Dans quel conte une jeune fille doit filer de la paille en or pour un petit homme malicieux ?",
+    "answer": "Rumpelstiltskin (Le Nain Tracassin)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-053",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on le chef des Schtroumpfs, ces petits personnages bleus qui vivent dans un village de champignons ?",
+    "answer": "Le Grand Schtroumpf",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-054",
+    "category": "art-litterature",
+    "question": "Qui a peint le célèbre tableau représentant un personnage qui se tient la tête entre les mains, appelé \"Le Cri\" ?",
+    "answer": "Edvard Munch",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-055",
+    "category": "art-litterature",
+    "question": "Comment s'appelle l'éléphant aux grandes oreilles qui apprend à voler dans le dessin animé Disney ?",
+    "answer": "Dumbo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-056",
+    "category": "art-litterature",
+    "question": "Dans quel conte une petite fille vend des allumettes dans le froid la veille de Noël ?",
+    "answer": "La Petite Fille aux allumettes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-057",
+    "category": "art-litterature",
+    "question": "Qui a écrit les histoires d'une petite maison dans la prairie vécues par une famille de pionniers ?",
+    "answer": "Laura Ingalls Wilder",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-058",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le chat espiègle qui porte des bottes et sert un jeune homme rusé dans un conte ?",
+    "answer": "Le Chat botté",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-059",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un artiste qui crée des statues en pierre, en bois ou en métal ?",
+    "answer": "Un sculpteur ou une sculptrice",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-060",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le poisson bleu très étourdi qui aide à chercher Nemo dans le dessin animé ?",
+    "answer": "Dory",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-061",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le vieux menuisier qui fabrique Pinocchio et le considère comme son fils ?",
+    "answer": "Geppetto",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-062",
+    "category": "art-litterature",
+    "question": "Qui a peint des tableaux avec des visages et des formes très colorés et un peu déformés, comme les \"Demoiselles d'Avignon\" ?",
+    "answer": "Pablo Picasso",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-063",
+    "category": "art-litterature",
+    "question": "Dans quel dessin animé Disney le jeune lionceau Simba doit-il fuir son royaume après la mort de son père ?",
+    "answer": "Le Roi Lion",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-064",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire une petite chèvre malicieuse doit échapper à un loup affamé dans les montagnes ?",
+    "answer": "La Chèvre de monsieur Seguin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-065",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand jouet qui vole dans le ciel, retenu par une longue ficelle qu'on tient à la main ?",
+    "answer": "Un cerf-volant",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-066",
+    "category": "art-litterature",
+    "question": "Qui a écrit les fables où l'on voit un lièvre et une tortue faire la course, ou un corbeau et un renard ?",
+    "answer": "Jean de La Fontaine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-067",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit robot qui nettoie une Terre abandonnée dans un film d'animation ?",
+    "answer": "WALL-E",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-068",
+    "category": "art-litterature",
+    "question": "Dans quel conte sept petits chevreaux se cachent pour échapper à un loup, sauf le plus petit caché dans l'horloge ?",
+    "answer": "Le Loup et les Sept Chevreaux",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-069",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on la petite planche de bois où un peintre mélange ses couleurs de peinture ?",
+    "answer": "Une palette",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-070",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le célèbre film d'animation Disney où Mickey joue un apprenti sorcier qui anime des balais avec de la magie ?",
+    "answer": "Fantasia (le segment L'Apprenti sorcier)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-enfant-071",
+    "category": "art-litterature",
+    "question": "Dans quel conte une petite fille aux cheveux dorés goûte les bols de porridge de trois ours ?",
+    "answer": "Boucle d'or",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-072",
+    "category": "art-litterature",
+    "question": "Comment s'appellent le frère et la sœur qui sèment des cailloux puis des miettes de pain pour retrouver leur chemin dans la forêt ?",
+    "answer": "Hansel et Gretel",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-073",
+    "category": "art-litterature",
+    "question": "Qui a peint de nombreux tableaux joyeux avec des danseurs et des pique-niques au bord de l'eau, comme \"Le Bal du moulin de la Galette\" ?",
+    "answer": "Auguste Renoir",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-074",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la reine qui a le pouvoir de tout transformer en glace dans un célèbre dessin animé Disney ?",
+    "answer": "Elsa (dans La Reine des Neiges)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-075",
+    "category": "art-litterature",
+    "question": "Dans quel dessin animé Disney une jeune fille voyage sur l'océan pour sauver son île avec l'aide du demi-dieu Maui ?",
+    "answer": "Vaiana",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-076",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit rat qui rêve de devenir un grand cuisinier dans un restaurant parisien ?",
+    "answer": "Rémy (dans Ratatouille)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-077",
+    "category": "art-litterature",
+    "question": "Qui a écrit les contes où l'on trouve la Belle au bois dormant, le Petit Chaperon rouge et le Chat botté ?",
+    "answer": "Charles Perrault",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-078",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le jeune garçon qui trouve une lampe magique contenant un génie bleu dans un dessin animé Disney ?",
+    "answer": "Aladdin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-079",
+    "category": "art-litterature",
+    "question": "Dans quel conte un âne, un chien, un chat et un coq partent ensemble pour devenir musiciens dans une grande ville ?",
+    "answer": "Les Musiciens de Brême",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-080",
+    "category": "art-litterature",
+    "question": "Qui a peint des tableaux avec des montres molles qui fondent, comme \"La Persistance de la mémoire\" ?",
+    "answer": "Salvador Dalí",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-081",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la famille de super-héros qui doit cacher ses pouvoirs dans un film d'animation Pixar ?",
+    "answer": "Les Indestructibles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-082",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire un vieux monsieur attache des milliers de ballons à sa maison pour s'envoler vers l'Amérique du Sud ?",
+    "answer": "Là-haut",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-083",
+    "category": "art-litterature",
+    "question": "Qui a écrit l'histoire d'un petit tailleur malin qui se vante d'avoir tué \"sept d'un coup\" ?",
+    "answer": "Les frères Grimm (Le Vaillant Petit Tailleur)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-084",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit lapin espiègle qui vole des carottes dans le jardin de monsieur McGregor ?",
+    "answer": "Peter Rabbit (Pierre Lapin)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-085",
+    "category": "art-litterature",
+    "question": "Dans quel film d'animation une ville est entièrement habitée par des animaux qui travaillent comme des humains, avec une lapine policière ?",
+    "answer": "Zootopie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-086",
+    "category": "art-litterature",
+    "question": "Qui a peint le célèbre tableau représentant la naissance de Vénus, une femme debout sur un grand coquillage ?",
+    "answer": "Sandro Botticelli",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-087",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le jeune garçon qui traverse le pays des morts pour retrouver sa famille dans un film d'animation mexicain ?",
+    "answer": "Miguel (dans Coco)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-088",
+    "category": "art-litterature",
+    "question": "Qui a écrit de nombreux contes merveilleux comme La Petite Sirène et Le Vilain Petit Canard ?",
+    "answer": "Hans Christian Andersen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-089",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la petite voiture rouge de course qui devient championne dans un film d'animation Pixar ?",
+    "answer": "Flash McQueen (dans Cars)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-090",
+    "category": "art-litterature",
+    "question": "Dans quel dessin animé Disney une jeune fille chinoise se déguise en soldat pour prendre la place de son père ?",
+    "answer": "Mulan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-091",
+    "category": "art-litterature",
+    "question": "Qui a peint des tableaux très colorés représentant des femmes en robe et des scènes de danse, en découpant parfois du papier coloré ?",
+    "answer": "Henri Matisse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-092",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit faon qui perd sa maman dans la forêt, dans un célèbre dessin animé Disney ?",
+    "answer": "Bambi",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-093",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire une jeune femme amérindienne rencontre des explorateurs venus d'Europe en bateau ?",
+    "answer": "Pocahontas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-094",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un spectacle où des danseurs racontent une histoire seulement avec de la danse, sans parler ?",
+    "answer": "Un ballet",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-095",
+    "category": "art-litterature",
+    "question": "Dans quel film d'animation un jeune garçon élevé par un panda devient-il maître de kung-fu ?",
+    "answer": "Kung Fu Panda",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-096",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la jeune femme qui tombe amoureuse d'un prince transformé en monstre, dans un conte devenu dessin animé Disney ?",
+    "answer": "Belle (dans La Belle et la Bête)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-097",
+    "category": "art-litterature",
+    "question": "Dans quel film d'animation des animaux s'échappent d'un zoo de New York pour se retrouver sur une île africaine ?",
+    "answer": "Madagascar",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-098",
+    "category": "art-litterature",
+    "question": "Qui a peint de nombreux tableaux représentant la tour Eiffel et des paysages de jungle imaginaires, sans jamais quitter la France ?",
+    "answer": "Henri Rousseau (le Douanier Rousseau)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-099",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la femelle dalmatienne aux nombreuses taches noires qui a beaucoup de chiots volés par une méchante femme, dans un dessin animé Disney ?",
+    "answer": "Perdita (dans Les 101 Dalmatiens)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-100",
+    "category": "art-litterature",
+    "question": "Dans quel conte une jeune fille doit se cacher sous la peau d'un âne pour échapper au mariage voulu par son père ?",
+    "answer": "Peau d'Âne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-101",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un spectacle joué et chanté sur une scène, avec des acteurs qui chantent au lieu de parler ?",
+    "answer": "Un opéra",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-102",
+    "category": "art-litterature",
+    "question": "Qui a écrit de nombreux livres pour enfants comme Charlie et la Chocolaterie ou James et la Grosse Pêche ?",
+    "answer": "Roald Dahl",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-103",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le jeune garçon qui possède une usine remplie de bonbons et de chocolats magiques dans un livre célèbre ?",
+    "answer": "Charlie (dans Charlie et la Chocolaterie)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-104",
+    "category": "art-litterature",
+    "question": "Dans quel spectacle des artistes font des acrobaties, jonglent et marchent sur un fil, souvent sous une grande tente ?",
+    "answer": "Un cirque",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-105",
+    "category": "art-litterature",
+    "question": "Qui a créé le petit village peuplé uniquement de Gaulois résistant aux Romains, avec son ami dessinateur Albert Uderzo ?",
+    "answer": "René Goscinny",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-106",
+    "category": "art-litterature",
+    "question": "Comment s'appelle l'instrument de musique à cordes que l'on pince, avec une grande caisse en forme de poire, souvent joué en Espagne ?",
+    "answer": "La guitare",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-107",
+    "category": "art-litterature",
+    "question": "Dans quel conte un vieux pêcheur attrape un poisson magique qui exauce des vœux, jusqu'à ce que sa femme devienne trop gourmande ?",
+    "answer": "Le Pêcheur et sa femme",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-108",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand instrument à touches noires et blanches sur lequel on joue avec les doigts ?",
+    "answer": "Le piano",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-109",
+    "category": "art-litterature",
+    "question": "Qui a peint des tableaux remplis de cercles, de lignes et de formes colorées, sans jamais dessiner d'objets reconnaissables ?",
+    "answer": "Vassily Kandinsky",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-110",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la petite poule qui plante un grain de blé et le transforme en pain, sans l'aide de ses amis paresseux ?",
+    "answer": "La Petite Poule Rousse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-111",
+    "category": "art-litterature",
+    "question": "Dans quel film d'animation Pixar les émotions d'une petite fille, comme Joie et Tristesse, vivent à l'intérieur de sa tête ?",
+    "answer": "Vice-versa",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-112",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on un grand livre rempli d'histoires courtes et amusantes destinées aux enfants, comme celles de La Fontaine ?",
+    "answer": "Un recueil de fables",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-113",
+    "category": "art-litterature",
+    "question": "Qui a peint des scènes tranquilles de la vie quotidienne, comme une jeune fille qui verse du lait, en Hollande il y a longtemps ?",
+    "answer": "Johannes Vermeer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-114",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand instrument à vent, en forme de tuyau doré, sur lequel on souffle et on appuie sur des pistons ?",
+    "answer": "La trompette",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-115",
+    "category": "art-litterature",
+    "question": "Qui a sculpté la grande statue de femme tenant une torche, offerte par la France aux États-Unis ?",
+    "answer": "Auguste Bartholdi (la Statue de la Liberté)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-116",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on l'endroit où l'on va voir un film projeté sur un grand écran ?",
+    "answer": "Un cinéma",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-117",
+    "category": "art-litterature",
+    "question": "Dans quel conte un pauvre meunier fait croire au roi que sa fille peut transformer la paille en or ?",
+    "answer": "Le Nain Tracassin (Rumpelstiltskin)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-118",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand instrument à cordes que l'on pose au sol et que l'on joue avec un archet, plus gros qu'un violon ?",
+    "answer": "Le violoncelle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-119",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le monstre gentil et poilu qui devient l'ami d'une petite fille japonaise dans un film d'animation ?",
+    "answer": "Totoro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-120",
+    "category": "art-litterature",
+    "question": "Dans quel conte un jeune homme pauvre se transforme en prince après avoir été embrassé par une princesse ?",
+    "answer": "Le Prince Grenouille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-121",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on le grand tableau peint directement sur un mur, que l'on voit parfois dans les villes ?",
+    "answer": "Une fresque (ou une peinture murale)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-122",
+    "category": "art-litterature",
+    "question": "Qui a créé les histoires du petit garçon curieux nommé Tintin et son chien Milou ?",
+    "answer": "Hergé",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-123",
+    "category": "art-litterature",
+    "question": "Comment s'appelle l'auteur et illustrateur français qui a créé l'histoire d'un petit éléphant devenu roi, Babar ?",
+    "answer": "Jean de Brunhoff",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-124",
+    "category": "art-litterature",
+    "question": "Dans quel film d'animation un poisson-clown étourdi nommé Dory aide-t-elle à retrouver la famille d'un autre poisson ?",
+    "answer": "Le Monde de Dory",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-125",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on l'endroit, souvent en plein air, où des artistes de rue jouent de la musique pour les passants ?",
+    "answer": "Un lieu de musique de rue (musicien ambulant)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-126",
+    "category": "art-litterature",
+    "question": "Qui a écrit l'histoire de l'ourson péruvien Paddington, ami de la famille Brown à Londres ?",
+    "answer": "Michael Bond",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-127",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand instrument à cordes que l'on tient sous le menton et que l'on joue avec un archet ?",
+    "answer": "Le violon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-128",
+    "category": "art-litterature",
+    "question": "Dans quel conte un tailleur de pierre devient tour à tour riche, puissant, soleil et montagne avant de redevenir lui-même ?",
+    "answer": "Le Tailleur de pierre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-129",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on l'art de former des figures et des animaux en pliant simplement une feuille de papier, venu du Japon ?",
+    "answer": "L'origami",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-130",
+    "category": "art-litterature",
+    "question": "Comment s'appelle la jeune fille qui doit épouser une bête pour sauver son père, dans un conte français très connu ?",
+    "answer": "Belle (dans La Belle et la Bête)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-131",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on une histoire courte avec des animaux qui parlent, se terminant souvent par une leçon de morale ?",
+    "answer": "Une fable",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-132",
+    "category": "art-litterature",
+    "question": "Qui a réalisé le dessin animé français \"Kirikou et la Sorcière\", en tant que dessinateur et réalisateur ?",
+    "answer": "Michel Ocelot",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-133",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le tout petit garçon africain, pas plus grand qu'un pouce, qui délivre son village d'un sorcier dans un film d'animation français ?",
+    "answer": "Kirikou",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-134",
+    "category": "art-litterature",
+    "question": "Dans quel conte des animaux de la ferme organisent une course entre un lièvre trop sûr de lui et une tortue lente mais courageuse ?",
+    "answer": "Le Lièvre et la Tortue",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-135",
+    "category": "art-litterature",
+    "question": "Comment appelle-t-on l'écriture élégante et décorée, faite à la main avec une plume, que l'on voit dans les vieux livres ?",
+    "answer": "La calligraphie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-136",
+    "category": "art-litterature",
+    "question": "Qui a écrit les histoires d'une petite fille appelée Fifi Brindacier, très forte et très indépendante ?",
+    "answer": "Astrid Lindgren",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-137",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le petit garçon de bois qui voit son nez s'allonger lorsqu'il dit un mensonge ?",
+    "answer": "Pinocchio",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-138",
+    "category": "art-litterature",
+    "question": "Qui a peint de nombreux tournesols dans des vases, ainsi que le tableau \"La Nuit étoilée\" ?",
+    "answer": "Vincent van Gogh",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-enfant-139",
+    "category": "art-litterature",
+    "question": "Comment s'appelle le grand loup qui souffle très fort pour essayer de détruire les maisons de trois petits cochons ?",
+    "answer": "Le Grand Méchant Loup",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-enfant-140",
+    "category": "art-litterature",
+    "question": "Dans quelle histoire un pantin de bois devient un vrai petit garçon après avoir prouvé sa bravoure et son honnêteté ?",
+    "answer": "Pinocchio",
+    "difficulty": "moyen"
+  }
 ]

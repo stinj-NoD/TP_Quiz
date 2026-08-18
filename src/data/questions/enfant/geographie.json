@@ -1,52 +1,947 @@
 [
-  { "id": "geo-enfant-001", "category": "geographie", "question": "Dans quel pays vivent les kangourous ?", "answer": "L'Australie" },
-  { "id": "geo-enfant-002", "category": "geographie", "question": "Quel fleuve traverse Paris ?", "answer": "La Seine" },
-  { "id": "geo-enfant-003", "category": "geographie", "question": "Quel est le plus grand désert chaud du monde ?", "answer": "Le Sahara" },
-  { "id": "geo-enfant-004", "category": "geographie", "question": "Dans quel pays se trouve la tour Eiffel ?", "answer": "La France" },
-  { "id": "geo-enfant-005", "category": "geographie", "question": "Comment s'appelle la ville où l'on peut voir de vrais pandas géants dans la nature ?", "answer": "Une ville en Chine" },
-  { "id": "geo-enfant-006", "category": "geographie", "question": "Quel est le plus grand océan du monde ?", "answer": "L'océan Pacifique" },
-  { "id": "geo-enfant-007", "category": "geographie", "question": "Dans quel pays se trouve la pyramide de Gizeh ?", "answer": "L'Égypte" },
-  { "id": "geo-enfant-008", "category": "geographie", "question": "Comment s'appelle le pays en forme de botte ?", "answer": "L'Italie" },
-  { "id": "geo-enfant-009", "category": "geographie", "question": "Quelle est la plus haute montagne du monde ?", "answer": "L'Everest" },
-  { "id": "geo-enfant-010", "category": "geographie", "question": "Dans quel pays vivent les ours polaires ?", "answer": "Au pôle Nord (par exemple au Groenland ou au Canada)" },
-  { "id": "geo-enfant-011", "category": "geographie", "question": "Quelle est la capitale de la France ?", "answer": "Paris" },
-  { "id": "geo-enfant-012", "category": "geographie", "question": "Comment s'appelle le plus grand pays du monde ?", "answer": "La Russie" },
-  { "id": "geo-enfant-013", "category": "geographie", "question": "Dans quel pays se trouve la statue de la Liberté ?", "answer": "Les États-Unis" },
-  { "id": "geo-enfant-014", "category": "geographie", "question": "Quel animal noir et blanc mange du bambou et vit en Chine ?", "answer": "Le panda" },
-  { "id": "geo-enfant-015", "category": "geographie", "question": "Comment s'appelle le pays où l'on trouve le Mont Fuji ?", "answer": "Le Japon" },
-  { "id": "geo-enfant-016", "category": "geographie", "question": "Quel est le plus long fleuve du monde ?", "answer": "Le Nil" },
-  { "id": "geo-enfant-017", "category": "geographie", "question": "Dans quel pays parle-t-on espagnol comme langue principale, en Europe ?", "answer": "L'Espagne" },
-  { "id": "geo-enfant-018", "category": "geographie", "question": "Comment s'appelle la ville où l'on trouve de nombreux canaux à la place des rues ?", "answer": "Venise" },
-  { "id": "geo-enfant-019", "category": "geographie", "question": "Quel continent est recouvert presque entièrement de glace ?", "answer": "L'Antarctique" },
-  { "id": "geo-enfant-020", "category": "geographie", "question": "Dans quel pays se trouve le Grand Canyon ?", "answer": "Les États-Unis" },
-  { "id": "geo-enfant-021", "category": "geographie", "question": "Comment s'appelle le pays voisin de la France où l'on parle allemand ?", "answer": "L'Allemagne" },
-  { "id": "geo-enfant-022", "category": "geographie", "question": "Quel est le nom de l'île où vivent des lémuriens, au large de l'Afrique ?", "answer": "Madagascar" },
-  { "id": "geo-enfant-023", "category": "geographie", "question": "Dans quel pays se trouve le Big Ben, la grande horloge ?", "answer": "Le Royaume-Uni (Angleterre)" },
-  { "id": "geo-enfant-024", "category": "geographie", "question": "Comment appelle-t-on les grandes étendues de sable très chaudes ?", "answer": "Les déserts" },
-  { "id": "geo-enfant-025", "category": "geographie", "question": "Quel pays a pour capitale Rome ?", "answer": "L'Italie" },
-  { "id": "geo-enfant-026", "category": "geographie", "question": "Dans quel pays vivent les lions, les girafes et les éléphants dans la savane ?", "answer": "En Afrique" },
-  { "id": "geo-enfant-027", "category": "geographie", "question": "Comment s'appelle le pays qui a la forme d'un cœur en Europe centrale ?", "answer": "La France (ou selon la carte, d'autres pays sont parfois cités, réponse acceptée : la France)" },
-  { "id": "geo-enfant-028", "category": "geographie", "question": "Quelle mer entoure la France au sud ?", "answer": "La mer Méditerranée" },
-  { "id": "geo-enfant-029", "category": "geographie", "question": "Dans quel pays se trouve la Grande Muraille ?", "answer": "La Chine" },
-  { "id": "geo-enfant-030", "category": "geographie", "question": "Comment s'appelle la ville la plus connue des États-Unis pour ses gratte-ciel et sa grande statue verte ?", "answer": "New York" },
-  { "id": "geo-enfant-031", "category": "geographie", "question": "Comment s'appelle la ville célèbre pour sa Tour Penchée en Italie ?", "answer": "Pise" },
-  { "id": "geo-enfant-032", "category": "geographie", "question": "Dans quel pays se trouve le Machu Picchu, la cité perdue des Incas ?", "answer": "Le Pérou" },
-  { "id": "geo-enfant-033", "category": "geographie", "question": "Quel est le plus petit pays du monde ?", "answer": "Le Vatican" },
-  { "id": "geo-enfant-034", "category": "geographie", "question": "Comment s'appelle la grande forêt qui pousse le long du fleuve Amazone ?", "answer": "La forêt amazonienne (l'Amazonie)" },
-  { "id": "geo-enfant-035", "category": "geographie", "question": "Dans quel pays peut-on voir des gondoles glisser sur les canaux ?", "answer": "L'Italie" },
-  { "id": "geo-enfant-036", "category": "geographie", "question": "Quel est le plus grand pays d'Amérique du Sud ?", "answer": "Le Brésil", "difficulty": "moyen" },
-  { "id": "geo-enfant-037", "category": "geographie", "question": "Dans quel pays se trouve la célèbre opéra en forme de coquillages, à Sydney ?", "answer": "L'Australie", "difficulty": "moyen" },
-  { "id": "geo-enfant-038", "category": "geographie", "question": "Comment s'appelle la capitale de l'Espagne ?", "answer": "Madrid", "difficulty": "facile" },
-  { "id": "geo-enfant-039", "category": "geographie", "question": "Quel pays a pour symbole la feuille d'érable rouge sur son drapeau ?", "answer": "Le Canada", "difficulty": "facile" },
-  { "id": "geo-enfant-040", "category": "geographie", "question": "Dans quel pays vivent les tigres dans la jungle, aux côtés des éléphants d'Asie ?", "answer": "L'Inde", "difficulty": "moyen" },
-  { "id": "geo-enfant-041", "category": "geographie", "question": "Comment s'appelle la chaîne de montagnes la plus longue du monde, en Amérique du Sud ?", "answer": "La cordillère des Andes", "difficulty": "difficile" },
-  { "id": "geo-enfant-042", "category": "geographie", "question": "Quel pays est célèbre pour ses moulins à vent et ses champs de tulipes ?", "answer": "Les Pays-Bas", "difficulty": "moyen" },
-  { "id": "geo-enfant-043", "category": "geographie", "question": "Dans quel pays se trouve le célèbre Colisée ?", "answer": "L'Italie", "difficulty": "facile" },
-  { "id": "geo-enfant-044", "category": "geographie", "question": "Quel est le nom du continent où se trouve la France ?", "answer": "L'Europe", "difficulty": "facile" },
-  { "id": "geo-enfant-045", "category": "geographie", "question": "Comment s'appelle la capitale du Japon ?", "answer": "Tokyo", "difficulty": "facile" },
-  { "id": "geo-enfant-046", "category": "geographie", "question": "Dans quel pays peut-on voir des éruptions de geysers d'eau chaude et des volcans, tout près du cercle polaire ?", "answer": "L'Islande", "difficulty": "moyen" },
-  { "id": "geo-enfant-047", "category": "geographie", "question": "Quel océan faut-il traverser pour aller de la France aux États-Unis en bateau ?", "answer": "L'océan Atlantique", "difficulty": "moyen" },
-  { "id": "geo-enfant-048", "category": "geographie", "question": "Comment s'appelle le grand mur naturel de corail que l'on trouve en Australie, sous la mer ?", "answer": "La Grande Barrière de corail", "difficulty": "difficile" },
-  { "id": "geo-enfant-049", "category": "geographie", "question": "Dans quel pays se trouve la ville de Moscou ?", "answer": "La Russie", "difficulty": "facile" },
-  { "id": "geo-enfant-050", "category": "geographie", "question": "Quel pays africain est traversé par le fleuve Nil et abrite d'anciens pharaons ?", "answer": "L'Égypte", "difficulty": "moyen" }
+  {
+    "id": "geo-enfant-001",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les kangourous ?",
+    "answer": "L'Australie"
+  },
+  {
+    "id": "geo-enfant-002",
+    "category": "geographie",
+    "question": "Quel fleuve traverse Paris ?",
+    "answer": "La Seine"
+  },
+  {
+    "id": "geo-enfant-003",
+    "category": "geographie",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "answer": "Le Sahara"
+  },
+  {
+    "id": "geo-enfant-004",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la tour Eiffel ?",
+    "answer": "La France"
+  },
+  {
+    "id": "geo-enfant-005",
+    "category": "geographie",
+    "question": "Comment s'appelle la ville où l'on peut voir de vrais pandas géants dans la nature ?",
+    "answer": "Une ville en Chine"
+  },
+  {
+    "id": "geo-enfant-006",
+    "category": "geographie",
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "L'océan Pacifique"
+  },
+  {
+    "id": "geo-enfant-007",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la pyramide de Gizeh ?",
+    "answer": "L'Égypte"
+  },
+  {
+    "id": "geo-enfant-008",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays en forme de botte ?",
+    "answer": "L'Italie"
+  },
+  {
+    "id": "geo-enfant-009",
+    "category": "geographie",
+    "question": "Quelle est la plus haute montagne du monde ?",
+    "answer": "L'Everest"
+  },
+  {
+    "id": "geo-enfant-010",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les ours polaires ?",
+    "answer": "Au pôle Nord (par exemple au Groenland ou au Canada)"
+  },
+  {
+    "id": "geo-enfant-011",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la France ?",
+    "answer": "Paris"
+  },
+  {
+    "id": "geo-enfant-012",
+    "category": "geographie",
+    "question": "Comment s'appelle le plus grand pays du monde ?",
+    "answer": "La Russie"
+  },
+  {
+    "id": "geo-enfant-013",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la statue de la Liberté ?",
+    "answer": "Les États-Unis"
+  },
+  {
+    "id": "geo-enfant-014",
+    "category": "geographie",
+    "question": "Quel animal noir et blanc mange du bambou et vit en Chine ?",
+    "answer": "Le panda"
+  },
+  {
+    "id": "geo-enfant-015",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays où l'on trouve le Mont Fuji ?",
+    "answer": "Le Japon"
+  },
+  {
+    "id": "geo-enfant-016",
+    "category": "geographie",
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil"
+  },
+  {
+    "id": "geo-enfant-017",
+    "category": "geographie",
+    "question": "Dans quel pays parle-t-on espagnol comme langue principale, en Europe ?",
+    "answer": "L'Espagne"
+  },
+  {
+    "id": "geo-enfant-018",
+    "category": "geographie",
+    "question": "Comment s'appelle la ville où l'on trouve de nombreux canaux à la place des rues ?",
+    "answer": "Venise"
+  },
+  {
+    "id": "geo-enfant-019",
+    "category": "geographie",
+    "question": "Quel continent est recouvert presque entièrement de glace ?",
+    "answer": "L'Antarctique"
+  },
+  {
+    "id": "geo-enfant-020",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le Grand Canyon ?",
+    "answer": "Les États-Unis"
+  },
+  {
+    "id": "geo-enfant-021",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays voisin de la France où l'on parle allemand ?",
+    "answer": "L'Allemagne"
+  },
+  {
+    "id": "geo-enfant-022",
+    "category": "geographie",
+    "question": "Quel est le nom de l'île où vivent des lémuriens, au large de l'Afrique ?",
+    "answer": "Madagascar"
+  },
+  {
+    "id": "geo-enfant-023",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le Big Ben, la grande horloge ?",
+    "answer": "Le Royaume-Uni (Angleterre)"
+  },
+  {
+    "id": "geo-enfant-024",
+    "category": "geographie",
+    "question": "Comment appelle-t-on les grandes étendues de sable très chaudes ?",
+    "answer": "Les déserts"
+  },
+  {
+    "id": "geo-enfant-025",
+    "category": "geographie",
+    "question": "Quel pays a pour capitale Rome ?",
+    "answer": "L'Italie"
+  },
+  {
+    "id": "geo-enfant-026",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les lions, les girafes et les éléphants dans la savane ?",
+    "answer": "En Afrique"
+  },
+  {
+    "id": "geo-enfant-027",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays qui a la forme d'un cœur en Europe centrale ?",
+    "answer": "La France (ou selon la carte, d'autres pays sont parfois cités, réponse acceptée : la France)"
+  },
+  {
+    "id": "geo-enfant-028",
+    "category": "geographie",
+    "question": "Quelle mer entoure la France au sud ?",
+    "answer": "La mer Méditerranée"
+  },
+  {
+    "id": "geo-enfant-029",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la Grande Muraille ?",
+    "answer": "La Chine"
+  },
+  {
+    "id": "geo-enfant-030",
+    "category": "geographie",
+    "question": "Comment s'appelle la ville la plus connue des États-Unis pour ses gratte-ciel et sa grande statue verte ?",
+    "answer": "New York"
+  },
+  {
+    "id": "geo-enfant-031",
+    "category": "geographie",
+    "question": "Comment s'appelle la ville célèbre pour sa Tour Penchée en Italie ?",
+    "answer": "Pise"
+  },
+  {
+    "id": "geo-enfant-032",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le Machu Picchu, la cité perdue des Incas ?",
+    "answer": "Le Pérou"
+  },
+  {
+    "id": "geo-enfant-033",
+    "category": "geographie",
+    "question": "Quel est le plus petit pays du monde ?",
+    "answer": "Le Vatican"
+  },
+  {
+    "id": "geo-enfant-034",
+    "category": "geographie",
+    "question": "Comment s'appelle la grande forêt qui pousse le long du fleuve Amazone ?",
+    "answer": "La forêt amazonienne (l'Amazonie)"
+  },
+  {
+    "id": "geo-enfant-035",
+    "category": "geographie",
+    "question": "Dans quel pays peut-on voir des gondoles glisser sur les canaux ?",
+    "answer": "L'Italie"
+  },
+  {
+    "id": "geo-enfant-036",
+    "category": "geographie",
+    "question": "Quel est le plus grand pays d'Amérique du Sud ?",
+    "answer": "Le Brésil",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-037",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la célèbre opéra en forme de coquillages, à Sydney ?",
+    "answer": "L'Australie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-038",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de l'Espagne ?",
+    "answer": "Madrid",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-039",
+    "category": "geographie",
+    "question": "Quel pays a pour symbole la feuille d'érable rouge sur son drapeau ?",
+    "answer": "Le Canada",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-040",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les tigres dans la jungle, aux côtés des éléphants d'Asie ?",
+    "answer": "L'Inde",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-041",
+    "category": "geographie",
+    "question": "Comment s'appelle la chaîne de montagnes la plus longue du monde, en Amérique du Sud ?",
+    "answer": "La cordillère des Andes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-enfant-042",
+    "category": "geographie",
+    "question": "Quel pays est célèbre pour ses moulins à vent et ses champs de tulipes ?",
+    "answer": "Les Pays-Bas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-043",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve le célèbre Colisée ?",
+    "answer": "L'Italie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-044",
+    "category": "geographie",
+    "question": "Quel est le nom du continent où se trouve la France ?",
+    "answer": "L'Europe",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-045",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale du Japon ?",
+    "answer": "Tokyo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-046",
+    "category": "geographie",
+    "question": "Dans quel pays peut-on voir des éruptions de geysers d'eau chaude et des volcans, tout près du cercle polaire ?",
+    "answer": "L'Islande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-047",
+    "category": "geographie",
+    "question": "Quel océan faut-il traverser pour aller de la France aux États-Unis en bateau ?",
+    "answer": "L'océan Atlantique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-048",
+    "category": "geographie",
+    "question": "Comment s'appelle le grand mur naturel de corail que l'on trouve en Australie, sous la mer ?",
+    "answer": "La Grande Barrière de corail",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-enfant-049",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la ville de Moscou ?",
+    "answer": "La Russie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-050",
+    "category": "geographie",
+    "question": "Quel pays africain est traversé par le fleuve Nil et abrite d'anciens pharaons ?",
+    "answer": "L'Égypte",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-051",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de l'Allemagne ?",
+    "answer": "Berlin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-052",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la Sagrada Familia, la grande église pas encore terminée ?",
+    "answer": "L'Espagne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-053",
+    "category": "geographie",
+    "question": "Quel est le nom du plus grand pays d'Afrique par sa population ?",
+    "answer": "Le Nigeria",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-enfant-054",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale du Royaume-Uni ?",
+    "answer": "Londres",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-055",
+    "category": "geographie",
+    "question": "Dans quel pays peut-on voir des dragons de Komodo, de vrais grands lézards ?",
+    "answer": "L'Indonésie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-056",
+    "category": "geographie",
+    "question": "Quel pays a pour capitale Pékin ?",
+    "answer": "La Chine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-057",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays formé de nombreuses îles, situé juste à l'est de la Chine ?",
+    "answer": "Le Japon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-058",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la forêt tropicale la plus grande du monde ?",
+    "answer": "Le Brésil",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-059",
+    "category": "geographie",
+    "question": "Quel est le nom du désert de glace et de neige tout autour du pôle Sud ?",
+    "answer": "L'Antarctique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-060",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale du Canada ?",
+    "answer": "Ottawa",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-061",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les kiwis, ces petits oiseaux qui ne volent pas ?",
+    "answer": "La Nouvelle-Zélande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-062",
+    "category": "geographie",
+    "question": "Quel pays a un drapeau rouge avec une grande feuille au milieu ?",
+    "answer": "Le Canada",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-063",
+    "category": "geographie",
+    "question": "Comment s'appelle la montagne célèbre au Japon, souvent couverte de neige au sommet ?",
+    "answer": "Le Mont Fuji",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-064",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la Statue du Christ Rédempteur, les bras grands ouverts ?",
+    "answer": "Le Brésil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-065",
+    "category": "geographie",
+    "question": "Quel est le nom de la ville célèbre pour son carnaval coloré, au Brésil ?",
+    "answer": "Rio de Janeiro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-066",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays où l'on trouve le Taj Mahal, un magnifique palais blanc ?",
+    "answer": "L'Inde",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-067",
+    "category": "geographie",
+    "question": "Dans quel pays peut-on skier dans les Alpes et manger du bon chocolat et du fromage ?",
+    "answer": "La Suisse",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-068",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique du Nord a pour capitale Rabat et borde à la fois l'océan et la mer ?",
+    "answer": "Le Maroc",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-069",
+    "category": "geographie",
+    "question": "Comment s'appelle le grand fleuve qui traverse l'Égypte ?",
+    "answer": "Le Nil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-070",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les koalas, qui aiment dormir dans les arbres ?",
+    "answer": "L'Australie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-071",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve l'Acropole, sur une colline au-dessus d'Athènes ?",
+    "answer": "La Grèce",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-072",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de la Grèce ?",
+    "answer": "Athènes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-073",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Nord est connu pour ses tacos et ses anciennes pyramides mayas ?",
+    "answer": "Le Mexique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-074",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale du Mexique ?",
+    "answer": "Mexico",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-075",
+    "category": "geographie",
+    "question": "Dans quel pays peut-on voir la tour de Belém et manger de bons petits gâteaux appelés pastéis ?",
+    "answer": "Le Portugal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-076",
+    "category": "geographie",
+    "question": "Quel pays a une ville coupée en deux par un détroit, avec une partie en Europe et une partie en Asie ?",
+    "answer": "La Turquie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-077",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de la Turquie ?",
+    "answer": "Ankara",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-078",
+    "category": "geographie",
+    "question": "Dans quel pays d'Afrique vivent de nombreux lions et zèbres dans la réserve du Serengeti ?",
+    "answer": "La Tanzanie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-079",
+    "category": "geographie",
+    "question": "Quel est le nom de la plus haute montagne d'Afrique ?",
+    "answer": "Le Kilimandjaro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-080",
+    "category": "geographie",
+    "question": "Où vivent les manchots qui se regroupent par milliers sur la banquise, tout au sud de la planète ?",
+    "answer": "En Antarctique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-081",
+    "category": "geographie",
+    "question": "Comment s'appelle le grand fleuve qui traverse l'Amazonie en Amérique du Sud ?",
+    "answer": "Le fleuve Amazone",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-082",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud est très long et fin, avec les Andes d'un côté et l'océan de l'autre ?",
+    "answer": "Le Chili",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-083",
+    "category": "geographie",
+    "question": "Dans quel pays d'Amérique du Sud aime-t-on beaucoup danser le tango ?",
+    "answer": "L'Argentine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-084",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de l'Argentine ?",
+    "answer": "Buenos Aires",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-085",
+    "category": "geographie",
+    "question": "Quel pays d'Asie a la forme d'un long ruban en forme de S et est connu pour ses rizières ?",
+    "answer": "Le Vietnam",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-086",
+    "category": "geographie",
+    "question": "Dans quel pays d'Asie peut-on rencontrer des éléphants qui aident encore parfois à porter du bois ?",
+    "answer": "La Thaïlande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-087",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de la Thaïlande ?",
+    "answer": "Bangkok",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-088",
+    "category": "geographie",
+    "question": "Dans quel pays vivent les orangs-outans, ces grands singes roux qui vivent dans les arbres ?",
+    "answer": "En Indonésie (ou en Malaisie)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-089",
+    "category": "geographie",
+    "question": "Quel pays d'Asie a pour capitale Séoul ?",
+    "answer": "La Corée du Sud",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-090",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la grande cité perdue de Petra, taillée dans la roche rose ?",
+    "answer": "La Jordanie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-091",
+    "category": "geographie",
+    "question": "Comment s'appelle le très haut gratte-ciel que l'on trouve à Dubaï, le plus haut du monde ?",
+    "answer": "Le Bourj Khalifa",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-092",
+    "category": "geographie",
+    "question": "Dans quel pays se trouve la ville de Dubaï ?",
+    "answer": "Les Émirats arabes unis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-093",
+    "category": "geographie",
+    "question": "Quel désert d'Asie, très froid en hiver, est traversé par des caravanes de chameaux ?",
+    "answer": "Le désert de Gobi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-094",
+    "category": "geographie",
+    "question": "Dans quel pays d'Asie vivent des chevaux et des yourtes rondes dans de grandes plaines ?",
+    "answer": "La Mongolie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-095",
+    "category": "geographie",
+    "question": "Comment s'appelle le pays où l'on peut voir le Mont Everest depuis un petit village de montagne ?",
+    "answer": "Le Népal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-096",
+    "category": "geographie",
+    "question": "Dans quel pays d'Afrique vivent des manchots sur les plages, tout au sud du continent ?",
+    "answer": "L'Afrique du Sud",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-097",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de l'Afrique du Sud où siège le gouvernement ?",
+    "answer": "Pretoria",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-098",
+    "category": "geographie",
+    "question": "Dans quel pays d'Afrique de l'Ouest peut-on voir de magnifiques baobabs près de la mer ?",
+    "answer": "Le Sénégal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-099",
+    "category": "geographie",
+    "question": "Quel est le nom de la capitale du Sénégal ?",
+    "answer": "Dakar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-100",
+    "category": "geographie",
+    "question": "Dans quel pays d'Europe du Nord peut-on voir des aurores boréales danser dans le ciel ?",
+    "answer": "La Norvège (ou la Finlande, la Suède...)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-101",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de la Norvège ?",
+    "answer": "Oslo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-102",
+    "category": "geographie",
+    "question": "Dans quel pays d'Europe du Nord vit le Père Noël, dans un village près du cercle polaire ?",
+    "answer": "La Finlande",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-103",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de la Suède ?",
+    "answer": "Stockholm",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-104",
+    "category": "geographie",
+    "question": "Dans quel pays trouve-t-on la Petite Sirène en statue de bronze, assise sur un rocher au bord de l'eau ?",
+    "answer": "Le Danemark",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-105",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale du Danemark ?",
+    "answer": "Copenhague",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-106",
+    "category": "geographie",
+    "question": "Dans quel pays d'Europe se trouve le monument mystérieux de Stonehenge, fait de grosses pierres en cercle ?",
+    "answer": "Le Royaume-Uni (Angleterre)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-107",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de l'Irlande, célèbre pour sa couleur verte et ses trèfles ?",
+    "answer": "Dublin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-108",
+    "category": "geographie",
+    "question": "Dans quel pays d'Europe joue-t-on de la cornemuse et porte-t-on le kilt, une jupe à carreaux ?",
+    "answer": "L'Écosse",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-109",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de l'Autriche, célèbre pour sa musique classique ?",
+    "answer": "Vienne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-110",
+    "category": "geographie",
+    "question": "Dans quel pays trouve-t-on le célèbre Atomium, un immense monument en forme de molécule ?",
+    "answer": "La Belgique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-111",
+    "category": "geographie",
+    "question": "Comment s'appelle la capitale de la Belgique ?",
+    "answer": "Bruxelles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-112",
+    "category": "geographie",
+    "question": "Dans quel pays d'Europe peut-on visiter le Kremlin, un grand palais entouré de hauts murs rouges ?",
+    "answer": "La Russie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-113",
+    "category": "geographie",
+    "question": "Quel est le nom de la mer très salée où l'on flotte facilement sans effort, entre Israël et la Jordanie ?",
+    "answer": "La mer Morte",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-114",
+    "category": "geographie",
+    "question": "Comment s'appelle la mer qui borde l'Égypte à l'est et qui doit son nom à sa couleur ?",
+    "answer": "La mer Rouge",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-115",
+    "category": "geographie",
+    "question": "Quel est le nom du grand océan qui touche les côtes de l'Inde et de l'Afrique de l'Est ?",
+    "answer": "L'océan Indien",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-116",
+    "category": "geographie",
+    "question": "Comment s'appelle l'océan tout gelé qui se trouve autour du pôle Nord ?",
+    "answer": "L'océan Arctique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-117",
+    "category": "geographie",
+    "question": "Quel animal aux longues pattes roses aime se tenir debout sur une seule jambe dans les lacs d'Afrique ?",
+    "answer": "Le flamant rose",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-118",
+    "category": "geographie",
+    "question": "Quel gros animal à la peau très épaisse vit dans les rivières d'Afrique et ouvre une immense bouche ?",
+    "answer": "L'hippopotame",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-119",
+    "category": "geographie",
+    "question": "Quel animal noir et blanc rayé ressemble à un cheval et vit dans les savanes africaines ?",
+    "answer": "Le zèbre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-120",
+    "category": "geographie",
+    "question": "Quel grand animal marin à défenses, cousin du phoque, vit dans les eaux froides de l'Arctique ?",
+    "answer": "Le morse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-121",
+    "category": "geographie",
+    "question": "Quel grand chat tacheté et très puissant vit dans la forêt amazonienne ?",
+    "answer": "Le jaguar",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-122",
+    "category": "geographie",
+    "question": "Quel animal du désert a une ou deux bosses sur le dos pour stocker de la graisse ?",
+    "answer": "Le chameau (ou le dromadaire)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-123",
+    "category": "geographie",
+    "question": "Dans quel pays d'Amérique centrale peut-on visiter les pyramides mayas de Chichén Itzá ?",
+    "answer": "Le Mexique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-124",
+    "category": "geographie",
+    "question": "Comment s'appelle la grande île, la plus proche de la Floride, connue pour ses vieilles voitures colorées ?",
+    "answer": "Cuba",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-125",
+    "category": "geographie",
+    "question": "Quel est le nom de la plus grande île du monde, presque entièrement couverte de glace ?",
+    "answer": "Le Groenland",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-126",
+    "category": "geographie",
+    "question": "Dans quel archipel américain, au milieu du Pacifique, les surfeurs adorent-ils glisser sur les vagues ?",
+    "answer": "Hawaï",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-127",
+    "category": "geographie",
+    "question": "Sur quelle île indonésienne trouve-t-on de célèbres rizières en escalier et des temples colorés ?",
+    "answer": "Bali",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-128",
+    "category": "geographie",
+    "question": "Comment s'appelle la grande île française où l'on trouve le maquis et de belles plages en Méditerranée ?",
+    "answer": "La Corse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-129",
+    "category": "geographie",
+    "question": "Quel est le nom du fleuve qui traverse l'Allemagne et plusieurs autres pays d'Europe ?",
+    "answer": "Le Rhin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-130",
+    "category": "geographie",
+    "question": "Comment s'appelle le grand fleuve qui traverse l'Inde et où de nombreuses personnes viennent se baigner ?",
+    "answer": "Le Gange",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-131",
+    "category": "geographie",
+    "question": "Quel est le nom du fleuve d'Europe qui passe par Vienne et Budapest ?",
+    "answer": "Le Danube",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-132",
+    "category": "geographie",
+    "question": "Comment s'appelle le grand fleuve qui traverse la forêt tropicale d'Afrique centrale ?",
+    "answer": "Le fleuve Congo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-133",
+    "category": "geographie",
+    "question": "Quel est le nom du long fleuve qui traverse les États-Unis du nord au sud ?",
+    "answer": "Le Mississippi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-134",
+    "category": "geographie",
+    "question": "Comment s'appelle le célèbre monument avec les visages de quatre présidents sculptés dans la roche, aux États-Unis ?",
+    "answer": "Le Mont Rushmore",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-135",
+    "category": "geographie",
+    "question": "Dans quel pays d'Europe se trouve la ville de Dubrovnik, entourée de vieux remparts au bord de la mer ?",
+    "answer": "La Croatie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-136",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+    "answer": "Les Pyrénées",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-137",
+    "category": "geographie",
+    "question": "Comment s'appelle le volcan encore actif qui se trouve tout près de la ville de Naples, en Italie ?",
+    "answer": "Le Vésuve",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-enfant-138",
+    "category": "geographie",
+    "question": "Quel est le nom du continent où se trouvent l'Australie et la Nouvelle-Zélande ?",
+    "answer": "L'Océanie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-139",
+    "category": "geographie",
+    "question": "Quel drapeau est bleu, blanc et rouge, avec les trois couleurs en bandes verticales, en France ?",
+    "answer": "Le drapeau tricolore français",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-enfant-140",
+    "category": "geographie",
+    "question": "Sur quel drapeau voit-on un grand soleil rouge, tout rond, au milieu d'un fond blanc ?",
+    "answer": "Le drapeau du Japon",
+    "difficulty": "facile"
+  }
 ]

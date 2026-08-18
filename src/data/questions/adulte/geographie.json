@@ -318,5 +318,635 @@
     "question": "Quelle chaîne de montagnes forme l'épine dorsale de l'Amérique du Sud, la plus longue chaîne continentale du monde ?",
     "answer": "La cordillère des Andes",
     "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-051",
+    "category": "geographie",
+    "question": "Quel est le plus grand pays d'Afrique par sa superficie depuis la partition du Soudan en 2011 ?",
+    "answer": "L'Algérie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-052",
+    "category": "geographie",
+    "question": "Quelle capitale d'Amérique centrale a été gravement endommagée par un séisme en 1972 ?",
+    "answer": "Managua (Nicaragua)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-053",
+    "category": "geographie",
+    "question": "Quel golfe sépare la péninsule arabique de l'Iran ?",
+    "answer": "Le golfe Persique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-054",
+    "category": "geographie",
+    "question": "Quelle île de l'océan Indien, ancienne colonie française, a pour capitale Port-Louis ?",
+    "answer": "L'île Maurice",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-055",
+    "category": "geographie",
+    "question": "Quel fleuve européen traverse successivement l'Allemagne, l'Autriche, la Slovaquie, la Hongrie, la Serbie et se jette dans la mer Noire ?",
+    "answer": "Le Danube",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-056",
+    "category": "geographie",
+    "question": "Quelle est la capitale du Kenya ?",
+    "answer": "Nairobi",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-057",
+    "category": "geographie",
+    "question": "Quel volcan italien surplombe la baie de Naples et a détruit Pompéi en l'an 79 ?",
+    "answer": "Le Vésuve",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-058",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud possède les îles Galápagos ?",
+    "answer": "L'Équateur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-059",
+    "category": "geographie",
+    "question": "Quelle ligne imaginaire, passant notamment par Greenwich, sert de référence au méridien zéro ?",
+    "answer": "Le méridien de Greenwich",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-060",
+    "category": "geographie",
+    "question": "Quel est le plus petit État souverain d'Afrique par sa superficie, une île de l'océan Indien ?",
+    "answer": "Les Seychelles",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-061",
+    "category": "geographie",
+    "question": "Quelle mer bordant l'Ukraine et la Russie est reliée à la mer Méditerranée par le Bosphore et les Dardanelles ?",
+    "answer": "La mer Noire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-062",
+    "category": "geographie",
+    "question": "Quel désert asiatique, s'étendant sur la Mongolie et la Chine, est réputé pour ses variations extrêmes de température ?",
+    "answer": "Le désert de Gobi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-063",
+    "category": "geographie",
+    "question": "Quelle est la capitale de la Colombie ?",
+    "answer": "Bogota",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-064",
+    "category": "geographie",
+    "question": "Quel isthme relie l'Amérique du Nord à l'Amérique du Sud ?",
+    "answer": "L'isthme de Panama",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-065",
+    "category": "geographie",
+    "question": "Quel pays scandinave possède le plus grand nombre de lacs, estimé à environ 188 000 ?",
+    "answer": "La Finlande",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-066",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+    "answer": "Les Pyrénées",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-067",
+    "category": "geographie",
+    "question": "Quel pays d'Asie est constitué de plus de 7 000 îles et a pour capitale Manille ?",
+    "answer": "Les Philippines",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-068",
+    "category": "geographie",
+    "question": "Quelle région polaire australe, régie par un traité international signé en 1959, n'appartient à aucun État ?",
+    "answer": "L'Antarctique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-069",
+    "category": "geographie",
+    "question": "Quel lac africain, le plus grand du continent par sa superficie, est bordé par le Kenya, l'Ouganda et la Tanzanie ?",
+    "answer": "Le lac Victoria",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-070",
+    "category": "geographie",
+    "question": "Quelle presqu'île du sud-ouest de la Russie, annexée en 2014, s'avance dans la mer Noire ?",
+    "answer": "La Crimée",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-071",
+    "category": "geographie",
+    "question": "Quel pays enclavé d'Europe, situé au cœur des Alpes entre la France et l'Italie, est une principauté dirigée par la famille des Grimaldi ?",
+    "answer": "Monaco",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-072",
+    "category": "geographie",
+    "question": "Quelle capitale administrative de l'Afrique du Sud abrite le pouvoir exécutif, alors que le Cap est le siège du Parlement ?",
+    "answer": "Pretoria",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-073",
+    "category": "geographie",
+    "question": "Quel territoire disputé entre l'Inde et le Pakistan, également revendiqué en partie par la Chine, est à l'origine de plusieurs conflits depuis 1947 ?",
+    "answer": "Le Cachemire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-074",
+    "category": "geographie",
+    "question": "Quel est le pays le plus densément peuplé du monde parmi les États non insulaires et non microscopiques, situé en Asie du Sud ?",
+    "answer": "Le Bangladesh",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-075",
+    "category": "geographie",
+    "question": "Quelle mer, en réalité un golfe de l'océan Atlantique, est délimitée non par des côtes mais par des courants marins et les fameuses sargasses ?",
+    "answer": "La mer des Sargasses",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-076",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud est le premier producteur mondial de cuivre, une ressource clé de son économie ?",
+    "answer": "Le Chili",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-077",
+    "category": "geographie",
+    "question": "Quelle frontière terrestre continue est considérée comme la plus longue du monde entre deux pays ?",
+    "answer": "La frontière entre le Canada et les États-Unis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-078",
+    "category": "geographie",
+    "question": "Quel pays du Caucase, situé entre la mer Noire et la mer Caspienne, a pour capitale Tbilissi ?",
+    "answer": "La Géorgie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-079",
+    "category": "geographie",
+    "question": "Quelle région autonome d'Espagne, dotée d'une langue propre, a pour capitale Barcelone ?",
+    "answer": "La Catalogne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-080",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique de l'Est, jamais colonisé sauf brièvement par l'Italie, abrite la ville sainte d'Axoum ?",
+    "answer": "L'Éthiopie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-081",
+    "category": "geographie",
+    "question": "Quel fleuve, le plus long d'Asie, prend sa source au Tibet et se jette dans la mer de Chine orientale près de Shanghai ?",
+    "answer": "Le Yangtsé (Chang Jiang)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-082",
+    "category": "geographie",
+    "question": "Quelle ville, capitale de facto d'un territoire non reconnu par l'ONU, est revendiquée à la fois par le Maroc et le Front Polisario au Sahara occidental ?",
+    "answer": "Laâyoune",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-083",
+    "category": "geographie",
+    "question": "Quel archipel de l'Atlantique Sud, sous souveraineté britannique, est également revendiqué par l'Argentine sous le nom d'Islas Malvinas ?",
+    "answer": "Les îles Malouines (Falkland)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-084",
+    "category": "geographie",
+    "question": "Quel pays d'Europe centrale, sans accès à la mer, a pour capitale Bratislava ?",
+    "answer": "La Slovaquie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-085",
+    "category": "geographie",
+    "question": "Quelle vallée du Rift est-africain, marquée par une importante activité sismique et volcanique, est souvent citée comme berceau de l'humanité ?",
+    "answer": "La vallée du Grand Rift (Rift est-africain)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-086",
+    "category": "geographie",
+    "question": "Quelle ville portuaire chinoise, ancienne colonie britannique rétrocédée en 1997, fonctionne selon le principe « un pays, deux systèmes » ?",
+    "answer": "Hong Kong",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-087",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique centrale a construit un canal interocéanique inauguré en 1914, reliant l'Atlantique au Pacifique ?",
+    "answer": "Le Panama",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-088",
+    "category": "geographie",
+    "question": "Quelle mer, quasiment fermée, borde l'Arabie saoudite et l'Égypte et doit son nom à la couleur que prennent parfois ses algues ?",
+    "answer": "La mer Rouge",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-089",
+    "category": "geographie",
+    "question": "Quel pays scandinave, riche en hydrocarbures offshore, a la plus longue côte découpée en fjords du monde ?",
+    "answer": "La Norvège",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-090",
+    "category": "geographie",
+    "question": "Quelle ligne de fracture géologique majeure entoure l'océan Pacifique et concentre l'essentiel des séismes et volcans actifs de la planète ?",
+    "answer": "La ceinture de feu du Pacifique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-091",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique du Nord, coincé entre l'Algérie et l'Égypte, est en grande partie recouvert par le désert de Libye ?",
+    "answer": "La Libye",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-092",
+    "category": "geographie",
+    "question": "Quelle capitale d'Asie centrale, rebaptisée Noursoultan entre 2019 et 2022 avant de reprendre son nom, est celle du Kazakhstan ?",
+    "answer": "Astana",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-093",
+    "category": "geographie",
+    "question": "Quel détroit stratégique, situé entre l'Iran et la péninsule arabique, voit transiter environ un cinquième du pétrole mondial ?",
+    "answer": "Le détroit d'Ormuz",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-094",
+    "category": "geographie",
+    "question": "Quel pays d'Océanie, le plus petit État membre de l'ONU par sa population, est un atoll corallien menacé par la montée des eaux ?",
+    "answer": "Nauru",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-095",
+    "category": "geographie",
+    "question": "Quelle région française d'outre-mer, département depuis 1946, se situe en Amérique du Sud et abrite le centre spatial de Kourou ?",
+    "answer": "La Guyane",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-096",
+    "category": "geographie",
+    "question": "Quel plateau désertique du sud de la Jordanie, célèbre pour ses formations rocheuses rouges, a servi de décor à plusieurs films de science-fiction ?",
+    "answer": "Le Wadi Rum",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-097",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud, deuxième plus vaste du continent, a pour capitale Buenos Aires et pour langue officielle l'espagnol ?",
+    "answer": "L'Argentine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-098",
+    "category": "geographie",
+    "question": "Quelle ligne de séparation, tracée en 1893 par un fonctionnaire britannique, délimite la frontière contestée entre l'Afghanistan et le Pakistan ?",
+    "answer": "La ligne Durand",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-099",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique de l'Ouest, entièrement enclavé, est traversé par le fleuve Niger et a pour capitale Niamey ?",
+    "answer": "Le Niger",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-100",
+    "category": "geographie",
+    "question": "Quelle mer intérieure, largement asséchée depuis les années 1960 en raison de l'irrigation soviétique, est partagée par le Kazakhstan et l'Ouzbékistan ?",
+    "answer": "La mer d'Aral",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-101",
+    "category": "geographie",
+    "question": "Quel pays d'Europe, le plus petit par sa superficie après le Vatican et Monaco, est niché entre l'Espagne et la France dans les Pyrénées ?",
+    "answer": "Andorre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-102",
+    "category": "geographie",
+    "question": "Quelle capitale d'Amérique du Nord se situe à la plus haute altitude, à plus de 2 200 mètres ?",
+    "answer": "Mexico",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-103",
+    "category": "geographie",
+    "question": "Quel fleuve d'Afrique de l'Ouest, deuxième plus long du continent, traverse notamment le Mali et le Niger avant de former un vaste delta ?",
+    "answer": "Le fleuve Niger",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-104",
+    "category": "geographie",
+    "question": "Quelle chaîne de montagnes, la plus longue d'Europe, traverse la péninsule scandinave sur plus de 1 700 kilomètres ?",
+    "answer": "Les Scandes (monts Scandinaves)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-105",
+    "category": "geographie",
+    "question": "Quel pays insulaire d'Asie du Sud, séparé de l'Inde par le détroit de Palk, était anciennement appelé Ceylan ?",
+    "answer": "Le Sri Lanka",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-106",
+    "category": "geographie",
+    "question": "Quelle métropole du Moyen-Orient, capitale des Émirats arabes unis, ne doit pas être confondue avec Dubaï, la ville la plus peuplée du pays ?",
+    "answer": "Abou Dhabi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-107",
+    "category": "geographie",
+    "question": "Quel pays d'Europe de l'Est, ancienne république soviétique, a pour capitale Chisinau et est situé entre la Roumanie et l'Ukraine ?",
+    "answer": "La Moldavie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-108",
+    "category": "geographie",
+    "question": "Quelle région séparatiste de Moldavie, non reconnue internationalement, est soutenue militairement par la Russie depuis les années 1990 ?",
+    "answer": "La Transnistrie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-109",
+    "category": "geographie",
+    "question": "Quel bassin fluvial d'Amérique du Sud, drainé par l'Amazone, est aussi le plus grand réservoir de biodiversité forestière au monde ?",
+    "answer": "Le bassin amazonien",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-110",
+    "category": "geographie",
+    "question": "Quel pays du golfe Persique, riche en gaz naturel, a pour capitale Doha et a organisé la Coupe du monde de football en 2022 ?",
+    "answer": "Le Qatar",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-111",
+    "category": "geographie",
+    "question": "Quelle capitale d'Europe de l'Est se situe au confluent de la Vltava, en République tchèque ?",
+    "answer": "Prague",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-112",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique australe, célèbre pour ses chutes Victoria partagées avec la Zambie, a été appelé Rhodésie jusqu'en 1980 ?",
+    "answer": "Le Zimbabwe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-113",
+    "category": "geographie",
+    "question": "Quelle plaque tectonique, en collision avec la plaque eurasiatique, est responsable de la formation continue de l'Himalaya ?",
+    "answer": "La plaque indienne",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-114",
+    "category": "geographie",
+    "question": "Quel pays d'Asie du Sud-Est, le seul de la région à ne jamais avoir changé de nom depuis son indépendance, a pour capitale Hanoï ?",
+    "answer": "Le Vietnam",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-115",
+    "category": "geographie",
+    "question": "Quelle île de la mer Méditerranée, la plus grande, appartient à l'Italie et abrite l'Etna, volcan encore actif ?",
+    "answer": "La Sicile",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-116",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud, enclavé et andin, possède deux capitales : Sucre pour le pouvoir judiciaire et La Paz pour le pouvoir exécutif ?",
+    "answer": "La Bolivie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-117",
+    "category": "geographie",
+    "question": "Quelle mer, bordée par la Norvège, l'Islande et le Groenland, tire son nom d'un peuple scandinave et se situe au nord de l'océan Atlantique ?",
+    "answer": "La mer de Norvège",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-118",
+    "category": "geographie",
+    "question": "Quel pays d'Europe centrale, traversé par le Danube, a pour capitale Budapest, née de la fusion de Buda et Pest ?",
+    "answer": "La Hongrie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-119",
+    "category": "geographie",
+    "question": "Quelle ligne de démarcation, tracée en 1953, sépare toujours aujourd'hui la Corée du Nord de la Corée du Sud ?",
+    "answer": "La zone démilitarisée coréenne (le 38e parallèle)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-120",
+    "category": "geographie",
+    "question": "Quelle mégapole d'Amérique latine, l'une des plus peuplées du monde, est bâtie sur le lit asséché du lac Texcoco ?",
+    "answer": "Mexico",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-121",
+    "category": "geographie",
+    "question": "Quel pays d'Asie, séparé de la Chine par l'Himalaya, est le seul royaume bouddhiste où le bonheur national brut sert d'indicateur officiel ?",
+    "answer": "Le Bhoutan",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-122",
+    "category": "geographie",
+    "question": "Quel canal, achevé en 1895, relie la mer du Nord à la mer Baltique en traversant le nord de l'Allemagne ?",
+    "answer": "Le canal de Kiel",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-123",
+    "category": "geographie",
+    "question": "Quel pays d'Europe, situé entre l'Autriche et la Suisse, a pour capitale Vaduz ?",
+    "answer": "Le Liechtenstein",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-124",
+    "category": "geographie",
+    "question": "Quel grand lac d'Afrique de l'Est, le plus profond du continent, est bordé par la République démocratique du Congo, la Tanzanie, le Burundi et la Zambie ?",
+    "answer": "Le lac Tanganyika",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-125",
+    "category": "geographie",
+    "question": "Quelle capitale d'Amérique centrale, la plus peuplée de la région, est celle du Guatemala ?",
+    "answer": "Guatemala Ciudad (Guatemala City)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-126",
+    "category": "geographie",
+    "question": "Quel pays d'Asie de l'Est, séparé de la Corée du Sud par le détroit de Corée, est constitué de quatre îles principales : Honshu, Hokkaido, Kyushu et Shikoku ?",
+    "answer": "Le Japon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-127",
+    "category": "geographie",
+    "question": "Quelle région autonome de Chine, majoritairement peuplée d'Ouïghours, a pour capitale Urumqi et se situe à l'extrême nord-ouest du pays ?",
+    "answer": "Le Xinjiang",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-128",
+    "category": "geographie",
+    "question": "Quel fleuve, le plus long d'Europe, prend sa source près de Moscou et se jette dans la mer Caspienne ?",
+    "answer": "La Volga",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-129",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique du Nord-Est, bordé par la mer Rouge, contrôle l'accès sud au canal de Suez via le détroit de Bab-el-Mandeb ?",
+    "answer": "Le Djibouti",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-130",
+    "category": "geographie",
+    "question": "Quelle ville, capitale économique de la Côte d'Ivoire, a longtemps été la capitale politique avant Yamoussoukro ?",
+    "answer": "Abidjan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-131",
+    "category": "geographie",
+    "question": "Quel pays d'Europe du Sud-Est, ancienne république yougoslave, a pour capitale Ljubljana et est le premier à avoir rejoint l'Union européenne en 2004 parmi les pays issus de la Yougoslavie ?",
+    "answer": "La Slovénie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-132",
+    "category": "geographie",
+    "question": "Quel océan, le plus petit du monde, est presque entièrement recouvert de banquise en hiver et borde le pôle Nord ?",
+    "answer": "L'océan Arctique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-133",
+    "category": "geographie",
+    "question": "Quel pays d'Amérique du Sud, exportateur majeur de café, a pour capitale Bogota et possède deux façades maritimes, sur le Pacifique et sur l'Atlantique ?",
+    "answer": "La Colombie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-134",
+    "category": "geographie",
+    "question": "Quelle vaste région désertique et semi-aride borde le sud du Sahara, s'étendant du Sénégal au Soudan et marquée par une désertification croissante ?",
+    "answer": "Le Sahel",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-135",
+    "category": "geographie",
+    "question": "Quel pays d'Océanie, formé de deux îles principales séparées par le détroit de Cook, abrite une importante population maorie ?",
+    "answer": "La Nouvelle-Zélande",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "geo-adulte-136",
+    "category": "geographie",
+    "question": "Quelle capitale d'Asie du Sud, l'une des mégapoles les plus polluées au monde, est celle de l'Inde ?",
+    "answer": "New Delhi",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-137",
+    "category": "geographie",
+    "question": "Quel détroit sépare l'île indonésienne de Sumatra de la péninsule malaise et constitue l'une des routes maritimes les plus fréquentées du monde ?",
+    "answer": "Le détroit de Malacca",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-138",
+    "category": "geographie",
+    "question": "Quel pays d'Europe, formé de trois régions historiques dont la Flandre et la Wallonie, a pour capitale Bruxelles ?",
+    "answer": "La Belgique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "geo-adulte-139",
+    "category": "geographie",
+    "question": "Quelle mer bordant le Yémen et Djibouti, prolongement de l'océan Indien, est reliée à la mer Rouge par le détroit de Bab-el-Mandeb ?",
+    "answer": "Le golfe d'Aden",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "geo-adulte-140",
+    "category": "geographie",
+    "question": "Quel pays d'Afrique de l'Est, le plus peuplé de la région, n'a plus d'accès à la mer depuis l'indépendance de l'Érythrée en 1993 ?",
+    "answer": "L'Éthiopie",
+    "difficulty": "moyen"
   }
 ]

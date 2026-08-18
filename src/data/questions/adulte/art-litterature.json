@@ -318,5 +318,635 @@
     "question": "Quel peintre italien du Quattrocento a réalisé la fresque \"La Cène\" à Milan ?",
     "answer": "Léonard de Vinci",
     "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-051",
+    "category": "art-litterature",
+    "question": "Quel écrivain irlandais est l'auteur du roman \"Ulysse\", publié en 1922 ?",
+    "answer": "James Joyce",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-052",
+    "category": "art-litterature",
+    "question": "Quel peintre français impressionniste est célèbre pour ses séries de tableaux représentant des danseuses de l'Opéra de Paris ?",
+    "answer": "Edgar Degas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-053",
+    "category": "art-litterature",
+    "question": "Quel dramaturge grec antique a écrit la tragédie \"Œdipe roi\" ?",
+    "answer": "Sophocle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-054",
+    "category": "art-litterature",
+    "question": "Quel peintre français, chef de file du romantisme, a peint \"La Liberté guidant le peuple\" ?",
+    "answer": "Eugène Delacroix",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-055",
+    "category": "art-litterature",
+    "question": "Quel romancier britannique est l'auteur de \"Sa Majesté des Mouches\" ?",
+    "answer": "William Golding",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-056",
+    "category": "art-litterature",
+    "question": "Quel peintre hollandais du XVIIe siècle est célèbre pour ses autoportraits et portraits collectifs comme \"La Leçon d'anatomie du docteur Tulp\" ?",
+    "answer": "Rembrandt",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-057",
+    "category": "art-litterature",
+    "question": "Quelle écrivaine américaine est l'auteure du roman \"Beloved\", récompensée par le prix Nobel de littérature en 1993 ?",
+    "answer": "Toni Morrison",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-058",
+    "category": "art-litterature",
+    "question": "Quel sculpteur et peintre italien de la Renaissance est l'auteur de la statue de \"La Pietà\" exposée à la basilique Saint-Pierre de Rome ?",
+    "answer": "Michel-Ange",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-059",
+    "category": "art-litterature",
+    "question": "Quel écrivain français, prix Nobel de littérature en 1957, est l'auteur de \"L'Étranger\" ?",
+    "answer": "Albert Camus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-060",
+    "category": "art-litterature",
+    "question": "Quel peintre russe est considéré comme un pionnier de l'art abstrait avec des œuvres comme \"Composition VIII\" ?",
+    "answer": "Vassily Kandinsky",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-061",
+    "category": "art-litterature",
+    "question": "Quelle romancière française du XVIIe siècle est l'auteure de \"La Princesse de Clèves\" ?",
+    "answer": "Madame de Lafayette",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-062",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol est l'auteur de \"Guernica\", dénonçant les bombardements de la guerre civile espagnole ?",
+    "answer": "Pablo Picasso",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-063",
+    "category": "art-litterature",
+    "question": "Quel poète français du XIXe siècle, figure du symbolisme, est l'auteur du poème \"Le Bateau ivre\" ?",
+    "answer": "Arthur Rimbaud",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-064",
+    "category": "art-litterature",
+    "question": "Quel photographe et cinéaste français est célèbre pour son concept de \"l'instant décisif\" en photographie ?",
+    "answer": "Henri Cartier-Bresson",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-065",
+    "category": "art-litterature",
+    "question": "Quel romancier tchèque, écrivant en allemand, est l'auteur de \"La Métamorphose\" ?",
+    "answer": "Franz Kafka",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-066",
+    "category": "art-litterature",
+    "question": "Quel peintre français, associé au mouvement néo-impressionniste, est l'auteur du \"Cirque\" ?",
+    "answer": "Georges Seurat",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-067",
+    "category": "art-litterature",
+    "question": "Quel philosophe et dramaturge français du XXe siècle est l'auteur de la pièce \"Huis clos\" ?",
+    "answer": "Jean-Paul Sartre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-068",
+    "category": "art-litterature",
+    "question": "Quel peintre flamand du XVIIe siècle, portraitiste de la cour, est l'auteur de nombreux portraits équestres comme celui de Charles Ier d'Angleterre ?",
+    "answer": "Antoine van Dyck",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-069",
+    "category": "art-litterature",
+    "question": "Quel écrivain britannique est l'auteur de la trilogie \"His Dark Materials\", publiée en français sous le titre \"À la croisée des mondes\" ?",
+    "answer": "Philip Pullman",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-070",
+    "category": "art-litterature",
+    "question": "Quelle poétesse et résistante française du XXe siècle est l'auteure du recueil \"Le Cœur défendu\" ?",
+    "answer": "Marie Noël",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-071",
+    "category": "art-litterature",
+    "question": "Quel romancier russe est l'auteur d'\"Anna Karénine\" ?",
+    "answer": "Léon Tolstoï",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-072",
+    "category": "art-litterature",
+    "question": "Quel poète français du XVIe siècle est le chef de file de la Pléiade et l'auteur des \"Sonnets pour Hélène\" ?",
+    "answer": "Pierre de Ronsard",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-073",
+    "category": "art-litterature",
+    "question": "Quel compositeur allemand, devenu sourd, a composé sa Neuvième Symphonie incluant l'\"Ode à la joie\" ?",
+    "answer": "Ludwig van Beethoven",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-074",
+    "category": "art-litterature",
+    "question": "Quel fabuliste français du XVIIe siècle a écrit \"Le Corbeau et le Renard\" ?",
+    "answer": "Jean de La Fontaine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-075",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du Quattrocento a peint \"L'École d'Athènes\" dans les chambres du Vatican ?",
+    "answer": "Raphaël",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-076",
+    "category": "art-litterature",
+    "question": "Quel romancier français du XIXe siècle est l'auteur du cycle des \"Rougon-Macquart\" et du roman \"Germinal\" ?",
+    "answer": "Émile Zola",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-077",
+    "category": "art-litterature",
+    "question": "Quel peintre allemand de la Renaissance est célèbre pour sa gravure \"Melencolia I\" ?",
+    "answer": "Albrecht Dürer",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-078",
+    "category": "art-litterature",
+    "question": "Quel écrivain écossais a créé le personnage du détective Sherlock Holmes ?",
+    "answer": "Arthur Conan Doyle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-079",
+    "category": "art-litterature",
+    "question": "Quel architecte allemand a fondé en 1919 l'école d'art et de design du Bauhaus à Weimar ?",
+    "answer": "Walter Gropius",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-080",
+    "category": "art-litterature",
+    "question": "Quel dramaturge français du XVIIe siècle, auteur du \"Tartuffe\" et du \"Malade imaginaire\", est mort peu après une représentation sur scène ?",
+    "answer": "Molière",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-081",
+    "category": "art-litterature",
+    "question": "Quelle portraitiste française du XVIIIe siècle est célèbre pour ses nombreux portraits de la reine Marie-Antoinette ?",
+    "answer": "Élisabeth Vigée Le Brun",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-082",
+    "category": "art-litterature",
+    "question": "Quel peintre américain est le principal représentant de l'expressionnisme abstrait avec sa technique du dripping ?",
+    "answer": "Jackson Pollock",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-083",
+    "category": "art-litterature",
+    "question": "Quelle romancière anglaise du XIXe siècle est l'auteure de \"Jane Eyre\" ?",
+    "answer": "Charlotte Brontë",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-084",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XVIIIe siècle, représentant du rococo, est l'auteur de \"L'Escarpolette\" ?",
+    "answer": "Jean-Honoré Fragonard",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-085",
+    "category": "art-litterature",
+    "question": "Quel poète et essayiste américain du XIXe siècle est l'auteur du recueil \"Feuilles d'herbe\" ?",
+    "answer": "Walt Whitman",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-086",
+    "category": "art-litterature",
+    "question": "Quel philosophe grec antique, élève de Platon, a fondé le Lycée à Athènes ?",
+    "answer": "Aristote",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-087",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XIXe siècle, précurseur de l'impressionnisme, est l'auteur du \"Déjeuner sur l'herbe\" ?",
+    "answer": "Édouard Manet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-088",
+    "category": "art-litterature",
+    "question": "Quelle romancière française du XXe siècle, née Simone-Ernestine-Lucie-Marie Bertrand de Beauvoir, est l'auteure du \"Deuxième Sexe\" ?",
+    "answer": "Simone de Beauvoir",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-089",
+    "category": "art-litterature",
+    "question": "Quel peintre italien maniériste, de son vrai nom Jacopo Robusti, est surnommé le \"Tintoret\" ?",
+    "answer": "Le Tintoret",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-090",
+    "category": "art-litterature",
+    "question": "Quel écrivain américain est l'auteur de \"Le Vieil Homme et la Mer\", prix Nobel de littérature en 1954 ?",
+    "answer": "Ernest Hemingway",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-091",
+    "category": "art-litterature",
+    "question": "Quel sculpteur roumain, installé à Paris, est l'auteur de la série des \"Oiseaux dans l'espace\" et de \"La Colonne sans fin\" ?",
+    "answer": "Constantin Brâncuși",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-092",
+    "category": "art-litterature",
+    "question": "Quel dramaturge et poète allemand, contemporain de Goethe, est l'auteur de la trilogie \"Wallenstein\" ?",
+    "answer": "Friedrich Schiller",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-093",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XIXe siècle, chef de file du réalisme, est l'auteur de \"L'Origine du monde\" et de \"Un enterrement à Ornans\" ?",
+    "answer": "Gustave Courbet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-094",
+    "category": "art-litterature",
+    "question": "Quelle poétesse américaine du XIXe siècle a vécu recluse à Amherst et n'a été publiée massivement qu'après sa mort ?",
+    "answer": "Emily Dickinson",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-095",
+    "category": "art-litterature",
+    "question": "Quel peintre flamand du XVIIe siècle, maître de la Contre-Réforme, est l'auteur de \"L'Élévation de la croix\" ?",
+    "answer": "Pierre Paul Rubens",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-096",
+    "category": "art-litterature",
+    "question": "Quel romancier français, académicien et auteur de \"La Condition humaine\", fut également ministre de la Culture sous de Gaulle ?",
+    "answer": "André Malraux",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-097",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du XVIe siècle, rival de Michel-Ange, est l'auteur du \"Concert champêtre\" et de \"L'Amour sacré et l'Amour profane\" ?",
+    "answer": "Titien",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-098",
+    "category": "art-litterature",
+    "question": "Quel écrivain japonais, prix Nobel de littérature en 1994, est l'auteur de \"Une existence tranquille\" ?",
+    "answer": "Kenzaburô Ôé",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-099",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du Trecento, précurseur de la Renaissance, a peint les fresques de la chapelle des Scrovegni à Padoue ?",
+    "answer": "Giotto",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-100",
+    "category": "art-litterature",
+    "question": "Quelle romancière britannique du XXe siècle est l'auteure de \"Mrs Dalloway\" et pionnière du roman moderniste ?",
+    "answer": "Virginia Woolf",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-101",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol, précurseur de l'expressionnisme, est l'auteur des célèbres \"peintures noires\" comme \"Saturne dévorant un de ses fils\" ?",
+    "answer": "Francisco de Goya",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-102",
+    "category": "art-litterature",
+    "question": "Quel poète et diplomate français, prix Nobel de littérature en 1960, est l'auteur d'\"Éloges\" ?",
+    "answer": "Saint-John Perse",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-103",
+    "category": "art-litterature",
+    "question": "Quel compositeur autrichien du XVIIIe siècle, enfant prodige, est l'auteur de l'opéra \"La Flûte enchantée\" ?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-104",
+    "category": "art-litterature",
+    "question": "Quel romancier britannique est l'auteur de la dystopie \"Le Meilleur des mondes\", publiée en 1932 ?",
+    "answer": "Aldous Huxley",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-105",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du XVe siècle a réalisé le triptyque \"La Bataille de San Romano\" ?",
+    "answer": "Paolo Uccello",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-106",
+    "category": "art-litterature",
+    "question": "Quelle romancière française du XIXe siècle, de son vrai nom Amantine Aurore Lucile Dupin, a pris un pseudonyme masculin ?",
+    "answer": "George Sand",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-107",
+    "category": "art-litterature",
+    "question": "Quel architecte suisse, naturalisé français, est le théoricien du mouvement moderne et l'auteur de la Cité radieuse à Marseille ?",
+    "answer": "Le Corbusier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-108",
+    "category": "art-litterature",
+    "question": "Quel dramaturge irlandais, prix Nobel de littérature en 1925, est l'auteur de \"Pygmalion\" ?",
+    "answer": "George Bernard Shaw",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-109",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XXe siècle, membre du mouvement De Stijl, est connu pour ses compositions géométriques en lignes noires et aplats de couleurs primaires ?",
+    "answer": "Piet Mondrian",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-110",
+    "category": "art-litterature",
+    "question": "Quel romancier français du XIXe siècle est l'auteur du \"Rouge et le Noir\" ?",
+    "answer": "Stendhal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-111",
+    "category": "art-litterature",
+    "question": "Quel peintre flamand du XVe siècle, maître du polyptyque de \"L'Agneau mystique\", est considéré comme un pionnier de la peinture à l'huile ?",
+    "answer": "Jan van Eyck",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-112",
+    "category": "art-litterature",
+    "question": "Quel romancier français, résistant et déporté, est l'auteur du récit testimonial \"L'Espèce humaine\" ?",
+    "answer": "Robert Antelme",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-113",
+    "category": "art-litterature",
+    "question": "Quel romancier tchèque naturalisé français est l'auteur de \"L'Insoutenable Légèreté de l'être\" ?",
+    "answer": "Milan Kundera",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-114",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XVIIIe siècle, premier peintre du roi Louis XV, est l'auteur de \"Pèlerinage à l'île de Cythère\" ?",
+    "answer": "Antoine Watteau",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-115",
+    "category": "art-litterature",
+    "question": "Quel dramaturge espagnol du Siècle d'or est l'auteur de \"La vie est un songe\" ?",
+    "answer": "Pedro Calderón de la Barca",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-116",
+    "category": "art-litterature",
+    "question": "Quel écrivain et philosophe français des Lumières est l'auteur des \"Lettres persanes\" ?",
+    "answer": "Montesquieu",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-117",
+    "category": "art-litterature",
+    "question": "Quel peintre américain du XXe siècle, figure du réalisme, est l'auteur du tableau \"Nighthawks\" représentant un diner désert la nuit ?",
+    "answer": "Edward Hopper",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-118",
+    "category": "art-litterature",
+    "question": "Quel philosophe français des Lumières a dirigé la rédaction de l'Encyclopédie avec d'Alembert ?",
+    "answer": "Denis Diderot",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-119",
+    "category": "art-litterature",
+    "question": "Quel peintre italien baroque, l'une des rares femmes peintres reconnues de son temps, est l'auteure de \"Judith décapitant Holopherne\" ?",
+    "answer": "Artemisia Gentileschi",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-120",
+    "category": "art-litterature",
+    "question": "Quel romancier français du XIXe siècle, auteur de \"Bel-Ami\" et de nombreuses nouvelles fantastiques comme \"Le Horla\", était un disciple de Flaubert ?",
+    "answer": "Guy de Maupassant",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-121",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XIXe siècle est l'auteur de \"L'Angélus\" et du \"Semeur\", figures du monde paysan ?",
+    "answer": "Jean-François Millet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-122",
+    "category": "art-litterature",
+    "question": "Quel romancier français du XIXe siècle est l'auteur de \"Madame Bovary\" ?",
+    "answer": "Gustave Flaubert",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-123",
+    "category": "art-litterature",
+    "question": "Quel peintre suisse-allemand du XXe siècle, professeur au Bauhaus, est connu pour son œuvre \"Sénécio\" ?",
+    "answer": "Paul Klee",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-124",
+    "category": "art-litterature",
+    "question": "Quel dramaturge français du XVIIe siècle, souvent opposé à Racine, est l'auteur du \"Cid\" ?",
+    "answer": "Pierre Corneille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-125",
+    "category": "art-litterature",
+    "question": "Quel peintre italien du XXe siècle, fondateur de la peinture métaphysique, a influencé les surréalistes avec ses places désertes et ses mannequins ?",
+    "answer": "Giorgio de Chirico",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-126",
+    "category": "art-litterature",
+    "question": "Quel romancier britannique du XIXe siècle est l'auteur d'\"Oliver Twist\" et de \"David Copperfield\" ?",
+    "answer": "Charles Dickens",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-127",
+    "category": "art-litterature",
+    "question": "Quel sculpteur français du XIXe siècle est l'auteur de \"La Danse\", façade de l'Opéra Garnier, qui provoqua un scandale ?",
+    "answer": "Jean-Baptiste Carpeaux",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-128",
+    "category": "art-litterature",
+    "question": "Quel philosophe allemand du XIXe siècle est l'auteur d'\"Ainsi parlait Zarathoustra\" ?",
+    "answer": "Friedrich Nietzsche",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-129",
+    "category": "art-litterature",
+    "question": "Quel peintre français du XIXe siècle, orientaliste, est l'auteur de \"Le Bain turc\" et du portrait de Monsieur Bertin ?",
+    "answer": "Jean-Auguste-Dominique Ingres",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-130",
+    "category": "art-litterature",
+    "question": "Quelle romancière sud-africaine, prix Nobel de littérature en 1991, est l'auteure de \"Vivre au bout du monde\" ?",
+    "answer": "Nadine Gordimer",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-131",
+    "category": "art-litterature",
+    "question": "Quel peintre allemand du XXe siècle, figure de l'expressionnisme, cofondateur du groupe Die Brücke, est l'auteur de \"Rue Berlin\" ?",
+    "answer": "Ernst Ludwig Kirchner",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-132",
+    "category": "art-litterature",
+    "question": "Quel poète français du XXe siècle, engagé dans la Résistance, est l'auteur du recueil \"Le Parti pris des choses\" ?",
+    "answer": "Francis Ponge",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-133",
+    "category": "art-litterature",
+    "question": "Quel peintre néerlandais du XXe siècle, connu pour ses jeux d'optique et ses figures impossibles, est l'auteur de \"Relativité\" ?",
+    "answer": "Maurits Cornelis Escher",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-134",
+    "category": "art-litterature",
+    "question": "Quel romancier américain, prix Nobel de littérature en 1949, est l'auteur du \"Bruit et la Fureur\", roman situé dans le Sud profond ?",
+    "answer": "William Faulkner",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-135",
+    "category": "art-litterature",
+    "question": "Quel sculpteur italien du XVIIe siècle, maître du baroque romain, est l'auteur de \"L'Extase de sainte Thérèse\" ?",
+    "answer": "Le Bernin",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-136",
+    "category": "art-litterature",
+    "question": "Quelle romancière anglaise du XVIIIe-XIXe siècle est l'auteure de \"Frankenstein ou le Prométhée moderne\" ?",
+    "answer": "Mary Shelley",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "art-adulte-137",
+    "category": "art-litterature",
+    "question": "Quel peintre autrichien, élève de Klimt, est célèbre pour ses figures torturées et ses autoportraits expressionnistes ?",
+    "answer": "Egon Schiele",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-138",
+    "category": "art-litterature",
+    "question": "Quel philosophe français du XVIIe siècle est l'auteur du \"Discours de la méthode\" et de la formule \"Je pense donc je suis\" ?",
+    "answer": "René Descartes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "art-adulte-139",
+    "category": "art-litterature",
+    "question": "Quel peintre espagnol, ami de Dalí et Buñuel, est l'auteur de \"Le Carnaval d'Arlequin\", œuvre majeure du surréalisme ?",
+    "answer": "Joan Miró",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "art-adulte-140",
+    "category": "art-litterature",
+    "question": "Quel dramaturge russe est l'auteur de \"La Cerisaie\" et de nombreuses nouvelles réalistes ?",
+    "answer": "Anton Tchekhov",
+    "difficulty": "moyen"
   }
 ]

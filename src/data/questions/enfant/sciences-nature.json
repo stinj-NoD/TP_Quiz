@@ -1,52 +1,947 @@
 [
-  { "id": "sci-enfant-001", "category": "sciences-nature", "question": "Quel est le plus grand animal terrestre du monde ?", "answer": "L'éléphant" },
-  { "id": "sci-enfant-002", "category": "sciences-nature", "question": "Combien de pattes a une araignée ?", "answer": "8" },
-  { "id": "sci-enfant-003", "category": "sciences-nature", "question": "Quel animal est le roi de la savane et a une grande crinière ?", "answer": "Le lion" },
-  { "id": "sci-enfant-004", "category": "sciences-nature", "question": "Quelle planète est surnommée la \"planète rouge\" ?", "answer": "Mars" },
-  { "id": "sci-enfant-005", "category": "sciences-nature", "question": "Quel est l'animal le plus rapide du monde sur terre ?", "answer": "Le guépard" },
-  { "id": "sci-enfant-006", "category": "sciences-nature", "question": "Combien de couleurs voit-on dans un arc-en-ciel ?", "answer": "7" },
-  { "id": "sci-enfant-007", "category": "sciences-nature", "question": "Quel animal change de couleur pour se cacher ?", "answer": "Le caméléon" },
-  { "id": "sci-enfant-008", "category": "sciences-nature", "question": "Quelle est la plus grande planète du système solaire ?", "answer": "Jupiter" },
-  { "id": "sci-enfant-009", "category": "sciences-nature", "question": "Quel insecte fabrique du miel ?", "answer": "L'abeille" },
-  { "id": "sci-enfant-010", "category": "sciences-nature", "question": "Combien de cœurs a une pieuvre ?", "answer": "Trois" },
-  { "id": "sci-enfant-011", "category": "sciences-nature", "question": "Quel est le plus grand animal marin du monde ?", "answer": "La baleine bleue" },
-  { "id": "sci-enfant-012", "category": "sciences-nature", "question": "Quelle étoile nous donne de la lumière et de la chaleur pendant la journée ?", "answer": "Le Soleil" },
-  { "id": "sci-enfant-013", "category": "sciences-nature", "question": "Quel animal a un très long cou pour manger les feuilles en haut des arbres ?", "answer": "La girafe" },
-  { "id": "sci-enfant-014", "category": "sciences-nature", "question": "Combien d'os a un squelette humain adulte, à peu près ?", "answer": "206" },
-  { "id": "sci-enfant-015", "category": "sciences-nature", "question": "Quel animal noir et blanc mange principalement du bambou ?", "answer": "Le panda" },
-  { "id": "sci-enfant-016", "category": "sciences-nature", "question": "Quelle partie du corps sert à pomper le sang ?", "answer": "Le cœur" },
-  { "id": "sci-enfant-017", "category": "sciences-nature", "question": "Quel animal vit dans une coquille et se déplace très lentement ?", "answer": "L'escargot" },
-  { "id": "sci-enfant-018", "category": "sciences-nature", "question": "Combien de continents y a-t-il sur Terre ?", "answer": "6 (ou 7 selon les découpages, réponse acceptée : 6)" },
-  { "id": "sci-enfant-019", "category": "sciences-nature", "question": "Quel animal a des rayures noires et blanches, comme un cheval ?", "answer": "Le zèbre" },
-  { "id": "sci-enfant-020", "category": "sciences-nature", "question": "Que produisent les plantes vertes grâce au soleil ?", "answer": "De l'oxygène (par la photosynthèse)" },
-  { "id": "sci-enfant-021", "category": "sciences-nature", "question": "Quel animal peut voler et est le seul mammifère à le faire ?", "answer": "La chauve-souris" },
-  { "id": "sci-enfant-022", "category": "sciences-nature", "question": "Combien de pattes a une fourmi ?", "answer": "6" },
-  { "id": "sci-enfant-023", "category": "sciences-nature", "question": "Quel gaz respirons-nous pour vivre ?", "answer": "L'oxygène" },
-  { "id": "sci-enfant-024", "category": "sciences-nature", "question": "Quel animal est connu pour dormir presque 20 heures par jour, accroché à une branche ?", "answer": "Le paresseux" },
-  { "id": "sci-enfant-025", "category": "sciences-nature", "question": "Quelle est la planète la plus proche du Soleil ?", "answer": "Mercure" },
-  { "id": "sci-enfant-026", "category": "sciences-nature", "question": "Quel animal marin a huit bras ?", "answer": "La pieuvre" },
-  { "id": "sci-enfant-027", "category": "sciences-nature", "question": "Comment s'appelle la Lune qui tourne autour de la Terre ?", "answer": "La Lune" },
-  { "id": "sci-enfant-028", "category": "sciences-nature", "question": "Quel animal a une trompe très longue ?", "answer": "L'éléphant" },
-  { "id": "sci-enfant-029", "category": "sciences-nature", "question": "Combien de temps met la Terre pour faire un tour complet autour du Soleil ?", "answer": "Un an (environ 365 jours)" },
-  { "id": "sci-enfant-030", "category": "sciences-nature", "question": "Quel petit animal transforme une chenille grâce à une métamorphose ?", "answer": "Le papillon" },
-  { "id": "sci-enfant-031", "category": "sciences-nature", "question": "Quel animal aux longues oreilles vit dans un terrier et adore les carottes ?", "answer": "Le lapin" },
-  { "id": "sci-enfant-032", "category": "sciences-nature", "question": "Quelle partie de la plante pousse sous la terre pour puiser l'eau ?", "answer": "La racine" },
-  { "id": "sci-enfant-033", "category": "sciences-nature", "question": "Quel animal à grosses dents ronge le bois pour construire des barrages ?", "answer": "Le castor" },
-  { "id": "sci-enfant-034", "category": "sciences-nature", "question": "Quelle saison de l'année suit l'hiver ?", "answer": "Le printemps" },
-  { "id": "sci-enfant-035", "category": "sciences-nature", "question": "Quel animal des mers froides a un gros corps rond et deux défenses ?", "answer": "Le morse" },
-  { "id": "sci-enfant-036", "category": "sciences-nature", "question": "Quel animal a un cou couvert de piquants et se roule en boule pour se protéger ?", "answer": "Le hérisson", "difficulty": "facile" },
-  { "id": "sci-enfant-037", "category": "sciences-nature", "question": "Quel oiseau ne sait pas voler mais nage très bien dans l'eau froide ?", "answer": "Le manchot (ou pingouin)", "difficulty": "facile" },
-  { "id": "sci-enfant-038", "category": "sciences-nature", "question": "Quelle partie de la plante capte la lumière du soleil pour la nourrir ?", "answer": "La feuille", "difficulty": "moyen" },
-  { "id": "sci-enfant-039", "category": "sciences-nature", "question": "Quel animal est le plus grand des singes et vit en Afrique ?", "answer": "Le gorille", "difficulty": "moyen" },
-  { "id": "sci-enfant-040", "category": "sciences-nature", "question": "Comment s'appelle l'eau gelée qui tombe du ciel en petits morceaux blancs ?", "answer": "La neige", "difficulty": "facile" },
-  { "id": "sci-enfant-041", "category": "sciences-nature", "question": "Quel animal à grandes oreilles vit dans le désert et chasse la nuit ?", "answer": "Le fennec", "difficulty": "difficile" },
-  { "id": "sci-enfant-042", "category": "sciences-nature", "question": "Quelle planète est entourée de magnifiques anneaux ?", "answer": "Saturne", "difficulty": "moyen" },
-  { "id": "sci-enfant-043", "category": "sciences-nature", "question": "Quel est le plus grand poisson du monde, qui n'est pourtant pas dangereux ?", "answer": "Le requin-baleine", "difficulty": "difficile" },
-  { "id": "sci-enfant-044", "category": "sciences-nature", "question": "Quel animal peut vivre aussi bien dans l'eau que sur la terre ?", "answer": "La grenouille (un amphibien)", "difficulty": "moyen" },
-  { "id": "sci-enfant-045", "category": "sciences-nature", "question": "Quelle partie du corps utilise-t-on pour sentir les odeurs ?", "answer": "Le nez", "difficulty": "facile" },
-  { "id": "sci-enfant-046", "category": "sciences-nature", "question": "Quel animal construit une toile pour attraper ses proies ?", "answer": "L'araignée", "difficulty": "facile" },
-  { "id": "sci-enfant-047", "category": "sciences-nature", "question": "Comment appelle-t-on les petits qui sortent d'un œuf de grenouille avant de devenir grenouilles ?", "answer": "Les têtards", "difficulty": "moyen" },
-  { "id": "sci-enfant-048", "category": "sciences-nature", "question": "Quel grand félin orange à rayures noires est le plus grand chat du monde ?", "answer": "Le tigre", "difficulty": "facile" },
-  { "id": "sci-enfant-049", "category": "sciences-nature", "question": "Quel phénomène fait gronder le ciel juste après un éclair ?", "answer": "Le tonnerre", "difficulty": "facile" },
-  { "id": "sci-enfant-050", "category": "sciences-nature", "question": "Quel animal marin a une corne pointue sur la tête et est surnommé la \"licorne des mers\" ?", "answer": "Le narval", "difficulty": "difficile" }
+  {
+    "id": "sci-enfant-001",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand animal terrestre du monde ?",
+    "answer": "L'éléphant"
+  },
+  {
+    "id": "sci-enfant-002",
+    "category": "sciences-nature",
+    "question": "Combien de pattes a une araignée ?",
+    "answer": "8"
+  },
+  {
+    "id": "sci-enfant-003",
+    "category": "sciences-nature",
+    "question": "Quel animal est le roi de la savane et a une grande crinière ?",
+    "answer": "Le lion"
+  },
+  {
+    "id": "sci-enfant-004",
+    "category": "sciences-nature",
+    "question": "Quelle planète est surnommée la \"planète rouge\" ?",
+    "answer": "Mars"
+  },
+  {
+    "id": "sci-enfant-005",
+    "category": "sciences-nature",
+    "question": "Quel est l'animal le plus rapide du monde sur terre ?",
+    "answer": "Le guépard"
+  },
+  {
+    "id": "sci-enfant-006",
+    "category": "sciences-nature",
+    "question": "Combien de couleurs voit-on dans un arc-en-ciel ?",
+    "answer": "7"
+  },
+  {
+    "id": "sci-enfant-007",
+    "category": "sciences-nature",
+    "question": "Quel animal change de couleur pour se cacher ?",
+    "answer": "Le caméléon"
+  },
+  {
+    "id": "sci-enfant-008",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus grande planète du système solaire ?",
+    "answer": "Jupiter"
+  },
+  {
+    "id": "sci-enfant-009",
+    "category": "sciences-nature",
+    "question": "Quel insecte fabrique du miel ?",
+    "answer": "L'abeille"
+  },
+  {
+    "id": "sci-enfant-010",
+    "category": "sciences-nature",
+    "question": "Combien de cœurs a une pieuvre ?",
+    "answer": "Trois"
+  },
+  {
+    "id": "sci-enfant-011",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand animal marin du monde ?",
+    "answer": "La baleine bleue"
+  },
+  {
+    "id": "sci-enfant-012",
+    "category": "sciences-nature",
+    "question": "Quelle étoile nous donne de la lumière et de la chaleur pendant la journée ?",
+    "answer": "Le Soleil"
+  },
+  {
+    "id": "sci-enfant-013",
+    "category": "sciences-nature",
+    "question": "Quel animal a un très long cou pour manger les feuilles en haut des arbres ?",
+    "answer": "La girafe"
+  },
+  {
+    "id": "sci-enfant-014",
+    "category": "sciences-nature",
+    "question": "Combien d'os a un squelette humain adulte, à peu près ?",
+    "answer": "206"
+  },
+  {
+    "id": "sci-enfant-015",
+    "category": "sciences-nature",
+    "question": "Quel animal noir et blanc mange principalement du bambou ?",
+    "answer": "Le panda"
+  },
+  {
+    "id": "sci-enfant-016",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps sert à pomper le sang ?",
+    "answer": "Le cœur"
+  },
+  {
+    "id": "sci-enfant-017",
+    "category": "sciences-nature",
+    "question": "Quel animal vit dans une coquille et se déplace très lentement ?",
+    "answer": "L'escargot"
+  },
+  {
+    "id": "sci-enfant-018",
+    "category": "sciences-nature",
+    "question": "Combien de continents y a-t-il sur Terre ?",
+    "answer": "6 (ou 7 selon les découpages, réponse acceptée : 6)"
+  },
+  {
+    "id": "sci-enfant-019",
+    "category": "sciences-nature",
+    "question": "Quel animal a des rayures noires et blanches, comme un cheval ?",
+    "answer": "Le zèbre"
+  },
+  {
+    "id": "sci-enfant-020",
+    "category": "sciences-nature",
+    "question": "Que produisent les plantes vertes grâce au soleil ?",
+    "answer": "De l'oxygène (par la photosynthèse)"
+  },
+  {
+    "id": "sci-enfant-021",
+    "category": "sciences-nature",
+    "question": "Quel animal peut voler et est le seul mammifère à le faire ?",
+    "answer": "La chauve-souris"
+  },
+  {
+    "id": "sci-enfant-022",
+    "category": "sciences-nature",
+    "question": "Combien de pattes a une fourmi ?",
+    "answer": "6"
+  },
+  {
+    "id": "sci-enfant-023",
+    "category": "sciences-nature",
+    "question": "Quel gaz respirons-nous pour vivre ?",
+    "answer": "L'oxygène"
+  },
+  {
+    "id": "sci-enfant-024",
+    "category": "sciences-nature",
+    "question": "Quel animal est connu pour dormir presque 20 heures par jour, accroché à une branche ?",
+    "answer": "Le paresseux"
+  },
+  {
+    "id": "sci-enfant-025",
+    "category": "sciences-nature",
+    "question": "Quelle est la planète la plus proche du Soleil ?",
+    "answer": "Mercure"
+  },
+  {
+    "id": "sci-enfant-026",
+    "category": "sciences-nature",
+    "question": "Quel animal marin a huit bras ?",
+    "answer": "La pieuvre"
+  },
+  {
+    "id": "sci-enfant-027",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle la Lune qui tourne autour de la Terre ?",
+    "answer": "La Lune"
+  },
+  {
+    "id": "sci-enfant-028",
+    "category": "sciences-nature",
+    "question": "Quel animal a une trompe très longue ?",
+    "answer": "L'éléphant"
+  },
+  {
+    "id": "sci-enfant-029",
+    "category": "sciences-nature",
+    "question": "Combien de temps met la Terre pour faire un tour complet autour du Soleil ?",
+    "answer": "Un an (environ 365 jours)"
+  },
+  {
+    "id": "sci-enfant-030",
+    "category": "sciences-nature",
+    "question": "Quel petit animal transforme une chenille grâce à une métamorphose ?",
+    "answer": "Le papillon"
+  },
+  {
+    "id": "sci-enfant-031",
+    "category": "sciences-nature",
+    "question": "Quel animal aux longues oreilles vit dans un terrier et adore les carottes ?",
+    "answer": "Le lapin"
+  },
+  {
+    "id": "sci-enfant-032",
+    "category": "sciences-nature",
+    "question": "Quelle partie de la plante pousse sous la terre pour puiser l'eau ?",
+    "answer": "La racine"
+  },
+  {
+    "id": "sci-enfant-033",
+    "category": "sciences-nature",
+    "question": "Quel animal à grosses dents ronge le bois pour construire des barrages ?",
+    "answer": "Le castor"
+  },
+  {
+    "id": "sci-enfant-034",
+    "category": "sciences-nature",
+    "question": "Quelle saison de l'année suit l'hiver ?",
+    "answer": "Le printemps"
+  },
+  {
+    "id": "sci-enfant-035",
+    "category": "sciences-nature",
+    "question": "Quel animal des mers froides a un gros corps rond et deux défenses ?",
+    "answer": "Le morse"
+  },
+  {
+    "id": "sci-enfant-036",
+    "category": "sciences-nature",
+    "question": "Quel animal a un cou couvert de piquants et se roule en boule pour se protéger ?",
+    "answer": "Le hérisson",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-037",
+    "category": "sciences-nature",
+    "question": "Quel oiseau ne sait pas voler mais nage très bien dans l'eau froide ?",
+    "answer": "Le manchot (ou pingouin)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-038",
+    "category": "sciences-nature",
+    "question": "Quelle partie de la plante capte la lumière du soleil pour la nourrir ?",
+    "answer": "La feuille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-039",
+    "category": "sciences-nature",
+    "question": "Quel animal est le plus grand des singes et vit en Afrique ?",
+    "answer": "Le gorille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-040",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle l'eau gelée qui tombe du ciel en petits morceaux blancs ?",
+    "answer": "La neige",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-041",
+    "category": "sciences-nature",
+    "question": "Quel animal à grandes oreilles vit dans le désert et chasse la nuit ?",
+    "answer": "Le fennec",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-enfant-042",
+    "category": "sciences-nature",
+    "question": "Quelle planète est entourée de magnifiques anneaux ?",
+    "answer": "Saturne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-043",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand poisson du monde, qui n'est pourtant pas dangereux ?",
+    "answer": "Le requin-baleine",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-enfant-044",
+    "category": "sciences-nature",
+    "question": "Quel animal peut vivre aussi bien dans l'eau que sur la terre ?",
+    "answer": "La grenouille (un amphibien)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-045",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps utilise-t-on pour sentir les odeurs ?",
+    "answer": "Le nez",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-046",
+    "category": "sciences-nature",
+    "question": "Quel animal construit une toile pour attraper ses proies ?",
+    "answer": "L'araignée",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-047",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on les petits qui sortent d'un œuf de grenouille avant de devenir grenouilles ?",
+    "answer": "Les têtards",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-048",
+    "category": "sciences-nature",
+    "question": "Quel grand félin orange à rayures noires est le plus grand chat du monde ?",
+    "answer": "Le tigre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-049",
+    "category": "sciences-nature",
+    "question": "Quel phénomène fait gronder le ciel juste après un éclair ?",
+    "answer": "Le tonnerre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-050",
+    "category": "sciences-nature",
+    "question": "Quel animal marin a une corne pointue sur la tête et est surnommé la \"licorne des mers\" ?",
+    "answer": "Le narval",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-enfant-051",
+    "category": "sciences-nature",
+    "question": "Quel animal est surnommé le \"meilleur ami de l'homme\" ?",
+    "answer": "Le chien",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-052",
+    "category": "sciences-nature",
+    "question": "Quel oiseau blanc et noir apporte souvent les bébés dans les histoires ?",
+    "answer": "La cigogne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-053",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps sert à voir ?",
+    "answer": "Les yeux",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-054",
+    "category": "sciences-nature",
+    "question": "Quel animal australien porte son bébé dans une poche sur son ventre ?",
+    "answer": "Le kangourou",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-055",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on la période où un ours dort tout l'hiver ?",
+    "answer": "L'hibernation",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-056",
+    "category": "sciences-nature",
+    "question": "Quel animal est le plus grand reptile du monde et vit dans les rivières ?",
+    "answer": "Le crocodile",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-057",
+    "category": "sciences-nature",
+    "question": "Quelle partie de la fleur sent bon et attire les abeilles ?",
+    "answer": "Le pétale",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-058",
+    "category": "sciences-nature",
+    "question": "Quel animal a un long cou orange et est le plus grand oiseau qui ne vole pas ?",
+    "answer": "L'autruche",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-059",
+    "category": "sciences-nature",
+    "question": "Quelle boisson les vaches nous donnent-elles ?",
+    "answer": "Le lait",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-060",
+    "category": "sciences-nature",
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "L'Everest",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-061",
+    "category": "sciences-nature",
+    "question": "Quel animal marin ressemble à une étoile et vit au fond de la mer ?",
+    "answer": "L'étoile de mer",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-062",
+    "category": "sciences-nature",
+    "question": "Quel insecte a de belles ailes colorées et vient d'une chenille ?",
+    "answer": "Le papillon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-063",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle le phénomène quand le ciel devient tout illuminé pendant un orage ?",
+    "answer": "L'éclair",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-064",
+    "category": "sciences-nature",
+    "question": "Quel est le plus petit oiseau du monde, capable de voler sur place ?",
+    "answer": "Le colibri",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-065",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps sert à écouter les sons ?",
+    "answer": "Les oreilles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-066",
+    "category": "sciences-nature",
+    "question": "Quel gros animal noir et blanc vit en Chine et ressemble à un ours ?",
+    "answer": "Le panda",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-067",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on l'eau qui tombe du ciel quand il pleut ?",
+    "answer": "La pluie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-068",
+    "category": "sciences-nature",
+    "question": "Quel animal des forêts a une queue en panache et adore les noisettes ?",
+    "answer": "L'écureuil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-069",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on les scientifiques qui étudient les étoiles et l'espace ?",
+    "answer": "Les astronomes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-070",
+    "category": "sciences-nature",
+    "question": "Quel animal marin a la forme d'un cheval et nage debout dans l'eau ?",
+    "answer": "L'hippocampe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-071",
+    "category": "sciences-nature",
+    "question": "Quel animal des forêts hurle la nuit et vit en meute ?",
+    "answer": "Le loup",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-072",
+    "category": "sciences-nature",
+    "question": "Quel animal orange à queue touffue vole parfois des poules dans les fermes ?",
+    "answer": "Le renard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-073",
+    "category": "sciences-nature",
+    "question": "Quel animal australien dort perché dans les arbres et mange des feuilles d'eucalyptus ?",
+    "answer": "Le koala",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-074",
+    "category": "sciences-nature",
+    "question": "Quel animal marin très intelligent aime sauter hors de l'eau et communique par des sifflements ?",
+    "answer": "Le dauphin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-075",
+    "category": "sciences-nature",
+    "question": "Quel grand poisson des mers a de nombreuses dents pointues et fait peur dans les films ?",
+    "answer": "Le requin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-076",
+    "category": "sciences-nature",
+    "question": "Quel animal marin transparent a des tentacules qui peuvent piquer ?",
+    "answer": "La méduse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-077",
+    "category": "sciences-nature",
+    "question": "Quel petit animal marin marche de travers et a deux grosses pinces ?",
+    "answer": "Le crabe",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-078",
+    "category": "sciences-nature",
+    "question": "Quel petit poisson orange et blanc vit caché dans une anémone de mer ?",
+    "answer": "Le poisson-clown",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-079",
+    "category": "sciences-nature",
+    "question": "Quel animal transporte sa maison sur son dos et peut vivre très longtemps ?",
+    "answer": "La tortue",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-080",
+    "category": "sciences-nature",
+    "question": "Quel oiseau peut tourner la tête presque à l'envers et chasse la nuit ?",
+    "answer": "La chouette (ou le hibou)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-081",
+    "category": "sciences-nature",
+    "question": "Quel grand oiseau a une vue perçante et est le symbole de nombreux pays ?",
+    "answer": "L'aigle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-082",
+    "category": "sciences-nature",
+    "question": "Quel oiseau rose se tient souvent debout sur une seule patte au bord de l'eau ?",
+    "answer": "Le flamant rose",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-083",
+    "category": "sciences-nature",
+    "question": "Quel oiseau très coloré peut apprendre à répéter des mots ?",
+    "answer": "Le perroquet",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-084",
+    "category": "sciences-nature",
+    "question": "Quel gros animal gris a une corne sur le nez et une peau très épaisse ?",
+    "answer": "Le rhinocéros",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-085",
+    "category": "sciences-nature",
+    "question": "Quel énorme animal aime se baigner dans les rivières d'Afrique et a une très grande bouche ?",
+    "answer": "L'hippopotame",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-086",
+    "category": "sciences-nature",
+    "question": "Quel animal blanc et poilu vit sur la banquise et chasse les phoques ?",
+    "answer": "L'ours polaire",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-087",
+    "category": "sciences-nature",
+    "question": "Quel animal marin à moustaches et à grosses nageoires aime se dorer sur les rochers ?",
+    "answer": "Le phoque",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-088",
+    "category": "sciences-nature",
+    "question": "Quel grand singe roux vit dans les forêts d'Indonésie ?",
+    "answer": "L'orang-outan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-089",
+    "category": "sciences-nature",
+    "question": "Quel animal de la ferme donne de la laine pour fabriquer des pulls ?",
+    "answer": "Le mouton",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-090",
+    "category": "sciences-nature",
+    "question": "Quel animal de la ferme pond des œufs et fait \"cot cot codet\" ?",
+    "answer": "La poule",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-091",
+    "category": "sciences-nature",
+    "question": "Quel animal de la ferme aime se rouler dans la boue et fait \"groin groin\" ?",
+    "answer": "Le cochon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-092",
+    "category": "sciences-nature",
+    "question": "Quel animal galope vite et a une crinière sur le cou ?",
+    "answer": "Le cheval",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-093",
+    "category": "sciences-nature",
+    "question": "Quel petit animal creuse des tunnels sous la terre et voit très mal ?",
+    "answer": "La taupe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-094",
+    "category": "sciences-nature",
+    "question": "Quel petit insecte rouge à pois noirs porte bonheur, dit-on ?",
+    "answer": "La coccinelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-095",
+    "category": "sciences-nature",
+    "question": "Quel insecte a de longues ailes fines et vole au-dessus des étangs ?",
+    "answer": "La libellule",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-096",
+    "category": "sciences-nature",
+    "question": "Quel petit animal du jardin n'a pas de coquille et laisse une trace brillante en glissant ?",
+    "answer": "La limace",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-097",
+    "category": "sciences-nature",
+    "question": "Quel petit animal vit dans le sol et aide les jardiniers en aérant la terre ?",
+    "answer": "Le ver de terre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-098",
+    "category": "sciences-nature",
+    "question": "Quel gros animal des montagnes a de grandes cornes recourbées ?",
+    "answer": "Le bouquetin (ou la chèvre de montagne)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-099",
+    "category": "sciences-nature",
+    "question": "Quel oiseau noir est connu pour être très intelligent et un peu voleur ?",
+    "answer": "Le corbeau (ou la pie)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-100",
+    "category": "sciences-nature",
+    "question": "Quel très grand poisson des mers chaudes n'a pas de dents et se nourrit de plancton ?",
+    "answer": "Le requin-baleine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-101",
+    "category": "sciences-nature",
+    "question": "Quel animal marin plat a des yeux sur le dessus et se cache dans le sable ?",
+    "answer": "La raie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-102",
+    "category": "sciences-nature",
+    "question": "Quel petit animal gris adore le fromage dans les dessins animés ?",
+    "answer": "La souris",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-103",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps recouvre tout notre corps et nous protège ?",
+    "answer": "La peau",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-104",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps nous sert à réfléchir et à commander tout le corps ?",
+    "answer": "Le cerveau",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-105",
+    "category": "sciences-nature",
+    "question": "Quels organes nous permettent de respirer l'air ?",
+    "answer": "Les poumons",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-106",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps sert à mâcher les aliments ?",
+    "answer": "Les dents",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-107",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps sert à goûter les aliments ?",
+    "answer": "La langue",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-108",
+    "category": "sciences-nature",
+    "question": "Où va la nourriture pour être digérée après avoir été avalée ?",
+    "answer": "Dans l'estomac",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-109",
+    "category": "sciences-nature",
+    "question": "Quelle partie du corps nous permet de plier le bras et de courir grâce à leur force ?",
+    "answer": "Les muscles",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-110",
+    "category": "sciences-nature",
+    "question": "Quelle partie de notre corps pousse sur notre tête et que l'on peut couper chez le coiffeur ?",
+    "answer": "Les cheveux",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-111",
+    "category": "sciences-nature",
+    "question": "Quelle partie de la plante grandit dans la terre et donne naissance à une nouvelle plante ?",
+    "answer": "La graine",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-112",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle la grosse partie en bois qui soutient un arbre ?",
+    "answer": "Le tronc",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-113",
+    "category": "sciences-nature",
+    "question": "Quelle partie sucrée d'une plante pousse après la fleur et que l'on peut manger ?",
+    "answer": "Le fruit",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-114",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on les arbres qui gardent leurs aiguilles vertes toute l'année, même en hiver ?",
+    "answer": "Les sapins (arbres persistants)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-115",
+    "category": "sciences-nature",
+    "question": "Quelle saison est la plus chaude de l'année, avec les vacances et la plage ?",
+    "answer": "L'été",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-116",
+    "category": "sciences-nature",
+    "question": "Quelle saison fait tomber les feuilles des arbres et arrive après l'été ?",
+    "answer": "L'automne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-117",
+    "category": "sciences-nature",
+    "question": "Quelle saison de l'année est la plus froide, avec parfois de la neige ?",
+    "answer": "L'hiver",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-118",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle l'air qui souffle et qui peut faire voler un cerf-volant ?",
+    "answer": "Le vent",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-119",
+    "category": "sciences-nature",
+    "question": "Comment s'appellent les grosses formes blanches ou grises que l'on voit flotter dans le ciel ?",
+    "answer": "Les nuages",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-120",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on ce brouillard blanc et froid qui recouvre parfois l'herbe le matin en hiver ?",
+    "answer": "Le givre (ou la rosée gelée)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-121",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on un épais nuage bas qui empêche de bien voir au sol ?",
+    "answer": "Le brouillard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-122",
+    "category": "sciences-nature",
+    "question": "Quelle planète est surnommée l'\"étoile du Berger\" car elle brille fort le soir ?",
+    "answer": "Vénus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-123",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle la planète bleue sur laquelle nous vivons ?",
+    "answer": "La Terre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-124",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on une personne qui voyage dans l'espace ?",
+    "answer": "Un astronaute",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-125",
+    "category": "sciences-nature",
+    "question": "Quel engin permet de décoller de la Terre pour aller dans l'espace ?",
+    "answer": "La fusée",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-126",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on une étoile filante qui traverse le ciel avec une longue traînée lumineuse ?",
+    "answer": "Une comète (ou étoile filante)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-127",
+    "category": "sciences-nature",
+    "question": "Quelle montagne peut cracher de la lave brûlante ?",
+    "answer": "Le volcan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-128",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle une très grande étendue d'eau salée ?",
+    "answer": "L'océan (ou la mer)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-129",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle une grande étendue de sable très chaude où il pleut très peu ?",
+    "answer": "Le désert",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-130",
+    "category": "sciences-nature",
+    "question": "Comment s'appelle un énorme bloc de glace qui flotte dans la mer ?",
+    "answer": "Un iceberg",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-131",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on le mouvement de la mer qui monte et descend sur la plage ?",
+    "answer": "La marée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-132",
+    "category": "sciences-nature",
+    "question": "Quel animal des forêts a de grands bois sur la tête et vit en Europe ?",
+    "answer": "Le cerf",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-133",
+    "category": "sciences-nature",
+    "question": "Quel gros animal noir vit dans les forêts et adore le miel des ruches ?",
+    "answer": "L'ours (brun)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-134",
+    "category": "sciences-nature",
+    "question": "Quel oiseau ne construit pas son propre nid et pond ses œufs dans le nid des autres ?",
+    "answer": "Le coucou",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-135",
+    "category": "sciences-nature",
+    "question": "Quel gros oiseau blanc et gris vit près des plages et vole souvent au-dessus des bateaux ?",
+    "answer": "La mouette",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-136",
+    "category": "sciences-nature",
+    "question": "Quel poisson a une tête plate en forme de T, avec un œil de chaque côté ?",
+    "answer": "Le requin-marteau",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-137",
+    "category": "sciences-nature",
+    "question": "Quel animal marin vit en groupe appelé banc et nage grâce à ses nageoires ?",
+    "answer": "Le poisson",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-enfant-138",
+    "category": "sciences-nature",
+    "question": "Quel insecte saute très haut grâce à ses grandes pattes arrière et chante en frottant ses ailes ?",
+    "answer": "La sauterelle (ou le criquet)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-139",
+    "category": "sciences-nature",
+    "question": "Quel petit animal du Grand Nord a une fourrure brune qui devient blanche en hiver ?",
+    "answer": "Le renard polaire (ou le lièvre arctique)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-enfant-140",
+    "category": "sciences-nature",
+    "question": "Comment appelle-t-on les scientifiques qui étudient les volcans ?",
+    "answer": "Les volcanologues",
+    "difficulty": "moyen"
+  }
 ]

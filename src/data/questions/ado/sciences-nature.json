@@ -1,52 +1,947 @@
 [
-  { "id": "sci-ado-001", "category": "sciences-nature", "question": "Quelle est la planète la plus proche du Soleil ?", "answer": "Mercure" },
-  { "id": "sci-ado-002", "category": "sciences-nature", "question": "Quel est le symbole chimique de l'or ?", "answer": "Au" },
-  { "id": "sci-ado-003", "category": "sciences-nature", "question": "Combien d'os compte le corps humain adulte ?", "answer": "206" },
-  { "id": "sci-ado-004", "category": "sciences-nature", "question": "Quel scientifique a formulé la théorie de la relativité ?", "answer": "Albert Einstein" },
-  { "id": "sci-ado-005", "category": "sciences-nature", "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?", "answer": "Le dioxyde de carbone (CO2)" },
-  { "id": "sci-ado-006", "category": "sciences-nature", "question": "Quel est l'organe principal du système circulatoire ?", "answer": "Le cœur" },
-  { "id": "sci-ado-007", "category": "sciences-nature", "question": "Quelle planète est surnommée la \"planète rouge\" ?", "answer": "Mars" },
-  { "id": "sci-ado-008", "category": "sciences-nature", "question": "Quel naturaliste est à l'origine de la théorie de l'évolution par sélection naturelle ?", "answer": "Charles Darwin" },
-  { "id": "sci-ado-009", "category": "sciences-nature", "question": "Combien de chromosomes possède une cellule humaine normale ?", "answer": "46" },
-  { "id": "sci-ado-010", "category": "sciences-nature", "question": "Quel est le plus grand mammifère marin ?", "answer": "La baleine bleue" },
-  { "id": "sci-ado-011", "category": "sciences-nature", "question": "Quelle est la vitesse de la lumière dans le vide, arrondie ?", "answer": "300 000 km/s" },
-  { "id": "sci-ado-012", "category": "sciences-nature", "question": "Quel type d'animal est un axolotl ?", "answer": "Un amphibien (salamandre aquatique)" },
-  { "id": "sci-ado-013", "category": "sciences-nature", "question": "Quelle partie de la cellule contient l'ADN ?", "answer": "Le noyau" },
-  { "id": "sci-ado-014", "category": "sciences-nature", "question": "Quel est l'élément chimique le plus abondant dans l'univers ?", "answer": "L'hydrogène" },
-  { "id": "sci-ado-015", "category": "sciences-nature", "question": "Quelle est la plus grande planète du système solaire ?", "answer": "Jupiter" },
-  { "id": "sci-ado-016", "category": "sciences-nature", "question": "Quel physicien a découvert la loi de la gravitation universelle ?", "answer": "Isaac Newton" },
-  { "id": "sci-ado-017", "category": "sciences-nature", "question": "Combien de cœurs possède une pieuvre ?", "answer": "Trois" },
-  { "id": "sci-ado-018", "category": "sciences-nature", "question": "Quel est le processus par lequel l'eau passe de l'état liquide à l'état gazeux ?", "answer": "L'évaporation" },
-  { "id": "sci-ado-019", "category": "sciences-nature", "question": "Quel scientifique a découvert la pénicilline ?", "answer": "Alexander Fleming" },
-  { "id": "sci-ado-020", "category": "sciences-nature", "question": "Quel est l'organe responsable de la filtration du sang chez l'humain ?", "answer": "Les reins" },
-  { "id": "sci-ado-021", "category": "sciences-nature", "question": "Quel gaz constitue la majorité de l'atmosphère terrestre ?", "answer": "L'azote" },
-  { "id": "sci-ado-022", "category": "sciences-nature", "question": "Quel animal est le plus rapide sur terre ?", "answer": "Le guépard" },
-  { "id": "sci-ado-023", "category": "sciences-nature", "question": "Quelle scientifique polonaise a reçu deux prix Nobel dans des disciplines différentes ?", "answer": "Marie Curie" },
-  { "id": "sci-ado-024", "category": "sciences-nature", "question": "Quelle est la plus petite unité de matière possédant les propriétés d'un élément chimique ?", "answer": "L'atome" },
-  { "id": "sci-ado-025", "category": "sciences-nature", "question": "Quel insecte est responsable de la pollinisation d'une grande partie des cultures mondiales ?", "answer": "L'abeille" },
-  { "id": "sci-ado-026", "category": "sciences-nature", "question": "Quelle est la plus haute montagne du système solaire, sur Mars ?", "answer": "Olympus Mons" },
-  { "id": "sci-ado-027", "category": "sciences-nature", "question": "Combien de temps la lumière du Soleil met-elle pour atteindre la Terre ?", "answer": "Environ 8 minutes" },
-  { "id": "sci-ado-028", "category": "sciences-nature", "question": "Quel gaz les êtres humains rejettent-ils en expirant ?", "answer": "Le dioxyde de carbone (CO2)" },
-  { "id": "sci-ado-029", "category": "sciences-nature", "question": "Quel est le nom du processus de division cellulaire produisant des cellules reproductrices ?", "answer": "La méiose" },
-  { "id": "sci-ado-030", "category": "sciences-nature", "question": "Quel organe humain est principalement composé de matière grise et blanche ?", "answer": "Le cerveau" },
-  { "id": "sci-ado-031", "category": "sciences-nature", "question": "Quel est le nom du satellite naturel de la Terre ?", "answer": "La Lune" },
-  { "id": "sci-ado-032", "category": "sciences-nature", "question": "Quelle enzyme présente dans la salive commence la digestion de l'amidon ?", "answer": "L'amylase" },
-  { "id": "sci-ado-033", "category": "sciences-nature", "question": "Quel volcan italien a détruit la ville de Pompéi en l'an 79 ?", "answer": "Le Vésuve" },
-  { "id": "sci-ado-034", "category": "sciences-nature", "question": "Quel est le nom de la force qui maintient les planètes en orbite autour du Soleil ?", "answer": "La gravité" },
-  { "id": "sci-ado-035", "category": "sciences-nature", "question": "Quel crustacé change plusieurs fois de carapace au cours de sa vie ?", "answer": "Le crabe" },
-  { "id": "sci-ado-036", "category": "sciences-nature", "question": "Quel est le plus grand organe du corps humain ?", "answer": "La peau", "difficulty": "facile" },
-  { "id": "sci-ado-037", "category": "sciences-nature", "question": "Quelle est l'unité de mesure de la force dans le système international ?", "answer": "Le newton", "difficulty": "moyen" },
-  { "id": "sci-ado-038", "category": "sciences-nature", "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?", "answer": "Une roche magmatique (ou volcanique)", "difficulty": "moyen" },
-  { "id": "sci-ado-039", "category": "sciences-nature", "question": "Quel astronome italien a perfectionné la lunette astronomique et défendu le modèle héliocentrique ?", "answer": "Galilée", "difficulty": "facile" },
-  { "id": "sci-ado-040", "category": "sciences-nature", "question": "Quel animal australien pond des œufs tout en étant un mammifère ?", "answer": "L'ornithorynque", "difficulty": "moyen" },
-  { "id": "sci-ado-041", "category": "sciences-nature", "question": "Quel est le nom de la couche de gaz qui protège la Terre des rayons ultraviolets ?", "answer": "La couche d'ozone", "difficulty": "facile" },
-  { "id": "sci-ado-042", "category": "sciences-nature", "question": "Quelle particule de l'atome porte une charge négative ?", "answer": "L'électron", "difficulty": "moyen" },
-  { "id": "sci-ado-043", "category": "sciences-nature", "question": "Quel est le plus long fleuve du monde ?", "answer": "Le Nil", "difficulty": "facile" },
-  { "id": "sci-ado-044", "category": "sciences-nature", "question": "Quel savant français a mis au point la vaccination contre la rage ?", "answer": "Louis Pasteur", "difficulty": "moyen" },
-  { "id": "sci-ado-045", "category": "sciences-nature", "question": "Quel est le nom du processus par lequel une chenille se transforme en papillon ?", "answer": "La métamorphose", "difficulty": "facile" },
-  { "id": "sci-ado-046", "category": "sciences-nature", "question": "Quelle planète du système solaire possède les anneaux les plus visibles ?", "answer": "Saturne", "difficulty": "facile" },
-  { "id": "sci-ado-047", "category": "sciences-nature", "question": "Quel est le nom de l'échelle utilisée pour mesurer la magnitude des séismes ?", "answer": "L'échelle de Richter", "difficulty": "moyen" },
-  { "id": "sci-ado-048", "category": "sciences-nature", "question": "Quel est le principal muscle qui permet la respiration chez l'humain ?", "answer": "Le diaphragme", "difficulty": "moyen" },
-  { "id": "sci-ado-049", "category": "sciences-nature", "question": "Quel physicien britannique est connu pour ses travaux sur les trous noirs et le livre \"Une brève histoire du temps\" ?", "answer": "Stephen Hawking", "difficulty": "moyen" },
-  { "id": "sci-ado-050", "category": "sciences-nature", "question": "Quel est le seul mammifère capable de voler activement ?", "answer": "La chauve-souris", "difficulty": "moyen" }
+  {
+    "id": "sci-ado-001",
+    "category": "sciences-nature",
+    "question": "Quelle est la planète la plus proche du Soleil ?",
+    "answer": "Mercure"
+  },
+  {
+    "id": "sci-ado-002",
+    "category": "sciences-nature",
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au"
+  },
+  {
+    "id": "sci-ado-003",
+    "category": "sciences-nature",
+    "question": "Combien d'os compte le corps humain adulte ?",
+    "answer": "206"
+  },
+  {
+    "id": "sci-ado-004",
+    "category": "sciences-nature",
+    "question": "Quel scientifique a formulé la théorie de la relativité ?",
+    "answer": "Albert Einstein"
+  },
+  {
+    "id": "sci-ado-005",
+    "category": "sciences-nature",
+    "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?",
+    "answer": "Le dioxyde de carbone (CO2)"
+  },
+  {
+    "id": "sci-ado-006",
+    "category": "sciences-nature",
+    "question": "Quel est l'organe principal du système circulatoire ?",
+    "answer": "Le cœur"
+  },
+  {
+    "id": "sci-ado-007",
+    "category": "sciences-nature",
+    "question": "Quelle planète est surnommée la \"planète rouge\" ?",
+    "answer": "Mars"
+  },
+  {
+    "id": "sci-ado-008",
+    "category": "sciences-nature",
+    "question": "Quel naturaliste est à l'origine de la théorie de l'évolution par sélection naturelle ?",
+    "answer": "Charles Darwin"
+  },
+  {
+    "id": "sci-ado-009",
+    "category": "sciences-nature",
+    "question": "Combien de chromosomes possède une cellule humaine normale ?",
+    "answer": "46"
+  },
+  {
+    "id": "sci-ado-010",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand mammifère marin ?",
+    "answer": "La baleine bleue"
+  },
+  {
+    "id": "sci-ado-011",
+    "category": "sciences-nature",
+    "question": "Quelle est la vitesse de la lumière dans le vide, arrondie ?",
+    "answer": "300 000 km/s"
+  },
+  {
+    "id": "sci-ado-012",
+    "category": "sciences-nature",
+    "question": "Quel type d'animal est un axolotl ?",
+    "answer": "Un amphibien (salamandre aquatique)"
+  },
+  {
+    "id": "sci-ado-013",
+    "category": "sciences-nature",
+    "question": "Quelle partie de la cellule contient l'ADN ?",
+    "answer": "Le noyau"
+  },
+  {
+    "id": "sci-ado-014",
+    "category": "sciences-nature",
+    "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+    "answer": "L'hydrogène"
+  },
+  {
+    "id": "sci-ado-015",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus grande planète du système solaire ?",
+    "answer": "Jupiter"
+  },
+  {
+    "id": "sci-ado-016",
+    "category": "sciences-nature",
+    "question": "Quel physicien a découvert la loi de la gravitation universelle ?",
+    "answer": "Isaac Newton"
+  },
+  {
+    "id": "sci-ado-017",
+    "category": "sciences-nature",
+    "question": "Combien de cœurs possède une pieuvre ?",
+    "answer": "Trois"
+  },
+  {
+    "id": "sci-ado-018",
+    "category": "sciences-nature",
+    "question": "Quel est le processus par lequel l'eau passe de l'état liquide à l'état gazeux ?",
+    "answer": "L'évaporation"
+  },
+  {
+    "id": "sci-ado-019",
+    "category": "sciences-nature",
+    "question": "Quel scientifique a découvert la pénicilline ?",
+    "answer": "Alexander Fleming"
+  },
+  {
+    "id": "sci-ado-020",
+    "category": "sciences-nature",
+    "question": "Quel est l'organe responsable de la filtration du sang chez l'humain ?",
+    "answer": "Les reins"
+  },
+  {
+    "id": "sci-ado-021",
+    "category": "sciences-nature",
+    "question": "Quel gaz constitue la majorité de l'atmosphère terrestre ?",
+    "answer": "L'azote"
+  },
+  {
+    "id": "sci-ado-022",
+    "category": "sciences-nature",
+    "question": "Quel animal est le plus rapide sur terre ?",
+    "answer": "Le guépard"
+  },
+  {
+    "id": "sci-ado-023",
+    "category": "sciences-nature",
+    "question": "Quelle scientifique polonaise a reçu deux prix Nobel dans des disciplines différentes ?",
+    "answer": "Marie Curie"
+  },
+  {
+    "id": "sci-ado-024",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus petite unité de matière possédant les propriétés d'un élément chimique ?",
+    "answer": "L'atome"
+  },
+  {
+    "id": "sci-ado-025",
+    "category": "sciences-nature",
+    "question": "Quel insecte est responsable de la pollinisation d'une grande partie des cultures mondiales ?",
+    "answer": "L'abeille"
+  },
+  {
+    "id": "sci-ado-026",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus haute montagne du système solaire, sur Mars ?",
+    "answer": "Olympus Mons"
+  },
+  {
+    "id": "sci-ado-027",
+    "category": "sciences-nature",
+    "question": "Combien de temps la lumière du Soleil met-elle pour atteindre la Terre ?",
+    "answer": "Environ 8 minutes"
+  },
+  {
+    "id": "sci-ado-028",
+    "category": "sciences-nature",
+    "question": "Quel gaz les êtres humains rejettent-ils en expirant ?",
+    "answer": "Le dioxyde de carbone (CO2)"
+  },
+  {
+    "id": "sci-ado-029",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus de division cellulaire produisant des cellules reproductrices ?",
+    "answer": "La méiose"
+  },
+  {
+    "id": "sci-ado-030",
+    "category": "sciences-nature",
+    "question": "Quel organe humain est principalement composé de matière grise et blanche ?",
+    "answer": "Le cerveau"
+  },
+  {
+    "id": "sci-ado-031",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du satellite naturel de la Terre ?",
+    "answer": "La Lune"
+  },
+  {
+    "id": "sci-ado-032",
+    "category": "sciences-nature",
+    "question": "Quelle enzyme présente dans la salive commence la digestion de l'amidon ?",
+    "answer": "L'amylase"
+  },
+  {
+    "id": "sci-ado-033",
+    "category": "sciences-nature",
+    "question": "Quel volcan italien a détruit la ville de Pompéi en l'an 79 ?",
+    "answer": "Le Vésuve"
+  },
+  {
+    "id": "sci-ado-034",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la force qui maintient les planètes en orbite autour du Soleil ?",
+    "answer": "La gravité"
+  },
+  {
+    "id": "sci-ado-035",
+    "category": "sciences-nature",
+    "question": "Quel crustacé change plusieurs fois de carapace au cours de sa vie ?",
+    "answer": "Le crabe"
+  },
+  {
+    "id": "sci-ado-036",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand organe du corps humain ?",
+    "answer": "La peau",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-037",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la force dans le système international ?",
+    "answer": "Le newton",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-038",
+    "category": "sciences-nature",
+    "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?",
+    "answer": "Une roche magmatique (ou volcanique)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-039",
+    "category": "sciences-nature",
+    "question": "Quel astronome italien a perfectionné la lunette astronomique et défendu le modèle héliocentrique ?",
+    "answer": "Galilée",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-040",
+    "category": "sciences-nature",
+    "question": "Quel animal australien pond des œufs tout en étant un mammifère ?",
+    "answer": "L'ornithorynque",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-041",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la couche de gaz qui protège la Terre des rayons ultraviolets ?",
+    "answer": "La couche d'ozone",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-042",
+    "category": "sciences-nature",
+    "question": "Quelle particule de l'atome porte une charge négative ?",
+    "answer": "L'électron",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-043",
+    "category": "sciences-nature",
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-044",
+    "category": "sciences-nature",
+    "question": "Quel savant français a mis au point la vaccination contre la rage ?",
+    "answer": "Louis Pasteur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-045",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel une chenille se transforme en papillon ?",
+    "answer": "La métamorphose",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-046",
+    "category": "sciences-nature",
+    "question": "Quelle planète du système solaire possède les anneaux les plus visibles ?",
+    "answer": "Saturne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-047",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'échelle utilisée pour mesurer la magnitude des séismes ?",
+    "answer": "L'échelle de Richter",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-048",
+    "category": "sciences-nature",
+    "question": "Quel est le principal muscle qui permet la respiration chez l'humain ?",
+    "answer": "Le diaphragme",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-049",
+    "category": "sciences-nature",
+    "question": "Quel physicien britannique est connu pour ses travaux sur les trous noirs et le livre \"Une brève histoire du temps\" ?",
+    "answer": "Stephen Hawking",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-050",
+    "category": "sciences-nature",
+    "question": "Quel est le seul mammifère capable de voler activement ?",
+    "answer": "La chauve-souris",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-051",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la galaxie dans laquelle se trouve notre système solaire ?",
+    "answer": "La Voie lactée",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-052",
+    "category": "sciences-nature",
+    "question": "Quel est le symbole chimique du sodium ?",
+    "answer": "Na",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-053",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand félin sauvage du monde ?",
+    "answer": "Le tigre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-054",
+    "category": "sciences-nature",
+    "question": "Quelle hormone régule le taux de sucre dans le sang ?",
+    "answer": "L'insuline",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-055",
+    "category": "sciences-nature",
+    "question": "Quel scientifique est à l'origine de la classification périodique des éléments ?",
+    "answer": "Dmitri Mendeleïev",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-056",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène lumineux visible près des pôles, causé par les vents solaires ?",
+    "answer": "Les aurores polaires",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-057",
+    "category": "sciences-nature",
+    "question": "Quel arbre produit les glands ?",
+    "answer": "Le chêne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-058",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'unité de mesure de la quantité de matière en chimie ?",
+    "answer": "La mole",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-059",
+    "category": "sciences-nature",
+    "question": "Quel animal marin est capable de changer de couleur pour se camoufler grâce à des cellules appelées chromatophores ?",
+    "answer": "La pieuvre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-060",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel les plantes perdent de l'eau sous forme de vapeur par leurs feuilles ?",
+    "answer": "La transpiration",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-061",
+    "category": "sciences-nature",
+    "question": "Quelle planète du système solaire est surnommée la \"planète bleue\" en raison de son atmosphère riche en méthane ?",
+    "answer": "Neptune",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-062",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la théorie expliquant l'origine et l'expansion de l'univers ?",
+    "answer": "Le Big Bang",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-063",
+    "category": "sciences-nature",
+    "question": "Quel est le plus petit os du corps humain, situé dans l'oreille ?",
+    "answer": "L'étrier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-064",
+    "category": "sciences-nature",
+    "question": "Quel gaz est principalement responsable de l'effet de serre lié aux activités humaines ?",
+    "answer": "Le dioxyde de carbone (CO2)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-065",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du chercheur britannique qui a codécouvert la structure en double hélice de l'ADN avec James Watson ?",
+    "answer": "Francis Crick",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-066",
+    "category": "sciences-nature",
+    "question": "Quel est le nom scientifique donné à la peur irrationnelle des araignées ?",
+    "answer": "L'arachnophobie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-067",
+    "category": "sciences-nature",
+    "question": "Quel oiseau incapable de voler est le plus rapide sur ses pattes ?",
+    "answer": "L'autruche",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-068",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus chimique qui permet aux muscles de produire de l'énergie sans oxygène lors d'un effort intense ?",
+    "answer": "La fermentation lactique (respiration anaérobie)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-069",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand désert chaud du monde ?",
+    "answer": "Le Sahara",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-070",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la molécule qui transporte l'oxygène dans les globules rouges ?",
+    "answer": "L'hémoglobine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-071",
+    "category": "sciences-nature",
+    "question": "Quelle planète du système solaire est surnommée la \"géante bleue\" en raison de son atmosphère riche en méthane ?",
+    "answer": "Neptune",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-072",
+    "category": "sciences-nature",
+    "question": "Quel chercheur britannique a codécouvert la structure en double hélice de l'ADN avec James Watson ?",
+    "answer": "Francis Crick",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-073",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la puissance électrique ?",
+    "answer": "Le watt",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-074",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'étoile la plus proche de la Terre après le Soleil ?",
+    "answer": "Proxima du Centaure",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-075",
+    "category": "sciences-nature",
+    "question": "Quel est le seul reptile venimeux originaire d'Europe métropolitaine, souvent appelé vipère ?",
+    "answer": "La vipère",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-076",
+    "category": "sciences-nature",
+    "question": "Quel physicien a formulé les trois lois du mouvement qui portent son nom ?",
+    "answer": "Isaac Newton",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-077",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand récif corallien du monde, situé en Australie ?",
+    "answer": "La Grande Barrière de corail",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-078",
+    "category": "sciences-nature",
+    "question": "Quel gaz rare et inerte est utilisé pour gonfler les ballons qui s'envolent dans les airs ?",
+    "answer": "L'hélium",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-079",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la glande qui produit l'insuline dans le corps humain ?",
+    "answer": "Le pancréas",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-080",
+    "category": "sciences-nature",
+    "question": "Quelle scientifique française a découvert le radium et le polonium avec son mari ?",
+    "answer": "Marie Curie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-081",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du courant marin chaud qui réchauffe le climat de l'Europe de l'Ouest ?",
+    "answer": "Le Gulf Stream",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-082",
+    "category": "sciences-nature",
+    "question": "Combien de pattes possède un insecte, par définition ?",
+    "answer": "Six",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-083",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la force qui s'oppose au mouvement entre deux surfaces en contact ?",
+    "answer": "Le frottement (ou friction)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-084",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand poisson du monde, un requin filtreur inoffensif pour l'humain ?",
+    "answer": "Le requin-baleine",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-085",
+    "category": "sciences-nature",
+    "question": "Quel ingénieur écossais est crédité de l'invention du téléphone ?",
+    "answer": "Alexander Graham Bell",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-086",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du liquide transparent qui protège et nourrit le cerveau et la moelle épinière ?",
+    "answer": "Le liquide céphalo-rachidien",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-087",
+    "category": "sciences-nature",
+    "question": "Quelle est la plus petite planète du système solaire depuis que Pluton a été reclassée ?",
+    "answer": "Mercure",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-088",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène qui fait que le ciel apparaît bleu de jour ?",
+    "answer": "La diffusion de Rayleigh",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-089",
+    "category": "sciences-nature",
+    "question": "Quel animal est capable de régénérer un membre entier, comme sa queue ou une patte ?",
+    "answer": "Le lézard (ou l'axolotl)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-090",
+    "category": "sciences-nature",
+    "question": "Quel inventeur américain a mis au point l'ampoule électrique à incandescence commercialisable ?",
+    "answer": "Thomas Edison",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-091",
+    "category": "sciences-nature",
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "L'Everest",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-092",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la vitamine produite par la peau grâce à l'exposition au soleil ?",
+    "answer": "La vitamine D",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-093",
+    "category": "sciences-nature",
+    "question": "Quel scientifique britannique a proposé la théorie du champ électromagnétique unifiant électricité et magnétisme ?",
+    "answer": "James Clerk Maxwell",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-094",
+    "category": "sciences-nature",
+    "question": "Quel est le plus grand serpent du monde en longueur, vivant en Amazonie ?",
+    "answer": "L'anaconda",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-095",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du savant qui a inventé le paratonnerre et étudié l'électricité ?",
+    "answer": "Benjamin Franklin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-096",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'unité de mesure de la pression atmosphérique couramment utilisée en météorologie ?",
+    "answer": "L'hectopascal",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-097",
+    "category": "sciences-nature",
+    "question": "Quelle planète du système solaire tourne sur elle-même presque couchée sur le côté ?",
+    "answer": "Uranus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-098",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du tissu végétal qui transporte la sève brute des racines vers les feuilles ?",
+    "answer": "Le xylème",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-099",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'os unique qui forme la mâchoire inférieure ?",
+    "answer": "La mandibule",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-100",
+    "category": "sciences-nature",
+    "question": "Quel oiseau est connu pour imiter la voix humaine et d'autres sons de son environnement ?",
+    "answer": "Le perroquet",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-101",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène par lequel un iceberg ou un glacier se détache et tombe dans la mer ?",
+    "answer": "Le vêlage",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-102",
+    "category": "sciences-nature",
+    "question": "Quel chimiste français est considéré comme le père de la chimie moderne grâce à ses travaux sur la combustion ?",
+    "answer": "Antoine Lavoisier",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-103",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand animal terrestre actuel ?",
+    "answer": "L'éléphant d'Afrique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-104",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la fréquence dans le système international ?",
+    "answer": "Le hertz",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-105",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du gaz incolore et inodore, dangereux car indétectable, produit par une combustion incomplète ?",
+    "answer": "Le monoxyde de carbone",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-106",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la première brebis clonée à partir d'une cellule adulte, en 1996 ?",
+    "answer": "Dolly",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-107",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène d'attraction entre deux masses, responsable du poids des objets ?",
+    "answer": "La gravitation",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-108",
+    "category": "sciences-nature",
+    "question": "Quel mammifère marin utilise l'écholocation pour se déplacer et chasser dans l'obscurité ?",
+    "answer": "Le dauphin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-109",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus industriel qui transforme l'azote et l'hydrogène en ammoniac pour fabriquer des engrais ?",
+    "answer": "Le procédé Haber-Bosch",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-110",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la couche la plus externe de la Terre, sur laquelle nous vivons ?",
+    "answer": "La croûte terrestre",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-111",
+    "category": "sciences-nature",
+    "question": "Quel astrophysicien américain est connu pour la vulgarisation scientifique et la direction du planétarium Hayden ?",
+    "answer": "Neil deGrasse Tyson",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-112",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la maladie provoquée par un manque de vitamine C, historiquement fréquente chez les marins ?",
+    "answer": "Le scorbut",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-113",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand désert froid du monde, recouvrant l'Antarctique ?",
+    "answer": "Le désert antarctique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-114",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'appareil qui permet de mesurer la pression artérielle ?",
+    "answer": "Le tensiomètre",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-115",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la sonde spatiale de la NASA qui a quitté le système solaire après avoir survolé les planètes géantes ?",
+    "answer": "Voyager 1",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-116",
+    "category": "sciences-nature",
+    "question": "Quel animal africain possède le cou le plus long parmi les mammifères terrestres ?",
+    "answer": "La girafe",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-117",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel deux atomes d'hydrogène fusionnent pour former de l'hélium au cœur du Soleil ?",
+    "answer": "La fusion nucléaire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-118",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'os long situé entre l'épaule et le coude ?",
+    "answer": "L'humérus",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-119",
+    "category": "sciences-nature",
+    "question": "Quel physicien français a mesuré la vitesse de la lumière avec une grande précision au XIXe siècle ?",
+    "answer": "Hippolyte Fizeau",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-120",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène climatique caractérisé par un réchauffement anormal des eaux du Pacifique équatorial ?",
+    "answer": "El Niño",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-121",
+    "category": "sciences-nature",
+    "question": "Quel est le plus petit mammifère du monde en taille, une musaraigne pesant à peine 2 grammes ?",
+    "answer": "La musaraigne étrusque",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-122",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du savant grec qui aurait crié \"Eurêka\" en découvrant le principe de la poussée d'un liquide ?",
+    "answer": "Archimède",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-123",
+    "category": "sciences-nature",
+    "question": "Quel est le nom scientifique donné au processus de digestion des muscles produisant de l'acide lactique lors d'un effort intense sans oxygène disponible ?",
+    "answer": "La fermentation lactique",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-124",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand mammifère marin, aussi le plus grand animal ayant jamais existé ?",
+    "answer": "La baleine bleue",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-125",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du gaz noble utilisé dans les lampes à décharge pour produire une lumière orange-rouge ?",
+    "answer": "Le néon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-126",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du processus par lequel une cellule se divise pour donner deux cellules filles identiques ?",
+    "answer": "La mitose",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-127",
+    "category": "sciences-nature",
+    "question": "Quelle planète du système solaire possède la plus grande tempête connue, appelée la Grande Tache rouge ?",
+    "answer": "Jupiter",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-128",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'appareil qui mesure les séismes et leur intensité ?",
+    "answer": "Le sismographe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-129",
+    "category": "sciences-nature",
+    "question": "Quel est le nom scientifique de la peur irrationnelle du sang ?",
+    "answer": "L'hémophobie",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-130",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand serpent venimeux d'Afrique et d'Asie, capable de se dresser et de cracher son venin ?",
+    "answer": "Le cobra royal",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-131",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de la couche de l'atmosphère où se produisent la plupart des phénomènes météorologiques ?",
+    "answer": "La troposphère",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-132",
+    "category": "sciences-nature",
+    "question": "Quel biologiste britannique a formulé la théorie de l'évolution par sélection naturelle dans \"L'Origine des espèces\" ?",
+    "answer": "Charles Darwin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-133",
+    "category": "sciences-nature",
+    "question": "Quel est le nom de l'unité de mesure de l'énergie dans le système international ?",
+    "answer": "Le joule",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-134",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand oiseau de proie volant, capable d'atteindre trois mètres d'envergure, vivant dans les Andes ?",
+    "answer": "Le condor des Andes",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-135",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du chercheur né en Serbie, pionnier du courant alternatif, qui a donné son nom à une unité de champ magnétique ?",
+    "answer": "Nikola Tesla",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "sci-ado-136",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand cratère d'impact météoritique bien conservé sur Terre, situé en Arizona ?",
+    "answer": "Le cratère de Barringer (Meteor Crater)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-137",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du muscle du corps humain qui se contracte pour faire battre le cœur ?",
+    "answer": "Le myocarde",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-138",
+    "category": "sciences-nature",
+    "question": "Quelle est l'unité de mesure de la charge électrique dans le système international ?",
+    "answer": "Le coulomb",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "sci-ado-139",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du phénomène par lequel la lumière se décompose en un arc de couleurs après avoir traversé des gouttes d'eau ?",
+    "answer": "L'arc-en-ciel (la réfraction/dispersion de la lumière)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "sci-ado-140",
+    "category": "sciences-nature",
+    "question": "Quel est le nom du plus grand poisson d'eau douce du monde, vivant dans le Mékong ?",
+    "answer": "Le silure géant du Mékong",
+    "difficulty": "difficile"
+  }
 ]

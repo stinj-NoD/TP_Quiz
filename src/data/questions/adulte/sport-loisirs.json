@@ -318,5 +318,635 @@
     "question": "Quelle nageuse australienne a remporté le 400 mètres nage libre aux Jeux olympiques de Tokyo 2020 puis de Paris 2024 ?",
     "answer": "Ariarne Titmus",
     "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-051",
+    "category": "sport-loisirs",
+    "question": "Quel joueur argentin a remporté le Ballon d'or à huit reprises, un record ?",
+    "answer": "Lionel Messi",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-052",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de raquette utilise-t-on les termes \"amortie\" et \"lift\" ?",
+    "answer": "Le tennis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-053",
+    "category": "sport-loisirs",
+    "question": "Quel club italien de football est surnommé \"la Vieille Dame\" ?",
+    "answer": "La Juventus de Turin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-054",
+    "category": "sport-loisirs",
+    "question": "Quelle distance parcourt un marathon officiel ?",
+    "answer": "42,195 kilomètres",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-055",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de tennis suisse a remporté un record de huit titres à Wimbledon ?",
+    "answer": "Roger Federer",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-056",
+    "category": "sport-loisirs",
+    "question": "Quelle équipe néo-zélandaise de rugby interprète le haka avant chacun de ses matchs ?",
+    "answer": "Les All Blacks",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-057",
+    "category": "sport-loisirs",
+    "question": "Au tennis, combien de points d'écart faut-il pour remporter un jeu après une égalité à 40-40 (\"deuce\") ?",
+    "answer": "Deux points d'écart",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-058",
+    "category": "sport-loisirs",
+    "question": "Quel pays a remporté la Coupe du monde de rugby à XV en 2023, disputée en France ?",
+    "answer": "L'Afrique du Sud",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-059",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de combat japonais pratique-t-on les figures imposées appelées \"kata\" ?",
+    "answer": "Le karaté",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-060",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline équestre olympique combine dressage, cross et saut d'obstacles sur trois épreuves ?",
+    "answer": "Le concours complet d'équitation",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-061",
+    "category": "sport-loisirs",
+    "question": "Quel boxeur américain a terminé sa carrière professionnelle invaincu, avec un bilan de 50 victoires en 50 combats ?",
+    "answer": "Floyd Mayweather",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-062",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom de la compétition annuelle de clubs de football la plus prestigieuse en Europe ?",
+    "answer": "La Ligue des champions",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-063",
+    "category": "sport-loisirs",
+    "question": "Quel pilote britannique a rejoint puis dépassé Michael Schumacher au nombre de victoires en Grand Prix de Formule 1 ?",
+    "answer": "Lewis Hamilton",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-064",
+    "category": "sport-loisirs",
+    "question": "Quelle nage olympique se caractérise par un mouvement simultané et symétrique des deux bras sortant de l'eau ?",
+    "answer": "Le papillon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-065",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de tennis espagnol détient le record du plus grand nombre de titres à Roland-Garros, avec quatorze victoires ?",
+    "answer": "Rafael Nadal",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-066",
+    "category": "sport-loisirs",
+    "question": "Quel nom porte le grand tour cycliste italien disputé chaque printemps, équivalent transalpin du Tour de France ?",
+    "answer": "Le Tour d'Italie (Giro d'Italia)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-067",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline de ski d'hiver associe le saut à ski et le ski de fond dans une même épreuve ?",
+    "answer": "Le combiné nordique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-068",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de football français a inscrit un triplé en finale de la Coupe du monde 2022 face à l'Argentine ?",
+    "answer": "Kylian Mbappé",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-069",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de handball sur le terrain, gardien de but compris ?",
+    "answer": "7",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-070",
+    "category": "sport-loisirs",
+    "question": "De quelle nationalité était Kelvin Kiptum, athlète détenteur du record du monde du marathon avant sa mort en 2024 ?",
+    "answer": "Kényane",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-071",
+    "category": "sport-loisirs",
+    "question": "Quel pilote finlandais a été sacré champion du monde de Formule 1 en 2007 au volant d'une Ferrari ?",
+    "answer": "Kimi Räikkönen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-072",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport un \"grand chelem\" désigne-t-il un home run frappé alors que les trois bases sont occupées ?",
+    "answer": "Le baseball",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-073",
+    "category": "sport-loisirs",
+    "question": "Quelle athlète jamaïcaine surnommée \"Pocket Rocket\" a remporté le 100 mètres olympique en 2008 et 2012 ?",
+    "answer": "Shelly-Ann Fraser-Pryce",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-074",
+    "category": "sport-loisirs",
+    "question": "Quel gardien de but italien a disputé plus de 1000 matchs professionnels et fut le portier emblématique de la Juventus et de l'équipe d'Italie ?",
+    "answer": "Gianluigi Buffon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-075",
+    "category": "sport-loisirs",
+    "question": "Au cricket, comment appelle-t-on le coup qui envoie la balle directement hors du terrain de jeu, rapportant six points ?",
+    "answer": "Un \"six\"",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-076",
+    "category": "sport-loisirs",
+    "question": "Dans quel quartier de New York se déroule chaque année le tournoi de tennis de l'US Open ?",
+    "answer": "Flushing Meadows",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-077",
+    "category": "sport-loisirs",
+    "question": "Quel athlète éthiopien a remporté le marathon des Jeux olympiques de Rome en 1960 en courant pieds nus ?",
+    "answer": "Abebe Bikila",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-078",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de rugby à VII sur le terrain ?",
+    "answer": "7",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-079",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline de ski acrobatique consiste à descendre une piste jalonnée de bosses artificielles en enchaînant sauts et virages ?",
+    "answer": "Le ski de bosses",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-080",
+    "category": "sport-loisirs",
+    "question": "Quel footballeur portugais est devenu le meilleur buteur de l'histoire des équipes nationales, toutes sélections confondues ?",
+    "answer": "Cristiano Ronaldo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-081",
+    "category": "sport-loisirs",
+    "question": "Quel sport nautique olympique consiste à réaliser des figures acrobatiques en sautant depuis un plongeoir ou un tremplin ?",
+    "answer": "Le plongeon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-082",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom du stade londonien où se joue chaque année la finale de la FA Cup ?",
+    "answer": "Wembley",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-083",
+    "category": "sport-loisirs",
+    "question": "En escrime, quelle arme, la plus légère des trois, ne permet de toucher l'adversaire que sur le tronc ?",
+    "answer": "Le fleuret",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-084",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline olympique d'hiver associe figures techniques et interprétation musicale sur une patinoire ?",
+    "answer": "Le patinage artistique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-085",
+    "category": "sport-loisirs",
+    "question": "Quel meneur de jeu américain surnommé \"Magic\" a mené les Los Angeles Lakers à cinq titres NBA dans les années 1980 ?",
+    "answer": "Magic Johnson",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-086",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de combat olympique les catégories de poids vont-elles du \"poids mouche\" au \"poids super-lourd\" ?",
+    "answer": "La boxe",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-087",
+    "category": "sport-loisirs",
+    "question": "Quel skieur alpin suédois a remporté 86 victoires en Coupe du monde dans les années 1970-1980, record longtemps inégalé ?",
+    "answer": "Ingemar Stenmark",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-088",
+    "category": "sport-loisirs",
+    "question": "Quel club allemand basé à Munich a réalisé le triplé Championnat-Coupe-Ligue des champions en 2020 ?",
+    "answer": "Le Bayern Munich",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-089",
+    "category": "sport-loisirs",
+    "question": "Quelle est la distance officielle de la course de haies masculine appelée \"110 mètres haies\" ?",
+    "answer": "110 mètres",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-090",
+    "category": "sport-loisirs",
+    "question": "Quel joueur de tennis serbe détient le record du plus grand nombre de titres du Grand Chelem en simple messieurs ?",
+    "answer": "Novak Djokovic",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-091",
+    "category": "sport-loisirs",
+    "question": "Quel sport d'hiver consiste à faire glisser une pierre de granit sur la glace vers une cible en la dirigeant à l'aide de balais ?",
+    "answer": "Le curling",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-092",
+    "category": "sport-loisirs",
+    "question": "Quel pilote brésilien de Formule 1 est mort accidentellement lors du Grand Prix de Saint-Marin en 1994 ?",
+    "answer": "Ayrton Senna",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-093",
+    "category": "sport-loisirs",
+    "question": "Quel joueur néo-zélandais de rugby, décédé en 2015, est resté longtemps le meilleur marqueur d'essais de l'histoire des Coupes du monde ?",
+    "answer": "Jonah Lomu",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-094",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline olympique d'athlétisme consiste à lancer un disque métallique le plus loin possible depuis un cercle ?",
+    "answer": "Le lancer de disque",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-095",
+    "category": "sport-loisirs",
+    "question": "Quel club de football brésilien a formé Pelé et l'a vu jouer l'essentiel de sa carrière ?",
+    "answer": "Santos FC",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-096",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de raquette le score s'annonce-t-il traditionnellement \"love\", \"15\", \"30\", \"40\" ?",
+    "answer": "Le tennis",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-097",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse tchécoslovaque puis américaine a remporté un record de neuf titres en simple dames à Wimbledon ?",
+    "answer": "Martina Navratilova",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-098",
+    "category": "sport-loisirs",
+    "question": "Quel événement cycliste espagnol, disputé chaque année en fin d'été, complète le trio des grands tours avec le Tour de France et le Giro ?",
+    "answer": "Le Tour d'Espagne (Vuelta a España)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-099",
+    "category": "sport-loisirs",
+    "question": "Combien de mètres mesure une piscine olympique standard utilisée pour les compétitions de natation ?",
+    "answer": "50 mètres",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-100",
+    "category": "sport-loisirs",
+    "question": "Quel pilote néerlandais a remporté ses premiers titres mondiaux de Formule 1 avec l'écurie Red Bull à partir de 2021 ?",
+    "answer": "Max Verstappen",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-101",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport collectif la crosse est-elle utilisée pour propulser une balle dans un but, sur un terrain d'herbe ou synthétique ?",
+    "answer": "Le hockey sur gazon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-102",
+    "category": "sport-loisirs",
+    "question": "Quel gymnaste soviétique a remporté sept médailles d'or olympiques dans les années 1970-1980, un record pour un gymnaste masculin resté longtemps inégalé ?",
+    "answer": "Nikolaï Andrianov",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-103",
+    "category": "sport-loisirs",
+    "question": "Quel footballeur néerlandais, triple Ballon d'or dans les années 1970, est resté célèbre pour son style de jeu appelé \"football total\" ?",
+    "answer": "Johan Cruyff",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-104",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline paralympique désigne le basket-ball pratiqué en fauteuil roulant par des athlètes en situation de handicap ?",
+    "answer": "Le basket-fauteuil",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-105",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure un quart-temps réglementaire dans un match de la NBA ?",
+    "answer": "12 minutes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-106",
+    "category": "sport-loisirs",
+    "question": "Quel navigateur français a remporté la première édition du Vendée Globe, en 1989-1990 ?",
+    "answer": "Titouan Lamazou",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-107",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport hivernal les concurrents dévalent-ils une piste de glace allongés sur le dos sur un traîneau individuel ?",
+    "answer": "La luge",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-108",
+    "category": "sport-loisirs",
+    "question": "Quel club de football italien basé à Milan est surnommé \"les Rossoneri\" ?",
+    "answer": "L'AC Milan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-109",
+    "category": "sport-loisirs",
+    "question": "Quelle épreuve d'athlétisme masculine combine dix disciplines différentes disputées sur deux jours ?",
+    "answer": "Le décathlon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-110",
+    "category": "sport-loisirs",
+    "question": "Quel perchiste suédois a battu à de multiples reprises le record du monde du saut à la perche à partir de 2020 ?",
+    "answer": "Armand Duplantis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-111",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport de combat brésilien la lutte au sol et les soumissions par étranglement ou clé articulaire sont-elles centrales ?",
+    "answer": "Le jiu-jitsu brésilien",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-112",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse allemande de tennis a réalisé le \"Golden Slam\" en 1988, remportant les quatre tournois du Grand Chelem et l'or olympique la même année ?",
+    "answer": "Steffi Graf",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-113",
+    "category": "sport-loisirs",
+    "question": "Combien de sets faut-il remporter pour gagner un match de volley-ball, disputé au meilleur des cinq sets ?",
+    "answer": "3 sets",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-114",
+    "category": "sport-loisirs",
+    "question": "Quel entraîneur écossais a dirigé Manchester United pendant plus de 26 ans, remportant treize titres de champion d'Angleterre ?",
+    "answer": "Alex Ferguson",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-115",
+    "category": "sport-loisirs",
+    "question": "Quel sport olympique nautique se pratique en solo ou en équipage à bord d'une embarcation propulsée par des rames fixées à des dames de nage ?",
+    "answer": "L'aviron",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-116",
+    "category": "sport-loisirs",
+    "question": "Quel pays a remporté la toute première Coupe du monde de football, en 1930, disputée sur son propre sol ?",
+    "answer": "L'Uruguay",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-117",
+    "category": "sport-loisirs",
+    "question": "Quelle course cycliste d'un jour, disputée en Belgique et dans le nord de la France sur des pavés, est surnommée \"l'Enfer du Nord\" ?",
+    "answer": "Paris-Roubaix",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-118",
+    "category": "sport-loisirs",
+    "question": "Quel sport de raquette, originaire de Chine, se joue sur une table avec une petite balle légère en celluloïd ou plastique ?",
+    "answer": "Le tennis de table",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-119",
+    "category": "sport-loisirs",
+    "question": "Quel gymnaste japonais, surnommé \"Kami\" (le dieu), a remporté le concours général individuel olympique en 2012 et 2016 ?",
+    "answer": "Kohei Uchimura",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-120",
+    "category": "sport-loisirs",
+    "question": "Quelle gymnaste soviétique détient le record absolu du plus grand nombre de médailles olympiques remportées, toutes disciplines confondues ?",
+    "answer": "Larisa Latynina",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-121",
+    "category": "sport-loisirs",
+    "question": "Quel joueur brésilien, surnommé \"le Phénomène\", a marqué l'histoire du football avec le Real Madrid et l'Inter Milan dans les années 1990-2000 ?",
+    "answer": "Ronaldo Nazário",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-122",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de rugby à XIII sur le terrain ?",
+    "answer": "13",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-123",
+    "category": "sport-loisirs",
+    "question": "Quel club espagnol de football, rival historique du Real Madrid, joue au Camp Nou à Barcelone ?",
+    "answer": "Le FC Barcelone",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-124",
+    "category": "sport-loisirs",
+    "question": "Quelle est l'arme d'escrime la plus lourde, permettant de toucher l'adversaire sur tout le corps ?",
+    "answer": "L'épée",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-125",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport nautique olympique les concurrents s'affrontent-ils en planche à voile sur un parcours balisé ?",
+    "answer": "La planche à voile (windsurf)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-126",
+    "category": "sport-loisirs",
+    "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres depuis 2009 ?",
+    "answer": "Usain Bolt",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-127",
+    "category": "sport-loisirs",
+    "question": "Quel sport de précision se joue avec des boules métalliques que l'on approche le plus près possible d'un cochonnet ?",
+    "answer": "La pétanque",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-128",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse de tennis belge, ancienne numéro 1 mondiale, a remporté quatre titres du Grand Chelem au début des années 2010 ?",
+    "answer": "Kim Clijsters",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-129",
+    "category": "sport-loisirs",
+    "question": "Quel club anglais de football, basé à Manchester, joue à l'Etihad Stadium et a dominé la Premier League dans les années 2020 ?",
+    "answer": "Manchester City",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-130",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs compte une équipe de beach-volley sur le sable ?",
+    "answer": "2",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-131",
+    "category": "sport-loisirs",
+    "question": "Quel skieur français a remporté le classement général de la Coupe du monde de ski alpin à plusieurs reprises dans les années 2010 ?",
+    "answer": "Alexis Pinturault",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-132",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline olympique consiste à tirer sur des plateaux d'argile lancés en l'air avec un fusil ?",
+    "answer": "Le tir aux clays (ball-trap)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-133",
+    "category": "sport-loisirs",
+    "question": "Quelle nation a remporté le plus grand nombre de médailles d'or aux Jeux olympiques d'été de Tokyo 2020, disputés en 2021 ?",
+    "answer": "Les États-Unis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-134",
+    "category": "sport-loisirs",
+    "question": "Quelle joueuse de basket-ball américaine, plusieurs fois championne WNBA et olympique, est considérée comme l'une des plus grandes de l'histoire ?",
+    "answer": "Diana Taurasi",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-135",
+    "category": "sport-loisirs",
+    "question": "Quel club allemand de football, basé à Dortmund, joue au stade du Signal Iduna Park ?",
+    "answer": "Borussia Dortmund",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-136",
+    "category": "sport-loisirs",
+    "question": "Quelle discipline athlétique consiste à courir un tour de piste complet, soit 400 mètres, le plus vite possible ?",
+    "answer": "Le 400 mètres",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-137",
+    "category": "sport-loisirs",
+    "question": "Quel pilote finlandais de rallye a remporté plusieurs championnats du monde WRC dans les années 2000 ?",
+    "answer": "Marcus Grönholm",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-adulte-138",
+    "category": "sport-loisirs",
+    "question": "Quel est le nom du grand tournoi de tennis se disputant sur gazon à Londres chaque été ?",
+    "answer": "Wimbledon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-adulte-139",
+    "category": "sport-loisirs",
+    "question": "Quelle nageuse américaine a remporté le plus grand nombre de médailles olympiques individuelles en natation féminine ?",
+    "answer": "Katie Ledecky",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-adulte-140",
+    "category": "sport-loisirs",
+    "question": "Quel sport de combat philippin utilise des bâtons courts pour frapper et désarmer l'adversaire ?",
+    "answer": "Le kali (arnis/eskrima)",
+    "difficulty": "difficile"
   }
 ]

@@ -1,52 +1,947 @@
 [
-  { "id": "div-enfant-001", "category": "divertissement", "question": "Comment s'appelle le petit plombier moustachu des jeux vidéo Nintendo ?", "answer": "Mario" },
-  { "id": "div-enfant-002", "category": "divertissement", "question": "Dans quel dessin animé une reine des neiges chante \"Libérée, délivrée\" ?", "answer": "La Reine des neiges" },
-  { "id": "div-enfant-003", "category": "divertissement", "question": "Comment s'appelle le jeune sorcier à lunettes qui va à l'école de Poudlard ?", "answer": "Harry Potter" },
-  { "id": "div-enfant-004", "category": "divertissement", "question": "Quel est le nom du poisson-clown qui cherche son fils dans un dessin animé ?", "answer": "Nemo" },
-  { "id": "div-enfant-005", "category": "divertissement", "question": "Comment s'appelle la souris la plus célèbre de Disney ?", "answer": "Mickey" },
-  { "id": "div-enfant-006", "category": "divertissement", "question": "Dans quel film un jouet cow-boy s'appelle Woody ?", "answer": "Toy Story" },
-  { "id": "div-enfant-007", "category": "divertissement", "question": "Comment s'appelle le grand lion qui devient roi dans un dessin animé Disney ?", "answer": "Simba" },
-  { "id": "div-enfant-008", "category": "divertissement", "question": "Quel est le nom de famille de la famille jaune dans le dessin animé \"Les Simpson\" ?", "answer": "Simpson" },
-  { "id": "div-enfant-009", "category": "divertissement", "question": "Comment s'appelle le poulpe qui vit dans un ananas sous la mer ?", "answer": "Bob l'éponge" },
-  { "id": "div-enfant-010", "category": "divertissement", "question": "Dans quel film Disney une sirène s'appelle Ariel ?", "answer": "La Petite Sirène" },
-  { "id": "div-enfant-011", "category": "divertissement", "question": "Comment s'appelle le super-héros qui porte une cape rouge et vole grâce à sa force incroyable ?", "answer": "Superman" },
-  { "id": "div-enfant-012", "category": "divertissement", "question": "Quel est le nom du chat orange paresseux qui aime les lasagnes ?", "answer": "Garfield" },
-  { "id": "div-enfant-013", "category": "divertissement", "question": "Comment s'appelle le petit robot jaune et blanc dans le film \"WALL-E\" ?", "answer": "WALL-E" },
-  { "id": "div-enfant-014", "category": "divertissement", "question": "Dans quel dessin animé un garçon a un tigre en peluche nommé Hobbes ?", "answer": "Calvin et Hobbes" },
-  { "id": "div-enfant-015", "category": "divertissement", "question": "Comment s'appelle le personnage principal du jeu vidéo qui mange des pastilles dans un labyrinthe ?", "answer": "Pac-Man" },
-  { "id": "div-enfant-016", "category": "divertissement", "question": "Quel est le nom du chien jaune qui parle dans les dessins animés Disney ?", "answer": "Dingo (ou Pluto selon le personnage visé)" },
-  { "id": "div-enfant-017", "category": "divertissement", "question": "Comment s'appelle la panthère rose des dessins animés ?", "answer": "La Panthère rose" },
-  { "id": "div-enfant-018", "category": "divertissement", "question": "Dans quel dessin animé des minions jaunes travaillent pour un vilain qui devient gentil ?", "answer": "Moi, moche et méchant" },
-  { "id": "div-enfant-019", "category": "divertissement", "question": "Comment s'appelle le renne qui accompagne le Père Noël, avec un nez rouge ?", "answer": "Rudolphe" },
-  { "id": "div-enfant-020", "category": "divertissement", "question": "Quel est le nom du grillon qui donne des conseils à Pinocchio ?", "answer": "Jiminy Cricket" },
-  { "id": "div-enfant-021", "category": "divertissement", "question": "Comment s'appelle le célèbre magicien avec des lunettes rondes et un éclair sur le front ?", "answer": "Harry Potter" },
-  { "id": "div-enfant-022", "category": "divertissement", "question": "Dans quel dessin animé un lapin très rapide s'appelle Bugs ?", "answer": "Bugs Bunny (Looney Tunes)" },
-  { "id": "div-enfant-023", "category": "divertissement", "question": "Comment s'appelle le bonhomme de neige qui parle dans \"La Reine des neiges\" ?", "answer": "Olaf" },
-  { "id": "div-enfant-024", "category": "divertissement", "question": "Quel est le nom du pirate à la jambe de bois et au perroquet, héros d'un jeu vidéo célèbre ?", "answer": "Guybrush Threepwood (Monkey Island) — accepter aussi une réponse générique de pirate célèbre" },
-  { "id": "div-enfant-025", "category": "divertissement", "question": "Comment s'appelle le film où des jouets prennent vie quand personne ne les regarde ?", "answer": "Toy Story" },
-  { "id": "div-enfant-026", "category": "divertissement", "question": "Dans quel dessin animé une petite fille rousse tire à l'arc dans la forêt écossaise ?", "answer": "Rebelle" },
-  { "id": "div-enfant-027", "category": "divertissement", "question": "Comment s'appelle le chat qui joue au chat et à la souris avec Jerry ?", "answer": "Tom" },
-  { "id": "div-enfant-028", "category": "divertissement", "question": "Quel est le nom du poney/cheval magique à crinière arc-en-ciel dans un dessin animé populaire ?", "answer": "My Little Pony" },
-  { "id": "div-enfant-029", "category": "divertissement", "question": "Comment s'appelle l'ourson qui adore le miel dans les histoires de la forêt des Rêves Bleus ?", "answer": "Winnie l'ourson" },
-  { "id": "div-enfant-030", "category": "divertissement", "question": "Dans quel dessin animé un poisson bleu nommé Dory a des problèmes de mémoire ?", "answer": "Le Monde de Nemo" },
-  { "id": "div-enfant-031", "category": "divertissement", "question": "Comment s'appelle le petit poisson-clown orange perdu dans l'océan qui donne son nom à un dessin animé ?", "answer": "Nemo" },
-  { "id": "div-enfant-032", "category": "divertissement", "question": "Quel est le nom de la petite fée aux cheveux blonds et à la robe verte qui vole avec Peter Pan ?", "answer": "La Fée Clochette" },
-  { "id": "div-enfant-033", "category": "divertissement", "question": "Comment s'appelle le canard le plus connu de Disney, souvent en colère et vêtu d'un col marin ?", "answer": "Donald Duck" },
-  { "id": "div-enfant-034", "category": "divertissement", "question": "Dans quel dessin animé un jeune lion nommé Kion protège la Terre des Lions avec sa Garde ?", "answer": "La Garde du Roi Lion" },
-  { "id": "div-enfant-035", "category": "divertissement", "question": "Comment s'appelle la petite princesse qui dort cent ans après avoir touché un fuseau ?", "answer": "La Belle au bois dormant" },
-  { "id": "div-enfant-036", "category": "divertissement", "question": "Comment s'appelle le petit hérisson bleu très rapide des jeux vidéo ?", "answer": "Sonic", "difficulty": "facile" },
-  { "id": "div-enfant-037", "category": "divertissement", "question": "Dans quel dessin animé un petit poisson rouge nommé Nemo vit avec son papa Marin ?", "answer": "Le Monde de Nemo", "difficulty": "facile" },
-  { "id": "div-enfant-038", "category": "divertissement", "question": "Comment s'appelle la princesse Disney aux cheveux magiques très longs enfermée dans une tour ?", "answer": "Raiponce", "difficulty": "facile" },
-  { "id": "div-enfant-039", "category": "divertissement", "question": "Quel est le nom du petit garçon qui ne veut jamais grandir et qui vit au Pays Imaginaire ?", "answer": "Peter Pan", "difficulty": "facile" },
-  { "id": "div-enfant-040", "category": "divertissement", "question": "Comment s'appelle le petit guerrier gaulois malin qui boit une potion magique pour devenir très fort ?", "answer": "Astérix", "difficulty": "facile" },
-  { "id": "div-enfant-041", "category": "divertissement", "question": "Dans quel dessin animé une pieuvre acariâtre vit dans une maison en forme de rocher sous la mer ?", "answer": "Bob l'éponge (le personnage est Carlo Tentacule)", "difficulty": "moyen" },
-  { "id": "div-enfant-042", "category": "divertissement", "question": "Comment s'appelle le grand géant vert au caractère bourru qui vit dans un marécage ?", "answer": "Shrek", "difficulty": "facile" },
-  { "id": "div-enfant-043", "category": "divertissement", "question": "Quel est le nom du jeune garçon qui découvre qu'il est un sorcier le jour de ses onze ans ?", "answer": "Harry Potter", "difficulty": "facile" },
-  { "id": "div-enfant-044", "category": "divertissement", "question": "Comment s'appelle le robot ami de Buzz l'Éclair et Woody dans les films Toy Story ?", "answer": "Buzz l'Éclair (le jouet astronaute) — accepter aussi RC ou un autre jouet selon le personnage visé", "difficulty": "moyen" },
-  { "id": "div-enfant-045", "category": "divertissement", "question": "Dans quel dessin animé un jeune garçon nommé Aladdin trouve une lampe magique avec un génie ?", "answer": "Aladdin", "difficulty": "facile" },
-  { "id": "div-enfant-046", "category": "divertissement", "question": "Comment s'appelle le petit dinosaure vert et son ami Yoshi qui aident Mario dans les jeux vidéo ?", "answer": "Yoshi", "difficulty": "moyen" },
-  { "id": "div-enfant-047", "category": "divertissement", "question": "Quel est le nom du grand méchant loup qui souffle sur les maisons des trois petits cochons ?", "answer": "Le grand méchant loup", "difficulty": "facile" },
-  { "id": "div-enfant-048", "category": "divertissement", "question": "Comment s'appelle la petite fourmi qui unit sa colonie contre des sauterelles dans un dessin animé Pixar ?", "answer": "Flik (le film s'appelle 1001 pattes)", "difficulty": "difficile" },
-  { "id": "div-enfant-049", "category": "divertissement", "question": "Comment s'appelle le petit garçon africain qui part sauver son village dans le dessin animé français \"Kirikou et la Sorcière\" ?", "answer": "Kirikou", "difficulty": "moyen" },
-  { "id": "div-enfant-050", "category": "divertissement", "question": "Comment s'appelle le grand chat rayé orange et noir, ami de Christophe Robin dans la forêt des Rêves Bleus ?", "answer": "Tigrou", "difficulty": "facile" }
+  {
+    "id": "div-enfant-001",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit plombier moustachu des jeux vidéo Nintendo ?",
+    "answer": "Mario"
+  },
+  {
+    "id": "div-enfant-002",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une reine des neiges chante \"Libérée, délivrée\" ?",
+    "answer": "La Reine des neiges"
+  },
+  {
+    "id": "div-enfant-003",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeune sorcier à lunettes qui va à l'école de Poudlard ?",
+    "answer": "Harry Potter"
+  },
+  {
+    "id": "div-enfant-004",
+    "category": "divertissement",
+    "question": "Quel est le nom du poisson-clown qui cherche son fils dans un dessin animé ?",
+    "answer": "Nemo"
+  },
+  {
+    "id": "div-enfant-005",
+    "category": "divertissement",
+    "question": "Comment s'appelle la souris la plus célèbre de Disney ?",
+    "answer": "Mickey"
+  },
+  {
+    "id": "div-enfant-006",
+    "category": "divertissement",
+    "question": "Dans quel film un jouet cow-boy s'appelle Woody ?",
+    "answer": "Toy Story"
+  },
+  {
+    "id": "div-enfant-007",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand lion qui devient roi dans un dessin animé Disney ?",
+    "answer": "Simba"
+  },
+  {
+    "id": "div-enfant-008",
+    "category": "divertissement",
+    "question": "Quel est le nom de famille de la famille jaune dans le dessin animé \"Les Simpson\" ?",
+    "answer": "Simpson"
+  },
+  {
+    "id": "div-enfant-009",
+    "category": "divertissement",
+    "question": "Comment s'appelle le poulpe qui vit dans un ananas sous la mer ?",
+    "answer": "Bob l'éponge"
+  },
+  {
+    "id": "div-enfant-010",
+    "category": "divertissement",
+    "question": "Dans quel film Disney une sirène s'appelle Ariel ?",
+    "answer": "La Petite Sirène"
+  },
+  {
+    "id": "div-enfant-011",
+    "category": "divertissement",
+    "question": "Comment s'appelle le super-héros qui porte une cape rouge et vole grâce à sa force incroyable ?",
+    "answer": "Superman"
+  },
+  {
+    "id": "div-enfant-012",
+    "category": "divertissement",
+    "question": "Quel est le nom du chat orange paresseux qui aime les lasagnes ?",
+    "answer": "Garfield"
+  },
+  {
+    "id": "div-enfant-013",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit robot jaune et blanc dans le film \"WALL-E\" ?",
+    "answer": "WALL-E"
+  },
+  {
+    "id": "div-enfant-014",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un garçon a un tigre en peluche nommé Hobbes ?",
+    "answer": "Calvin et Hobbes"
+  },
+  {
+    "id": "div-enfant-015",
+    "category": "divertissement",
+    "question": "Comment s'appelle le personnage principal du jeu vidéo qui mange des pastilles dans un labyrinthe ?",
+    "answer": "Pac-Man"
+  },
+  {
+    "id": "div-enfant-016",
+    "category": "divertissement",
+    "question": "Quel est le nom du chien jaune qui parle dans les dessins animés Disney ?",
+    "answer": "Dingo (ou Pluto selon le personnage visé)"
+  },
+  {
+    "id": "div-enfant-017",
+    "category": "divertissement",
+    "question": "Comment s'appelle la panthère rose des dessins animés ?",
+    "answer": "La Panthère rose"
+  },
+  {
+    "id": "div-enfant-018",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé des minions jaunes travaillent pour un vilain qui devient gentil ?",
+    "answer": "Moi, moche et méchant"
+  },
+  {
+    "id": "div-enfant-019",
+    "category": "divertissement",
+    "question": "Comment s'appelle le renne qui accompagne le Père Noël, avec un nez rouge ?",
+    "answer": "Rudolphe"
+  },
+  {
+    "id": "div-enfant-020",
+    "category": "divertissement",
+    "question": "Quel est le nom du grillon qui donne des conseils à Pinocchio ?",
+    "answer": "Jiminy Cricket"
+  },
+  {
+    "id": "div-enfant-021",
+    "category": "divertissement",
+    "question": "Comment s'appelle le célèbre magicien avec des lunettes rondes et un éclair sur le front ?",
+    "answer": "Harry Potter"
+  },
+  {
+    "id": "div-enfant-022",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un lapin très rapide s'appelle Bugs ?",
+    "answer": "Bugs Bunny (Looney Tunes)"
+  },
+  {
+    "id": "div-enfant-023",
+    "category": "divertissement",
+    "question": "Comment s'appelle le bonhomme de neige qui parle dans \"La Reine des neiges\" ?",
+    "answer": "Olaf"
+  },
+  {
+    "id": "div-enfant-024",
+    "category": "divertissement",
+    "question": "Quel est le nom du pirate à la jambe de bois et au perroquet, héros d'un jeu vidéo célèbre ?",
+    "answer": "Guybrush Threepwood (Monkey Island) — accepter aussi une réponse générique de pirate célèbre"
+  },
+  {
+    "id": "div-enfant-025",
+    "category": "divertissement",
+    "question": "Comment s'appelle le film où des jouets prennent vie quand personne ne les regarde ?",
+    "answer": "Toy Story"
+  },
+  {
+    "id": "div-enfant-026",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une petite fille rousse tire à l'arc dans la forêt écossaise ?",
+    "answer": "Rebelle"
+  },
+  {
+    "id": "div-enfant-027",
+    "category": "divertissement",
+    "question": "Comment s'appelle le chat qui joue au chat et à la souris avec Jerry ?",
+    "answer": "Tom"
+  },
+  {
+    "id": "div-enfant-028",
+    "category": "divertissement",
+    "question": "Quel est le nom du poney/cheval magique à crinière arc-en-ciel dans un dessin animé populaire ?",
+    "answer": "My Little Pony"
+  },
+  {
+    "id": "div-enfant-029",
+    "category": "divertissement",
+    "question": "Comment s'appelle l'ourson qui adore le miel dans les histoires de la forêt des Rêves Bleus ?",
+    "answer": "Winnie l'ourson"
+  },
+  {
+    "id": "div-enfant-030",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un poisson bleu nommé Dory a des problèmes de mémoire ?",
+    "answer": "Le Monde de Nemo"
+  },
+  {
+    "id": "div-enfant-031",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit poisson-clown orange perdu dans l'océan qui donne son nom à un dessin animé ?",
+    "answer": "Nemo"
+  },
+  {
+    "id": "div-enfant-032",
+    "category": "divertissement",
+    "question": "Quel est le nom de la petite fée aux cheveux blonds et à la robe verte qui vole avec Peter Pan ?",
+    "answer": "La Fée Clochette"
+  },
+  {
+    "id": "div-enfant-033",
+    "category": "divertissement",
+    "question": "Comment s'appelle le canard le plus connu de Disney, souvent en colère et vêtu d'un col marin ?",
+    "answer": "Donald Duck"
+  },
+  {
+    "id": "div-enfant-034",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un jeune lion nommé Kion protège la Terre des Lions avec sa Garde ?",
+    "answer": "La Garde du Roi Lion"
+  },
+  {
+    "id": "div-enfant-035",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite princesse qui dort cent ans après avoir touché un fuseau ?",
+    "answer": "La Belle au bois dormant"
+  },
+  {
+    "id": "div-enfant-036",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit hérisson bleu très rapide des jeux vidéo ?",
+    "answer": "Sonic",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-037",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un petit poisson rouge nommé Nemo vit avec son papa Marin ?",
+    "answer": "Le Monde de Nemo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-038",
+    "category": "divertissement",
+    "question": "Comment s'appelle la princesse Disney aux cheveux magiques très longs enfermée dans une tour ?",
+    "answer": "Raiponce",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-039",
+    "category": "divertissement",
+    "question": "Quel est le nom du petit garçon qui ne veut jamais grandir et qui vit au Pays Imaginaire ?",
+    "answer": "Peter Pan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-040",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit guerrier gaulois malin qui boit une potion magique pour devenir très fort ?",
+    "answer": "Astérix",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-041",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une pieuvre acariâtre vit dans une maison en forme de rocher sous la mer ?",
+    "answer": "Bob l'éponge (le personnage est Carlo Tentacule)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-042",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand géant vert au caractère bourru qui vit dans un marécage ?",
+    "answer": "Shrek",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-043",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeune garçon qui découvre qu'il est un sorcier le jour de ses onze ans ?",
+    "answer": "Harry Potter",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-044",
+    "category": "divertissement",
+    "question": "Comment s'appelle le robot ami de Buzz l'Éclair et Woody dans les films Toy Story ?",
+    "answer": "Buzz l'Éclair (le jouet astronaute) — accepter aussi RC ou un autre jouet selon le personnage visé",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-045",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un jeune garçon nommé Aladdin trouve une lampe magique avec un génie ?",
+    "answer": "Aladdin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-046",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit dinosaure vert et son ami Yoshi qui aident Mario dans les jeux vidéo ?",
+    "answer": "Yoshi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-047",
+    "category": "divertissement",
+    "question": "Quel est le nom du grand méchant loup qui souffle sur les maisons des trois petits cochons ?",
+    "answer": "Le grand méchant loup",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-048",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite fourmi qui unit sa colonie contre des sauterelles dans un dessin animé Pixar ?",
+    "answer": "Flik (le film s'appelle 1001 pattes)",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-enfant-049",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit garçon africain qui part sauver son village dans le dessin animé français \"Kirikou et la Sorcière\" ?",
+    "answer": "Kirikou",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-050",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand chat rayé orange et noir, ami de Christophe Robin dans la forêt des Rêves Bleus ?",
+    "answer": "Tigrou",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-051",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit éléphant aux grandes oreilles qui apprend à voler dans un film Disney ?",
+    "answer": "Dumbo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-052",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeune lion qui devient roi après avoir fui la Terre des Lions ?",
+    "answer": "Simba",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-053",
+    "category": "divertissement",
+    "question": "Comment s'appelle la poupée cow-girl qui accompagne Woody dans les films Toy Story ?",
+    "answer": "Jessie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-054",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une jeune fille nommée Belle tombe amoureuse d'un prince transformé en monstre ?",
+    "answer": "La Belle et la Bête",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-055",
+    "category": "divertissement",
+    "question": "Comment s'appelle le célèbre canard blanc à casquette de marin, souvent accompagné de ses neveux ?",
+    "answer": "Donald Duck",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-056",
+    "category": "divertissement",
+    "question": "Quel est le nom du petit garçon en pyjama rouge qui voyage au pays imaginaire de Peter Pan ?",
+    "answer": "Peter Pan (le garçon qui ne grandit jamais)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-057",
+    "category": "divertissement",
+    "question": "Comment s'appelle la princesse Disney qui vit avec sept nains dans la forêt ?",
+    "answer": "Blanche-Neige",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-058",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un jeune garçon nommé Simba doit reconquérir son royaume africain ?",
+    "answer": "Le Roi Lion",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-059",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand ami vert à oreilles pointues de Shrek qui parle beaucoup ?",
+    "answer": "L'Âne",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-060",
+    "category": "divertissement",
+    "question": "Quel est le nom du petit chien beige à taches qui est le meilleur ami de Mickey ?",
+    "answer": "Pluto",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-061",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite sirène qui rêve de devenir humaine pour vivre sur la terre ferme ?",
+    "answer": "Ariel",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-062",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un robot balayeur solitaire nettoie une Terre abandonnée par les humains ?",
+    "answer": "WALL-E",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-063",
+    "category": "divertissement",
+    "question": "Comment s'appelle le chat de compagnie du magicien Gargamel qui veut attraper les Schtroumpfs ?",
+    "answer": "Azraël",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-064",
+    "category": "divertissement",
+    "question": "Quel est le nom des petits personnages bleus qui vivent dans des champignons de la forêt ?",
+    "answer": "Les Schtroumpfs",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-065",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeune garçon avec un chapeau vert qui explore le royaume d'Hyrule dans un jeu vidéo ?",
+    "answer": "Link (Zelda)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-066",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une petite fille nommée Dorothée voyage au Pays d'Oz avec son chien Toto ?",
+    "answer": "Le Magicien d'Oz",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-067",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand-père bourru qui devient ami avec un jeune scout dans le film où une maison s'envole avec des ballons ?",
+    "answer": "Carl (le film s'appelle Là-haut)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-068",
+    "category": "divertissement",
+    "question": "Quel est le nom du petit poney bleu magique dans un dessin animé avec des amies aux couleurs de l'arc-en-ciel ?",
+    "answer": "Twilight Sparkle (My Little Pony)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-069",
+    "category": "divertissement",
+    "question": "Comment s'appelle le célèbre chien détective qui porte un foulard et enquête avec ses amis dans un van coloré ?",
+    "answer": "Scooby-Doo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-070",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une jeune fille nommée Vaiana part en bateau pour sauver son île avec l'aide d'un demi-dieu ?",
+    "answer": "Vaiana, la légende du bout du monde",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-071",
+    "category": "divertissement",
+    "question": "Comment s'appelle le meilleur ami très costaud du guerrier gaulois Astérix, toujours accompagné de son petit chien ?",
+    "answer": "Obélix",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-072",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit chien blanc à taches noires d'Obélix ?",
+    "answer": "Idéfix",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-073",
+    "category": "divertissement",
+    "question": "Quel est le nom de la voiture de course rouge, numéro 95, héros d'un dessin animé Pixar ?",
+    "answer": "Flash McQueen",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-074",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une jeune chinoise se déguise en soldat pour sauver son père ?",
+    "answer": "Mulan",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-075",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit dragon rouge, ami de Mulan, qui parle beaucoup ?",
+    "answer": "Mushu",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-076",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un jeune homme fort nommé Hercule doit devenir un véritable héros ?",
+    "answer": "Hercule",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-077",
+    "category": "divertissement",
+    "question": "Comment s'appelle la princesse amérindienne qui parle avec les animaux et les arbres de la forêt ?",
+    "answer": "Pocahontas",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-078",
+    "category": "divertissement",
+    "question": "Comment s'appelle le sonneur de cloches bossu qui vit en haut de la cathédrale Notre-Dame de Paris dans un dessin animé ?",
+    "answer": "Quasimodo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-079",
+    "category": "divertissement",
+    "question": "Comment s'appelle la famille de super-héros formée d'un papa, d'une maman et de leurs enfants dans un film Pixar ?",
+    "answer": "Les Indestructibles (la famille Parr)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-080",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé cinq émotions comme la Joie et la Tristesse vivent dans la tête d'une petite fille ?",
+    "answer": "Vice-Versa",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-081",
+    "category": "divertissement",
+    "question": "Dans quel film d'animation un petit garçon nommé Miguel part au pays des morts pendant la fête mexicaine des ancêtres ?",
+    "answer": "Coco",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-082",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé deux jeunes monstres marins se transforment en garçons dès qu'ils sortent de l'eau, sur une île italienne ?",
+    "answer": "Luca",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-083",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite fille aux pouvoirs magiques qui vit avec sa grande famille colombienne dans une maison enchantée ?",
+    "answer": "Mirabel (le film s'appelle Encanto)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-084",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite fille curieuse qui tombe dans un terrier de lapin et découvre un monde étrange ?",
+    "answer": "Alice (Alice au pays des merveilles)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-085",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit faon qui devient le prince de la forêt dans un vieux dessin animé Disney ?",
+    "answer": "Bambi",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-086",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé cent chiots à taches noires doivent échapper à une méchante femme nommée Cruella ?",
+    "answer": "Les 101 Dalmatiens",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-087",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé un petit garçon nommé Mowgli est élevé par des loups dans la jungle indienne ?",
+    "answer": "Le Livre de la Jungle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-088",
+    "category": "divertissement",
+    "question": "Comment s'appelle l'ours débonnaire qui chante \"Il en faut peu pour être heureux\" dans un dessin animé ?",
+    "answer": "Baloo (Le Livre de la Jungle)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-089",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé une chienne épagneule et un chien vagabond partagent des spaghettis au clair de lune ?",
+    "answer": "La Belle et le Clochard",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-090",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit ourson orphelin recueilli par un ours dans le film \"Frère des ours\" ?",
+    "answer": "Koda",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-091",
+    "category": "divertissement",
+    "question": "Comment s'appelle le célèbre petit monstre jaune et noir aux joues électriques qui dit \"Pika Pika\" ?",
+    "answer": "Pikachu",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-092",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeune garçon qui part attraper des créatures avec des Poké Balls pour devenir maître Pokémon ?",
+    "answer": "Sacha",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-093",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé japonais deux petites sœurs rencontrent un gros esprit de la forêt appelé Totoro ?",
+    "answer": "Mon voisin Totoro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-094",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit robot bleu, sans oreilles, venu du futur pour aider un jeune garçon japonais nommé Nobita ?",
+    "answer": "Doraemon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-095",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu vidéo où l'on construit des maisons et des mondes entiers avec des cubes ?",
+    "answer": "Minecraft",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-096",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite boule rose toute ronde qui peut avaler ses ennemis dans un jeu vidéo ?",
+    "answer": "Kirby",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-097",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu vidéo où l'on vit sur une île déserte, où l'on pêche et où l'on décore sa maison avec des animaux ?",
+    "answer": "Animal Crossing",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-098",
+    "category": "divertissement",
+    "question": "Dans le jeu vidéo Mario, comment s'appelle la princesse que Mario doit souvent délivrer ?",
+    "answer": "La princesse Peach",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-099",
+    "category": "divertissement",
+    "question": "Dans le jeu vidéo Mario, comment s'appelle le grand méchant tortue à carapace épineuse qui enlève la princesse ?",
+    "answer": "Bowser",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-100",
+    "category": "divertissement",
+    "question": "Comment s'appelle le frère de Mario, habillé en vert, qui apparaît souvent dans les mêmes jeux vidéo ?",
+    "answer": "Luigi",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-101",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu de société où l'on achète des rues et des maisons pour devenir le plus riche ?",
+    "answer": "Le Monopoly",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-102",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu de cartes où il faut se débarrasser de toutes ses cartes en criant son nom quand il n'en reste qu'une ?",
+    "answer": "Le Uno",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-103",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu de société où l'on doit deviner qui a commis un crime, avec quelle arme et dans quelle pièce ?",
+    "answer": "Le Cluedo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-104",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu où il faut aligner quatre pions de sa couleur dans une grille verticale ?",
+    "answer": "Puissance 4",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-105",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu de plateau où des petits chevaux de couleurs doivent faire le tour du plateau pour rentrer chez eux ?",
+    "answer": "Les Petits Chevaux",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-106",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeu où l'on doit deviner des mots en les dessinant sans parler ?",
+    "answer": "Le Pictionary",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-107",
+    "category": "divertissement",
+    "question": "Dans quelle chanson enfantine demande-t-on \"Dormez-vous ?\" à un moine qui doit sonner les cloches du matin ?",
+    "answer": "Frère Jacques",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-108",
+    "category": "divertissement",
+    "question": "Dans quelle célèbre comptine française demande-t-on de la lumière \"pour l'amour de Dieu\" à un voisin nommé Pierrot ?",
+    "answer": "Au clair de la lune",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-109",
+    "category": "divertissement",
+    "question": "Dans quelle comptine française un roi porte sa culotte à l'envers ?",
+    "answer": "Le Bon Roi Dagobert",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-110",
+    "category": "divertissement",
+    "question": "Dans quelle comptine un petit navire n'a jamais navigué sur les flots ?",
+    "answer": "Il était un petit navire",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-111",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite araignée qui grimpe le long d'un tuyau dans une comptine très connue ?",
+    "answer": "L'araignée Gipsy",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-112",
+    "category": "divertissement",
+    "question": "Comment s'appelle la chienne de sauvetage cheffe d'une équipe de chiots qui portent chacun un uniforme différent dans une série animée ?",
+    "answer": "La Pat' Patrouille (Skye, Chase, Marcus...)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-113",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite cochonne rose héroïne d'une série animée pour les tout-petits, avec son petit frère George ?",
+    "answer": "Peppa Pig",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-114",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit garçon à la houppette jaune qui vit plein d'aventures avec ses amis dans une série animée française classique ?",
+    "answer": "Oui-Oui",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-115",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite exploratrice qui parle aux enfants à travers l'écran et voyage avec son sac à dos et son singe Babouche ?",
+    "answer": "Dora l'exploratrice",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-116",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit garçon jaune qui répare tout avec ses outils en disant \"On peut le faire\" ?",
+    "answer": "Bob le Bricoleur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-117",
+    "category": "divertissement",
+    "question": "Comment s'appelle le super-héros habillé en chauve-souris qui protège la ville de Gotham ?",
+    "answer": "Batman",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-118",
+    "category": "divertissement",
+    "question": "Comment s'appelle le super-héros qui grimpe aux murs et lance des toiles depuis ses poignets ?",
+    "answer": "Spider-Man",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-119",
+    "category": "divertissement",
+    "question": "Comment s'appelle le super-héros vert et musclé qui devient énorme quand il se met en colère ?",
+    "answer": "Hulk",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-120",
+    "category": "divertissement",
+    "question": "Comment s'appelle le héros habillé aux couleurs bleu et rouge qui porte un bouclier rond et se bat pour la justice ?",
+    "answer": "Captain America",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-121",
+    "category": "divertissement",
+    "question": "Comment s'appelle le personnage jaune qui vit à Springfield et adore les beignets roses ?",
+    "answer": "Homer Simpson",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-122",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit garçon aux cheveux bleus hérissés dans le dessin animé \"Les Simpson\" ?",
+    "answer": "Bart Simpson",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-123",
+    "category": "divertissement",
+    "question": "Comment s'appelle le personnage de dessin animé qui vit dans un ananas et travaille au Crabe Croustillant ?",
+    "answer": "Bob l'éponge",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-124",
+    "category": "divertissement",
+    "question": "Comment s'appelle l'étoile de mer rose, meilleur ami de Bob l'éponge ?",
+    "answer": "Patrick",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-125",
+    "category": "divertissement",
+    "question": "Comment s'appelle le coyote qui poursuit sans jamais réussir à attraper un oiseau très rapide dans le désert ?",
+    "answer": "Vil Coyote (qui poursuit Bip Bip)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-126",
+    "category": "divertissement",
+    "question": "Comment s'appelle le canard qui parle très mal et porte souvent un costume marin, ami de Donald ?",
+    "answer": "Daffy Duck",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-127",
+    "category": "divertissement",
+    "question": "Comment s'appelle le célèbre chat orange qui essaie toujours d'attraper un canari nommé Titi ?",
+    "answer": "Grosminet",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-128",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit ours en peluche péruvien qui adore les sandwichs à la marmelade et porte un manteau bleu ?",
+    "answer": "Paddington",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-129",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit garçon en salopette bleue qui vit des aventures avec son tigre imaginaire dans une bande dessinée ?",
+    "answer": "Calvin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-130",
+    "category": "divertissement",
+    "question": "Comment s'appelle le chien jaune un peu peureux qui vit dans une maison isolée avec ses grands-parents dans un dessin animé ?",
+    "answer": "Courage",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-131",
+    "category": "divertissement",
+    "question": "Comment s'appelle le monstre bleu poilu à un œil, meilleur ami de Sulli dans un dessin animé Pixar sur les monstres ?",
+    "answer": "Bob Razowski (Monstres et Cie)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-132",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand monstre bleu poilu, effrayant en apparence mais très gentil, dans le dessin animé \"Monstres et Cie\" ?",
+    "answer": "Sulli (James P. Sullivan)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-133",
+    "category": "divertissement",
+    "question": "Comment s'appelle le jeune apprenti sorcier qui fait le ménage avec des balais ensorcelés dans un célèbre dessin animé musical Disney ?",
+    "answer": "Mickey (dans Fantasia, L'Apprenti sorcier)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-134",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit chat orange bagarreur héros d'un dessin animé espagnol popularisé par une chaîne pour enfants ?",
+    "answer": "44 Chats",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-135",
+    "category": "divertissement",
+    "question": "Comment s'appelle la petite tortue bleue amie de Nemo et Marin, qui nage en discutant avec un accent australien ?",
+    "answer": "Crush",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-136",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit robot bleu carré, ami de R2-D2, qui accompagne les héros dans Star Wars ?",
+    "answer": "BB-8",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-137",
+    "category": "divertissement",
+    "question": "Comment s'appelle le grand requin blanc maladroit et gaffeur, ami de Nemo, qui essaie de ne plus manger de poissons ?",
+    "answer": "Bruce",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-138",
+    "category": "divertissement",
+    "question": "Comment s'appelle le petit chien détective qui porte un imperméable jaune et enquête avec ses amis dans un van coloré ?",
+    "answer": "Scooby-Doo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-enfant-139",
+    "category": "divertissement",
+    "question": "Comment s'appelle le pingouin espiègle, ami de Kowalski et Rico, chef d'une petite bande dans un dessin animé sur des animaux de zoo ?",
+    "answer": "Skipper (Les Pingouins de Madagascar)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-enfant-140",
+    "category": "divertissement",
+    "question": "Comment s'appelle le lion héros du dessin animé \"Madagascar\", habitué au zoo de New York avant de s'échapper ?",
+    "answer": "Alex",
+    "difficulty": "facile"
+  }
 ]

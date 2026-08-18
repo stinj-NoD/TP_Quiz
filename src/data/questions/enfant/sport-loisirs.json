@@ -1,52 +1,947 @@
 [
-  { "id": "spo-enfant-001", "category": "sport-loisirs", "question": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?", "answer": "11" },
-  { "id": "spo-enfant-002", "category": "sport-loisirs", "question": "Avec quel objet joue-t-on au tennis pour renvoyer la balle ?", "answer": "Une raquette" },
-  { "id": "spo-enfant-003", "category": "sport-loisirs", "question": "Dans quel sport marque-t-on des paniers ?", "answer": "Le basketball" },
-  { "id": "spo-enfant-004", "category": "sport-loisirs", "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?", "answer": "Tous les 4 ans" },
-  { "id": "spo-enfant-005", "category": "sport-loisirs", "question": "Dans quel sport utilise-t-on un volant qu'on frappe avec une raquette ?", "answer": "Le badminton" },
-  { "id": "spo-enfant-006", "category": "sport-loisirs", "question": "Quel sport se joue sur un terrain avec 18 trous et une petite balle blanche ?", "answer": "Le golf" },
-  { "id": "spo-enfant-007", "category": "sport-loisirs", "question": "Dans quel sport les nageurs font-ils des longueurs dans une piscine ?", "answer": "La natation" },
-  { "id": "spo-enfant-008", "category": "sport-loisirs", "question": "Comment s'appelle le maillot porté par le premier coureur du Tour de France ?", "answer": "Le maillot jaune" },
-  { "id": "spo-enfant-009", "category": "sport-loisirs", "question": "Dans quel sport frappe-t-on un palet avec un bâton sur la glace ?", "answer": "Le hockey sur glace" },
-  { "id": "spo-enfant-010", "category": "sport-loisirs", "question": "Quel sport se pratique avec des gants et deux boxeurs sur un ring ?", "answer": "La boxe" },
-  { "id": "spo-enfant-011", "category": "sport-loisirs", "question": "Combien de joueurs y a-t-il dans une équipe de basketball sur le terrain ?", "answer": "5" },
-  { "id": "spo-enfant-012", "category": "sport-loisirs", "question": "Dans quel sport peut-on marquer un but avec ses pieds mais pas avec ses mains ?", "answer": "Le football" },
-  { "id": "spo-enfant-013", "category": "sport-loisirs", "question": "Quel pays a inventé le judo ?", "answer": "Le Japon" },
-  { "id": "spo-enfant-014", "category": "sport-loisirs", "question": "Dans quel sport porte-t-on un casque et fait-on de la glisse sur la neige avec deux skis ?", "answer": "Le ski" },
-  { "id": "spo-enfant-015", "category": "sport-loisirs", "question": "Comment appelle-t-on la grande course cycliste française qui dure 3 semaines ?", "answer": "Le Tour de France" },
-  { "id": "spo-enfant-016", "category": "sport-loisirs", "question": "Dans quel sport tape-t-on dans un ballon avec la tête ?", "answer": "Le football" },
-  { "id": "spo-enfant-017", "category": "sport-loisirs", "question": "Quel sport se joue avec une raquette et un filet, en solo ou en double, sur un court ?", "answer": "Le tennis" },
-  { "id": "spo-enfant-018", "category": "sport-loisirs", "question": "Dans quelle ville se sont déroulés les Jeux olympiques d'été de 2024 ?", "answer": "Paris" },
-  { "id": "spo-enfant-019", "category": "sport-loisirs", "question": "Combien de joueurs y a-t-il dans une équipe de volley-ball sur le terrain ?", "answer": "6" },
-  { "id": "spo-enfant-020", "category": "sport-loisirs", "question": "Dans quel sport les gymnastes font-ils des figures sur une poutre ?", "answer": "La gymnastique" },
-  { "id": "spo-enfant-021", "category": "sport-loisirs", "question": "Quel objet lance-t-on le plus loin possible en athlétisme, en forme de flèche ?", "answer": "Le javelot" },
-  { "id": "spo-enfant-022", "category": "sport-loisirs", "question": "Dans quel sport d'hiver descend-on une piste avec une seule planche sous les pieds ?", "answer": "Le snowboard" },
-  { "id": "spo-enfant-023", "category": "sport-loisirs", "question": "Combien de temps dure en général une mi-temps de football ?", "answer": "45 minutes" },
-  { "id": "spo-enfant-024", "category": "sport-loisirs", "question": "Dans quel sport porte-t-on un kimono et pratique-t-on des prises comme au judo ?", "answer": "Le judo" },
-  { "id": "spo-enfant-025", "category": "sport-loisirs", "question": "Quel animal est souvent utilisé pour représenter la rapidité dans les courses ?", "answer": "Le guépard (ou un animal rapide accepté)" },
-  { "id": "spo-enfant-026", "category": "sport-loisirs", "question": "Dans quel sport court-on autour d'une piste ovale le plus vite possible ?", "answer": "L'athlétisme (course)" },
-  { "id": "spo-enfant-027", "category": "sport-loisirs", "question": "Quel sport se pratique en équipe avec un ballon ovale que l'on peut porter avec les mains ?", "answer": "Le rugby" },
-  { "id": "spo-enfant-028", "category": "sport-loisirs", "question": "Dans quel sport les patineurs glissent-ils sur la glace en musique ?", "answer": "Le patinage artistique" },
-  { "id": "spo-enfant-029", "category": "sport-loisirs", "question": "Combien de trous compte un parcours de golf standard ?", "answer": "18" },
-  { "id": "spo-enfant-030", "category": "sport-loisirs", "question": "Dans quel sport nautique fait-on du surf sur les vagues avec une planche ?", "answer": "Le surf" },
-  { "id": "spo-enfant-031", "category": "sport-loisirs", "question": "Dans quel sport lance-t-on des fléchettes sur une cible ronde ?", "answer": "Les fléchettes" },
-  { "id": "spo-enfant-032", "category": "sport-loisirs", "question": "Quel sport se pratique sur un échiquier avec des pièces comme le roi et la reine ?", "answer": "Les échecs" },
-  { "id": "spo-enfant-033", "category": "sport-loisirs", "question": "Dans quel sport les cavaliers montent-ils sur un cheval pour sauter des obstacles ?", "answer": "L'équitation" },
-  { "id": "spo-enfant-034", "category": "sport-loisirs", "question": "Quel sport de raquette se joue sur une petite table avec un filet et une balle légère ?", "answer": "Le tennis de table (ping-pong)" },
-  { "id": "spo-enfant-035", "category": "sport-loisirs", "question": "Dans quel sport pagaie-t-on assis dans une petite embarcation sur une rivière ?", "answer": "Le canoë-kayak" },
-  { "id": "spo-enfant-036", "category": "sport-loisirs", "question": "Dans quel sport d'hiver glisse-t-on sur un petit traîneau très rapide couché sur le dos ?", "answer": "La luge", "difficulty": "moyen" },
-  { "id": "spo-enfant-037", "category": "sport-loisirs", "question": "Comment s'appelle la médaille remise au sportif qui arrive premier ?", "answer": "La médaille d'or", "difficulty": "facile" },
-  { "id": "spo-enfant-038", "category": "sport-loisirs", "question": "Dans quel sport les joueurs sautent-ils pour smasher le ballon par-dessus un filet ?", "answer": "Le volley-ball", "difficulty": "facile" },
-  { "id": "spo-enfant-039", "category": "sport-loisirs", "question": "Quel sport pratique-t-on avec des palmes et un masque sous l'eau ?", "answer": "La plongée", "difficulty": "facile" },
-  { "id": "spo-enfant-040", "category": "sport-loisirs", "question": "Dans quel sport grimpe-t-on le long d'un mur avec des prises pour les mains et les pieds ?", "answer": "L'escalade", "difficulty": "facile" },
-  { "id": "spo-enfant-041", "category": "sport-loisirs", "question": "Quel objet utilise-t-on pour sauter très haut par-dessus une barre en athlétisme ?", "answer": "Une perche", "difficulty": "moyen" },
-  { "id": "spo-enfant-042", "category": "sport-loisirs", "question": "Dans quel sport les joueurs font-ils des passes avec une crosse et une petite balle sur un terrain ?", "answer": "Le hockey sur gazon", "difficulty": "difficile" },
-  { "id": "spo-enfant-043", "category": "sport-loisirs", "question": "Quel sport se pratique en pédalant sur une route ou en montagne ?", "answer": "Le cyclisme (vélo)", "difficulty": "facile" },
-  { "id": "spo-enfant-044", "category": "sport-loisirs", "question": "Dans quel sport lance-t-on une boule le plus près possible d'une petite boule appelée cochonnet ?", "answer": "La pétanque", "difficulty": "facile" },
-  { "id": "spo-enfant-045", "category": "sport-loisirs", "question": "Combien de joueurs y a-t-il dans une équipe de rugby à XV sur le terrain ?", "answer": "15", "difficulty": "moyen" },
-  { "id": "spo-enfant-046", "category": "sport-loisirs", "question": "Dans quel sport court-on un très long parcours de 42 kilomètres ?", "answer": "Le marathon", "difficulty": "moyen" },
-  { "id": "spo-enfant-047", "category": "sport-loisirs", "question": "Quel sport pratique-t-on en glissant sur des roulettes fixées sous les chaussures ?", "answer": "Le roller (patin à roulettes)", "difficulty": "facile" },
-  { "id": "spo-enfant-048", "category": "sport-loisirs", "question": "Dans quel sport les joueurs frappent-ils une balle avec une batte pour marquer des points ?", "answer": "Le baseball", "difficulty": "moyen" },
-  { "id": "spo-enfant-049", "category": "sport-loisirs", "question": "Quel jeu de société permet de déplacer des pions selon le nombre indiqué par les dés ?", "answer": "Le jeu de l'oie (ou un jeu de plateau avec des dés)", "difficulty": "moyen" },
-  { "id": "spo-enfant-050", "category": "sport-loisirs", "question": "Dans quel sport les skieurs sautent-ils le plus loin possible depuis un grand tremplin ?", "answer": "Le saut à ski", "difficulty": "difficile" }
+  {
+    "id": "spo-enfant-001",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?",
+    "answer": "11"
+  },
+  {
+    "id": "spo-enfant-002",
+    "category": "sport-loisirs",
+    "question": "Avec quel objet joue-t-on au tennis pour renvoyer la balle ?",
+    "answer": "Une raquette"
+  },
+  {
+    "id": "spo-enfant-003",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport marque-t-on des paniers ?",
+    "answer": "Le basketball"
+  },
+  {
+    "id": "spo-enfant-004",
+    "category": "sport-loisirs",
+    "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+    "answer": "Tous les 4 ans"
+  },
+  {
+    "id": "spo-enfant-005",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport utilise-t-on un volant qu'on frappe avec une raquette ?",
+    "answer": "Le badminton"
+  },
+  {
+    "id": "spo-enfant-006",
+    "category": "sport-loisirs",
+    "question": "Quel sport se joue sur un terrain avec 18 trous et une petite balle blanche ?",
+    "answer": "Le golf"
+  },
+  {
+    "id": "spo-enfant-007",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les nageurs font-ils des longueurs dans une piscine ?",
+    "answer": "La natation"
+  },
+  {
+    "id": "spo-enfant-008",
+    "category": "sport-loisirs",
+    "question": "Comment s'appelle le maillot porté par le premier coureur du Tour de France ?",
+    "answer": "Le maillot jaune"
+  },
+  {
+    "id": "spo-enfant-009",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport frappe-t-on un palet avec un bâton sur la glace ?",
+    "answer": "Le hockey sur glace"
+  },
+  {
+    "id": "spo-enfant-010",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique avec des gants et deux boxeurs sur un ring ?",
+    "answer": "La boxe"
+  },
+  {
+    "id": "spo-enfant-011",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs y a-t-il dans une équipe de basketball sur le terrain ?",
+    "answer": "5"
+  },
+  {
+    "id": "spo-enfant-012",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport peut-on marquer un but avec ses pieds mais pas avec ses mains ?",
+    "answer": "Le football"
+  },
+  {
+    "id": "spo-enfant-013",
+    "category": "sport-loisirs",
+    "question": "Quel pays a inventé le judo ?",
+    "answer": "Le Japon"
+  },
+  {
+    "id": "spo-enfant-014",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport porte-t-on un casque et fait-on de la glisse sur la neige avec deux skis ?",
+    "answer": "Le ski"
+  },
+  {
+    "id": "spo-enfant-015",
+    "category": "sport-loisirs",
+    "question": "Comment appelle-t-on la grande course cycliste française qui dure 3 semaines ?",
+    "answer": "Le Tour de France"
+  },
+  {
+    "id": "spo-enfant-016",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport tape-t-on dans un ballon avec la tête ?",
+    "answer": "Le football"
+  },
+  {
+    "id": "spo-enfant-017",
+    "category": "sport-loisirs",
+    "question": "Quel sport se joue avec une raquette et un filet, en solo ou en double, sur un court ?",
+    "answer": "Le tennis"
+  },
+  {
+    "id": "spo-enfant-018",
+    "category": "sport-loisirs",
+    "question": "Dans quelle ville se sont déroulés les Jeux olympiques d'été de 2024 ?",
+    "answer": "Paris"
+  },
+  {
+    "id": "spo-enfant-019",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs y a-t-il dans une équipe de volley-ball sur le terrain ?",
+    "answer": "6"
+  },
+  {
+    "id": "spo-enfant-020",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les gymnastes font-ils des figures sur une poutre ?",
+    "answer": "La gymnastique"
+  },
+  {
+    "id": "spo-enfant-021",
+    "category": "sport-loisirs",
+    "question": "Quel objet lance-t-on le plus loin possible en athlétisme, en forme de flèche ?",
+    "answer": "Le javelot"
+  },
+  {
+    "id": "spo-enfant-022",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport d'hiver descend-on une piste avec une seule planche sous les pieds ?",
+    "answer": "Le snowboard"
+  },
+  {
+    "id": "spo-enfant-023",
+    "category": "sport-loisirs",
+    "question": "Combien de temps dure en général une mi-temps de football ?",
+    "answer": "45 minutes"
+  },
+  {
+    "id": "spo-enfant-024",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport porte-t-on un kimono et pratique-t-on des prises comme au judo ?",
+    "answer": "Le judo"
+  },
+  {
+    "id": "spo-enfant-025",
+    "category": "sport-loisirs",
+    "question": "Quel animal est souvent utilisé pour représenter la rapidité dans les courses ?",
+    "answer": "Le guépard (ou un animal rapide accepté)"
+  },
+  {
+    "id": "spo-enfant-026",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport court-on autour d'une piste ovale le plus vite possible ?",
+    "answer": "L'athlétisme (course)"
+  },
+  {
+    "id": "spo-enfant-027",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en équipe avec un ballon ovale que l'on peut porter avec les mains ?",
+    "answer": "Le rugby"
+  },
+  {
+    "id": "spo-enfant-028",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les patineurs glissent-ils sur la glace en musique ?",
+    "answer": "Le patinage artistique"
+  },
+  {
+    "id": "spo-enfant-029",
+    "category": "sport-loisirs",
+    "question": "Combien de trous compte un parcours de golf standard ?",
+    "answer": "18"
+  },
+  {
+    "id": "spo-enfant-030",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport nautique fait-on du surf sur les vagues avec une planche ?",
+    "answer": "Le surf"
+  },
+  {
+    "id": "spo-enfant-031",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport lance-t-on des fléchettes sur une cible ronde ?",
+    "answer": "Les fléchettes"
+  },
+  {
+    "id": "spo-enfant-032",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique sur un échiquier avec des pièces comme le roi et la reine ?",
+    "answer": "Les échecs"
+  },
+  {
+    "id": "spo-enfant-033",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les cavaliers montent-ils sur un cheval pour sauter des obstacles ?",
+    "answer": "L'équitation"
+  },
+  {
+    "id": "spo-enfant-034",
+    "category": "sport-loisirs",
+    "question": "Quel sport de raquette se joue sur une petite table avec un filet et une balle légère ?",
+    "answer": "Le tennis de table (ping-pong)"
+  },
+  {
+    "id": "spo-enfant-035",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport pagaie-t-on assis dans une petite embarcation sur une rivière ?",
+    "answer": "Le canoë-kayak"
+  },
+  {
+    "id": "spo-enfant-036",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport d'hiver glisse-t-on sur un petit traîneau très rapide couché sur le dos ?",
+    "answer": "La luge",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-037",
+    "category": "sport-loisirs",
+    "question": "Comment s'appelle la médaille remise au sportif qui arrive premier ?",
+    "answer": "La médaille d'or",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-038",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs sautent-ils pour smasher le ballon par-dessus un filet ?",
+    "answer": "Le volley-ball",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-039",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on avec des palmes et un masque sous l'eau ?",
+    "answer": "La plongée",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-040",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport grimpe-t-on le long d'un mur avec des prises pour les mains et les pieds ?",
+    "answer": "L'escalade",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-041",
+    "category": "sport-loisirs",
+    "question": "Quel objet utilise-t-on pour sauter très haut par-dessus une barre en athlétisme ?",
+    "answer": "Une perche",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-042",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs font-ils des passes avec une crosse et une petite balle sur un terrain ?",
+    "answer": "Le hockey sur gazon",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-enfant-043",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en pédalant sur une route ou en montagne ?",
+    "answer": "Le cyclisme (vélo)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-044",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport lance-t-on une boule le plus près possible d'une petite boule appelée cochonnet ?",
+    "answer": "La pétanque",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-045",
+    "category": "sport-loisirs",
+    "question": "Combien de joueurs y a-t-il dans une équipe de rugby à XV sur le terrain ?",
+    "answer": "15",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-046",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport court-on un très long parcours de 42 kilomètres ?",
+    "answer": "Le marathon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-047",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en glissant sur des roulettes fixées sous les chaussures ?",
+    "answer": "Le roller (patin à roulettes)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-048",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs frappent-ils une balle avec une batte pour marquer des points ?",
+    "answer": "Le baseball",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-049",
+    "category": "sport-loisirs",
+    "question": "Quel jeu de société permet de déplacer des pions selon le nombre indiqué par les dés ?",
+    "answer": "Le jeu de l'oie (ou un jeu de plateau avec des dés)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-050",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les skieurs sautent-ils le plus loin possible depuis un grand tremplin ?",
+    "answer": "Le saut à ski",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "spo-enfant-051",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on sur une planche à voile portée par le vent sur l'eau ?",
+    "answer": "La planche à voile",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-052",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs tirent-ils des flèches sur une cible avec un arc ?",
+    "answer": "Le tir à l'arc",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-053",
+    "category": "sport-loisirs",
+    "question": "Quel objet met-on sur la tête pour se protéger en faisant du vélo ?",
+    "answer": "Un casque",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-054",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport d'hiver glisse-t-on sur la glace en poussant une pierre lourde vers une cible ?",
+    "answer": "Le curling",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-055",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en sautant à la corde le plus vite possible ?",
+    "answer": "La corde à sauter",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-056",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les nageurs plongent-ils depuis un tremplin en faisant des figures dans les airs ?",
+    "answer": "Le plongeon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-057",
+    "category": "sport-loisirs",
+    "question": "Quel jeu se joue avec un ballon et deux équipes qui se lancent la balle pour toucher les adversaires ?",
+    "answer": "Le ballon prisonnier (balle au prisonnier)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-058",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les athlètes sautent-ils le plus loin possible dans un bac de sable ?",
+    "answer": "Le saut en longueur",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-059",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en glissant sur la neige avec deux skis et des bâtons sur un terrain plat ?",
+    "answer": "Le ski de fond",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-060",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les enfants font-ils la course en sautant dans un sac ?",
+    "answer": "La course en sac",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-061",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique avec un frisbee que l'on lance et attrape ?",
+    "answer": "Le frisbee (disque volant)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-062",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les cyclistes roulent-ils sur une piste avec des virages inclinés ?",
+    "answer": "Le cyclisme sur piste",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-063",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en tirant sur une corde à deux équipes pour faire tomber l'autre ?",
+    "answer": "Le tir à la corde",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-064",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs frappent-ils une balle avec les mains par-dessus un filet, sur la plage ?",
+    "answer": "Le beach-volley",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-065",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à assembler des petites pièces en plastique colorées pour construire des objets ?",
+    "answer": "Les Lego (jeu de construction)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-066",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport pratique-t-on des sauts et des figures sur un trampoline ?",
+    "answer": "Le trampoline",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-067",
+    "category": "sport-loisirs",
+    "question": "Quel jeu se joue avec des cartes et consiste à trouver deux images identiques cachées ?",
+    "answer": "Le jeu de mémoire (Memory)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-068",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les patineurs vont-ils très vite sur la glace en équipe ou en solo, sur un anneau ?",
+    "answer": "Le patinage de vitesse",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-069",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en faisant rouler une boule pour renverser des quilles ?",
+    "answer": "Le bowling",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-070",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir doit-on assembler des petites pièces pour reformer une image complète ?",
+    "answer": "Le puzzle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-071",
+    "category": "sport-loisirs",
+    "question": "Quel sport se joue avec un ballon ovale et deux poteaux en forme de H pour marquer ?",
+    "answer": "Le rugby",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-072",
+    "category": "sport-loisirs",
+    "question": "Quel jeu de cour se joue en dessinant des cases numérotées à la craie sur le sol ?",
+    "answer": "La marelle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-073",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir peint-on une image en suivant des numéros indiquant chaque couleur ?",
+    "answer": "Le coloriage par numéros",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-074",
+    "category": "sport-loisirs",
+    "question": "Quel jeu se joue en cachant des objets ou des personnes pendant qu'un joueur compte les yeux fermés ?",
+    "answer": "Le jeu de cache-cache",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-075",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs frappent-ils une balle contre un mur avec une raquette dans une petite salle ?",
+    "answer": "Le squash",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-076",
+    "category": "sport-loisirs",
+    "question": "Quel jeu de plateau se joue avec des lettres pour former des mots sur une grille ?",
+    "answer": "Le Scrabble",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-077",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs se déplacent-ils sur une planche à roulettes en faisant des figures ?",
+    "answer": "Le skateboard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-078",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à plier une feuille de papier pour créer des formes comme des animaux ?",
+    "answer": "L'origami",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-079",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu de cour les enfants sautent-ils par-dessus un long élastique tendu entre deux personnes ?",
+    "answer": "L'élastique",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-080",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en poussant un palet sur une table avec des maillets pour marquer un but ?",
+    "answer": "Le air hockey",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-081",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir crée-t-on des bijoux ou des objets en enfilant de petites perles colorées ?",
+    "answer": "Le perlage (bijoux en perles)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-082",
+    "category": "sport-loisirs",
+    "question": "Quel jeu de société consiste à deviner un mot dessiné par un autre joueur au tableau ?",
+    "answer": "Le Pictionary",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-083",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs poussent-ils un palet avec un bâton recourbé sur un terrain, sans patins ?",
+    "answer": "Le hockey sur gazon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-084",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à découper et coller des images pour créer une nouvelle œuvre ?",
+    "answer": "Le collage",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-085",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs lancent-ils un ballon dans un but gardé par un gardien, en le faisant rebondir dans l'eau ?",
+    "answer": "Le water-polo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-086",
+    "category": "sport-loisirs",
+    "question": "Quel jeu se joue en poursuivant les autres enfants pour les toucher, celui qui est touché devenant le poursuivant ?",
+    "answer": "Le jeu du loup (chat perché)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-087",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir fabrique-t-on des formes en pétrissant une pâte molle et colorée avec les mains ?",
+    "answer": "La pâte à modeler",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-088",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en dévalant une pente en vélo tout terrain, sur un chemin accidenté avec des bosses ?",
+    "answer": "Le VTT (vélo tout terrain)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-089",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu de société doit-on deviner qui est le personnage mystère de son adversaire en posant des questions ?",
+    "answer": "Qui est-ce ?",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-090",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs frappent-ils une balle avec un club pour la faire entrer dans un trou ?",
+    "answer": "Le golf",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-091",
+    "category": "sport-loisirs",
+    "question": "Quel jeu de cour consiste à faire tourner une corde que les joueurs doivent éviter de toucher en sautant ?",
+    "answer": "La corde à sauter à plusieurs",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-092",
+    "category": "sport-loisirs",
+    "question": "Quel sport d'hiver consiste à dévaler une pente debout sur des skis, en slalomant entre des piquets ?",
+    "answer": "Le ski alpin",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-093",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu les enfants tapent-ils dans leurs mains en rythme en chantant une comptine ?",
+    "answer": "Le jeu de mains (tape-mains)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-094",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à prendre des photos avec un appareil pour garder un souvenir d'un moment ?",
+    "answer": "La photographie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-095",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les gymnastes utilisent-elles un ruban, un cerceau ou une balle en musique ?",
+    "answer": "La gymnastique rythmique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-096",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants construisent-ils des châteaux avec du sable humide sur la plage ?",
+    "answer": "Le château de sable",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-097",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en montant sur une seule roue et en pédalant pour garder l'équilibre ?",
+    "answer": "Le monocycle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-098",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu de cartes doit-on se débarrasser le premier de toutes ses cartes en les posant par familles ?",
+    "answer": "Le jeu des 7 familles",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-099",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en faisant rouler une lourde boule vers des quilles pour toutes les faire tomber ?",
+    "answer": "Le bowling",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-100",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants apprennent-ils des pas et des figures en musique avec leur corps ?",
+    "answer": "La danse",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-101",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en tirant à l'aide d'un arc sur une cible, en extérieur, à plusieurs distances ?",
+    "answer": "Le tir à l'arc en extérieur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-102",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu doit-on empiler des cubes en bois sans faire tomber la tour ?",
+    "answer": "Le Jenga",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-103",
+    "category": "sport-loisirs",
+    "question": "Quel sport d'équipe se joue en portant un ballon vers un but, avec un gardien, sur un petit terrain couvert ?",
+    "answer": "Le handball",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-104",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants collectionnent-ils des figurines ou des cartes qu'ils échangent entre amis ?",
+    "answer": "La collection de cartes ou de figurines",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-105",
+    "category": "sport-loisirs",
+    "question": "Quel sport de combat japonais utilise des coups de pied et de poing, pratiqué en kimono blanc ?",
+    "answer": "Le karaté",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-106",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu de cour un joueur doit-il deviner un mot en posant des questions fermées aux autres ?",
+    "answer": "Le jeu des devinettes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-107",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en dévalant une rivière avec des rapides à bord d'un canot gonflable ?",
+    "answer": "Le rafting",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-108",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir crée-t-on des dessins ou des tableaux avec des pinceaux et de la peinture ?",
+    "answer": "La peinture",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-109",
+    "category": "sport-loisirs",
+    "question": "Quel sport d'hiver consiste à glisser sur la neige debout de profil sur une seule planche, en faisant des sauts ?",
+    "answer": "Le snowboard",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-110",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu les enfants forment-ils une ronde en se tenant la main en chantant ?",
+    "answer": "La ronde",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-111",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en portant des patins à glace pour se déplacer et jouer sur une patinoire ?",
+    "answer": "Le patinage sur glace",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-112",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants racontent-ils des histoires en lisant un livre illustré ?",
+    "answer": "La lecture",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-113",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu de plateau doit-on construire des routes et des villages avec des ressources comme le bois ou le blé ?",
+    "answer": "Les Colons de Catane",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-114",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants jouent-ils avec une console pour contrôler des personnages à l'écran ?",
+    "answer": "Les jeux vidéo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-115",
+    "category": "sport-loisirs",
+    "question": "Quel sport se pratique en marchant sur la neige épaisse grâce à de larges raquettes fixées sous les chaussures ?",
+    "answer": "La randonnée en raquettes à neige",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-116",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu doit-on trouver un trésor caché en suivant des indices écrits sur des papiers ?",
+    "answer": "La chasse au trésor",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-117",
+    "category": "sport-loisirs",
+    "question": "Quel sport se joue avec un ballon que l'on doit faire rebondir en dribblant avant de tirer dans un panier ?",
+    "answer": "Le basketball",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-118",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants montent-ils des tentes et dorment-ils dehors, souvent avec un feu de camp ?",
+    "answer": "Le camping",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-119",
+    "category": "sport-loisirs",
+    "question": "Quel sport de combat coréen utilise beaucoup de coups de pied spectaculaires et sautés ?",
+    "answer": "Le taekwondo",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-120",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en pêchant du poisson avec une canne et un hameçon au bord de l'eau ?",
+    "answer": "La pêche",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-121",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants créent-ils des bracelets colorés en tressant des fils ?",
+    "answer": "Le bracelet brésilien",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-122",
+    "category": "sport-loisirs",
+    "question": "Dans quel jeu deux joueurs déplacent-ils des pions noirs et blancs sur un damier pour capturer ceux de l'adversaire ?",
+    "answer": "Les dames",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-123",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en courant après avoir nagé et pédalé, dans une seule épreuve enchaînée ?",
+    "answer": "Le triathlon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-124",
+    "category": "sport-loisirs",
+    "question": "Dans quel loisir les enfants construisent-ils des cabanes avec des branches ou des couvertures ?",
+    "answer": "La cabane",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-125",
+    "category": "sport-loisirs",
+    "question": "Quel sport se joue en frappant une balle avec le pied dans des cages, en la faisant entrer dans les buts adverses par une petite ouverture ?",
+    "answer": "Le baby-foot",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-126",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à faire voler un objet léger dans le ciel en le tenant avec un long fil ?",
+    "answer": "Le cerf-volant",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-127",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les athlètes lancent-ils un lourd disque le plus loin possible en tournant sur eux-mêmes ?",
+    "answer": "Le lancer de disque",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-128",
+    "category": "sport-loisirs",
+    "question": "Quel jeu de cour consiste à jouer aux billes en essayant de toucher celles des autres joueurs ?",
+    "answer": "Le jeu de billes",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-129",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les cavaliers font-ils faire des figures élégantes à leur cheval, comme une danse ?",
+    "answer": "Le dressage",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-130",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à réaliser des tours de magie pour surprendre son public ?",
+    "answer": "La magie",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-131",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les athlètes sautent-ils par-dessus une barre en se cambrant en arrière au-dessus d'un tapis ?",
+    "answer": "Le saut en hauteur",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-132",
+    "category": "sport-loisirs",
+    "question": "Quel jeu se joue en équipe, où l'on doit faire deviner un mot sans parler, seulement avec des gestes ?",
+    "answer": "Le mime",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-133",
+    "category": "sport-loisirs",
+    "question": "Quel sport pratique-t-on en glissant debout sur une planche tirée par un cerf-volant sur l'eau ?",
+    "answer": "Le kitesurf",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-134",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport frappe-t-on une petite balle blanche avec une raquette par-dessus un filet, sur une table ?",
+    "answer": "Le tennis de table (ping-pong)",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-135",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à construire des maquettes en assemblant des petites pièces numérotées avec de la colle ?",
+    "answer": "Le modélisme",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-136",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les nageurs synchronisent-ils leurs mouvements en musique dans une piscine, en solo ou en équipe ?",
+    "answer": "La natation artistique",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-137",
+    "category": "sport-loisirs",
+    "question": "Quel jeu se joue en lançant des palets sur un plateau incliné saupoudré de cire pour les faire glisser dans des trous ?",
+    "answer": "Le jeu de palets (crokinole)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-138",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les athlètes courent-ils en franchissant des obstacles disposés sur la piste ?",
+    "answer": "Le 110 mètres haies (course de haies)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "spo-enfant-139",
+    "category": "sport-loisirs",
+    "question": "Quel loisir consiste à assembler des pièces de différentes formes pour reconstituer une grande image ?",
+    "answer": "Le puzzle",
+    "difficulty": "facile"
+  },
+  {
+    "id": "spo-enfant-140",
+    "category": "sport-loisirs",
+    "question": "Dans quel sport les joueurs frappent-ils un volant en plumes par-dessus un filet avec une raquette légère ?",
+    "answer": "Le badminton",
+    "difficulty": "facile"
+  }
 ]

@@ -1,52 +1,947 @@
 [
-  { "id": "div-ado-001", "category": "divertissement", "question": "Quel est le nom du sorcier joué par Daniel Radcliffe au cinéma ?", "answer": "Harry Potter" },
-  { "id": "div-ado-002", "category": "divertissement", "question": "Quel studio d'animation est à l'origine de \"Toy Story\" ?", "answer": "Pixar" },
-  { "id": "div-ado-003", "category": "divertissement", "question": "Qui incarne Iron Man dans l'univers cinématographique Marvel ?", "answer": "Robert Downey Jr." },
-  { "id": "div-ado-004", "category": "divertissement", "question": "Quel jeu vidéo met en scène un plombier nommé Mario ?", "answer": "Super Mario" },
-  { "id": "div-ado-005", "category": "divertissement", "question": "Dans quelle série télévisée trouve-t-on la famille Targaryen ?", "answer": "Game of Thrones" },
-  { "id": "div-ado-006", "category": "divertissement", "question": "Quel est le nom du réseau de streaming à l'origine de \"Stranger Things\" ?", "answer": "Netflix" },
-  { "id": "div-ado-007", "category": "divertissement", "question": "Quel groupe suédois a interprété \"Dancing Queen\" ?", "answer": "ABBA" },
-  { "id": "div-ado-008", "category": "divertissement", "question": "Quel est le nom de la série animée mettant en scène la famille Simpson ?", "answer": "Les Simpson" },
-  { "id": "div-ado-009", "category": "divertissement", "question": "Quel est le nom du café où se retrouvent les personnages de la série \"Friends\" ?", "answer": "Central Perk" },
-  { "id": "div-ado-010", "category": "divertissement", "question": "Quel chanteur est surnommé le \"King of Pop\" ?", "answer": "Michael Jackson" },
-  { "id": "div-ado-011", "category": "divertissement", "question": "Dans quel dessin animé Disney trouve-t-on le personnage d'Elsa ?", "answer": "La Reine des neiges" },
-  { "id": "div-ado-012", "category": "divertissement", "question": "Quel acteur a incarné James Bond dans \"Skyfall\" et \"Spectre\" ?", "answer": "Daniel Craig" },
-  { "id": "div-ado-013", "category": "divertissement", "question": "Quelle actrice incarne Hermione Granger dans la saga Harry Potter ?", "answer": "Emma Watson" },
-  { "id": "div-ado-014", "category": "divertissement", "question": "Quel est le nom du réalisateur des films \"Inception\" et \"Interstellar\" ?", "answer": "Christopher Nolan" },
-  { "id": "div-ado-015", "category": "divertissement", "question": "Quel jeu vidéo oppose 100 joueurs sur une île jusqu'à ce qu'il n'en reste qu'un ?", "answer": "Fortnite (ou tout autre battle royale, réponse acceptée : Fortnite)" },
-  { "id": "div-ado-016", "category": "divertissement", "question": "Quelle chanteuse est surnommée \"Queen B\" ?", "answer": "Beyoncé" },
-  { "id": "div-ado-017", "category": "divertissement", "question": "Quel super-héros Marvel est aussi connu sous le nom de Peter Parker ?", "answer": "Spider-Man" },
-  { "id": "div-ado-018", "category": "divertissement", "question": "Dans quelle ville fictive se déroule la série animée \"Les Simpson\" ?", "answer": "Springfield" },
-  { "id": "div-ado-019", "category": "divertissement", "question": "Quel groupe britannique a chanté \"Bohemian Rhapsody\" ?", "answer": "Queen" },
-  { "id": "div-ado-020", "category": "divertissement", "question": "Quel est le nom de la plateforme où de nombreux joueurs regardent des streamers jouer en direct ?", "answer": "Twitch" },
-  { "id": "div-ado-021", "category": "divertissement", "question": "Qui a réalisé la saga de films \"Star Wars\" à l'origine ?", "answer": "George Lucas" },
-  { "id": "div-ado-022", "category": "divertissement", "question": "Quel humoriste français incarne le personnage d'OSS 117 au cinéma ?", "answer": "Jean Dujardin" },
-  { "id": "div-ado-023", "category": "divertissement", "question": "Quel est le nom du village créé par Minecraft où les joueurs peuvent construire librement ?", "answer": "Il n'y a pas de nom unique, le jeu s'appelle simplement Minecraft" },
-  { "id": "div-ado-024", "category": "divertissement", "question": "Quel acteur incarne Jack Sparrow dans \"Pirates des Caraïbes\" ?", "answer": "Johnny Depp" },
-  { "id": "div-ado-025", "category": "divertissement", "question": "Quel est le prénom du personnage principal dans \"Titanic\" joué par Leonardo DiCaprio ?", "answer": "Jack" },
-  { "id": "div-ado-026", "category": "divertissement", "question": "Quel groupe de K-pop est connu pour des titres comme \"Dynamite\" et \"Butter\" ?", "answer": "BTS" },
-  { "id": "div-ado-027", "category": "divertissement", "question": "Qui a composé la musique du film \"Le Roi Lion\" (1994) ?", "answer": "Hans Zimmer" },
-  { "id": "div-ado-028", "category": "divertissement", "question": "Quel est le nom du héros incarné par Omar Sy dans le film \"Intouchables\" ?", "answer": "Driss" },
-  { "id": "div-ado-029", "category": "divertissement", "question": "Dans quel jeu vidéo incarne-t-on un aventurier qui explore des donjons à la recherche de la princesse Zelda ?", "answer": "The Legend of Zelda" },
-  { "id": "div-ado-030", "category": "divertissement", "question": "Quel est le nom de famille de Mickey Mouse selon les comics Disney ?", "answer": "Mickey n'a pas de nom de famille officiel (parfois \"Mouse\")" },
-  { "id": "div-ado-031", "category": "divertissement", "question": "Quel acteur incarne Batman dans le film \"The Batman\" sorti en 2022 ?", "answer": "Robert Pattinson" },
-  { "id": "div-ado-032", "category": "divertissement", "question": "Quelle chanteuse américaine a sorti l'album \"1989\" ?", "answer": "Taylor Swift" },
-  { "id": "div-ado-033", "category": "divertissement", "question": "Dans quel film d'animation Pixar un chef cuisinier est-il en réalité un rat ?", "answer": "Ratatouille" },
-  { "id": "div-ado-034", "category": "divertissement", "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"Assassin's Creed\" incarné dans le tout premier opus ?", "answer": "Altaïr" },
-  { "id": "div-ado-035", "category": "divertissement", "question": "Quel acteur français interprète le rôle principal dans la trilogie \"Taxi\" ?", "answer": "Samy Naceri" },
-  { "id": "div-ado-036", "category": "divertissement", "question": "Quel acteur incarne Thor dans l'univers cinématographique Marvel ?", "answer": "Chris Hemsworth", "difficulty": "facile" },
-  { "id": "div-ado-037", "category": "divertissement", "question": "Quelle chanteuse interprète le titre \"Levitating\" ?", "answer": "Dua Lipa", "difficulty": "moyen" },
-  { "id": "div-ado-038", "category": "divertissement", "question": "Quel est le nom du royaume où se déroule l'histoire du film \"Black Panther\" ?", "answer": "Le Wakanda", "difficulty": "moyen" },
-  { "id": "div-ado-039", "category": "divertissement", "question": "Dans quelle série Netflix des adolescents affrontent-ils des monstres venus du \"Monde à l'envers\" ?", "answer": "Stranger Things", "difficulty": "facile" },
-  { "id": "div-ado-040", "category": "divertissement", "question": "Quel acteur prête sa voix et son image au Grinch dans le film de 2018 ?", "answer": "Benedict Cumberbatch", "difficulty": "difficile" },
-  { "id": "div-ado-041", "category": "divertissement", "question": "Quel est le nom du jeu vidéo de simulation de vie où l'on gère des personnages appelés des Sims ?", "answer": "Les Sims", "difficulty": "facile" },
-  { "id": "div-ado-042", "category": "divertissement", "question": "Quelle actrice incarne Katniss Everdeen dans la saga \"Hunger Games\" ?", "answer": "Jennifer Lawrence", "difficulty": "moyen" },
-  { "id": "div-ado-043", "category": "divertissement", "question": "Quel groupe américain est connu pour la chanson \"Uptown Funk\" avec Bruno Mars ?", "answer": "Mark Ronson", "difficulty": "difficile" },
-  { "id": "div-ado-044", "category": "divertissement", "question": "Dans quel jeu vidéo de rôle incarne-t-on un dresseur qui capture des créatures dans des Poké Balls ?", "answer": "Pokémon", "difficulty": "facile" },
-  { "id": "div-ado-045", "category": "divertissement", "question": "Quel réalisateur est à l'origine des films \"Astérix et Obélix : Mission Cléopâtre\" ?", "answer": "Alain Chabat", "difficulty": "moyen" },
-  { "id": "div-ado-046", "category": "divertissement", "question": "Quel est le nom du méchant qui affronte les Avengers dans les films \"Infinity War\" et \"Endgame\" ?", "answer": "Thanos", "difficulty": "facile" },
-  { "id": "div-ado-047", "category": "divertissement", "question": "Quelle chanteuse française a représenté la France à l'Eurovision 2021 avec \"Voilà\" ?", "answer": "Barbara Pravi", "difficulty": "moyen" },
-  { "id": "div-ado-048", "category": "divertissement", "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"God of War\" ?", "answer": "Kratos", "difficulty": "moyen" },
-  { "id": "div-ado-049", "category": "divertissement", "question": "Dans quel film d'animation Disney le personnage de Moana part-elle explorer l'océan ?", "answer": "Vaiana", "difficulty": "facile" },
-  { "id": "div-ado-050", "category": "divertissement", "question": "Quel humoriste et acteur français a créé le personnage de Kad dans le duo \"Kad et Olivier\" ?", "answer": "Kad Merad", "difficulty": "difficile" }
+  {
+    "id": "div-ado-001",
+    "category": "divertissement",
+    "question": "Quel est le nom du sorcier joué par Daniel Radcliffe au cinéma ?",
+    "answer": "Harry Potter"
+  },
+  {
+    "id": "div-ado-002",
+    "category": "divertissement",
+    "question": "Quel studio d'animation est à l'origine de \"Toy Story\" ?",
+    "answer": "Pixar"
+  },
+  {
+    "id": "div-ado-003",
+    "category": "divertissement",
+    "question": "Qui incarne Iron Man dans l'univers cinématographique Marvel ?",
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "id": "div-ado-004",
+    "category": "divertissement",
+    "question": "Quel jeu vidéo met en scène un plombier nommé Mario ?",
+    "answer": "Super Mario"
+  },
+  {
+    "id": "div-ado-005",
+    "category": "divertissement",
+    "question": "Dans quelle série télévisée trouve-t-on la famille Targaryen ?",
+    "answer": "Game of Thrones"
+  },
+  {
+    "id": "div-ado-006",
+    "category": "divertissement",
+    "question": "Quel est le nom du réseau de streaming à l'origine de \"Stranger Things\" ?",
+    "answer": "Netflix"
+  },
+  {
+    "id": "div-ado-007",
+    "category": "divertissement",
+    "question": "Quel groupe suédois a interprété \"Dancing Queen\" ?",
+    "answer": "ABBA"
+  },
+  {
+    "id": "div-ado-008",
+    "category": "divertissement",
+    "question": "Quel est le nom de la série animée mettant en scène la famille Simpson ?",
+    "answer": "Les Simpson"
+  },
+  {
+    "id": "div-ado-009",
+    "category": "divertissement",
+    "question": "Quel est le nom du café où se retrouvent les personnages de la série \"Friends\" ?",
+    "answer": "Central Perk"
+  },
+  {
+    "id": "div-ado-010",
+    "category": "divertissement",
+    "question": "Quel chanteur est surnommé le \"King of Pop\" ?",
+    "answer": "Michael Jackson"
+  },
+  {
+    "id": "div-ado-011",
+    "category": "divertissement",
+    "question": "Dans quel dessin animé Disney trouve-t-on le personnage d'Elsa ?",
+    "answer": "La Reine des neiges"
+  },
+  {
+    "id": "div-ado-012",
+    "category": "divertissement",
+    "question": "Quel acteur a incarné James Bond dans \"Skyfall\" et \"Spectre\" ?",
+    "answer": "Daniel Craig"
+  },
+  {
+    "id": "div-ado-013",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne Hermione Granger dans la saga Harry Potter ?",
+    "answer": "Emma Watson"
+  },
+  {
+    "id": "div-ado-014",
+    "category": "divertissement",
+    "question": "Quel est le nom du réalisateur des films \"Inception\" et \"Interstellar\" ?",
+    "answer": "Christopher Nolan"
+  },
+  {
+    "id": "div-ado-015",
+    "category": "divertissement",
+    "question": "Quel jeu vidéo oppose 100 joueurs sur une île jusqu'à ce qu'il n'en reste qu'un ?",
+    "answer": "Fortnite (ou tout autre battle royale, réponse acceptée : Fortnite)"
+  },
+  {
+    "id": "div-ado-016",
+    "category": "divertissement",
+    "question": "Quelle chanteuse est surnommée \"Queen B\" ?",
+    "answer": "Beyoncé"
+  },
+  {
+    "id": "div-ado-017",
+    "category": "divertissement",
+    "question": "Quel super-héros Marvel est aussi connu sous le nom de Peter Parker ?",
+    "answer": "Spider-Man"
+  },
+  {
+    "id": "div-ado-018",
+    "category": "divertissement",
+    "question": "Dans quelle ville fictive se déroule la série animée \"Les Simpson\" ?",
+    "answer": "Springfield"
+  },
+  {
+    "id": "div-ado-019",
+    "category": "divertissement",
+    "question": "Quel groupe britannique a chanté \"Bohemian Rhapsody\" ?",
+    "answer": "Queen"
+  },
+  {
+    "id": "div-ado-020",
+    "category": "divertissement",
+    "question": "Quel est le nom de la plateforme où de nombreux joueurs regardent des streamers jouer en direct ?",
+    "answer": "Twitch"
+  },
+  {
+    "id": "div-ado-021",
+    "category": "divertissement",
+    "question": "Qui a réalisé la saga de films \"Star Wars\" à l'origine ?",
+    "answer": "George Lucas"
+  },
+  {
+    "id": "div-ado-022",
+    "category": "divertissement",
+    "question": "Quel humoriste français incarne le personnage d'OSS 117 au cinéma ?",
+    "answer": "Jean Dujardin"
+  },
+  {
+    "id": "div-ado-023",
+    "category": "divertissement",
+    "question": "Quel est le nom du village créé par Minecraft où les joueurs peuvent construire librement ?",
+    "answer": "Il n'y a pas de nom unique, le jeu s'appelle simplement Minecraft"
+  },
+  {
+    "id": "div-ado-024",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Jack Sparrow dans \"Pirates des Caraïbes\" ?",
+    "answer": "Johnny Depp"
+  },
+  {
+    "id": "div-ado-025",
+    "category": "divertissement",
+    "question": "Quel est le prénom du personnage principal dans \"Titanic\" joué par Leonardo DiCaprio ?",
+    "answer": "Jack"
+  },
+  {
+    "id": "div-ado-026",
+    "category": "divertissement",
+    "question": "Quel groupe de K-pop est connu pour des titres comme \"Dynamite\" et \"Butter\" ?",
+    "answer": "BTS"
+  },
+  {
+    "id": "div-ado-027",
+    "category": "divertissement",
+    "question": "Qui a composé la musique du film \"Le Roi Lion\" (1994) ?",
+    "answer": "Hans Zimmer"
+  },
+  {
+    "id": "div-ado-028",
+    "category": "divertissement",
+    "question": "Quel est le nom du héros incarné par Omar Sy dans le film \"Intouchables\" ?",
+    "answer": "Driss"
+  },
+  {
+    "id": "div-ado-029",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo incarne-t-on un aventurier qui explore des donjons à la recherche de la princesse Zelda ?",
+    "answer": "The Legend of Zelda"
+  },
+  {
+    "id": "div-ado-030",
+    "category": "divertissement",
+    "question": "Quel est le nom de famille de Mickey Mouse selon les comics Disney ?",
+    "answer": "Mickey n'a pas de nom de famille officiel (parfois \"Mouse\")"
+  },
+  {
+    "id": "div-ado-031",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Batman dans le film \"The Batman\" sorti en 2022 ?",
+    "answer": "Robert Pattinson"
+  },
+  {
+    "id": "div-ado-032",
+    "category": "divertissement",
+    "question": "Quelle chanteuse américaine a sorti l'album \"1989\" ?",
+    "answer": "Taylor Swift"
+  },
+  {
+    "id": "div-ado-033",
+    "category": "divertissement",
+    "question": "Dans quel film d'animation Pixar un chef cuisinier est-il en réalité un rat ?",
+    "answer": "Ratatouille"
+  },
+  {
+    "id": "div-ado-034",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"Assassin's Creed\" incarné dans le tout premier opus ?",
+    "answer": "Altaïr"
+  },
+  {
+    "id": "div-ado-035",
+    "category": "divertissement",
+    "question": "Quel acteur français interprète le rôle principal dans la trilogie \"Taxi\" ?",
+    "answer": "Samy Naceri"
+  },
+  {
+    "id": "div-ado-036",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Thor dans l'univers cinématographique Marvel ?",
+    "answer": "Chris Hemsworth",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-037",
+    "category": "divertissement",
+    "question": "Quelle chanteuse interprète le titre \"Levitating\" ?",
+    "answer": "Dua Lipa",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-038",
+    "category": "divertissement",
+    "question": "Quel est le nom du royaume où se déroule l'histoire du film \"Black Panther\" ?",
+    "answer": "Le Wakanda",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-039",
+    "category": "divertissement",
+    "question": "Dans quelle série Netflix des adolescents affrontent-ils des monstres venus du \"Monde à l'envers\" ?",
+    "answer": "Stranger Things",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-040",
+    "category": "divertissement",
+    "question": "Quel acteur prête sa voix et son image au Grinch dans le film de 2018 ?",
+    "answer": "Benedict Cumberbatch",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-041",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo de simulation de vie où l'on gère des personnages appelés des Sims ?",
+    "answer": "Les Sims",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-042",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne Katniss Everdeen dans la saga \"Hunger Games\" ?",
+    "answer": "Jennifer Lawrence",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-043",
+    "category": "divertissement",
+    "question": "Quel groupe américain est connu pour la chanson \"Uptown Funk\" avec Bruno Mars ?",
+    "answer": "Mark Ronson",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-044",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo de rôle incarne-t-on un dresseur qui capture des créatures dans des Poké Balls ?",
+    "answer": "Pokémon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-045",
+    "category": "divertissement",
+    "question": "Quel réalisateur est à l'origine des films \"Astérix et Obélix : Mission Cléopâtre\" ?",
+    "answer": "Alain Chabat",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-046",
+    "category": "divertissement",
+    "question": "Quel est le nom du méchant qui affronte les Avengers dans les films \"Infinity War\" et \"Endgame\" ?",
+    "answer": "Thanos",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-047",
+    "category": "divertissement",
+    "question": "Quelle chanteuse française a représenté la France à l'Eurovision 2021 avec \"Voilà\" ?",
+    "answer": "Barbara Pravi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-048",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage principal de la série de jeux vidéo \"God of War\" ?",
+    "answer": "Kratos",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-049",
+    "category": "divertissement",
+    "question": "Dans quel film d'animation Disney le personnage de Moana part-elle explorer l'océan ?",
+    "answer": "Vaiana",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-050",
+    "category": "divertissement",
+    "question": "Quel humoriste et acteur français a créé le personnage de Kad dans le duo \"Kad et Olivier\" ?",
+    "answer": "Kad Merad",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-051",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Neo dans la saga \"Matrix\" ?",
+    "answer": "Keanu Reeves",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-052",
+    "category": "divertissement",
+    "question": "Quel est le nom du magicien incarné par Eddie Redmayne dans \"Les Animaux fantastiques\" ?",
+    "answer": "Norbert Dragonneau",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-053",
+    "category": "divertissement",
+    "question": "Quelle chanteuse américaine a sorti l'album \"Lover\" et le titre \"Shake It Off\" ?",
+    "answer": "Taylor Swift",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-054",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo incarne-t-on un cow-boy nommé Arthur Morgan ?",
+    "answer": "Red Dead Redemption 2",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-055",
+    "category": "divertissement",
+    "question": "Quel est le nom de la styliste incarnée par Emma Stone dans le film \"Cruella\" ?",
+    "answer": "Cruella d'Enfer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-056",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Astérix aux côtés de Gérard Depardieu dans \"Astérix et Obélix : Mission Cléopâtre\" ?",
+    "answer": "Christian Clavier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-057",
+    "category": "divertissement",
+    "question": "Quel groupe britannique a interprété \"Yellow\" et \"Viva la Vida\" ?",
+    "answer": "Coldplay",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-058",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le Joker dans le film du même nom sorti en 2019 ?",
+    "answer": "Joaquin Phoenix",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-059",
+    "category": "divertissement",
+    "question": "Dans quelle série animée japonaise un garçon nommé Naruto rêve-t-il de devenir Hokage ?",
+    "answer": "Naruto",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-060",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne Wanda Maximoff, alias la Sorcière Rouge, dans l'univers Marvel ?",
+    "answer": "Elizabeth Olsen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-061",
+    "category": "divertissement",
+    "question": "Quel rappeur français a sorti l'album \"Or noir\" en 2012 ?",
+    "answer": "Booba",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-062",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo de course mettant en scène Mario et ses amis sur des circuits fantaisistes ?",
+    "answer": "Mario Kart",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-063",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le détective Sherlock Holmes dans les films de Guy Ritchie aux côtés de Jude Law ?",
+    "answer": "Robert Downey Jr.",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-064",
+    "category": "divertissement",
+    "question": "Quelle chanteuse belge a connu un succès international avec les titres \"La Loi de Murphy\" et \"Balance ton quoi\" ?",
+    "answer": "Angèle",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-065",
+    "category": "divertissement",
+    "question": "Dans quel film Disney/Pixar un père poisson-clown part-il chercher son fils Nemo ?",
+    "answer": "Le Monde de Nemo",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-066",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage principal incarné par Tom Holland dans les films Spider-Man du MCU ?",
+    "answer": "Peter Parker",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-067",
+    "category": "divertissement",
+    "question": "Quel groupe de rock américain a interprété \"Smells Like Teen Spirit\" ?",
+    "answer": "Nirvana",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-068",
+    "category": "divertissement",
+    "question": "Dans quelle série Disney+ inspirée de Star Wars suit-on les aventures de Din Djarin et de Grogu ?",
+    "answer": "The Mandalorian",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-069",
+    "category": "divertissement",
+    "question": "Quel humoriste et animateur français présente l'émission \"Quotidien\" ?",
+    "answer": "Yann Barthès",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-070",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo de battle royale dans lequel les joueurs peuvent aussi construire des structures pour se protéger ?",
+    "answer": "Fortnite",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-071",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le personnage de Deadpool au cinéma ?",
+    "answer": "Ryan Reynolds",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-072",
+    "category": "divertissement",
+    "question": "Quelle chanteuse interprète les titres \"Bad Guy\" et \"Ocean Eyes\" ?",
+    "answer": "Billie Eilish",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-073",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage par défaut que le joueur incarne dans Minecraft, symbole du jeu ?",
+    "answer": "Steve",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-074",
+    "category": "divertissement",
+    "question": "Quelle actrice française tient le rôle principal dans la série \"Dix pour cent\" en incarnant une agente artistique ?",
+    "answer": "Camille Cottin",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-075",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage principal du manga et anime \"One Piece\" qui rêve de devenir roi des pirates ?",
+    "answer": "Monkey D. Luffy",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-076",
+    "category": "divertissement",
+    "question": "Quel rappeur américain a sorti l'album \"Damn.\" et a reçu le prix Pulitzer en 2018 ?",
+    "answer": "Kendrick Lamar",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-077",
+    "category": "divertissement",
+    "question": "Dans quelle série télévisée des lycéens forment un groupe de chant appelé le Glee Club ?",
+    "answer": "Glee",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-078",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le tueur à gages nommé John Wick dans la saga de films du même nom ?",
+    "answer": "Keanu Reeves",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-079",
+    "category": "divertissement",
+    "question": "Quel est le nom du réseau social où les utilisateurs publient des vidéos courtes accompagnées de musique, très populaire chez les ados ?",
+    "answer": "TikTok",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-080",
+    "category": "divertissement",
+    "question": "Quel chanteur belge est connu pour les titres \"Papaoutai\" et \"Alors on danse\" ?",
+    "answer": "Stromae",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-081",
+    "category": "divertissement",
+    "question": "Dans quel film d'animation Disney/Pixar le personnage de Miguel part-il à la découverte des secrets de sa famille au Mexique ?",
+    "answer": "Coco",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-082",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo de tir en équipe développé par Blizzard où les héros ont des rôles comme tank ou soigneur ?",
+    "answer": "Overwatch",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-083",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le professeur Charles Xavier dans les films \"X-Men\" des années 2010 ?",
+    "answer": "James McAvoy",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-084",
+    "category": "divertissement",
+    "question": "Quelle chanteuse est surnommée \"Queen of Pop\" et a interprété le titre \"Like a Prayer\" ?",
+    "answer": "Madonna",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-085",
+    "category": "divertissement",
+    "question": "Dans quelle série animée japonaise un adolescent nommé Ash Ketchum parcourt le monde pour devenir Maître Pokémon ?",
+    "answer": "Pokémon",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-086",
+    "category": "divertissement",
+    "question": "Quel est le nom du personnage incarné par Zendaya dans la trilogie Spider-Man du MCU avec Tom Holland ?",
+    "answer": "MJ (Michelle Jones)",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-087",
+    "category": "divertissement",
+    "question": "Quel groupe britannique a interprété \"Wonderwall\" dans les années 1990 ?",
+    "answer": "Oasis",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-088",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo affronte-t-on des vagues de zombies en plaçant des plantes défensives dans son jardin ?",
+    "answer": "Plants vs. Zombies",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-089",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le père de famille dans la comédie \"Qu'est-ce qu'on a fait au Bon Dieu ?\" ?",
+    "answer": "Christian Clavier",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-090",
+    "category": "divertissement",
+    "question": "Quelle chanteuse américaine, ancienne actrice de la série \"Victorious\", a sorti le titre \"7 rings\" ?",
+    "answer": "Ariana Grande",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-091",
+    "category": "divertissement",
+    "question": "Dans quelle série Netflix une joueuse d'échecs prodige nommée Beth Harmon devient-elle championne dans les années 1960 ?",
+    "answer": "Le Jeu de la dame",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-092",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo de football le plus vendu chaque année, édité par EA Sports jusqu'en 2023 ?",
+    "answer": "FIFA",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-093",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le sorcier Gandalf dans la trilogie \"Le Seigneur des Anneaux\" ?",
+    "answer": "Ian McKellen",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-094",
+    "category": "divertissement",
+    "question": "Quelle chanteuse française d'origine malienne a interprété le titre \"Djadja\" ?",
+    "answer": "Aya Nakamura",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-095",
+    "category": "divertissement",
+    "question": "Dans quel film d'animation japonais une jeune fille nommée Chihiro se retrouve-t-elle piégée dans un monde peuplé d'esprits ?",
+    "answer": "Le Voyage de Chihiro",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-096",
+    "category": "divertissement",
+    "question": "Quel est le nom du réalisateur japonais fondateur du studio Ghibli, connu pour \"Le Voyage de Chihiro\" ?",
+    "answer": "Hayao Miyazaki",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-097",
+    "category": "divertissement",
+    "question": "Quel youtubeur français est connu pour ses vidéos de tests et de défis sous le pseudonyme \"Squeezie\" ?",
+    "answer": "Lucas Hauchard",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-098",
+    "category": "divertissement",
+    "question": "Quel acteur incarne l'agent Ethan Hunt dans la saga \"Mission Impossible\" ?",
+    "answer": "Tom Cruise",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-099",
+    "category": "divertissement",
+    "question": "Quel groupe de rock américain a interprété \"Numb\" et \"In the End\" ?",
+    "answer": "Linkin Park",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-100",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo de plateforme un hérisson bleu très rapide affronte-t-il le docteur Robotnik ?",
+    "answer": "Sonic",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-101",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne Rey dans la nouvelle trilogie \"Star Wars\" ?",
+    "answer": "Daisy Ridley",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-102",
+    "category": "divertissement",
+    "question": "Quel est le nom du groupe de rap marseillais formé notamment par Akhenaton, connu pour l'album \"L'École du micro d'argent\" ?",
+    "answer": "IAM",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-103",
+    "category": "divertissement",
+    "question": "Dans quelle série télévisée un professeur de chimie se lance dans la fabrication de drogue pour subvenir aux besoins de sa famille ?",
+    "answer": "Breaking Bad",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-104",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le personnage de Steve Rogers, alias Captain America, dans l'univers cinématographique Marvel ?",
+    "answer": "Chris Evans",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-105",
+    "category": "divertissement",
+    "question": "Quelle chanteuse britannique est connue pour le titre \"Rolling in the Deep\" et son album \"21\" ?",
+    "answer": "Adele",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-106",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo de rôle et d'action incarne-t-on un sorcier nommé Geralt de Riv chassant des monstres ?",
+    "answer": "The Witcher",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-107",
+    "category": "divertissement",
+    "question": "Dans quelle série animée les quatre nations de l'Eau, de la Terre, du Feu et de l'Air s'affrontent-elles autour du jeune Avatar Aang ?",
+    "answer": "Avatar, le dernier maître de l'air",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-108",
+    "category": "divertissement",
+    "question": "Quel acteur incarne Bilbo Sacquet dans la trilogie de films \"Le Hobbit\" ?",
+    "answer": "Martin Freeman",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-109",
+    "category": "divertissement",
+    "question": "Quel duo français de musique électronique, célèbre pour ses costumes de robots, a composé \"Get Lucky\" et \"One More Time\" ?",
+    "answer": "Daft Punk",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-110",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo de simulation cultive-t-on des champs et élève-t-on des animaux dans une ferme héritée d'un grand-parent ?",
+    "answer": "Stardew Valley",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-111",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne Bella Swan dans la saga \"Twilight\" ?",
+    "answer": "Kristen Stewart",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-112",
+    "category": "divertissement",
+    "question": "Quel animateur français a présenté l'émission \"Fort Boyard\" pendant de nombreuses années ?",
+    "answer": "Olivier Minne",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-113",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le personnage de Wolverine dans la saga \"X-Men\" ?",
+    "answer": "Hugh Jackman",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-114",
+    "category": "divertissement",
+    "question": "Dans quel manga et anime un garçon nommé Tanjiro devient-il pourfendeur de démons pour sauver sa sœur ?",
+    "answer": "Demon Slayer",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-115",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le personnage principal de la série \"Peaky Blinders\", Thomas Shelby ?",
+    "answer": "Cillian Murphy",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-116",
+    "category": "divertissement",
+    "question": "Quel rappeur français est connu pour l'album \"Feu\" et le titre \"Roi\" avec le collectif L'Entourage ?",
+    "answer": "Nekfeu",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-117",
+    "category": "divertissement",
+    "question": "Dans quel manga et anime un jeune garçon nommé Son Goku part-il à la recherche de sept boules de cristal magiques ?",
+    "answer": "Dragon Ball",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-118",
+    "category": "divertissement",
+    "question": "Quelle actrice tient le rôle principal dans la série \"Wednesday\" consacrée à la fille de la famille Addams ?",
+    "answer": "Jenna Ortega",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-119",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo des voitures survitaminées s'affrontent-elles pour marquer des buts avec un ballon géant dans une arène ?",
+    "answer": "Rocket League",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-120",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le rôle-titre de la série \"The Witcher\" sur Netflix ?",
+    "answer": "Henry Cavill",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-121",
+    "category": "divertissement",
+    "question": "Dans quel film Disney le personnage d'Aladdin tombe-t-il amoureux de la princesse Jasmine ?",
+    "answer": "Aladdin",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-122",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo mobile où les joueurs doivent démasquer un imposteur parmi l'équipage d'un vaisseau spatial ?",
+    "answer": "Among Us",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-123",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le rôle-titre dans la série de films \"Kingsman\" aux côtés de Colin Firth ?",
+    "answer": "Taron Egerton",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-124",
+    "category": "divertissement",
+    "question": "Quel groupe pop britannique formé lors de l'émission \"X Factor\" comptait Harry Styles parmi ses membres ?",
+    "answer": "One Direction",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-125",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le méchant Erik Killmonger dans le film \"Black Panther\" ?",
+    "answer": "Michael B. Jordan",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-126",
+    "category": "divertissement",
+    "question": "Quel chanteur canadien, connu sous le nom de scène \"The Weeknd\", a interprété le titre \"Blinding Lights\" ?",
+    "answer": "Abel Tesfaye",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-127",
+    "category": "divertissement",
+    "question": "Quel réalisateur américain est à l'origine des films \"Avatar\" et \"Titanic\" ?",
+    "answer": "James Cameron",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-128",
+    "category": "divertissement",
+    "question": "Quel humoriste et acteur français a créé le personnage de Chouchou et joue dans \"La Vérité si je mens !\" ?",
+    "answer": "Gad Elmaleh",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-129",
+    "category": "divertissement",
+    "question": "Dans quel manga et anime un lycéen nommé Izuku Midoriya rêve-t-il de devenir le plus grand des héros ?",
+    "answer": "My Hero Academia",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-130",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne le personnage d'Eleven dans la série \"Stranger Things\" ?",
+    "answer": "Millie Bobby Brown",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-131",
+    "category": "divertissement",
+    "question": "Quel est le nom du jeu vidéo de gestion dans lequel les joueurs construisent des montagnes russes et gèrent un parc d'attractions ?",
+    "answer": "RollerCoaster Tycoon",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-132",
+    "category": "divertissement",
+    "question": "Quel chanteur canadien est connu pour les titres \"Sorry\" et \"Baby\" ?",
+    "answer": "Justin Bieber",
+    "difficulty": "facile"
+  },
+  {
+    "id": "div-ado-133",
+    "category": "divertissement",
+    "question": "Dans quel film Marvel les Gardiens de la Galaxie apparaissent-ils pour la première fois au cinéma ?",
+    "answer": "Les Gardiens de la Galaxie",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-134",
+    "category": "divertissement",
+    "question": "Quel acteur français incarne le patriarche de la famille dans la série de films comiques \"Les Tuche\" ?",
+    "answer": "Jean-Paul Rouve",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-135",
+    "category": "divertissement",
+    "question": "Quelle actrice incarne le personnage principal de la série \"Emily in Paris\" ?",
+    "answer": "Lily Collins",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-136",
+    "category": "divertissement",
+    "question": "Quel groupe de rock américain, mené par Dave Grohl, a été formé après la dissolution de Nirvana ?",
+    "answer": "Foo Fighters",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-137",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le sorcier Voldemort dans la saga \"Harry Potter\" ?",
+    "answer": "Ralph Fiennes",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-138",
+    "category": "divertissement",
+    "question": "Quelle chanteuse américaine interprète le rôle principal dans le film musical \"A Star Is Born\" aux côtés de Bradley Cooper ?",
+    "answer": "Lady Gaga",
+    "difficulty": "moyen"
+  },
+  {
+    "id": "div-ado-139",
+    "category": "divertissement",
+    "question": "Dans quel jeu vidéo de tir en vue subjective les joueurs s'affrontent en solo, duo ou escouade sur l'île de Verdansk en mode Battle Royale ?",
+    "answer": "Call of Duty: Warzone",
+    "difficulty": "difficile"
+  },
+  {
+    "id": "div-ado-140",
+    "category": "divertissement",
+    "question": "Quel acteur incarne le personnage de Simba adulte, en tant que voix originale anglaise, dans le remake en images de synthèse du \"Roi Lion\" sorti en 2019 ?",
+    "answer": "Donald Glover",
+    "difficulty": "difficile"
+  }
 ]
