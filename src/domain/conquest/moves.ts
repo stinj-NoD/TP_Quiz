@@ -5,25 +5,26 @@ export function otherSide(side: ConquestSide): ConquestSide {
   return side === 'A' ? 'B' : 'A'
 }
 
+/**
+ * Un seul coup possible par tour : celui qui pose la carte déjà piochée
+ * (`drawnCard`) sur une case vide. Renvoie un tableau vide tant que le camp
+ * actif n'a pas encore pioché ce tour-ci.
+ */
 export function getLegalMoves(state: ConquestGameState): ConquestMove[] {
-  const hand = state.hands[state.currentTurn]
+  const drawnCard = state.piles[state.currentTurn].drawnCard
+  if (!drawnCard) return []
+
   const emptyPositions = state.board.reduce<number[]>((positions, cell, position) => {
     if (!cell) positions.push(position)
     return positions
   }, [])
 
-  const moves: ConquestMove[] = []
-  for (const card of hand) {
-    for (const position of emptyPositions) {
-      moves.push({ side: state.currentTurn, cardId: card.id, position })
-    }
-  }
-  return moves
+  return emptyPositions.map((position) => ({ side: state.currentTurn, cardId: drawnCard.id, position }))
 }
 
 /**
- * Applique un coup : retire la carte de la main du joueur actif, la pose sur
- * le plateau, résout les captures, puis passe la main. Renvoie explicitement
+ * Applique un coup : pose la carte piochée par le joueur actif sur le
+ * plateau, résout les captures, puis passe la main. Renvoie explicitement
  * `capturedPositions` pour que l'IA et une future UI n'aient pas à comparer
  * deux plateaux pour savoir ce qui vient d'être capturé.
  */
@@ -38,14 +39,11 @@ export function applyMove(
     throw new Error(`La position ${move.position} est déjà occupée`)
   }
 
-  const hand = state.hands[move.side]
-  const cardIndex = hand.findIndex((card) => card.id === move.cardId)
-  if (cardIndex === -1) {
-    throw new Error(`La carte ${move.cardId} n'est pas dans la main du joueur ${move.side}`)
+  const pileState = state.piles[move.side]
+  const card = pileState.drawnCard
+  if (!card || card.id !== move.cardId) {
+    throw new Error(`Le joueur ${move.side} n'a pas pioché la carte ${move.cardId}`)
   }
-
-  const card = hand[cardIndex]
-  const nextHand = [...hand.slice(0, cardIndex), ...hand.slice(cardIndex + 1)]
 
   const boardWithPlacement = [...state.board]
   boardWithPlacement[move.position] = { card, ownerId: move.side }
@@ -54,7 +52,7 @@ export function applyMove(
 
   const nextState: ConquestGameState = {
     board: nextBoard,
-    hands: { ...state.hands, [move.side]: nextHand },
+    piles: { ...state.piles, [move.side]: { ...pileState, drawnCard: null } },
     currentTurn: otherSide(state.currentTurn),
     firstPlayer: state.firstPlayer,
     moveHistory: [...state.moveHistory, move],

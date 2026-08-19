@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import type { ConquestBoard, ConquestCard, ConquestGameState } from '../../types/conquest.types'
+import type { ConquestBoard, ConquestCard, ConquestGameState, ConquestPileState } from '../../types/conquest.types'
 import { createEmptyBoard } from './board'
 import { evaluateState } from './evaluation'
 
@@ -7,8 +7,9 @@ function makeCard(id: string, value = 1): ConquestCard {
   return { id, name: id, values: { nord: value, est: value, sud: value, ouest: value } }
 }
 
-function makeState(board: ConquestBoard, hands: { A: ConquestCard[]; B: ConquestCard[] } = { A: [], B: [] }): ConquestGameState {
-  return { board, hands, currentTurn: 'A', firstPlayer: 'A', moveHistory: [] }
+function makeState(board: ConquestBoard): ConquestGameState {
+  const emptyPile = (): ConquestPileState => ({ pile: [], drawnCard: null, mulliganUsed: false })
+  return { board, piles: { A: emptyPile(), B: emptyPile() }, currentTurn: 'A', firstPlayer: 'A', moveHistory: [] }
 }
 
 describe('evaluateState', () => {

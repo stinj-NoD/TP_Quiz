@@ -23,7 +23,8 @@ function positionWeight(position: number): number {
 
 function materialScore(state: ConquestGameState, side: ConquestSide): number {
   const onBoard = countCardsBySide(state.board)
-  return onBoard[side] + state.hands[side].length
+  const pileState = state.piles[side]
+  return onBoard[side] + pileState.pile.length + (pileState.drawnCard ? 1 : 0)
 }
 
 /** Coins > bords > centre : un coin n'expose que 2 côtés, le centre en expose 4. */

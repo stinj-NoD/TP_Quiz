@@ -1,4 +1,4 @@
-import { BrainCircuit, Globe2 } from 'lucide-react'
+import { BrainCircuit, Globe2, Swords } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '../components/ui/Button'
 import { ScreenTransition } from '../components/layout/ScreenTransition'
@@ -28,6 +28,10 @@ export function HomeScreen() {
           <Button size="lg" variant="secondary" className="w-full" onClick={() => navigate('/geographie')}>
             <Globe2 size={18} />
             Lancer un Géo
+          </Button>
+          <Button size="lg" variant="secondary" className="w-full" onClick={() => navigate('/conquete')}>
+            <Swords size={18} />
+            Lancer une Conquête
           </Button>
         </div>
       </div>

@@ -9,19 +9,24 @@ export function shuffle<T>(items: T[]): T[] {
   return arr
 }
 
-/** Mélange `pool` et distribue `handSize` cartes à chaque camp, sans chevauchement. */
-export function dealHands(
+/**
+ * Mélange `pool` et distribue `pileSize` cartes à chaque camp, sans
+ * chevauchement — chaque tranche du pool mélangé constitue déjà un ordre de
+ * pioche indépendant et aléatoire pour son camp (index 0 = première carte
+ * piochée), pas besoin d'un mélange supplémentaire par pile.
+ */
+export function dealPiles(
   pool: ConquestCard[],
-  handSize: number,
-): { handA: ConquestCard[]; handB: ConquestCard[] } {
-  if (pool.length < handSize * 2) {
-    throw new Error(`Le pool doit contenir au moins ${handSize * 2} cartes pour distribuer 2 mains de ${handSize}`)
+  pileSize: number,
+): { pileA: ConquestCard[]; pileB: ConquestCard[] } {
+  if (pool.length < pileSize * 2) {
+    throw new Error(`Le pool doit contenir au moins ${pileSize * 2} cartes pour distribuer 2 piles de ${pileSize}`)
   }
 
   const shuffled = shuffle(pool)
   return {
-    handA: shuffled.slice(0, handSize),
-    handB: shuffled.slice(handSize, handSize * 2),
+    pileA: shuffled.slice(0, pileSize),
+    pileB: shuffled.slice(pileSize, pileSize * 2),
   }
 }
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import type { ConquestCard, ConquestGameState } from '../../types/conquest.types'
+import type { ConquestCard, ConquestGameState, ConquestPileState } from '../../types/conquest.types'
 import { createEmptyBoard } from './board'
 import { evaluateState } from './evaluation'
 import { chooseMoveFacile, chooseMoveMoyen } from './ai'
@@ -9,10 +9,14 @@ function makeCard(id: string, nord = 1, est = 1, sud = 1, ouest = 1): ConquestCa
   return { id, name: id, values: { nord, est, sud, ouest } }
 }
 
+function makePileState(overrides: Partial<ConquestPileState> = {}): ConquestPileState {
+  return { pile: [], drawnCard: null, mulliganUsed: false, ...overrides }
+}
+
 function makeState(overrides: Partial<ConquestGameState> = {}): ConquestGameState {
   return {
     board: createEmptyBoard(),
-    hands: { A: [makeCard('a1'), makeCard('a2'), makeCard('a3')], B: [] },
+    piles: { A: makePileState({ drawnCard: makeCard('a1') }), B: makePileState() },
     currentTurn: 'A',
     firstPlayer: 'A',
     moveHistory: [],
@@ -35,7 +39,7 @@ describe('chooseMoveFacile', () => {
     const board = createEmptyBoard()
     board[1] = { card: makeCard('def', 1, 1, 1, 1), ownerId: 'B' }
     const attacker = makeCard('att', 9, 1, 1, 1)
-    const state = makeState({ board, hands: { A: [attacker], B: [] } })
+    const state = makeState({ board, piles: { A: makePileState({ drawnCard: attacker }), B: makePileState() } })
 
     let capturingPicks = 0
     const trials = 200

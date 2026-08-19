@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { ConquestCard } from '../../types/conquest.types'
-import { chooseFirstPlayer, dealHands, shuffle } from './deck'
+import { chooseFirstPlayer, dealPiles, shuffle } from './deck'
 
 function makePool(count: number): ConquestCard[] {
   return Array.from({ length: count }, (_, i) => ({
@@ -36,27 +36,27 @@ describe('shuffle', () => {
   })
 })
 
-describe('dealHands', () => {
-  it('distribue deux mains sans chevauchement, toutes issues du pool', () => {
+describe('dealPiles', () => {
+  it('distribue deux piles sans chevauchement, toutes issues du pool', () => {
     const pool = makePool(20)
-    const { handA, handB } = dealHands(pool, 5)
+    const { pileA, pileB } = dealPiles(pool, 5)
 
-    expect(handA).toHaveLength(5)
-    expect(handB).toHaveLength(5)
+    expect(pileA).toHaveLength(5)
+    expect(pileB).toHaveLength(5)
 
-    const idsA = new Set(handA.map((c) => c.id))
-    const idsB = new Set(handB.map((c) => c.id))
+    const idsA = new Set(pileA.map((c) => c.id))
+    const idsB = new Set(pileB.map((c) => c.id))
     expect([...idsA].every((id) => !idsB.has(id))).toBe(true)
 
     const poolIds = new Set(pool.map((c) => c.id))
-    for (const card of [...handA, ...handB]) {
+    for (const card of [...pileA, ...pileB]) {
       expect(poolIds.has(card.id)).toBe(true)
     }
   })
 
   it('lève une erreur si le pool est trop petit', () => {
     const pool = makePool(9)
-    expect(() => dealHands(pool, 5)).toThrow()
+    expect(() => dealPiles(pool, 5)).toThrow()
   })
 })
 

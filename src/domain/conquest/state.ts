@@ -7,9 +7,9 @@ export function createInitialState(config: ConquestGameConfig): ConquestGameStat
 
   return {
     board: createEmptyBoard(),
-    hands: {
-      A: [...config.handA],
-      B: [...config.handB],
+    piles: {
+      A: { pile: [...config.pileA], drawnCard: null, mulliganUsed: false },
+      B: { pile: [...config.pileB], drawnCard: null, mulliganUsed: false },
     },
     currentTurn: firstPlayer,
     firstPlayer,
