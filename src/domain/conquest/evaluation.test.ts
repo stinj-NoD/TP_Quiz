@@ -27,24 +27,24 @@ describe('evaluateState', () => {
   })
 
   it("pénalise davantage un coin adverse qu'un centre adverse (le coin n'expose que 2 côtés)", () => {
-    // Cartes de valeur max (9) pour neutraliser le terme d'exposition et isoler la position.
+    // Cartes de valeur max (10) pour neutraliser le terme d'exposition et isoler la position.
     const opponentOnCorner = createEmptyBoard()
-    opponentOnCorner[0] = { card: makeCard('b1', 9), ownerId: 'B' }
+    opponentOnCorner[0] = { card: makeCard('b1', 10), ownerId: 'B' }
 
     const opponentOnCenter = createEmptyBoard()
-    opponentOnCenter[4] = { card: makeCard('b1', 9), ownerId: 'B' }
+    opponentOnCenter[4] = { card: makeCard('b1', 10), ownerId: 'B' }
 
     expect(evaluateState(makeState(opponentOnCorner), 'A')).toBeLessThan(
       evaluateState(makeState(opponentOnCenter), 'A'),
     )
   })
 
-  it('est symétrique pour un plateau en miroir (cartes de valeur uniforme 9 pour neutraliser l\'exposition)', () => {
+  it('est symétrique pour un plateau en miroir (cartes de valeur uniforme 10 pour neutraliser l\'exposition)', () => {
     const board = createEmptyBoard()
-    board[0] = { card: makeCard('a1', 9), ownerId: 'A' }
-    board[3] = { card: makeCard('a2', 9), ownerId: 'A' }
-    board[8] = { card: makeCard('b1', 9), ownerId: 'B' }
-    board[5] = { card: makeCard('b2', 9), ownerId: 'B' }
+    board[0] = { card: makeCard('a1', 10), ownerId: 'A' }
+    board[3] = { card: makeCard('a2', 10), ownerId: 'A' }
+    board[8] = { card: makeCard('b1', 10), ownerId: 'B' }
+    board[5] = { card: makeCard('b2', 10), ownerId: 'B' }
 
     const state = makeState(board)
     expect(evaluateState(state, 'A') + evaluateState(state, 'B')).toBe(0)

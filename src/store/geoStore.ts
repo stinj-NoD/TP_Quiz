@@ -7,7 +7,25 @@ import type {
   GeoSessionResult,
 } from '../types/geo.types'
 
+import { createSafeMerge, isRecord, sanitizeArray } from './persistUtils'
+import { STORAGE_KEYS } from './storageKeys'
+
 const MAX_HISTORY = 50
+
+/**
+ * Forme minimale exigée d'une entrée d'historique relue du stockage. `totalQuestions` et
+ * `correctAnswers` sont vérifiés en nombres car ils alimentent directement des calculs de
+ * score (scoreOf, ProfileScreen) qui produiraient NaN sinon.
+ */
+function isGeoSessionResult(entry: unknown): entry is GeoSessionResult {
+  if (!isRecord(entry)) return false
+  return (
+    typeof entry.playerName === 'string' &&
+    typeof entry.answeredAt === 'string' &&
+    typeof entry.totalQuestions === 'number' &&
+    typeof entry.correctAnswers === 'number'
+  )
+}
 
 function scoreOf(result: GeoSessionResult): number {
   return result.totalQuestions > 0 ? result.correctAnswers / result.totalQuestions : 0
@@ -135,6 +153,14 @@ export const useGeoStore = create<GeoStore>()(
 
       discardSession: () => set({ session: null }),
     }),
-    { name: 'trivial-poursuit-geo-history', partialize: (state) => ({ history: state.history }) },
+    {
+      name: STORAGE_KEYS.geo,
+      version: 1,
+      migrate: (persistedState) => persistedState as { history: GeoSessionResult[] },
+      partialize: (state) => ({ history: state.history }),
+      merge: createSafeMerge<GeoStore>({
+        history: (value) => sanitizeArray(value, isGeoSessionResult),
+      }),
+    },
   ),
 )

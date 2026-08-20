@@ -52,7 +52,9 @@ export function QuizResultsScreen() {
 
         <div className="flex w-full max-w-xs flex-col gap-2.5">
           {result.players.map((player, index) => (
-            <Card key={player.name} className="flex items-center gap-3">
+            // Deux joueurs peuvent porter le même nom : l'index est la seule clé stable ici,
+            // et la liste est figée une fois le résultat calculé (aucun tri ni ajout après coup).
+            <Card key={index} className="flex items-center gap-3">
               <RankBadge index={index} />
               <span
                 className="h-2.5 w-2.5 shrink-0 rounded-full"
@@ -61,7 +63,7 @@ export function QuizResultsScreen() {
                   boxShadow: `0 0 6px ${PLAYER_COLOR_VALUES[player.color]}`,
                 }}
               />
-              <span className="flex-1 text-left text-sm font-semibold">{player.name}</span>
+              <span className="min-w-0 flex-1 truncate text-left text-sm font-semibold">{player.name}</span>
               <span className="text-lg font-bold font-[var(--font-display)] text-[var(--color-primary-light)]">
                 {player.score} pts
               </span>

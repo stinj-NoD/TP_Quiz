@@ -13,7 +13,7 @@ export const CORNER_POSITION_WEIGHT = 3
 export const EDGE_POSITION_WEIGHT = 2
 export const CENTER_POSITION_WEIGHT = 1
 /** Valeur de référence utilisée pour pénaliser une face faible exposée. */
-export const EXPOSURE_REFERENCE_VALUE = 9
+export const EXPOSURE_REFERENCE_VALUE = 10
 
 function positionWeight(position: number): number {
   if (CONQUEST_CORNER_POSITIONS.includes(position)) return CORNER_POSITION_WEIGHT

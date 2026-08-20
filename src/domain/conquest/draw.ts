@@ -34,6 +34,16 @@ export function canMulligan(state: ConquestGameState): boolean {
 }
 
 /**
+ * Vrai tant que la manche n'a pas réellement commencé : aucune carte posée et aucune
+ * carte révélée d'un côté ou de l'autre. Redistribuer après le premier tirage
+ * reviendrait à annuler un résultat déjà connu du joueur.
+ */
+export function canRedeal(state: ConquestGameState): boolean {
+  if (state.moveHistory.length > 0) return false
+  return state.piles.A.drawnCard === null && state.piles.B.drawnCard === null
+}
+
+/**
  * Refuse la carte piochée : elle retourne en fond de pile et le camp actif en
  * pioche immédiatement une nouvelle. Limité à une fois par camp et par
  * partie (`mulliganUsed`). Cas limite : si la carte refusée était la dernière

@@ -21,13 +21,24 @@ export function ConquestBoardCellView({ position, cell, clickable, onPlace }: Co
       onClick={() => onPlace(position)}
       disabled={!clickable}
       aria-label={label}
-      className="aspect-square rounded-[var(--radius-sm)] transition-[transform,box-shadow] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary-light)] disabled:cursor-default enabled:active:scale-95"
+      // Plus d'aspect-ratio ici : c'est la grille qui impose désormais des rangées égales
+      // (grid-rows-3), sans quoi les cases tenteraient de forcer leur propre hauteur.
+      className="min-h-0 rounded-[var(--radius-sm)] p-1 transition-[transform,box-shadow] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary-light)] disabled:cursor-default enabled:active:scale-95"
       style={{
         backgroundColor: cell ? 'transparent' : 'var(--color-bg-alt)',
-        boxShadow: clickable ? 'var(--glow-sm)' : 'inset 0 0 0 1px var(--color-border)',
+        boxShadow: clickable
+          ? 'inset 0 0 0 2px var(--color-accent-cyan)'
+          : 'inset 0 0 0 2px var(--color-cq-frame)',
       }}
     >
-      {cell && <ConquestCardFace card={cell.card} owner={cell.ownerId} />}
+      {cell ? (
+        <ConquestCardFace card={cell.card} owner={cell.ownerId} />
+      ) : (
+        <div
+          className="h-full w-full"
+          style={{ backgroundColor: 'var(--color-surface-raised)' }}
+        />
+      )}
     </button>
   )
 }

@@ -1,30 +1,2092 @@
 [
-  { "id": "cq-001", "name": "Louveteau des Brumes", "rarity": "commune", "values": { "nord": 3, "est": 4, "sud": 2, "ouest": 5 } },
-  { "id": "cq-002", "name": "Racine Grondante", "rarity": "commune", "values": { "nord": 5, "est": 2, "sud": 6, "ouest": 1 } },
-  { "id": "cq-003", "name": "Moineau Cuirassé", "rarity": "commune", "values": { "nord": 2, "est": 6, "sud": 3, "ouest": 4 } },
-  { "id": "cq-004", "name": "Crabe des Sables", "rarity": "commune", "values": { "nord": 6, "est": 1, "sud": 5, "ouest": 2 } },
-  { "id": "cq-005", "name": "Lanterne Errante", "rarity": "commune", "values": { "nord": 1, "est": 5, "sud": 4, "ouest": 6 } },
-  { "id": "cq-006", "name": "Ronce Vive", "rarity": "commune", "values": { "nord": 4, "est": 3, "sud": 1, "ouest": 7 } },
-  { "id": "cq-007", "name": "Guet-Roc", "rarity": "commune", "values": { "nord": 7, "est": 2, "sud": 4, "ouest": 1 } },
-  { "id": "cq-008", "name": "Souffleur de Poche", "rarity": "commune", "values": { "nord": 2, "est": 4, "sud": 6, "ouest": 3 } },
-  { "id": "cq-009", "name": "Taupe Blindée", "rarity": "commune", "values": { "nord": 6, "est": 3, "sud": 2, "ouest": 5 } },
-  { "id": "cq-010", "name": "Feu-Follet Timide", "rarity": "commune", "values": { "nord": 1, "est": 6, "sud": 3, "ouest": 4 } },
-  { "id": "cq-011", "name": "Roseau Cinglant", "rarity": "commune", "values": { "nord": 4, "est": 5, "sud": 2, "ouest": 3 } },
-  { "id": "cq-012", "name": "Chouette Sentinelle", "rarity": "commune", "values": { "nord": 3, "est": 2, "sud": 7, "ouest": 2 } },
-  { "id": "cq-013", "name": "Crapaud Bombardier", "rarity": "commune", "values": { "nord": 5, "est": 4, "sud": 1, "ouest": 6 } },
-  { "id": "cq-014", "name": "Fourmi Colossale", "rarity": "commune", "values": { "nord": 2, "est": 7, "sud": 3, "ouest": 2 } },
-  { "id": "cq-015", "name": "Vipère de Givre", "rarity": "commune", "values": { "nord": 6, "est": 2, "sud": 5, "ouest": 3 } },
-  { "id": "cq-016", "name": "Bourdon Cuivré", "rarity": "commune", "values": { "nord": 3, "est": 6, "sud": 2, "ouest": 5 } },
-  { "id": "cq-017", "name": "Griffon des Cimes", "rarity": "rare", "values": { "nord": 8, "est": 4, "sud": 6, "ouest": 3 } },
-  { "id": "cq-018", "name": "Salamandre Ardente", "rarity": "rare", "values": { "nord": 7, "est": 6, "sud": 4, "ouest": 5 } },
-  { "id": "cq-019", "name": "Golem de Pierre Noire", "rarity": "rare", "values": { "nord": 9, "est": 3, "sud": 7, "ouest": 2 } },
-  { "id": "cq-020", "name": "Kraken des Bas-Fonds", "rarity": "rare", "values": { "nord": 4, "est": 8, "sud": 5, "ouest": 7 } },
-  { "id": "cq-021", "name": "Harpie Tonnerre", "rarity": "rare", "values": { "nord": 6, "est": 7, "sud": 3, "ouest": 8 } },
-  { "id": "cq-022", "name": "Manticore Écarlate", "rarity": "rare", "values": { "nord": 8, "est": 5, "sud": 7, "ouest": 4 } },
-  { "id": "cq-023", "name": "Basilic des Failles", "rarity": "rare", "values": { "nord": 5, "est": 9, "sud": 4, "ouest": 6 } },
-  { "id": "cq-024", "name": "Chimère Vorace", "rarity": "rare", "values": { "nord": 7, "est": 4, "sud": 8, "ouest": 5 } },
-  { "id": "cq-025", "name": "Phénix des Ères", "rarity": "legendaire", "values": { "nord": 9, "est": 6, "sud": 8, "ouest": 5 } },
-  { "id": "cq-026", "name": "Léviathan Abyssal", "rarity": "legendaire", "values": { "nord": 6, "est": 9, "sud": 5, "ouest": 9 } },
-  { "id": "cq-027", "name": "Titan de Glace Éternelle", "rarity": "legendaire", "values": { "nord": 8, "est": 8, "sud": 9, "ouest": 4 } },
-  { "id": "cq-028", "name": "Dragon des Cendres", "rarity": "legendaire", "values": { "nord": 9, "est": 9, "sud": 6, "ouest": 7 } }
+  {
+    "id": "cq-001",
+    "name": "Alicorne Cosmique",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 10,
+      "sud": 7,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-002",
+    "name": "Amarok",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 3,
+      "sud": 7,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-003",
+    "name": "Amaterasu",
+    "rarity": "S",
+    "values": {
+      "nord": 4,
+      "est": 6,
+      "sud": 10,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-004",
+    "name": "Anansi",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 2,
+      "sud": 4,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-005",
+    "name": "Anu",
+    "rarity": "B",
+    "values": {
+      "nord": 1,
+      "est": 9,
+      "sud": 1,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-006",
+    "name": "Anubis",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 3,
+      "sud": 8,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-007",
+    "name": "Anzu",
+    "rarity": "B",
+    "values": {
+      "nord": 7,
+      "est": 10,
+      "sud": 4,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-008",
+    "name": "Artémis",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 6,
+      "sud": 3,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-009",
+    "name": "Athena",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 0,
+      "sud": 10,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-010",
+    "name": "BabaYaga",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 4,
+      "sud": 6,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-011",
+    "name": "Baku",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 2,
+      "sud": 1,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-012",
+    "name": "Basilik",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 9,
+      "sud": 0,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-013",
+    "name": "Bastet",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 3,
+      "sud": 5,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-014",
+    "name": "Brahma",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 9,
+      "sud": 10,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-015",
+    "name": "Byakko",
+    "rarity": "B",
+    "values": {
+      "nord": 8,
+      "est": 2,
+      "sud": 3,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-016",
+    "name": "Cait Sith",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 3,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-017",
+    "name": "Caladrius",
+    "rarity": "B",
+    "values": {
+      "nord": 1,
+      "est": 9,
+      "sud": 5,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-018",
+    "name": "Camahueto",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 2,
+      "sud": 3,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-019",
+    "name": "Cerbère",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 5,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-020",
+    "name": "Cernunnos",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 2,
+      "sud": 9,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-021",
+    "name": "Chaac",
+    "rarity": "A",
+    "values": {
+      "nord": 8,
+      "est": 7,
+      "sud": 4,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-022",
+    "name": "Cù Sith",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-023",
+    "name": "Dagda",
+    "rarity": "A",
+    "values": {
+      "nord": 9,
+      "est": 2,
+      "sud": 6,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-024",
+    "name": "Durga",
+    "rarity": "A",
+    "values": {
+      "nord": 7,
+      "est": 4,
+      "sud": 10,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-025",
+    "name": "Enfield",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 1,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-026",
+    "name": "Enki",
+    "rarity": "A",
+    "values": {
+      "nord": 7,
+      "est": 6,
+      "sud": 7,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-027",
+    "name": "Epona",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 1,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-028",
+    "name": "Eshu",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 4,
+      "sud": 1,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-029",
+    "name": "Fenghuang",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 6,
+      "sud": 10,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-030",
+    "name": "Fenrir",
+    "rarity": "B",
+    "values": {
+      "nord": 8,
+      "est": 0,
+      "sud": 3,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-031",
+    "name": "Freyja",
+    "rarity": "A",
+    "values": {
+      "nord": 4,
+      "est": 6,
+      "sud": 5,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-032",
+    "name": "Fujin",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 2,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-033",
+    "name": "Ganesh",
+    "rarity": "A",
+    "values": {
+      "nord": 8,
+      "est": 9,
+      "sud": 7,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-034",
+    "name": "Garuda",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 7,
+      "sud": 4,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-035",
+    "name": "Genbu",
+    "rarity": "C",
+    "values": {
+      "nord": 0,
+      "est": 4,
+      "sud": 3,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-036",
+    "name": "Gilgamesh",
+    "rarity": "S",
+    "values": {
+      "nord": 8,
+      "est": 8,
+      "sud": 10,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-037",
+    "name": "Gitche Manitou",
+    "rarity": "S",
+    "values": {
+      "nord": 8,
+      "est": 2,
+      "sud": 8,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-038",
+    "name": "Griffon",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 3,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-039",
+    "name": "Guanyin",
+    "rarity": "B",
+    "values": {
+      "nord": 8,
+      "est": 1,
+      "sud": 6,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-040",
+    "name": "Hanuman",
+    "rarity": "A",
+    "values": {
+      "nord": 2,
+      "est": 10,
+      "sud": 8,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-041",
+    "name": "Heimdall",
+    "rarity": "A",
+    "values": {
+      "nord": 9,
+      "est": 6,
+      "sud": 7,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-042",
+    "name": "Hera",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 9,
+      "sud": 3,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-043",
+    "name": "Hermès",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 4,
+      "sud": 3,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-044",
+    "name": "Hine-nui-te-po",
+    "rarity": "B",
+    "values": {
+      "nord": 7,
+      "est": 0,
+      "sud": 8,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-045",
+    "name": "Hippocampe",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-046",
+    "name": "Horus",
+    "rarity": "A",
+    "values": {
+      "nord": 8,
+      "est": 0,
+      "sud": 7,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-047",
+    "name": "Inari",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 2,
+      "sud": 3,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-048",
+    "name": "Ishtar",
+    "rarity": "A",
+    "values": {
+      "nord": 1,
+      "est": 10,
+      "sud": 4,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-049",
+    "name": "Isis",
+    "rarity": "A",
+    "values": {
+      "nord": 9,
+      "est": 8,
+      "sud": 0,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-050",
+    "name": "Ixchel",
+    "rarity": "A",
+    "values": {
+      "nord": 3,
+      "est": 6,
+      "sud": 7,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-051",
+    "name": "Jackalope",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-052",
+    "name": "Jupiter",
+    "rarity": "A",
+    "values": {
+      "nord": 10,
+      "est": 5,
+      "sud": 2,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-053",
+    "name": "Jörmungandr",
+    "rarity": "A",
+    "values": {
+      "nord": 8,
+      "est": 1,
+      "sud": 8,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-054",
+    "name": "Kappa",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-055",
+    "name": "Kirin",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 1,
+      "sud": 7,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-056",
+    "name": "Kitsune",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 3,
+      "sud": 2,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-057",
+    "name": "Kokopelli",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 4,
+      "sud": 4,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-058",
+    "name": "Komainu",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 3,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-059",
+    "name": "Lamassu",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 5,
+      "sud": 3,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-060",
+    "name": "Licorne",
+    "rarity": "B",
+    "values": {
+      "nord": 6,
+      "est": 2,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-061",
+    "name": "Loki",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 10,
+      "sud": 4,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-062",
+    "name": "Long",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 6,
+      "sud": 10,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-063",
+    "name": "LoupAmarok",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 6,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-064",
+    "name": "LoupFenrir",
+    "rarity": "B",
+    "values": {
+      "nord": 1,
+      "est": 7,
+      "sud": 5,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-065",
+    "name": "LoupMononoké",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 6,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-066",
+    "name": "Loup_CuSith",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-067",
+    "name": "Lugh",
+    "rarity": "S",
+    "values": {
+      "nord": 5,
+      "est": 10,
+      "sud": 10,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-068",
+    "name": "Mami Wata",
+    "rarity": "A",
+    "values": {
+      "nord": 4,
+      "est": 5,
+      "sud": 8,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-069",
+    "name": "Manticore",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 2,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-070",
+    "name": "Mars",
+    "rarity": "A",
+    "values": {
+      "nord": 4,
+      "est": 9,
+      "sud": 10,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-071",
+    "name": "Maui",
+    "rarity": "A",
+    "values": {
+      "nord": 8,
+      "est": 3,
+      "sud": 3,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-072",
+    "name": "Reine des Corbeaux",
+    "rarity": "S",
+    "values": {
+      "nord": 6,
+      "est": 10,
+      "sud": 7,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-073",
+    "name": "Neptune",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 10,
+      "sud": 1,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-074",
+    "name": "Nuwa",
+    "rarity": "S",
+    "values": {
+      "nord": 6,
+      "est": 10,
+      "sud": 10,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-075",
+    "name": "Nyame",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 8,
+      "sud": 0,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-076",
+    "name": "Nyx",
+    "rarity": "A",
+    "values": {
+      "nord": 7,
+      "est": 2,
+      "sud": 8,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-077",
+    "name": "Odin",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 3,
+      "sud": 5,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-078",
+    "name": "Oya",
+    "rarity": "A",
+    "values": {
+      "nord": 4,
+      "est": 1,
+      "sud": 6,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-079",
+    "name": "Pelé",
+    "rarity": "A",
+    "values": {
+      "nord": 9,
+      "est": 3,
+      "sud": 10,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-080",
+    "name": "Perun",
+    "rarity": "A",
+    "values": {
+      "nord": 3,
+      "est": 9,
+      "sud": 6,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-081",
+    "name": "Peryton",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-082",
+    "name": "Phoenix",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 2,
+      "sud": 10,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-083",
+    "name": "Pégase",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 10,
+      "sud": 2,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-084",
+    "name": "Quetzalcoatl",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 10,
+      "sud": 6,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-085",
+    "name": "Raijin",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 10,
+      "sud": 0,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-086",
+    "name": "Raiju",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 2,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-087",
+    "name": "Raven",
+    "rarity": "B",
+    "values": {
+      "nord": 0,
+      "est": 9,
+      "sud": 3,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-088",
+    "name": "Roussalka",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 2,
+      "sud": 6,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-089",
+    "name": "Saraswati",
+    "rarity": "A",
+    "values": {
+      "nord": 3,
+      "est": 4,
+      "sud": 8,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-090",
+    "name": "Sedna",
+    "rarity": "A",
+    "values": {
+      "nord": 4,
+      "est": 5,
+      "sud": 5,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-091",
+    "name": "Shiva",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 6,
+      "sud": 9,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-092",
+    "name": "Simurgh",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 4,
+      "sud": 2,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-093",
+    "name": "Sobek",
+    "rarity": "A",
+    "values": {
+      "nord": 7,
+      "est": 8,
+      "sud": 8,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-094",
+    "name": "Sphinx",
+    "rarity": "B",
+    "values": {
+      "nord": 1,
+      "est": 6,
+      "sud": 6,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-095",
+    "name": "Sun Wukong",
+    "rarity": "S",
+    "values": {
+      "nord": 10,
+      "est": 8,
+      "sud": 5,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-096",
+    "name": "Susanoo",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 7,
+      "sud": 5,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-097",
+    "name": "Suzaku",
+    "rarity": "A",
+    "values": {
+      "nord": 10,
+      "est": 5,
+      "sud": 4,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-098",
+    "name": "Tane Mahuta",
+    "rarity": "A",
+    "values": {
+      "nord": 3,
+      "est": 5,
+      "sud": 8,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-099",
+    "name": "Tangaroa",
+    "rarity": "A",
+    "values": {
+      "nord": 3,
+      "est": 3,
+      "sud": 8,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-100",
+    "name": "Tengu",
+    "rarity": "C",
+    "values": {
+      "nord": 6,
+      "est": 1,
+      "sud": 2,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-101",
+    "name": "Thor",
+    "rarity": "A",
+    "values": {
+      "nord": 7,
+      "est": 5,
+      "sud": 9,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-102",
+    "name": "Thot",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 4,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-103",
+    "name": "Thunderbird",
+    "rarity": "A",
+    "values": {
+      "nord": 6,
+      "est": 4,
+      "sud": 4,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-104",
+    "name": "Tlaloc",
+    "rarity": "A",
+    "values": {
+      "nord": 4,
+      "est": 6,
+      "sud": 7,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-105",
+    "name": "Tsukuyomi",
+    "rarity": "A",
+    "values": {
+      "nord": 9,
+      "est": 3,
+      "sud": 9,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-106",
+    "name": "Vélès",
+    "rarity": "A",
+    "values": {
+      "nord": 2,
+      "est": 7,
+      "sud": 3,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-107",
+    "name": "Wolpertinger",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-108",
+    "name": "Yu Huang",
+    "rarity": "S",
+    "values": {
+      "nord": 6,
+      "est": 10,
+      "sud": 4,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-109",
+    "name": "Zeus",
+    "rarity": "S",
+    "values": {
+      "nord": 9,
+      "est": 4,
+      "sud": 9,
+      "ouest": 8
+    }
+  },
+  {
+    "id": "cq-110",
+    "name": "Baleine Dormante",
+    "rarity": "B",
+    "values": {
+      "nord": 3,
+      "est": 2,
+      "sud": 6,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-111",
+    "name": "Berger des Lucioles",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-112",
+    "name": "Cerf aux Bois d'Argent",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 7,
+      "sud": 1,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-113",
+    "name": "Chèvre des Monts Brumeux",
+    "rarity": "B",
+    "values": {
+      "nord": 8,
+      "est": 3,
+      "sud": 4,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-114",
+    "name": "Corneille des Toits",
+    "rarity": "B",
+    "values": {
+      "nord": 6,
+      "est": 3,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-115",
+    "name": "Dame du Vieux Puits",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 4,
+      "sud": 4,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-116",
+    "name": "Déesse des Filets",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 3,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-117",
+    "name": "Déesse des Marchés",
+    "rarity": "B",
+    "values": {
+      "nord": 6,
+      "est": 2,
+      "sud": 8,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-118",
+    "name": "Déesse des Mariages Simples",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 3,
+      "sud": 0,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-119",
+    "name": "Dieu des Chemins de Terre",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 3,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-120",
+    "name": "Dieu des Clochers",
+    "rarity": "D",
+    "values": {
+      "nord": 0,
+      "est": 2,
+      "sud": 3,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-121",
+    "name": "Dieu des Pommiers",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 2,
+      "sud": 0,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-122",
+    "name": "Dieu des Tuiles Rouges",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-123",
+    "name": "Dieu du Pont Unique",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 3,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-124",
+    "name": "Dieu du Premier Feu",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-125",
+    "name": "Dryade du Chêne",
+    "rarity": "C",
+    "values": {
+      "nord": 5,
+      "est": 2,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-126",
+    "name": "Dryade du Saule",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 5,
+      "sud": 0,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-127",
+    "name": "Esprit de l'Argile",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 1,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-128",
+    "name": "Esprit de l'Étincelle",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 6,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-129",
+    "name": "Esprit de la Liane",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 3,
+      "sud": 1,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-130",
+    "name": "Esprit de la Rosée",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 3,
+      "sud": 6,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-131",
+    "name": "Esprit des Graines",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-132",
+    "name": "Esprit du Lotus",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 4,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-133",
+    "name": "Esprit du Sel",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 2,
+      "sud": 3,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-134",
+    "name": "Esprit du Tourbillon",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 1,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-135",
+    "name": "Esprit du Vent Marin",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 3,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-136",
+    "name": "Esprit du Vieux Pin",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 8,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-137",
+    "name": "Fée du Champignon",
+    "rarity": "C",
+    "values": {
+      "nord": 6,
+      "est": 3,
+      "sud": 3,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-138",
+    "name": "Fille des Brumes Anciennes",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 1,
+      "sud": 8,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-139",
+    "name": "Fille des Feuilles Mortes",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 5,
+      "sud": 0,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-140",
+    "name": "Gardien de la Porte Est",
+    "rarity": "B",
+    "values": {
+      "nord": 8,
+      "est": 5,
+      "sud": 0,
+      "ouest": 6
+    }
+  },
+  {
+    "id": "cq-141",
+    "name": "Gardien des Bornes",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 7,
+      "sud": 3,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-142",
+    "name": "Gardien des Sources Chaudes",
+    "rarity": "B",
+    "values": {
+      "nord": 3,
+      "est": 1,
+      "sud": 5,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-143",
+    "name": "Gardien des Tourbières",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 3,
+      "sud": 2,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-144",
+    "name": "Gardien du Feu Follet",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 0,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-145",
+    "name": "Gardienne des Enfants Perdus",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 4,
+      "sud": 7,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-146",
+    "name": "Gardienne du Bosquet",
+    "rarity": "B",
+    "values": {
+      "nord": 3,
+      "est": 4,
+      "sud": 3,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-147",
+    "name": "Génie de la Braise",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 3,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-148",
+    "name": "Génie de la Cendre",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 3,
+      "sud": 3,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-149",
+    "name": "Génie de la Forge",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 8,
+      "sud": 1,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-150",
+    "name": "Génie de la Fumée",
+    "rarity": "C",
+    "values": {
+      "nord": 7,
+      "est": 3,
+      "sud": 3,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-151",
+    "name": "Génie de la Lueur Souterraine",
+    "rarity": "B",
+    "values": {
+      "nord": 8,
+      "est": 5,
+      "sud": 4,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-152",
+    "name": "Génie de la Pluie",
+    "rarity": "C",
+    "values": {
+      "nord": 0,
+      "est": 1,
+      "sud": 2,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-153",
+    "name": "Génie de la Poussière",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 1,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-154",
+    "name": "Génie de la Tempête",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 5,
+      "sud": 4,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-155",
+    "name": "Génie du Cristal",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 2,
+      "sud": 8,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-156",
+    "name": "Génie du Givre",
+    "rarity": "C",
+    "values": {
+      "nord": 4,
+      "est": 1,
+      "sud": 4,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-157",
+    "name": "Génie du Sable",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-158",
+    "name": "Génie du Tonnerre Lointain",
+    "rarity": "B",
+    "values": {
+      "nord": 1,
+      "est": 7,
+      "sud": 4,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-159",
+    "name": "Gobelin des Carrefours",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-160",
+    "name": "Gobelin des Dettes",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 7,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-161",
+    "name": "Gobelin des Égouts",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 3,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-162",
+    "name": "Gobelin des Lanternes",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 3,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-163",
+    "name": "Gobelin des Ponts",
+    "rarity": "D",
+    "values": {
+      "nord": 4,
+      "est": 1,
+      "sud": 2,
+      "ouest": 0
+    }
+  },
+  {
+    "id": "cq-164",
+    "name": "Gobelin du Marché Nocturne",
+    "rarity": "B",
+    "values": {
+      "nord": 3,
+      "est": 7,
+      "sud": 0,
+      "ouest": 10
+    }
+  },
+  {
+    "id": "cq-165",
+    "name": "Gobeline des Chansons Fausses",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-166",
+    "name": "Hibou des Ruines",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 4,
+      "sud": 1,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-167",
+    "name": "Kobold des Cloches",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 2,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-168",
+    "name": "Kobold des Mines",
+    "rarity": "D",
+    "values": {
+      "nord": 3,
+      "est": 2,
+      "sud": 2,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-169",
+    "name": "Kobold des Serrures",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 3,
+      "sud": 3,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-170",
+    "name": "Kobold du Fourneau",
+    "rarity": "D",
+    "values": {
+      "nord": 0,
+      "est": 1,
+      "sud": 3,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-171",
+    "name": "Kobold du Trésor Caché",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-172",
+    "name": "kukulkan",
+    "rarity": "S",
+    "values": {
+      "nord": 9,
+      "est": 9,
+      "sud": 3,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-173",
+    "name": "Loup du Col Solitaire",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 4,
+      "ouest": 7
+    }
+  },
+  {
+    "id": "cq-174",
+    "name": "Mère des Foyers",
+    "rarity": "B",
+    "values": {
+      "nord": 2,
+      "est": 5,
+      "sud": 4,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-175",
+    "name": "Mère des Ronces",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 4,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-176",
+    "name": "Nain des Profondeurs",
+    "rarity": "B",
+    "values": {
+      "nord": 7,
+      "est": 8,
+      "sud": 0,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-177",
+    "name": "Néréide des Récifs",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 4,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-178",
+    "name": "Nymphe des Brumes",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 3,
+      "sud": 3,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-179",
+    "name": "Nymphe des Prairies",
+    "rarity": "C",
+    "values": {
+      "nord": 2,
+      "est": 2,
+      "sud": 3,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-180",
+    "name": "Nymphe des Rivières",
+    "rarity": "C",
+    "values": {
+      "nord": 3,
+      "est": 5,
+      "sud": 1,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-181",
+    "name": "Nymphe des Sources",
+    "rarity": "C",
+    "values": {
+      "nord": 5,
+      "est": 3,
+      "sud": 2,
+      "ouest": 1
+    }
+  },
+  {
+    "id": "cq-182",
+    "name": "Oréade des Falaises",
+    "rarity": "C",
+    "values": {
+      "nord": 5,
+      "est": 3,
+      "sud": 4,
+      "ouest": 2
+    }
+  },
+  {
+    "id": "cq-183",
+    "name": "Orque Ancêtre des Collines",
+    "rarity": "B",
+    "values": {
+      "nord": 4,
+      "est": 5,
+      "sud": 1,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-184",
+    "name": "Reine des Abeilles Anciennes",
+    "rarity": "B",
+    "values": {
+      "nord": 3,
+      "est": 2,
+      "sud": 5,
+      "ouest": 5
+    }
+  },
+  {
+    "id": "cq-185",
+    "name": "Renard des Trois Collines",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 8,
+      "sud": 5,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-186",
+    "name": "Saint des Moissons Pauvres",
+    "rarity": "D",
+    "values": {
+      "nord": 2,
+      "est": 1,
+      "sud": 1,
+      "ouest": 4
+    }
+  },
+  {
+    "id": "cq-187",
+    "name": "Seigneur des Mousses",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 2,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-188",
+    "name": "Serpent des Pierres Chaudes",
+    "rarity": "B",
+    "values": {
+      "nord": 5,
+      "est": 4,
+      "sud": 1,
+      "ouest": 9
+    }
+  },
+  {
+    "id": "cq-189",
+    "name": "Tortue des Étangs",
+    "rarity": "D",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 1,
+      "ouest": 3
+    }
+  },
+  {
+    "id": "cq-190",
+    "name": "Troll de la Pierre Levée",
+    "rarity": "C",
+    "values": {
+      "nord": 1,
+      "est": 1,
+      "sud": 1,
+      "ouest": 4
+    }
+  }
 ]

@@ -17,6 +17,23 @@ import { useWakeLock } from '../hooks/useWakeLock'
 import type { Country, GeoQuizType } from '../types/geo.types'
 import { GEO_QUIZ_TYPE_LABELS } from '../types/geo.types'
 
+/**
+ * Les paramètres viennent de l'URL (hash), donc de l'extérieur : un `type` inconnu
+ * traversait le garde-fou (non-null mais invalide) et un `count` non numérique produisait
+ * une session sans question, dont le premier accès plantait le rendu. On valide donc
+ * contre la liste réelle des types et on borne les nombres.
+ */
+function parseQuizType(value: string | null): GeoQuizType | null {
+  if (value !== null && value in GEO_QUIZ_TYPE_LABELS) return value as GeoQuizType
+  return null
+}
+
+function parseBoundedInt(value: string | null, fallback: number, min: number, max: number): number {
+  const parsed = Number(value)
+  if (!Number.isFinite(parsed)) return fallback
+  return Math.min(Math.max(Math.round(parsed), min), max)
+}
+
 function formatTime(ms: number): string {
   const totalSeconds = Math.ceil(ms / 1000)
   const minutes = Math.floor(totalSeconds / 60)
@@ -29,9 +46,9 @@ export function GeoQuizScreen() {
   const [searchParams] = useSearchParams()
   const modeParam = searchParams.get('mode')
   const isTimerMode = modeParam === 'timer'
-  const type = searchParams.get('type') as GeoQuizType | null
-  const count = Number(searchParams.get('count') ?? 10)
-  const duration = Number(searchParams.get('duration') ?? 60)
+  const type = parseQuizType(searchParams.get('type'))
+  const count = parseBoundedInt(searchParams.get('count'), 10, 1, 100)
+  const duration = parseBoundedInt(searchParams.get('duration'), 60, 10, 600)
 
   const session = useGeoStore((state) => state.session)
   const startSession = useGeoStore((state) => state.startSession)

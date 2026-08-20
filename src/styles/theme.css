@@ -17,6 +17,20 @@
   --color-accent-cyan: #22d3ee;
   --color-accent-magenta: #f0abfc;
 
+  /* Habillage du mode Conquête — teintes relevées directement sur les illustrations
+     des cartes (encre des chiffres #402090, cadre lavande #9c87b5, fond blanc cassé),
+     pour que le plateau et les cartes appartiennent au même monde.
+     Nommage volontairement non chromatique : la DA peut évoluer sans renommer. */
+  --color-cq-ink: #402090;
+  --color-cq-ink-deep: #2a1461;
+  --color-cq-frame: #9c87b5;
+  --color-cq-parchment: #f3eef8;
+  --gradient-cq: linear-gradient(135deg, #6b46c1 0%, #402090 55%, #2a1461 100%);
+  /* Ombres dures décalées, sans flou : le halo néon est l'exact opposé du rendu pixel. */
+  --shadow-cq-sm: 2px 2px 0 0 rgba(42, 20, 97, 0.9);
+  --shadow-cq: 3px 3px 0 0 rgba(42, 20, 97, 0.95);
+  --shadow-cq-lg: 4px 4px 0 0 rgba(42, 20, 97, 1);
+
   /* Semantique */
   --color-danger: #ff3b6b;
   --color-success: #2ee6a8;

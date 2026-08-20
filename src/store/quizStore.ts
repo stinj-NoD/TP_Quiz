@@ -8,7 +8,16 @@ import type { PlayerColor } from '../types/game.types'
 import type { AgeLevel } from '../types/question.types'
 import type { QuizGameState, QuizPlayer, QuizSessionResult } from '../types/quiz.types'
 
+import { createSafeMerge, isRecord, sanitizeArray } from './persistUtils'
+import { STORAGE_KEYS } from './storageKeys'
+
 const MAX_HISTORY = 50
+
+/** Forme minimale exigée d'une entrée d'historique relue du stockage (voir persistUtils). */
+function isQuizSessionResult(entry: unknown): entry is QuizSessionResult {
+  if (!isRecord(entry)) return false
+  return typeof entry.id === 'string' && Array.isArray(entry.players)
+}
 
 export interface NewQuizPlayerConfig {
   name: string
@@ -170,6 +179,21 @@ export const useQuizStore = create<QuizStore>()(
         return result
       },
     }),
-    { name: 'trivial-poursuit-quiz-state' },
+    {
+      name: STORAGE_KEYS.quiz,
+      version: 1,
+      migrate: (persistedState) => persistedState as { history: QuizSessionResult[] },
+      // On ne persiste plus la partie en cours : l'objet `quiz` embarque les questions
+      // complètes de chaque tour et était réécrit à chaque changement d'état, pour un
+      // gain nul (une partie de quiz se joue d'une traite) et un risque réel — un `quiz`
+      // relu incohérent plantait QuizSessionScreen au premier accès au joueur courant.
+      partialize: (state) => ({ history: state.history }),
+      merge: createSafeMerge<QuizStore>({
+        history: (value) => sanitizeArray(value, isQuizSessionResult),
+        // `partialize` ne régit que l'écriture : les installations existantes ont déjà une
+        // partie sérialisée sous cette clé, qu'il faut explicitement refuser de relire.
+        quiz: () => null,
+      }),
+    },
   ),
 )

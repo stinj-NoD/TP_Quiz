@@ -5,7 +5,8 @@ export type ConquestDirection = 'nord' | 'est' | 'sud' | 'ouest'
 /** Camp d'un joueur sur le plateau — l'association humain/IA est un détail du store, pas du moteur. */
 export type ConquestSide = 'A' | 'B'
 
-export type ConquestRarity = 'commune' | 'rare' | 'legendaire'
+/** Palier de la Tier List (S = le plus fort, D = le plus faible) — pilote les valeurs à la création des cartes. */
+export type ConquestRarity = 'S' | 'A' | 'B' | 'C' | 'D'
 
 export interface ConquestCard {
   id: string
@@ -105,4 +106,16 @@ export interface ConquestSessionResult {
   outcome: ConquestOutcome
   players: Record<ConquestSide, ConquestPlayerResult>
   finishedAt: string
+}
+
+export const CONQUEST_SERIES_TARGET_WINS = 2
+
+/** Une série = plusieurs manches (ConquestMatchState) jouées à la suite ; le premier camp à
+ *  atteindre CONQUEST_SERIES_TARGET_WINS victoires de manche remporte la série. Les égalités
+ *  ne comptent pour aucun camp mais font tout de même avancer au tour suivant. */
+export interface ConquestSeriesState {
+  players: Record<ConquestSide, ConquestPlayerConfig>
+  roundWins: Record<ConquestSide, number>
+  roundsPlayed: number
+  roundOutcomes: ConquestOutcome[]
 }

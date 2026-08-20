@@ -1,6 +1,7 @@
 import { AnimatePresence } from 'framer-motion'
 import { HashRouter, Outlet, Route, Routes, useLocation } from 'react-router-dom'
 import { AppShell } from './components/layout/AppShell'
+import { ErrorBoundary } from './components/layout/ErrorBoundary'
 import { TabBar } from './components/layout/TabBar'
 import { HomeScreen } from './routes/HomeScreen'
 import { ProfileScreen } from './routes/ProfileScreen'
@@ -56,7 +57,9 @@ function App() {
   return (
     <HashRouter>
       <AppShell>
-        <AnimatedRoutes />
+        <ErrorBoundary>
+          <AnimatedRoutes />
+        </ErrorBoundary>
       </AppShell>
     </HashRouter>
   )

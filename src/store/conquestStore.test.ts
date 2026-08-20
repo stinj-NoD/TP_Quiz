@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest'
-import type { ConquestPlayerConfig } from '../types/conquest.types'
+import type { ConquestBoard, ConquestCard, ConquestPlayerConfig } from '../types/conquest.types'
 import { useConquestStore } from './conquestStore'
 
 function human(name: string): ConquestPlayerConfig {
@@ -10,8 +10,47 @@ function ai(difficulty: 'facile' | 'moyen'): ConquestPlayerConfig {
   return { name: `IA ${difficulty}`, color: 'blue', kind: 'ai', difficulty }
 }
 
+function makeCard(id: string): ConquestCard {
+  return { id, name: id, values: { nord: 1, est: 1, sud: 1, ouest: 1 } }
+}
+
+function boardWithOwners(owners: ('A' | 'B')[]): ConquestBoard {
+  return owners.map((owner, i) => ({ card: makeCard(`c${i}`), ownerId: owner }))
+}
+
+/** Force la manche en cours à un état terminé avec un résultat déterministe (plateau + pioches
+ *  restantes cohérents avec la logique de getResult), pour tester la mise à jour du tally de
+ *  série sans dépendre du hasard d'une partie IA jouée en entier. */
+function forceRoundResult(outcome: 'A' | 'B' | 'égalité') {
+  const { match } = useConquestStore.getState()
+  if (!match) throw new Error('aucune manche en cours')
+
+  const board =
+    outcome === 'A'
+      ? boardWithOwners(['A', 'A', 'A', 'A', 'A', 'A', 'B', 'B', 'B'])
+      : outcome === 'B'
+        ? boardWithOwners(['B', 'B', 'B', 'B', 'B', 'B', 'A', 'A', 'A'])
+        : boardWithOwners(['A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'B'])
+  const leftoverPileB = outcome === 'égalité' ? [makeCard('leftover')] : []
+
+  useConquestStore.setState({
+    match: {
+      ...match,
+      phase: 'match-complete',
+      game: {
+        ...match.game,
+        board,
+        piles: {
+          A: { pile: [], drawnCard: null, mulliganUsed: false },
+          B: { pile: leftoverPileB, drawnCard: null, mulliganUsed: false },
+        },
+      },
+    },
+  })
+}
+
 beforeEach(() => {
-  useConquestStore.setState({ match: null, history: [] })
+  useConquestStore.setState({ match: null, series: null, history: [] })
 })
 
 describe('startMatch', () => {
@@ -25,6 +64,91 @@ describe('startMatch', () => {
     expect(match?.game.piles.B.pile).toHaveLength(5)
     expect(match?.game.piles.A.drawnCard).toBeNull()
     expect(match?.players.A.name).toBe('Alice')
+  })
+})
+
+describe('startSeries', () => {
+  it('crée une série à 0-0 et démarre sa première manche', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    const { match, series } = useConquestStore.getState()
+
+    expect(series).not.toBeNull()
+    expect(series?.roundWins).toEqual({ A: 0, B: 0 })
+    expect(series?.roundsPlayed).toBe(0)
+    expect(match).not.toBeNull()
+    expect(match?.phase).toBe('awaiting-draw')
+  })
+})
+
+describe('startNextRound', () => {
+  it('ne fait rien sans série en cours', () => {
+    useConquestStore.getState().startNextRound()
+    expect(useConquestStore.getState().match).toBeNull()
+  })
+
+  it('démarre une nouvelle manche en réutilisant les joueurs figés de la série', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    useConquestStore.getState().draw() // avance un peu la manche 1 pour vérifier qu'elle est bien remplacée
+
+    useConquestStore.getState().startNextRound()
+    const { match, series } = useConquestStore.getState()
+
+    expect(match?.phase).toBe('awaiting-draw')
+    expect(match?.players.A.name).toBe('Alice')
+    expect(series?.players.A.name).toBe('Alice')
+  })
+})
+
+describe('redealRound', () => {
+  it('ne fait rien sans manche en cours', () => {
+    useConquestStore.getState().redealRound()
+    expect(useConquestStore.getState().match).toBeNull()
+  })
+
+  it('redistribue de nouvelles piles tant que rien n’a été pioché', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    const before = useConquestStore.getState().match!.game.piles.A.pile.map((c) => c.id)
+
+    useConquestStore.getState().redealRound()
+    const after = useConquestStore.getState().match!.game.piles.A.pile.map((c) => c.id)
+
+    expect(after).toHaveLength(5)
+    // Sur un pool de 190 cartes, retomber deux fois sur la même main est hautement improbable :
+    // un échec ici signalerait une redistribution qui n'a pas eu lieu.
+    expect(after).not.toEqual(before)
+  })
+
+  it('conserve les joueurs et le score de la série', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    forceRoundResult('A')
+    useConquestStore.getState().finalizeMatch()
+    useConquestStore.getState().startNextRound()
+
+    useConquestStore.getState().redealRound()
+
+    expect(useConquestStore.getState().match?.players.A.name).toBe('Alice')
+    expect(useConquestStore.getState().series?.roundWins).toEqual({ A: 1, B: 0 })
+  })
+
+  it('est refusé dès qu’une carte a été piochée', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    useConquestStore.getState().draw()
+    const drawn = useConquestStore.getState().match!.game.piles
+
+    useConquestStore.getState().redealRound()
+
+    expect(useConquestStore.getState().match!.game.piles).toEqual(drawn)
+  })
+
+  it('est refusé dès qu’une carte a été posée', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    useConquestStore.getState().draw()
+    useConquestStore.getState().place(0)
+    const boardBefore = useConquestStore.getState().match!.game.board
+
+    useConquestStore.getState().redealRound()
+
+    expect(useConquestStore.getState().match!.game.board).toEqual(boardBefore)
   })
 })
 
@@ -127,6 +251,36 @@ describe('finalizeMatch', () => {
     expect(useConquestStore.getState().match).toBeNull()
     expect(useConquestStore.getState().history[0]).toEqual(result)
   })
+
+  it('incrémente le tally de série quand une manche se termine sur une victoire', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    forceRoundResult('A')
+
+    useConquestStore.getState().finalizeMatch()
+    const { series } = useConquestStore.getState()
+
+    expect(series?.roundWins).toEqual({ A: 1, B: 0 })
+    expect(series?.roundsPlayed).toBe(1)
+  })
+
+  it("n'incrémente le tally d'aucun camp sur une égalité, mais avance le compteur de manches", () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    forceRoundResult('égalité')
+
+    useConquestStore.getState().finalizeMatch()
+    const { series } = useConquestStore.getState()
+
+    expect(series?.roundWins).toEqual({ A: 0, B: 0 })
+    expect(series?.roundsPlayed).toBe(1)
+  })
+
+  it('laisse series à null quand la manche a été démarrée hors série (startMatch seul)', () => {
+    useConquestStore.getState().startMatch({ players: { A: human('Alice'), B: human('Bob') } })
+    forceRoundResult('A')
+
+    useConquestStore.getState().finalizeMatch()
+    expect(useConquestStore.getState().series).toBeNull()
+  })
 })
 
 describe('abandonMatch', () => {
@@ -135,5 +289,11 @@ describe('abandonMatch', () => {
     useConquestStore.getState().draw()
     useConquestStore.getState().abandonMatch()
     expect(useConquestStore.getState().match).toBeNull()
+  })
+
+  it('efface aussi la série en cours', () => {
+    useConquestStore.getState().startSeries({ players: { A: human('Alice'), B: human('Bob') } })
+    useConquestStore.getState().abandonMatch()
+    expect(useConquestStore.getState().series).toBeNull()
   })
 })

@@ -26,7 +26,7 @@ export function QuizScoreHud({ players, currentPlayerIndex }: QuizScoreHudProps)
               style={{ backgroundColor: color, boxShadow: `0 0 6px ${color}` }}
             />
             <span className="max-w-[80px] truncate text-xs font-medium">{player.name}</span>
-            <span className="text-xs font-bold text-[var(--color-primary-light)]">{player.score}</span>
+            <span className="shrink-0 text-xs font-bold text-[var(--color-primary-light)]">{player.score}</span>
           </div>
         )
       })}

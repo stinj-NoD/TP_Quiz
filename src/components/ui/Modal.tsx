@@ -6,9 +6,12 @@ interface ModalProps {
   open: boolean
   children: ReactNode
   onClose?: () => void
+  /** Habillage optionnel propre à un mode — 'conquest' pour la DA pixel du mode Conquête.
+   *  Par défaut : style neutre, inchangé pour Quiz et Géo. */
+  accent?: 'conquest'
 }
 
-export function Modal({ open, children, onClose }: ModalProps) {
+export function Modal({ open, children, onClose, accent }: ModalProps) {
   return createPortal(
     <AnimatePresence>
       {open && (
@@ -20,7 +23,11 @@ export function Modal({ open, children, onClose }: ModalProps) {
           onClick={onClose}
         >
           <motion.div
-            className="w-full max-w-[var(--app-max-width)] rounded-t-[var(--radius-lg)] bg-[var(--color-surface)] p-5 shadow-[var(--shadow-raised)] ring-1 ring-[var(--color-border-glow)] sm:rounded-[var(--radius-lg)]"
+            className={`w-full max-w-[var(--app-max-width)] bg-[var(--color-surface)] p-5 shadow-[var(--shadow-raised)] ${
+              accent === 'conquest'
+                ? 'rounded-t-[var(--radius-sm)] ring-2 ring-[var(--color-cq-frame)] sm:rounded-[var(--radius-sm)]'
+                : 'rounded-t-[var(--radius-lg)] ring-1 ring-[var(--color-border-glow)] sm:rounded-[var(--radius-lg)]'
+            }`}
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 40, opacity: 0 }}

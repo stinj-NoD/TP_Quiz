@@ -29,3 +29,8 @@ dist-ssr
 
 # Local test-only assets (never ship third-party reference art)
 /example/
+
+# Masters haute résolution des illustrations de Conquête (~210 Mo, 1024x1536 PNG).
+# Seuls les dérivés versionnés src/data/conquest/images/cq-NNN.webp sont commités ;
+# on les régénère depuis ces masters via `npm run migrate:cards-images`.
+/src/data/conquest/images/v2/

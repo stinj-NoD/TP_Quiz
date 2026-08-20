@@ -5,6 +5,7 @@ import { ScreenHeader } from '../components/layout/ScreenHeader'
 import { ScreenTransition } from '../components/layout/ScreenTransition'
 import { Button } from '../components/ui/Button'
 import { Card } from '../components/ui/Card'
+import { ConquestScreenFrame } from '../components/conquest/ConquestScreenFrame'
 import { useConquestStore } from '../store/conquestStore'
 import { useProfileStore } from '../store/profileStore'
 import { PLAYER_COLORS, PLAYER_COLOR_VALUES, type PlayerColor } from '../types/game.types'
@@ -26,7 +27,7 @@ const SIDES: ConquestSide[] = ['A', 'B']
 
 export function ConquestSetupScreen() {
   const navigate = useNavigate()
-  const startMatch = useConquestStore((state) => state.startMatch)
+  const startSeries = useConquestStore((state) => state.startSeries)
   const profileName = useProfileStore((state) => state.playerName)
 
   const [players, setPlayers] = useState<Record<ConquestSide, ConquestPlayerConfig>>({
@@ -52,7 +53,7 @@ export function ConquestSetupScreen() {
   const canStart = SIDES.every((side) => players[side].name.trim().length > 0)
 
   const handleStart = () => {
-    startMatch({
+    startSeries({
       players: {
         A: { ...players.A, name: players.A.name.trim() },
         B: { ...players.B, name: players.B.name.trim() },
@@ -63,7 +64,8 @@ export function ConquestSetupScreen() {
 
   return (
     <ScreenTransition>
-      <ScreenHeader title="Conquête 3x3" showBack={false} />
+      <ConquestScreenFrame />
+      <ScreenHeader title="Conquête 3x3" showBack={false} accent="conquest" />
       <div className="flex flex-1 flex-col gap-5 overflow-y-auto px-5 pb-4">
         <p className="text-sm text-[var(--color-text-muted)]">
           Chaque camp pioche dans son propre tas mélangé, une carte à la fois. Capturez les cartes adverses
@@ -123,7 +125,7 @@ export function ConquestSetupScreen() {
                       onClick={() => updateKind(side, kind)}
                       className={`flex-1 rounded-[var(--radius-md)] py-2 text-xs font-semibold transition-[transform,box-shadow] active:scale-95 ${
                         player.kind === kind
-                          ? 'bg-[var(--gradient-primary)] text-white shadow-[var(--glow-sm)]'
+                          ? 'bg-[image:var(--gradient-cq)] text-white shadow-[var(--shadow-cq-sm)]'
                           : 'bg-[var(--color-surface-raised)] text-[var(--color-text-muted)]'
                       }`}
                     >
@@ -141,7 +143,7 @@ export function ConquestSetupScreen() {
                         onClick={() => updateSide(side, { difficulty })}
                         className={`flex-1 rounded-[var(--radius-md)] py-2 text-xs font-semibold transition-[transform,box-shadow] active:scale-95 ${
                           player.difficulty === difficulty
-                            ? 'bg-[var(--color-accent-cyan)] text-[var(--color-bg)]'
+                            ? 'bg-[image:var(--gradient-cq)] text-white shadow-[var(--shadow-cq-sm)]'
                             : 'bg-[var(--color-surface-raised)] text-[var(--color-text-muted)]'
                         }`}
                       >
@@ -157,7 +159,7 @@ export function ConquestSetupScreen() {
       </div>
 
       <div className="px-5 pb-5">
-        <Button size="lg" className="w-full" disabled={!canStart} onClick={handleStart}>
+        <Button size="lg" accent="conquest" className="w-full" disabled={!canStart} onClick={handleStart}>
           Lancer la partie
         </Button>
       </div>

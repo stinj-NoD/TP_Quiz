@@ -1,6 +1,8 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { AgeLevel } from '../types/question.types'
+import { createSafeMerge } from './persistUtils'
+import { STORAGE_KEYS } from './storageKeys'
 
 interface ProfileState {
   playerName: string
@@ -37,7 +39,9 @@ export const useProfileStore = create<ProfileState>()(
   persist(
     (set) => ({
       ...DEFAULTS,
-      setPlayerName: (playerName) => set({ playerName }),
+      // Trim ici plutôt qu'à l'affichage : c'est le seul point d'entrée qui persiste
+      // ce nom, et il pré-remplit ensuite les écrans de mise en place.
+      setPlayerName: (playerName) => set({ playerName: playerName.trim() }),
       setAgeLevel: (ageLevel) => set({ ageLevel }),
       setGeoQuestionCount: (geoQuestionCount) => set({ geoQuestionCount }),
       setGeoDuration: (geoDuration) => set({ geoDuration }),
@@ -47,6 +51,13 @@ export const useProfileStore = create<ProfileState>()(
       toggleWakeLock: () => set((state) => ({ wakeLockEnabled: !state.wakeLockEnabled })),
       resetAll: () => set({ ...DEFAULTS }),
     }),
-    { name: 'trivial-poursuit-settings' },
+    {
+      name: STORAGE_KEYS.profile,
+      version: 1,
+      migrate: (persistedState) => persistedState as Partial<ProfileState>,
+      // Sans validateur dédié : createSafeMerge ne retient un champ que si son type
+      // correspond à celui du défaut, ce qui suffit ici (réglages primitifs uniquement).
+      merge: createSafeMerge<ProfileState>(),
+    },
   ),
 )

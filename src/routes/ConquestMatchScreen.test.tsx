@@ -28,12 +28,23 @@ function seedMatch(overrides: { phase?: ConquestMatchState['phase']; game?: Part
       B: { name: 'Bob', color: 'blue', kind: 'human' },
     },
     lastCapturedPositions: [],
+    dealId: 1,
   }
-  useConquestStore.setState({ match, history: [] })
+  useConquestStore.setState({ match, series: null, history: [] })
+}
+
+/**
+ * L'écran voile le plateau tant que le mélange de la donne courante n'a pas été joué.
+ * Les tests portent sur le jeu lui-même : on passe l'animation une fois montés, comme
+ * le ferait un appui du joueur.
+ */
+function skipShuffle() {
+  const overlay = screen.queryByRole('button', { name: /Distribution des cartes/i })
+  if (overlay) fireEvent.click(overlay)
 }
 
 function renderScreen() {
-  return render(
+  const result = render(
     <MemoryRouter initialEntries={['/conquete/partie']}>
       <Routes>
         <Route path="/conquete/partie" element={<ConquestMatchScreen />} />
@@ -42,10 +53,12 @@ function renderScreen() {
       </Routes>
     </MemoryRouter>,
   )
+  skipShuffle()
+  return result
 }
 
 afterEach(() => {
-  useConquestStore.setState({ match: null, history: [] })
+  useConquestStore.setState({ match: null, series: null, history: [] })
   vi.useRealTimers()
 })
 
@@ -124,8 +137,45 @@ describe('ConquestMatchScreen', () => {
     expect(screen.queryByRole('button', { name: /Refuser cette carte/i })).not.toBeInTheDocument()
   })
 
+  it('propose de rebattre les cartes tant que la manche n’a pas commencé, puis retire l’option', () => {
+    seedMatch({
+      game: {
+        piles: {
+          A: { pile: [card('a1', 2, 2, 2, 2)], drawnCard: null, mulliganUsed: false },
+          B: { pile: [card('b1')], drawnCard: null, mulliganUsed: false },
+        },
+      },
+    })
+    renderScreen()
+
+    const redeal = screen.getByRole('button', { name: /Rebattre les cartes/i })
+    expect(redeal).toBeInTheDocument()
+
+    // Une fois une carte révélée, rebattre annulerait un tirage déjà connu du joueur.
+    fireEvent.click(screen.getByRole('button', { name: /piocher une carte/i }))
+    expect(screen.queryByRole('button', { name: /Rebattre les cartes/i })).not.toBeInTheDocument()
+  })
+
+  it('affiche les deux camps avec leur pioche dans le bandeau de score', () => {
+    seedMatch({
+      game: {
+        piles: {
+          A: { pile: [card('a1'), card('a2')], drawnCard: null, mulliganUsed: false },
+          B: { pile: [card('b1')], drawnCard: null, mulliganUsed: false },
+        },
+      },
+    })
+    renderScreen()
+
+    expect(screen.getByText('Alice')).toBeInTheDocument()
+    expect(screen.getByText('Bob')).toBeInTheDocument()
+    // Les deux pioches sont accessibles depuis le bandeau, avec leur compte restant.
+    expect(screen.getByRole('button', { name: /Alice : piocher une carte \(2 restantes\)/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Bob : 1 carte restante/i })).toBeInTheDocument()
+  })
+
   it("redirige vers l'écran de configuration si aucune partie n'est en cours", () => {
-    useConquestStore.setState({ match: null, history: [] })
+    useConquestStore.setState({ match: null, series: null, history: [] })
     renderScreen()
     expect(screen.getByText('ECRAN_SETUP')).toBeInTheDocument()
   })
