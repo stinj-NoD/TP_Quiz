@@ -4,6 +4,9 @@ import type { ReactNode } from 'react'
 interface ScreenTransitionProps {
   children: ReactNode
   variant?: 'slide' | 'fade'
+  /** Classes additionnelles sur le conteneur d'écran — sert notamment aux modes qui
+   *  imposent leur propre fond (Conquête), sans toucher au fond global de l'app. */
+  className?: string
 }
 
 const variants = {
@@ -19,10 +22,10 @@ const variants = {
   },
 }
 
-export function ScreenTransition({ children, variant = 'slide' }: ScreenTransitionProps) {
+export function ScreenTransition({ children, variant = 'slide', className = '' }: ScreenTransitionProps) {
   return (
     <motion.div
-      className="flex h-full w-full flex-col"
+      className={`flex h-full w-full flex-col ${className}`}
       initial={variants[variant].initial}
       animate={variants[variant].animate}
       exit={variants[variant].exit}

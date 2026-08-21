@@ -24,11 +24,11 @@ export function ConquestRoundPips({ wins, size = 10 }: ConquestRoundPipsProps) {
           style={{
             width: size,
             height: size,
-            // Lavande sur fond sombre : l'encre violette du token `ink` est faite pour les
-            // fonds clairs des cartes et disparaîtrait complètement sur la surface du HUD.
-            backgroundColor: i < wins ? 'var(--color-cq-frame)' : 'transparent',
-            boxShadow: 'inset 0 0 0 2px var(--color-cq-frame)',
-            opacity: i < wins ? 1 : 0.4,
+            // Manche gagnée : pastille pleine et claire. Manche restante : contour sombre,
+            // sans remplissage. Distinguer par la couleur plutôt que par la seule opacité,
+            // qui rendait les deux états presque identiques à cette taille.
+            backgroundColor: i < wins ? 'var(--color-cq-parchment)' : 'transparent',
+            boxShadow: i < wins ? 'none' : 'inset 0 0 0 2px var(--color-cq-frame)',
           }}
         />
       ))}

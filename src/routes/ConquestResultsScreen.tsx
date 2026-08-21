@@ -27,7 +27,7 @@ export function ConquestResultsScreen() {
 
   if (!result) {
     return (
-      <ScreenTransition variant="fade">
+      <ScreenTransition variant="fade" className="bg-[var(--color-cq-bg)]">
         <ConquestScreenFrame />
         <ScreenHeader title="Résultats" onBack={() => navigate('/conquete')} accent="conquest" />
         <div className="flex flex-1 flex-col items-center justify-center gap-4 px-6 text-center">
@@ -64,7 +64,7 @@ export function ConquestResultsScreen() {
   }
 
   return (
-    <ScreenTransition variant="fade">
+    <ScreenTransition variant="fade" className="bg-[var(--color-cq-bg)]">
       <ConquestScreenFrame />
       <ScreenHeader title="Résultats" showBack={false} accent="conquest" />
       <div className="flex flex-1 flex-col items-center gap-6 overflow-y-auto px-6 py-8 text-center" aria-live="polite">

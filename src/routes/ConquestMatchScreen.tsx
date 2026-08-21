@@ -99,7 +99,7 @@ export function ConquestMatchScreen() {
   const boardInteractive = phase === 'card-revealed' && activePlayer.kind === 'human' && !isShuffling
 
   return (
-    <ScreenTransition>
+    <ScreenTransition className="bg-[var(--color-cq-bg)]">
       <ConquestScreenFrame />
       <ScreenHeader title="Conquête 3x3" onBack={() => setShowQuitConfirm(true)} accent="conquest" />
 

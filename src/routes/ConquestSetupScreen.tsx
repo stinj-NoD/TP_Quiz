@@ -63,7 +63,7 @@ export function ConquestSetupScreen() {
   }
 
   return (
-    <ScreenTransition>
+    <ScreenTransition className="bg-[var(--color-cq-bg)]">
       <ConquestScreenFrame />
       <ScreenHeader title="Conquête 3x3" showBack={false} accent="conquest" />
       <div className="flex flex-1 flex-col gap-5 overflow-y-auto px-5 pb-4">

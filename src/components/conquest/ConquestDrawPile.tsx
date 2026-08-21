@@ -32,7 +32,12 @@ export function ConquestDrawPile({ label, remaining, drawnCard, canDraw, onDraw,
               ? `${label} : piocher une carte (${remaining} restante${remaining > 1 ? 's' : ''})`
               : `${label} : ${remaining} carte${remaining > 1 ? 's' : ''} restante${remaining > 1 ? 's' : ''}`
         }
-        className="relative aspect-[2/3] h-14 [transform-style:preserve-3d] disabled:cursor-default"
+        // Compacte sur mobile, où chaque pixel vertical compte ; un cran au-dessus dès que le
+        // cadre s'élargit. La condition reprend celle de --app-max-width (theme.css) — un
+        // simple breakpoint de largeur ferait grandir la pioche sur un écran large mais
+        // court, où la hauteur manque justement. Un seul palier : au-delà, la pioche ne
+        // gagne plus en lisibilité mais rogne la hauteur du plateau.
+        className="relative aspect-[2/3] h-14 [@media(min-width:600px)_and_(min-height:800px)]:h-[4.5rem] [transform-style:preserve-3d] disabled:cursor-default"
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         whileHover={isFlipped ? (onInspect ? { scale: 1.06 } : undefined) : canDraw ? { scale: 1.06 } : undefined}
         whileTap={isFlipped ? (onInspect ? { scale: 0.94 } : undefined) : canDraw ? { scale: 0.94 } : undefined}
@@ -45,8 +50,8 @@ export function ConquestDrawPile({ label, remaining, drawnCard, canDraw, onDraw,
           <ConquestCardBack />
           {/* Compteur en pastille d'angle : lisible sur le motif, sans le masquer. */}
           <span
-            className="absolute bottom-0 right-0 min-w-4 px-1 text-center text-[10px] font-bold leading-4 text-[var(--color-cq-ink-deep)]"
-            style={{ backgroundColor: 'var(--color-cq-frame)' }}
+            className="absolute bottom-0 right-0 min-w-5 px-1 text-center text-xs font-bold leading-5 text-[var(--color-cq-ink-deep)]"
+            style={{ backgroundColor: 'var(--color-cq-parchment)' }}
           >
             {remaining}
           </span>

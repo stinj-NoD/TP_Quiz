@@ -25,6 +25,9 @@
   --color-cq-ink-deep: #2a1461;
   --color-cq-frame: #9c87b5;
   --color-cq-parchment: #f3eef8;
+  /* Fond des écrans Conquête : violet nuit intercalé entre --color-bg (quasi noir) et
+     --color-surface, pour que le plateau ne paraisse plus posé sur un fond étranger. */
+  --color-cq-bg: #150e2b;
   --gradient-cq: linear-gradient(135deg, #6b46c1 0%, #402090 55%, #2a1461 100%);
   /* Ombres dures décalées, sans flou : le halo néon est l'exact opposé du rendu pixel. */
   --shadow-cq-sm: 2px 2px 0 0 rgba(42, 20, 97, 0.9);
@@ -83,4 +86,23 @@
 
   /* Cadre "phone frame" */
   --app-max-width: 430px;
+}
+
+/*
+ * Sur un grand écran, le cadre bridé à 430px plafonnait le plateau de Conquête par sa
+ * largeur alors que la hauteur était abondante : ~190px de vide s'installaient autour.
+ * On élargit donc par paliers, en exigeant largeur ET hauteur — élargir sur un écran
+ * large mais court ne ferait que déplacer le problème, le plateau devenant trop haut.
+ * Sans effet sur mobile, où l'écran est de toute façon plus étroit que 430px.
+ */
+@media (min-width: 600px) and (min-height: 800px) {
+  :root {
+    --app-max-width: 500px;
+  }
+}
+
+@media (min-width: 600px) and (min-height: 1000px) {
+  :root {
+    --app-max-width: 560px;
+  }
 }
